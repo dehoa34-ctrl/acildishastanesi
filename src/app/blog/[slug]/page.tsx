@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPost } from "@/lib/posts";
@@ -90,7 +91,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
           <p className="text-lg leading-8 text-slate-600">{post.description}</p>
 
-          {post.body.map((section) => (
+          {post.body.map((section, idx) => (
             <section key={section.h2}>
               <h2 className="mt-10 text-2xl font-extrabold text-slate-900">{section.h2}</h2>
               {section.paragraphs.map((para, i) => (
@@ -98,6 +99,17 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
                   {para}
                 </p>
               ))}
+              {idx === 0 && (
+                <div className="my-8 overflow-hidden rounded-3xl shadow-md">
+                  <Image
+                    src={post.image.replace("-card.webp", "-hero.webp")}
+                    alt={post.title}
+                    width={1600}
+                    height={600}
+                    className="aspect-[16/7] w-full object-cover"
+                  />
+                </div>
+              )}
             </section>
           ))}
 
