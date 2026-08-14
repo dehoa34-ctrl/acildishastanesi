@@ -12,7 +12,6 @@ import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 import { getServiceContent } from "@/lib/service-content";
 import { faqs } from "@/lib/faqs";
 import { getDistrictExtra } from "@/lib/district-extras";
-import { districtIntroText, treatmentSections } from "@/lib/district-treatment";
 import { SEO_IMAGE } from "@/lib/seo";
 import {
   districtSchema,
@@ -177,7 +176,6 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
                 diş ağrıları, kırılan dişler ve hafta sonu yaşanan diş travmaları için 7 gün 24 saat açık acil diş
                 kliniğimizden yararlanabilirsiniz. Gece saatlerinde dahi nöbetçi diş hekimi ekibimiz hazırdır.
               </p>
-              <p className="mt-4 leading-8 text-slate-600">{districtIntroText}</p>
 
               <div className="my-8 overflow-hidden rounded-3xl shadow-md">
                 <Image
@@ -255,22 +253,7 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
                 ))}
               </div>
 
-              {/* Avrupadis tedavi anlatım bölümleri */}
-              <h2 className="mt-10 text-2xl font-extrabold text-slate-900">
-                {district.name}&apos;te Diş Tedavileri
-              </h2>
-              {treatmentSections.map((section) => (
-                <div key={section.title} className="mt-8">
-                  <h3 className="text-xl font-extrabold text-slate-900">{section.title}</h3>
-                  {section.blocks.map((block) => (
-                    <div key={block.h} className="mt-5">
-                      <p className="font-bold text-slate-800">{block.h}</p>
-                      <p className="mt-2 leading-8 text-slate-600">{block.text}</p>
-                    </div>
-                  ))}
-                </div>
-              ))}
-
+              {/* Semte özel SSS */}
               {extra && (
                 <>
                   <h3 className="mt-8 text-xl font-extrabold text-slate-900">
