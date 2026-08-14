@@ -26,7 +26,7 @@ export default function Header() {
           </Link>
           <div className="group relative">
             <button className="flex items-center gap-1 hover:text-brand-600">
-              Hizmetler
+              Tedavilerimiz
               <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
               </svg>
