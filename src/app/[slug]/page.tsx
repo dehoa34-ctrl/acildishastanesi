@@ -339,50 +339,6 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
         </div>
       </PageHero>
 
-      {/* Price table */}
-      <section className="bg-white py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          {service.priceRows && service.priceRows.length > 0 ? (
-            <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
-              <div className="border-b border-slate-200 bg-slate-50 px-6 py-4">
-                <h2 className="text-lg font-extrabold text-slate-900">2026 Güncel Fiyat Listesi</h2>
-                <p className="mt-0.5 text-xs text-slate-500">{service.priceNote}</p>
-              </div>
-              <ul className="divide-y divide-slate-100">
-                {service.priceRows.map((row) => (
-                  <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
-                    <span className="font-semibold text-slate-700">{row.name}</span>
-                    <span className="shrink-0 font-extrabold text-brand-700">{row.price}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : (
-            <div className="rounded-3xl border border-brand-200 bg-brand-50 p-6 text-center">
-              <h2 className="text-lg font-extrabold text-slate-900">{service.name} Hakkında</h2>
-              <p className="mt-1 text-sm text-slate-600">
-                Kişiye özel tedavi planlaması için ücretsiz muayene olun.
-              </p>
-            </div>
-          )}
-
-          <div className="mt-8 rounded-3xl bg-brand-50 p-6 text-center">
-            <p className="text-lg font-extrabold text-slate-900">
-              Net fiyat için ücretsiz muayene olun.
-            </p>
-            <p className="mt-1 text-sm text-slate-600">
-              Fiyatlar kişiye göre değişebilir. Hemen arayın, aynı gün muayene randevunuzu alalım.
-            </p>
-            <a
-              href={CONTACT.phoneHref}
-              className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-bold text-white hover:bg-brand-700"
-            >
-              <PhoneIcon /> {CONTACT.phoneDisplay}
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Body content */}
       {content?.body && content.body.length > 0 && (
         <section className="bg-white py-16">
@@ -443,6 +399,50 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Price table (en altta) */}
+      <section className="bg-white pb-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          {service.priceRows && service.priceRows.length > 0 ? (
+            <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+              <div className="border-b border-slate-200 bg-slate-50 px-6 py-4">
+                <h2 className="text-lg font-extrabold text-slate-900">2026 Güncel Fiyat Listesi</h2>
+                <p className="mt-0.5 text-xs text-slate-500">{service.priceNote}</p>
+              </div>
+              <ul className="divide-y divide-slate-100">
+                {service.priceRows.map((row) => (
+                  <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
+                    <span className="font-semibold text-slate-700">{row.name}</span>
+                    <span className="shrink-0 font-extrabold text-brand-700">{row.price}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : (
+            <div className="rounded-3xl border border-brand-200 bg-brand-50 p-6 text-center">
+              <h2 className="text-lg font-extrabold text-slate-900">{service.name} Hakkında</h2>
+              <p className="mt-1 text-sm text-slate-600">
+                Kişiye özel tedavi planlaması için ücretsiz muayene olun.
+              </p>
+            </div>
+          )}
+
+          <div className="mt-8 rounded-3xl bg-brand-50 p-6 text-center">
+            <p className="text-lg font-extrabold text-slate-900">
+              Net fiyat için ücretsiz muayene olun.
+            </p>
+            <p className="mt-1 text-sm text-slate-600">
+              Fiyatlar kişiye göre değişebilir. Hemen arayın, aynı gün muayene randevunuzu alalım.
+            </p>
+            <a
+              href={CONTACT.phoneHref}
+              className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-bold text-white hover:bg-brand-700"
+            >
+              <PhoneIcon /> {CONTACT.phoneDisplay}
+            </a>
           </div>
         </div>
       </section>
