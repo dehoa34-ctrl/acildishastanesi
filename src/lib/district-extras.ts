@@ -16,8 +16,8 @@ const e = (
 ): DistrictExtra => ({ slug, featureContent, publicDental, localFaqs });
 
 export const districtExtras: Record<string, DistrictExtra> = {
-  "istanbul-24-saat-acik-disci": e(
-    "istanbul-24-saat-acik-disci",
+  "istanbul-acil-dis-hastanesi": e(
+    "istanbul-acil-dis-hastanesi",
     "İstanbul, Türkiye'nin en kalabalık ve en hareketli şehridir. Bu hareketlilik, diş hekimi ihtiyacının da her an ve her yerde ortaya çıkabileceği anlamına gelir. Sabah trafiğinde kırılan bir kaplama, iş çıkışı başlayan zonklama ya da gece yarısı uykudan uyandıran bir ağrı… Hepsi için 7/24 açık bir acil diş kliniği gereklidir.",
     "İstanbul genelinde devlet hastaneleri ve ağız ve diş sağlığı merkezlerinin acil diş nöbetleri bulunur; ancak gece geç saatlerde en hızlı çözüm özel nöbetçi diş klinikleridir.",
     [
@@ -31,8 +31,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "anadolu-yakasi-24-saat-acik-disci": e(
-    "anadolu-yakasi-24-saat-acik-disci",
+  "anadolu-yakasi-acil-dis-hastanesi": e(
+    "anadolu-yakasi-acil-dis-hastanesi",
     "Anadolu Yakası; Kadıköy'ün tarihi sokaklarından Pendik ve Tuzla'nın sahil bölgelerine, Ataşehir'in modern konutlarından Üsküdar'ın boğaz manzarasına kadar çok geniş bir coğrafyaya yayılır. Bu genişlik, gece saatlerinde ulaşılabilir bir diş hekimi bulmayı zorlaştırabilir. Bu yüzden yakadaki tüm ilçelerden kolayca ulaşılabilecek merkez bir acil diş hizmeti büyük önem taşır.",
     "Anadolu Yakası'nda Göztepe'deki kamu ağız ve diş sağlığı merkezi, bölge halkının gündüz müracaat ettiği önemli kurumlardan biridir; gece ve pazar günleri için ise nöbetçi özel klinikler devreye girer.",
     [
@@ -46,8 +46,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "avrupa-yakasi-24-saat-acik-disci": e(
-    "avrupa-yakasi-24-saat-acik-disci",
+  "avrupa-yakasi-acil-dis-hastanesi": e(
+    "avrupa-yakasi-acil-dis-hastanesi",
     "Avrupa Yakası; Taksim, Beşiktaş ve Şişli'nin merkezi noktalarından Bakırköy ve Bahçelievler'in yoğun yerleşimlerine, Beylikdüzü ve Büyükçekmece'nin yeni yaşam alanlarına kadar uzanır. Yoğun trafik ve kalabalık, gece diş ağrısında hızlı hareket etmeyi gerektirir. Merkezi konumdaki 7/24 kliniğimize yakadan her noktadan ulaşmak mümkündür.",
     "Avrupa Yakası'ndaki devlet hastaneleri ve ağız ve diş sağlığı merkezleri gündüz saatlerinde hizmet verir; gece, hafta sonu ve bayramlarda en pratik çözüm nöbetçi özel diş kliniğidir.",
     [
@@ -61,8 +61,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kadikoy-24-saat-acik-disci": e(
-    "kadikoy-24-saat-acik-disci",
+  "kadikoy-acil-dis-hastanesi": e(
+    "kadikoy-acil-dis-hastanesi",
     "Kadıköy, İstanbul'un en canlı ve en kalabalık semtlerinden biridir. Altıyol, Bahariye, Moda ve Bağdat Caddesi gibi noktalar hem gündüz hem gece yoğundur. Bu hareketli yaşam, geç saatlerde bile diş hekimi ihtiyacını beraberinde getirir. Özellikle akşam spor sonrası diş travması veya gece başlayan ağrılar için Kadıköy'de 7/24 ulaşılabilir bir klinik kritik önemdedir.",
     "Kadıköy'de kamu tarafında Göztepe Ağız ve Diş Sağlığı Merkezi bölge halkına gündüz hizmet verir; gece ve pazar günleri için nöbetçi özel klinikler öne çıkar.",
     [
@@ -76,8 +76,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "uskudar-24-saat-acik-disci": e(
-    "uskudar-24-saat-acik-disci",
+  "uskudar-acil-dis-hastanesi": e(
+    "uskudar-acil-dis-hastanesi",
     "Üsküdar, boğaz kıyısındaki tarihi dokusu ve merkezi konumuyla Anadolu Yakası'nın en önemli ilçelerindendir. Salacak, Kuzguncuk ve Çengelköy gibi semtlerden gelen hastalarımız, gece saatlerinde bile 7/24 açık kliniğimize kolayca ulaşabilir. Özellikle boğaz tarafından gelenler için merkezi konum büyük kolaylık sağlar.",
     "Üsküdar'daki devlet hastaneleri ve sağlık kuruluşları gündüz hizmet verir; gece ve hafta sonu acil diş ihtiyacı için nöbetçi özel klinikler en hızlı seçenektir.",
     [
@@ -91,8 +91,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "altunizade-24-saat-acik-disci": e(
-    "altunizade-24-saat-acik-disci",
+  "altunizade-acil-dis-hastanesi": e(
+    "altunizade-acil-dis-hastanesi",
     "Altunizade, Üsküdar'ın hem konut hem ticaret yoğunluğu yüksek modern bölgelerinden biridir. İş çıkışı başlayan diş ağrıları veya hafta sonu yaşanan diş problemleri için bölge sakinleri 7/24 açık bir kliniğe ihtiyaç duyar. Altunizade'den kliniğimize ulaşım oldukça kolaydır.",
     "Altunizade ve çevresindeki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -106,8 +106,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "alibeykoy-24-saat-acik-disci": e(
-    "alibeykoy-24-saat-acik-disci",
+  "alibeykoy-acil-dis-hastanesi": e(
+    "alibeykoy-acil-dis-hastanesi",
     "Alibeyköy, Eyüpsultan ilçesine bağlı ve ulaşımı kolay bir semttir. Yoğun nüfusuyla gece ve hafta sonu diş hekimi ihtiyacı sık yaşanır. Bölge sakinleri, Alibeyköy'den kısa sürede ulaşabilecekleri 7/24 açık bir diş kliniğine güvenebilir.",
     "Alibeyköy ve Eyüpsultan'daki sağlık kuruluşları gündüz hizmet verir; gece, pazar ve bayramlarda nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -121,8 +121,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "acibadem-24-saat-acik-disci": e(
-    "acibadem-24-saat-acik-disci",
+  "acibadem-acil-dis-hastanesi": e(
+    "acibadem-acil-dis-hastanesi",
     "Acıbadem, Kadıköy'ün nezih ve merkezi semtlerindendir. Hastane bölgesine yakınlığı nedeniyle çevrede sürekli sağlık hizmeti arayan insan bulunur. Gece başlayan diş ağrıları ve acil diş travmaları için Acıbadem'den 7/24 ulaşılabilecek bir klinik büyük kolaylık sağlar.",
     "Acıbadem ve çevresindeki hastaneler gündüz diş sağlığı hizmeti sunar; gece için nöbetçi diş kliniği en doğru adrestir.",
     [
@@ -136,8 +136,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "atakoy-24-saat-acik-disci": e(
-    "atakoy-24-saat-acik-disci",
+  "atakoy-acil-dis-hastanesi": e(
+    "atakoy-acil-dis-hastanesi",
     "Ataköy, Bakırköy'ün planlı ve modern sahil semtlerindendir. Yeşillikler içindeki yaşam alanları ve marina bölgesiyle bilinir. Burada yaşayanlar, özellikle hafta sonu ve akşam saatlerinde diş problemi yaşadıklarında 7/24 açık bir kliniğe kolayca ulaşmak ister.",
     "Ataköy ve Bakırköy'deki devlet hastaneleri gündüz diş hizmeti verir; gece ve pazar günleri için nöbetçi diş kliniği öne çıkar.",
     [
@@ -151,8 +151,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "atasehir-24-saat-acik-disci": e(
-    "atasehir-24-saat-acik-disci",
+  "atasehir-acil-dis-hastanesi": e(
+    "atasehir-acil-dis-hastanesi",
     "Ataşehir, İstanbul'un en modern ve hızla gelişen ilçelerinden biridir. Yoğun konut ve ofis bölgeleri, gece geç saatlerde bile diş hekimi ihtiyacını artırır. Ataşehir sakinleri, işten dönerken ya da gece başlayan ağrılarda 7/24 ulaşabilecekleri bir kliniğe ihtiyaç duyar.",
     "Ataşehir'deki özel ve devlet hastaneleri gündüz hizmet verir; gece ve hafta sonu için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -166,8 +166,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "avcilar-24-saat-acik-disci": e(
-    "avcilar-24-saat-acik-disci",
+  "avcilar-acil-dis-hastanesi": e(
+    "avcilar-acil-dis-hastanesi",
     "Avcılar, öğrenci nüfusunun yoğun olduğu ve hareketli bir yaşamın sürdüğü bir ilçedir. Üniversite öğrencileri ve aileler, gece saatlerinde yaşanan diş ağrılarında 7/24 açık bir kliniğe başvurma ihtiyacı duyar. Avcılar'dan merkezi kliniğimize ulaşım oldukça kolaydır.",
     "Avcılar'daki sağlık kuruluşları ve hastaneler gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik seçenektir.",
     [
@@ -181,8 +181,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bagcilar-24-saat-acik-disci": e(
-    "bagcilar-24-saat-acik-disci",
+  "bagcilar-acil-dis-hastanesi": e(
+    "bagcilar-acil-dis-hastanesi",
     "Bağcılar, İstanbul'un en kalabalık ilçelerinden biridir ve neredeyse 24 saat hareketlilik yaşanır. Bu yoğunluk, gece ve hafta sonu diş hekimi ihtiyacını da beraberinde getirir. Bağcılar'dan 7/24 açık kliniğimize ulaşım son derece kolaydır.",
     "Bağcılar'da devlet hastaneleri gündüz diş hizmeti verir; gece ve bayramlarda nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -196,8 +196,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bahcelievler-24-saat-acik-disci": e(
-    "bahcelievler-24-saat-acik-disci",
+  "bahcelievler-acil-dis-hastanesi": e(
+    "bahcelievler-acil-dis-hastanesi",
     "Bahçelievler, İstanbul'un merkezi ve ulaşımı kolay ilçelerinden biridir. Yoğun yerleşim ve ticaret alanları, gece dahil her an diş hekimi ihtiyacı doğurabilir. Bahçelievler sakinleri, pazar günü ve gece saatlerinde 7/24 açık kliniğimize güvenle başvurabilir.",
     "Bahçelievler'deki devlet hastaneleri gündüz hizmet verir; hafta sonu ve gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -211,8 +211,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bahcesehir-24-saat-acik-disci": e(
-    "bahcesehir-24-saat-acik-disci",
+  "bahcesehir-acil-dis-hastanesi": e(
+    "bahcesehir-acil-dis-hastanesi",
     "Bahçeşehir, Başakşehir ilçesinin planlı ve modern yerleşimlerindendir. Ailelerin yoğun yaşadığı bu bölgede, özellikle çocukların akşam yaşadığı diş travmaları ve gece ağrıları için 7/24 ulaşılabilir bir klinik büyük önem taşır.",
     "Bahçeşehir'deki sağlık kuruluşları gündüz hizmet verir; gece ve hafta sonu için nöbetçi diş kliniği en uygun seçenektir.",
     [
@@ -226,8 +226,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "aksaray-24-saat-acik-disci": e(
-    "aksaray-24-saat-acik-disci",
+  "aksaray-acil-dis-hastanesi": e(
+    "aksaray-acil-dis-hastanesi",
     "Aksaray, Fatih ilçesinin tarihi ve merkezi bölgelerindendir. Ulaşım ağlarının kesişim noktasında yer alması, gece dahil her saat diş hekimi ihtiyacını artırır. Aksaray'dan kliniğimize ulaşım son derece kolay ve hızlıdır.",
     "Aksaray ve Fatih'teki devlet hastaneleri ve diş hekimliği fakülteleri gündüz hizmet verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -241,8 +241,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bakirkoy-24-saat-acik-disci": e(
-    "bakirkoy-24-saat-acik-disci",
+  "bakirkoy-acil-dis-hastanesi": e(
+    "bakirkoy-acil-dis-hastanesi",
     "Bakırköy, İstanbul'un köklü ve merkezi ilçelerinden biridir. Sahil hattı, meydanı ve yoğun yaşamıyla gece saatlerinde bile hareketlidir. Bakırköy sakinleri, hafta sonu ve gece yaşanan diş problemleri için 7/24 açık kliniğimize kolayca ulaşabilir.",
     "Bakırköy'deki devlet hastaneleri gündüz diş hizmeti sunar; gece ve pazar günleri için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -256,8 +256,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "basaksehir-24-saat-acik-disci": e(
-    "basaksehir-24-saat-acik-disci",
+  "basaksehir-acil-dis-hastanesi": e(
+    "basaksehir-acil-dis-hastanesi",
     "Başakşehir, İstanbul'un yeni ve modern yerleşimlerinden biridir. Geniş konut alanları ve aile yaşamı, özellikle gece saatlerinde diş hekimi ihtiyacını artırır. Başakşehir'den 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Başakşehir'deki hastaneler gündüz diş hizmeti verir; gece ve hafta sonu için nöbetçi diş kliniği en uygun seçenektir.",
     [
@@ -271,8 +271,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bayrampasa-24-saat-acik-disci": e(
-    "bayrampasa-24-saat-acik-disci",
+  "bayrampasa-acil-dis-hastanesi": e(
+    "bayrampasa-acil-dis-hastanesi",
     "Bayrampaşa, İstanbul'un merkezi ve sanayi yoğunluğu yüksek ilçelerindendir. Yoğun çalışma hayatı, akşam ve gece saatlerinde diş hekimi ihtiyacını artırır. Bayrampaşa'dan 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Bayrampaşa'daki sağlık kuruluşları gündüz hizmet verir; gece ve bayramlarda nöbetçi diş kliniği öne çıkar.",
     [
@@ -286,8 +286,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "besiktas-24-saat-acik-disci": e(
-    "besiktas-24-saat-acik-disci",
+  "besiktas-acil-dis-hastanesi": e(
+    "besiktas-acil-dis-hastanesi",
     "Beşiktaş, boğaz kıyısındaki merkezi konumuyla İstanbul'un en hareketli ilçelerindendir. Akşam saatlerinde başlayan diş ağrıları, gece yarısı yaşanan travmalar için Beşiktaş sakinleri 7/24 açık bir kliniğe kolayca ulaşmak ister.",
     "Beşiktaş'taki devlet hastaneleri gündüz diş hizmeti verir; gece ve pazar günleri için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -301,8 +301,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "beykoz-24-saat-acik-disci": e(
-    "beykoz-24-saat-acik-disci",
+  "beykoz-acil-dis-hastanesi": e(
+    "beykoz-acil-dis-hastanesi",
     "Beykoz, İstanbul'un en yeşil ve en geniş ilçelerinden biridir. Ormanlık alanlar ve boğaz kıyısındaki semtler, gece saatlerinde diş hekimi bulmayı zorlaştırabilir. Beykoz'dan 7/24 açık kliniğimize ulaşmak bu açıdan büyük kolaylık sağlar.",
     "Beykoz'daki sağlık kuruluşları gündüz hizmet verir; gece ve hafta sonu için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -316,8 +316,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "beylikduzu-24-saat-acik-disci": e(
-    "beylikduzu-24-saat-acik-disci",
+  "beylikduzu-acil-dis-hastanesi": e(
+    "beylikduzu-acil-dis-hastanesi",
     "Beylikdüzü, Avrupa Yakası'nın hızla gelişen modern ilçelerindendir. Ailelerin yoğun yaşadığı bölgede, özellikle hafta sonu ve gece saatlerinde diş hekimi ihtiyacı sık yaşanır. Beylikdüzü'nden 7/24 açık kliniğimize ulaşım kolaydır.",
     "Beylikdüzü'ndeki hastaneler gündüz diş hizmeti verir; gece ve pazar günleri için nöbetçi diş kliniği öne çıkar.",
     [
@@ -331,8 +331,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "beyoglu-24-saat-acik-disci": e(
-    "beyoglu-24-saat-acik-disci",
+  "beyoglu-acil-dis-hastanesi": e(
+    "beyoglu-acil-dis-hastanesi",
     "Beyoğlu, İstanbul'un hem turistik hem de gece hayatıyla ünlü merkezlerindendir. Taksim ve İstiklal Caddesi çevresinde gece geç saatlerde diş ağrısı yaşanması çok olasıdır. Beyoğlu'ndan 7/24 açık kliniğimize yürüme mesafesinde ulaşmak mümkündür.",
     "Beyoğlu'ndaki hastaneler gündüz diş hizmeti verir; gece ve hafta sonu için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -346,8 +346,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "bostanci-24-saat-acik-disci": e(
-    "bostanci-24-saat-acik-disci",
+  "bostanci-acil-dis-hastanesi": e(
+    "bostanci-acil-dis-hastanesi",
     "Bostancı, Kadıköy'ün sahil kesimindeki gözde semtlerindendir. Marina ve sahil yürüyüş yollarıyla bilinen bölgede, hafta sonu ve akşam saatlerinde diş hekimi ihtiyacı artar. Bostancı'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Bostancı ve Kadıköy'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -361,8 +361,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "buyukcekmece-24-saat-acik-disci": e(
-    "buyukcekmece-24-saat-acik-disci",
+  "buyukcekmece-acil-dis-hastanesi": e(
+    "buyukcekmece-acil-dis-hastanesi",
     "Büyükçekmece, Avrupa Yakası'nın göl ve deniz kıyısındaki şirin ilçelerindendir. Yaz aylarında yoğunlaşan nüfus ve hafta sonu ziyaretleri, diş hekimi ihtiyacını artırır. Büyükçekmece'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Büyükçekmece'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği öne çıkar.",
     [
@@ -376,8 +376,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "caddebostan-24-saat-acik-disci": e(
-    "caddebostan-24-saat-acik-disci",
+  "caddebostan-acil-dis-hastanesi": e(
+    "caddebostan-acil-dis-hastanesi",
     "Caddebostan, Kadıköy'ün en prestijli sahil semtlerindendir. Bağdat Caddesi'nin alışveriş yoğunluğu ve sahil yaşamı, akşam ve hafta sonu diş hekimi ihtiyacını artırır. Caddebostan'dan 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Caddebostan ve çevresindeki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -391,8 +391,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "caglayan-24-saat-acik-disci": e(
-    "caglayan-24-saat-acik-disci",
+  "caglayan-acil-dis-hastanesi": e(
+    "caglayan-acil-dis-hastanesi",
     "Çağlayan, Kağıthane ilçesinin merkezi ve işlek semtlerindendir. Adliye bölgesine yakınlığı nedeniyle günün her saatinde hareketlidir. Çağlayan'dan 7/24 açık kliniğimize ulaşım son derece kolaydır.",
     "Çağlayan ve Kağıthane'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -406,8 +406,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "camlica-24-saat-acik-disci": e(
-    "camlica-24-saat-acik-disci",
+  "camlica-acil-dis-hastanesi": e(
+    "camlica-acil-dis-hastanesi",
     "Çamlıca, Üsküdar'ın en bilinen tepelerinden biridir. Çamlıca Tepesi ve çevresindeki yerleşimler, doğal güzelliğiyle dikkat çeker. Bu nezih bölgede gece başlayan diş ağrıları için 7/24 açık kliniğimize ulaşmak kolaydır.",
     "Çamlıca ve Üsküdar'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -421,8 +421,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "catalca-24-saat-acik-disci": e(
-    "catalca-24-saat-acik-disci",
+  "catalca-acil-dis-hastanesi": e(
+    "catalca-acil-dis-hastanesi",
     "Çatalca, İstanbul'un kırsal ve geniş yüzölçümlü ilçelerindendir. Şehir merkezine uzaklığı, gece saatlerinde diş hekimi bulmayı özellikle zorlaştırır. Bu yüzden Çatalca'dan gelecek hastalarımız için 7/24 açık kliniğimiz ve yol tarifi desteği her zaman hazırdır.",
     "Çatalca'daki sağlık kuruluşları gündüz hizmet verir; gece ve hafta sonu için nöbetçi diş kliniği en doğru adrestir.",
     [
@@ -436,8 +436,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "cerrahpasa-24-saat-acik-disci": e(
-    "cerrahpasa-24-saat-acik-disci",
+  "cerrahpasa-acil-dis-hastanesi": e(
+    "cerrahpasa-acil-dis-hastanesi",
     "Cerrahpaşa, Fatih'in üniversite hastaneleriyle bilinen tarihi bölgelerindendir. Tıp fakültesi çevresinde sürekli sağlık hizmeti arayan insan bulunur. Cerrahpaşa'dan 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Cerrahpaşa'daki üniversite hastaneleri gündüz diş hizmeti verir; gece ve pazar günleri için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -451,8 +451,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "esenler-24-saat-acik-disci": e(
-    "esenler-24-saat-acik-disci",
+  "esenler-acil-dis-hastanesi": e(
+    "esenler-acil-dis-hastanesi",
     "Esenler, İstanbul'un merkezi ve yoğun nüfuslu ilçelerindendir. Otogara yakınlığı nedeniyle şehirlerarası yolculardan yerel sakinlere kadar geniş bir kitleye hizmet verilir. Esenler'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Esenler'deki sağlık kuruluşları gündüz hizmet verir; gece ve bayramlarda nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -466,8 +466,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "etiler-24-saat-acik-disci": e(
-    "etiler-24-saat-acik-disci",
+  "etiler-acil-dis-hastanesi": e(
+    "etiler-acil-dis-hastanesi",
     "Etiler, Beşiktaş'ın modern ve varlıklı semtlerindendir. Alışveriş merkezleri ve ofis bölgeleri, akşam saatlerinde diş hekimi ihtiyacını artırır. Etiler'den 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Etiler ve Beşiktaş'taki hastaneler gündüz diş hizmeti verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -481,8 +481,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "eyup-24-saat-acik-disci": e(
-    "eyup-24-saat-acik-disci",
+  "eyup-acil-dis-hastanesi": e(
+    "eyup-acil-dis-hastanesi",
     "Eyüp, tarihi ve dini dokusuyla İstanbul'un önemli ilçelerindendir. Eyüp Sultan bölgesi günün her saatinde ziyaretçi çeker. Gece başlayan diş ağrıları için Eyüp'ten 7/24 açık kliniğimize ulaşmak kolaydır.",
     "Eyüp'teki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -496,8 +496,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "fatih-24-saat-acik-disci": e(
-    "fatih-24-saat-acik-disci",
+  "fatih-acil-dis-hastanesi": e(
+    "fatih-acil-dis-hastanesi",
     "Fatih, İstanbul'un tarihi yarımadasının kalbidir. Tarihi eserleri, üniversiteleri ve hastaneleriyle günün her saatinde yoğundur. Gece başlayan diş ağrıları için Fatih'ten 7/24 açık kliniğimize ulaşmak oldukça kolaydır.",
     "Fatih'teki diş hekimliği fakülteleri ve devlet hastaneleri gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -511,8 +511,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "gaziosmanpasa-24-saat-acik-disci": e(
-    "gaziosmanpasa-24-saat-acik-disci",
+  "gaziosmanpasa-acil-dis-hastanesi": e(
+    "gaziosmanpasa-acil-dis-hastanesi",
     "Gaziosmanpaşa, Avrupa Yakası'nın yoğun nüfuslu ilçelerindendir. Çalışan ailelerin yaşadığı bölgede, akşam ve gece saatlerinde diş hekimi ihtiyacı sık yaşanır. Gaziosmanpaşa'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Gaziosmanpaşa'daki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği öne çıkar.",
     [
@@ -526,8 +526,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "gokturk-24-saat-acik-disci": e(
-    "gokturk-24-saat-acik-disci",
+  "gokturk-acil-dis-hastanesi": e(
+    "gokturk-acil-dis-hastanesi",
     "Göktürk, Eyüpsultan'a bağlı ve hızla gelişen modern bir yerleşimdir. Yeşil alanları ve yeni konutlarıyla ailelerin tercih ettiği bölgede, gece ve hafta sonu diş hekimi ihtiyacı artar. Göktürk'ten 7/24 açık kliniğimize ulaşım kolaydır.",
     "Göktürk ve Eyüpsultan'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -541,8 +541,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "goztepe-24-saat-acik-disci": e(
-    "goztepe-24-saat-acik-disci",
+  "goztepe-acil-dis-hastanesi": e(
+    "goztepe-acil-dis-hastanesi",
     "Göztepe, Kadıköy'ün köklü ve merkezi semtlerindendir. Kamu ağız ve diş sağlığı merkezine yakınlığıyla bilinir. Gece başlayan diş ağrıları için Göztepe'den 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Göztepe'deki kamu ağız ve diş sağlığı merkezi gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -556,8 +556,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "gultepe-24-saat-acik-disci": e(
-    "gultepe-24-saat-acik-disci",
+  "gultepe-acil-dis-hastanesi": e(
+    "gultepe-acil-dis-hastanesi",
     "Gültepe, Kağıthane'nin yoğun yerleşim alanlarındandır. Çalışan nüfusun yoğun olduğu bölgede, akşam ve gece saatlerinde diş hekimi ihtiyacı sık yaşanır. Gültepe'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Gültepe ve Kağıthane'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -571,8 +571,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "gungoren-24-saat-acik-disci": e(
-    "gungoren-24-saat-acik-disci",
+  "gungoren-acil-dis-hastanesi": e(
+    "gungoren-acil-dis-hastanesi",
     "Güngören, İstanbul'un merkezi ilçelerinden biridir. Yoğun yerleşim ve ticaret alanları, günün her saatinde diş hekimi ihtiyacı doğurabilir. Güngören'den 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Güngören'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -586,8 +586,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "icerenkoy-24-saat-acik-disci": e(
-    "icerenkoy-24-saat-acik-disci",
+  "icerenkoy-acil-dis-hastanesi": e(
+    "icerenkoy-acil-dis-hastanesi",
     "İçerenköy, Ataşehir'in işlek ve gelişmiş bölgelerindendir. Ticaret merkezleri ve yoğun konut alanları, akşam ve gece saatlerinde diş hekimi ihtiyacını artırır. İçerenköy'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "İçerenköy ve Ataşehir'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -601,8 +601,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "istinye-24-saat-acik-disci": e(
-    "istinye-24-saat-acik-disci",
+  "istinye-acil-dis-hastanesi": e(
+    "istinye-acil-dis-hastanesi",
     "İstinye, Sarıyer'in boğaz kıyısındaki seçkin semtlerindendir. Modern yaşam alanları ve alışveriş merkezleriyle bilinir. İstinye'den gece başlayan diş ağrıları için 7/24 açık kliniğimize ulaşım kolaydır.",
     "İstinye ve Sarıyer'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -616,8 +616,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kagithane-24-saat-acik-disci": e(
-    "kagithane-24-saat-acik-disci",
+  "kagithane-acil-dis-hastanesi": e(
+    "kagithane-acil-dis-hastanesi",
     "Kağıthane, İstanbul'un merkezi ve hızla gelişen ilçelerindendir. Yoğun konut ve iş alanları, gece saatlerinde diş hekimi ihtiyacını artırır. Kağıthane'den 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Kağıthane'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -631,8 +631,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kalamis-24-saat-acik-disci": e(
-    "kalamis-24-saat-acik-disci",
+  "kalamis-acil-dis-hastanesi": e(
+    "kalamis-acil-dis-hastanesi",
     "Kalamış, Kadıköy'ün marina ve sahil kısmındaki seçkin semtlerindendir. Deniz kenarındaki yaşam, hafta sonu ve akşam saatlerinde diş hekimi ihtiyacını artırır. Kalamış'tan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Kalamış ve Kadıköy'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -646,8 +646,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kartal-24-saat-acik-disci": e(
-    "kartal-24-saat-acik-disci",
+  "kartal-acil-dis-hastanesi": e(
+    "kartal-acil-dis-hastanesi",
     "Kartal, Anadolu Yakası'nın gelişmiş ve yoğun ilçelerindendir. Sahil hattı ve konut alanları, gece ve hafta sonu diş hekimi ihtiyacını artırır. Kartal'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Kartal'daki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -661,8 +661,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kasimpasa-24-saat-acik-disci": e(
-    "kasimpasa-24-saat-acik-disci",
+  "kasimpasa-acil-dis-hastanesi": e(
+    "kasimpasa-acil-dis-hastanesi",
     "Kasımpaşa, Beyoğlu'nun tarihi ve yoğun semtlerindendir. Tersane bölgesine yakınlığı ve hareketli yaşamı, gece saatlerinde diş hekimi ihtiyacını artırır. Kasımpaşa'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Kasımpaşa ve Beyoğlu'ndaki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -676,8 +676,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kavacik-24-saat-acik-disci": e(
-    "kavacik-24-saat-acik-disci",
+  "kavacik-acil-dis-hastanesi": e(
+    "kavacik-acil-dis-hastanesi",
     "Kavacık, Beykoz'un boğaz köprüsüne yakın ve gelişmiş bölgelerindendir. Alışveriş merkezi ve ofis bölgeleri, akşam saatlerinde diş hekimi ihtiyacını artırır. Kavacık'tan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Kavacık ve Beykoz'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -691,8 +691,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kemerburgaz-24-saat-acik-disci": e(
-    "kemerburgaz-24-saat-acik-disci",
+  "kemerburgaz-acil-dis-hastanesi": e(
+    "kemerburgaz-acil-dis-hastanesi",
     "Kemerburgaz, Eyüpsultan'ın ormanlık ve doğayla iç içe bölgelerindendir. Şehir merkezine uzaklığı, gece saatlerinde diş hekimi bulmayı zorlaştırabilir. Kemerburgaz'dan 7/24 açık kliniğimize ulaşım için yol tarifi desteğimiz hazırdır.",
     "Kemerburgaz'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en doğru adrestir.",
     [
@@ -706,8 +706,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kiziltoprak-24-saat-acik-disci": e(
-    "kiziltoprak-24-saat-acik-disci",
+  "kiziltoprak-acil-dis-hastanesi": e(
+    "kiziltoprak-acil-dis-hastanesi",
     "Kızıltoprak, Kadıköy'ün merkezi ve ulaşımı kolay semtlerindendir. Yoğun yerleşim, gece ve hafta sonu diş hekimi ihtiyacını artırır. Kızıltoprak'tan 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Kızıltoprak ve Kadıköy'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -721,8 +721,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kozyatagi-24-saat-acik-disci": e(
-    "kozyatagi-24-saat-acik-disci",
+  "kozyatagi-acil-dis-hastanesi": e(
+    "kozyatagi-acil-dis-hastanesi",
     "Kozyatağı, Kadıköy'ün modern ve gelişmiş semtlerindendir. Ofis bölgeleri ve alışveriş merkezleri, akşam saatlerinde diş hekimi ihtiyacını artırır. Kozyatağı'ndan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Kozyatağı ve Kadıköy'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -736,8 +736,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kucukcekmece-24-saat-acik-disci": e(
-    "kucukcekmece-24-saat-acik-disci",
+  "kucukcekmece-acil-dis-hastanesi": e(
+    "kucukcekmece-acil-dis-hastanesi",
     "Küçükçekmece, Avrupa Yakası'nın kalabalık ilçelerindendir. Göl kenarındaki yerleşimler ve yoğun nüfus, gece saatlerinde diş hekimi ihtiyacını artırır. Küçükçekmece'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Küçükçekmece'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -751,8 +751,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "kucukkoy-24-saat-acik-disci": e(
-    "kucukkoy-24-saat-acik-disci",
+  "kucukkoy-acil-dis-hastanesi": e(
+    "kucukkoy-acil-dis-hastanesi",
     "Küçükköy, Gaziosmanpaşa'nın yoğun yerleşim alanlarındandır. Çalışan ailelerin yaşadığı bölgede, akşam ve gece saatlerinde diş hekimi ihtiyacı sık yaşanır. Küçükköy'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Küçükköy ve Gaziosmanpaşa'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -766,8 +766,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "maltepe-24-saat-acik-disci": e(
-    "maltepe-24-saat-acik-disci",
+  "maltepe-acil-dis-hastanesi": e(
+    "maltepe-acil-dis-hastanesi",
     "Maltepe, Anadolu Yakası'nın sahil ilçelerindendir. Sahil hattı ve yoğun yerleşim, gece ve hafta sonu diş hekimi ihtiyacını artırır. Maltepe'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Maltepe'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -781,8 +781,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "maslak-24-saat-acik-disci": e(
-    "maslak-24-saat-acik-disci",
+  "maslak-acil-dis-hastanesi": e(
+    "maslak-acil-dis-hastanesi",
     "Maslak, İstanbul'un finans ve iş merkezlerindendir. Gökdelenlerde çalışan binlerce kişi, akşam ve gece saatlerinde diş hekimi ihtiyacı yaşayabilir. Maslak'tan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Maslak'taki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -796,8 +796,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "mecidiyekoy-24-saat-acik-disci": e(
-    "mecidiyekoy-24-saat-acik-disci",
+  "mecidiyekoy-acil-dis-hastanesi": e(
+    "mecidiyekoy-acil-dis-hastanesi",
     "Mecidiyeköy, İstanbul'un en önemli ulaşım kavşaklarındandır. Metrobüs, metro ve otobüs hatlarının kesiştiği bölge, günün her saatinde hareketlidir. Mecidiyeköy'den 7/24 açık kliniğimize ulaşım son derece kolaydır.",
     "Mecidiyeköy ve Şişli'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -811,8 +811,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "merter-24-saat-acik-disci": e(
-    "merter-24-saat-acik-disci",
+  "merter-acil-dis-hastanesi": e(
+    "merter-acil-dis-hastanesi",
     "Merter, Güngören'in ticaret yoğunluğu yüksek bölgelerindendir. Tekstil ve iş merkezleri, gün içinde yoğun nüfus çeker. Akşam ve gece saatlerinde diş hekimi ihtiyacı için Merter'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Merter ve Güngören'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği öne çıkar.",
     [
@@ -826,8 +826,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "nisantasi-24-saat-acik-disci": e(
-    "nisantasi-24-saat-acik-disci",
+  "nisantasi-acil-dis-hastanesi": e(
+    "nisantasi-acil-dis-hastanesi",
     "Nişantaşı, Şişli'nin prestijli ve şık semtlerindendir. Butikler, kafeler ve alışveriş merkezleriyle bilinen bölgede, akşam saatlerinde diş hekimi ihtiyacı artar. Nişantaşı'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Nişantaşı ve Şişli'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -841,8 +841,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "okmeydani-24-saat-acik-disci": e(
-    "okmeydani-24-saat-acik-disci",
+  "okmeydani-acil-dis-hastanesi": e(
+    "okmeydani-acil-dis-hastanesi",
     "Okmeydanı, Şişli'nin yoğun ve hareketli semtlerindendir. Hastane bölgesine yakınlığı nedeniyle günün her saatinde sağlık hizmeti arayan insan bulunur. Okmeydanı'ndan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Okmeydanı ve Şişli'deki hastaneler gündüz diş hizmeti verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -856,8 +856,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "pasabahce-24-saat-acik-disci": e(
-    "pasabahce-24-saat-acik-disci",
+  "pasabahce-acil-dis-hastanesi": e(
+    "pasabahce-acil-dis-hastanesi",
     "Paşabahçe, Beykoz'un boğaz kıyısındaki şirin semtlerindendir. Doğayla iç içe yaşam, gece saatlerinde diş hekimi bulmayı zorlaştırabilir. Paşabahçe'den 7/24 açık kliniğimize ulaşım için yol tarifi desteğimiz hazırdır.",
     "Paşabahçe ve Beykoz'daki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en doğru adrestir.",
     [
@@ -871,8 +871,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "pendik-24-saat-acik-disci": e(
-    "pendik-24-saat-acik-disci",
+  "pendik-acil-dis-hastanesi": e(
+    "pendik-acil-dis-hastanesi",
     "Pendik, Anadolu Yakası'nın büyük ve gelişmiş ilçelerindendir. Sahil hattı, marina ve yoğun yerleşim, gece ve hafta sonu diş hekimi ihtiyacını artırır. Pendik'ten 7/24 açık kliniğimize ulaşım kolaydır.",
     "Pendik'teki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -886,8 +886,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "sariyer-24-saat-acik-disci": e(
-    "sariyer-24-saat-acik-disci",
+  "sariyer-acil-dis-hastanesi": e(
+    "sariyer-acil-dis-hastanesi",
     "Sarıyer, İstanbul'un en geniş ve en yeşil ilçelerindendir. Boğaz kıyısındaki semtler ve ormanlık alanlar, gece saatlerinde diş hekimi bulmayı zorlaştırabilir. Sarıyer'den 7/24 açık kliniğimize ulaşım için yol tarifi desteğimiz hazırdır.",
     "Sarıyer'deki sağlık kuruluşları gündüz hizmet verir; gece ve hafta sonu için nöbetçi diş kliniği en doğru adrestir.",
     [
@@ -901,8 +901,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "silivri-24-saat-acik-disci": e(
-    "silivri-24-saat-acik-disci",
+  "silivri-acil-dis-hastanesi": e(
+    "silivri-acil-dis-hastanesi",
     "Silivri, İstanbul'un batı ucundaki geniş ilçelerindendir. Şehir merkezine uzaklığı, gece saatlerinde diş hekimi bulmayı özellikle zorlaştırır. Bu yüzden Silivri'den gelecek hastalarımız için 7/24 açık kliniğimiz ve yol tarifi desteğimiz her zaman hazırdır.",
     "Silivri'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en güvenilir çözümdür.",
     [
@@ -916,8 +916,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "sisli-24-saat-acik-disci": e(
-    "sisli-24-saat-acik-disci",
+  "sisli-acil-dis-hastanesi": e(
+    "sisli-acil-dis-hastanesi",
     "Şişli, İstanbul'un merkezi ve en hareketli ilçelerindendir. Alışveriş caddeleri, ofis bölgeleri ve hastaneleriyle günün her saatinde yoğundur. Şişli'den 7/24 açık kliniğimize ulaşım son derece kolaydır.",
     "Şişli'deki hastaneler gündüz diş hizmeti verir; gece ve pazar için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -931,8 +931,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "taksim-24-saat-acik-disci": e(
-    "taksim-24-saat-acik-disci",
+  "taksim-acil-dis-hastanesi": e(
+    "taksim-acil-dis-hastanesi",
     "Taksim, İstanbul'un turizm ve gece hayatının merkezidir. Meydan ve İstiklal Caddesi çevresinde günün her saati kalabalık. Gece geç saatlerde diş ağrısı yaşayanlar için Taksim'den 7/24 açık kliniğimize yürüme mesafesinde ulaşmak mümkündür.",
     "Taksim ve Beyoğlu'ndaki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en hızlı çözümdür.",
     [
@@ -946,8 +946,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "tarabya-24-saat-acik-disci": e(
-    "tarabya-24-saat-acik-disci",
+  "tarabya-acil-dis-hastanesi": e(
+    "tarabya-acil-dis-hastanesi",
     "Tarabya, Sarıyer'in boğaz kıyısındaki seçkin semtlerindendir. Balıkçılar ve restoranlarıyla bilinen bölgede, akşam ve hafta sonu diş hekimi ihtiyacı artar. Tarabya'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Tarabya ve Sarıyer'deki sağlık kuruluşları gündüz hizmet verir; gece için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -961,8 +961,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "tuzla-24-saat-acik-disci": e(
-    "tuzla-24-saat-acik-disci",
+  "tuzla-acil-dis-hastanesi": e(
+    "tuzla-acil-dis-hastanesi",
     "Tuzla, Anadolu Yakası'nın sahil ilçelerindendir. Sanayi bölgeleri ve sahil yerleşimleri, gece ve hafta sonu diş hekimi ihtiyacını artırır. Tuzla'dan 7/24 açık kliniğimize ulaşım kolaydır.",
     "Tuzla'daki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -976,8 +976,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "umraniye-24-saat-acik-disci": e(
-    "umraniye-24-saat-acik-disci",
+  "umraniye-acil-dis-hastanesi": e(
+    "umraniye-acil-dis-hastanesi",
     "Ümraniye, Anadolu Yakası'nın hızla gelişen ilçelerindendir. Yoğun konut alanları ve iş merkezleri, gece saatlerinde diş hekimi ihtiyacını artırır. Ümraniye'den 7/24 açık kliniğimize ulaşım kolaydır.",
     "Ümraniye'deki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [
@@ -991,8 +991,8 @@ export const districtExtras: Record<string, DistrictExtra> = {
       },
     ]
   ),
-  "zeytinburnu-24-saat-acik-disci": e(
-    "zeytinburnu-24-saat-acik-disci",
+  "zeytinburnu-acil-dis-hastanesi": e(
+    "zeytinburnu-acil-dis-hastanesi",
     "Zeytinburnu, Avrupa Yakası'nın merkezi ve yoğun ilçelerindendir. Sahil hattı ve sanayi bölgeleri, günün her saatinde hareketlidir. Zeytinburnu'ndan 7/24 açık kliniğimize ulaşım oldukça kolaydır.",
     "Zeytinburnu'ndaki sağlık kuruluşları gündüz hizmet verir; gece ve pazar için nöbetçi diş kliniği en pratik çözümdür.",
     [

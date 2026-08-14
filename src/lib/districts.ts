@@ -20,7 +20,7 @@ const d = (
 
 export const districts: District[] = [
   d(
-    "istanbul-24-saat-acik-disci",
+    "istanbul-acil-dis-hastanesi",
     "İstanbul",
     "İstanbul",
     "merkez",
@@ -28,7 +28,7 @@ export const districts: District[] = [
     "İstanbul'un hangi yakasında olursanız olun, ani bir diş ağrısıyla karşılaştığınızda 7 gün 24 saat ulaşabileceğiniz tek telefon bizde: 0533 582 82 79. Gece yarısı başlayan ağrılar, pazar günü kırılan bir kaplama veya bayram tatilinde acil kanal tedavisi ihtiyacı… Hepsi için nöbetçi diş hekimi ekibimiz hazır bekliyor."
   ),
   d(
-    "anadolu-yakasi-24-saat-acik-disci",
+    "anadolu-yakasi-acil-dis-hastanesi",
     "Anadolu Yakası",
     "İstanbul (Anadolu Yakası)",
     "anadolu",
@@ -37,7 +37,7 @@ export const districts: District[] = [
     ["Kadıköy", "Üsküdar", "Maltepe", "Ataşehir"]
   ),
   d(
-    "avrupa-yakasi-24-saat-acik-disci",
+    "avrupa-yakasi-acil-dis-hastanesi",
     "Avrupa Yakası",
     "İstanbul (Avrupa Yakası)",
     "avrupa",
@@ -46,7 +46,7 @@ export const districts: District[] = [
     ["Beşiktaş", "Şişli", "Bakırköy", "Fatih"]
   ),
   d(
-    "kadikoy-24-saat-acik-disci",
+    "kadikoy-acil-dis-hastanesi",
     "Kadıköy",
     "Kadıköy",
     "anadolu",
@@ -55,7 +55,7 @@ export const districts: District[] = [
     ["Altıyol", "Bahariye", "Moda", "Bağdat Caddesi", "Göztepe"]
   ),
   d(
-    "uskudar-24-saat-acik-disci",
+    "uskudar-acil-dis-hastanesi",
     "Üsküdar",
     "Üsküdar",
     "anadolu",
@@ -64,7 +64,7 @@ export const districts: District[] = [
     ["Salacak", "Çengelköy", "Kuzguncuk", "Altunizade"]
   ),
   d(
-    "altunizade-24-saat-acik-disci",
+    "altunizade-acil-dis-hastanesi",
     "Altunizade",
     "Üsküdar",
     "anadolu",
@@ -73,7 +73,7 @@ export const districts: District[] = [
     ["Kısıklı", "Çamlıca", "Küçük Çamlıca"]
   ),
   d(
-    "alibeykoy-24-saat-acik-disci",
+    "alibeykoy-acil-dis-hastanesi",
     "Alibeyköy",
     "Eyüpsultan",
     "avrupa",
@@ -82,7 +82,7 @@ export const districts: District[] = [
     ["Göktürk", "Yeşilpınar", "Rami", "Cebeci"]
   ),
   d(
-    "acibadem-24-saat-acik-disci",
+    "acibadem-acil-dis-hastanesi",
     "Acıbadem",
     "Kadıköy",
     "anadolu",
@@ -91,7 +91,7 @@ export const districts: District[] = [
     ["Koşuyolu", "Hasanpaşa", "Rasimpaşa", "Yeldeğirmeni"]
   ),
   d(
-    "atakoy-24-saat-acik-disci",
+    "atakoy-acil-dis-hastanesi",
     "Ataköy",
     "Bakırköy",
     "avrupa",
@@ -100,7 +100,7 @@ export const districts: District[] = [
     ["Atakent", "Yeşilköy", "Florya", "Şenlikköy"]
   ),
   d(
-    "atasehir-24-saat-acik-disci",
+    "atasehir-acil-dis-hastanesi",
     "Ataşehir",
     "Ataşehir",
     "anadolu",
@@ -109,7 +109,7 @@ export const districts: District[] = [
     ["İçerenköy", "Küçükbakkalköy", "Yenisahra", "Atatürk Mahallesi"]
   ),
   d(
-    "avcilar-24-saat-acik-disci",
+    "avcilar-acil-dis-hastanesi",
     "Avcılar",
     "Avcılar",
     "avrupa",
@@ -118,7 +118,7 @@ export const districts: District[] = [
     ["Cihangir", "Denizköşkler", "Ambarlı", "Yeşilkent"]
   ),
   d(
-    "bagcilar-24-saat-acik-disci",
+    "bagcilar-acil-dis-hastanesi",
     "Bağcılar",
     "Bağcılar",
     "avrupa",
@@ -127,7 +127,7 @@ export const districts: District[] = [
     ["Bağcılar Merkez", "Evren Mahallesi", "Kirazlı", "Yıldıztepe"]
   ),
   d(
-    "bahcelievler-24-saat-acik-disci",
+    "bahcelievler-acil-dis-hastanesi",
     "Bahçelievler",
     "Bahçelievler",
     "avrupa",
@@ -136,7 +136,7 @@ export const districts: District[] = [
     ["Siyavuşpaşa", "Çobançeşme", "Zafer", "Bahçelievler Merkez"]
   ),
   d(
-    "bahcesehir-24-saat-acik-disci",
+    "bahcesehir-acil-dis-hastanesi",
     "Bahçeşehir",
     "Başakşehir",
     "avrupa",
@@ -145,7 +145,7 @@ export const districts: District[] = [
     ["Başakşehir Merkez", "Kayabaşı", "Altınşehir", "İkitelli"]
   ),
   d(
-    "aksaray-24-saat-acik-disci",
+    "aksaray-acil-dis-hastanesi",
     "Aksaray",
     "Fatih",
     "avrupa",
@@ -154,7 +154,7 @@ export const districts: District[] = [
     ["Yenikapı", "Kocamustafapaşa", "Cerrahpaşa", "Laleli"]
   ),
   d(
-    "bakirkoy-24-saat-acik-disci",
+    "bakirkoy-acil-dis-hastanesi",
     "Bakırköy",
     "Bakırköy",
     "avrupa",
@@ -163,7 +163,7 @@ export const districts: District[] = [
     ["Cevizlik", "Zuhuratbaba", "Yeşilköy", "Florya"]
   ),
   d(
-    "basaksehir-24-saat-acik-disci",
+    "basaksehir-acil-dis-hastanesi",
     "Başakşehir",
     "Başakşehir",
     "avrupa",
@@ -172,7 +172,7 @@ export const districts: District[] = [
     ["Bahçeşehir", "Kayabaşı", "İkitelli", "Altınşehir"]
   ),
   d(
-    "bayrampasa-24-saat-acik-disci",
+    "bayrampasa-acil-dis-hastanesi",
     "Bayrampaşa",
     "Bayrampaşa",
     "avrupa",
@@ -181,7 +181,7 @@ export const districts: District[] = [
     ["İsmetpaşa", "Kartaltepe", "Terazidere", "Muratpaşa"]
   ),
   d(
-    "besiktas-24-saat-acik-disci",
+    "besiktas-acil-dis-hastanesi",
     "Beşiktaş",
     "Beşiktaş",
     "avrupa",
@@ -190,7 +190,7 @@ export const districts: District[] = [
     ["Levent", "Etiler", "Zincirlikuyu", "Ortaköy", "Bebek"]
   ),
   d(
-    "beykoz-24-saat-acik-disci",
+    "beykoz-acil-dis-hastanesi",
     "Beykoz",
     "Beykoz",
     "anadolu",
@@ -199,7 +199,7 @@ export const districts: District[] = [
     ["Çubuklu", "Kanlıca", "Anadoluhisarı", "Kavacık"]
   ),
   d(
-    "beylikduzu-24-saat-acik-disci",
+    "beylikduzu-acil-dis-hastanesi",
     "Beylikdüzü",
     "Beylikdüzü",
     "avrupa",
@@ -208,7 +208,7 @@ export const districts: District[] = [
     ["Gürpınar", "Mimarsinan", "Kavaklı", "Barış Mahallesi"]
   ),
   d(
-    "beyoglu-24-saat-acik-disci",
+    "beyoglu-acil-dis-hastanesi",
     "Beyoğlu",
     "Beyoğlu",
     "avrupa",
@@ -217,7 +217,7 @@ export const districts: District[] = [
     ["İstiklal", "Taksim", "Galata", "Cihangir", "Şişhane"]
   ),
   d(
-    "bostanci-24-saat-acik-disci",
+    "bostanci-acil-dis-hastanesi",
     "Bostancı",
     "Kadıköy",
     "anadolu",
@@ -226,7 +226,7 @@ export const districts: District[] = [
     ["Sahrayıcedid", "Kozyatağı", "Caddebostan", "Suadiye"]
   ),
   d(
-    "buyukcekmece-24-saat-acik-disci",
+    "buyukcekmece-acil-dis-hastanesi",
     "Büyükçekmece",
     "Büyükçekmece",
     "avrupa",
@@ -235,7 +235,7 @@ export const districts: District[] = [
     ["Mimarsinan", "Kumburgaz", "Celaliye", "Tepecik"]
   ),
   d(
-    "caddebostan-24-saat-acik-disci",
+    "caddebostan-acil-dis-hastanesi",
     "Caddebostan",
     "Kadıköy",
     "anadolu",
@@ -244,7 +244,7 @@ export const districts: District[] = [
     ["Suadiye", "Bostancı", "Göztepe", "Kozyatağı"]
   ),
   d(
-    "caglayan-24-saat-acik-disci",
+    "caglayan-acil-dis-hastanesi",
     "Çağlayan",
     "Kağıthane",
     "avrupa",
@@ -253,7 +253,7 @@ export const districts: District[] = [
     ["Kağıthane Merkez", "Şişli", "Mecidiyeköy", "Hamidiye"]
   ),
   d(
-    "camlica-24-saat-acik-disci",
+    "camlica-acil-dis-hastanesi",
     "Çamlıca",
     "Üsküdar",
     "anadolu",
@@ -262,7 +262,7 @@ export const districts: District[] = [
     ["Kısıklı", "Altunizade", "Acıbadem", "Bulgurlu"]
   ),
   d(
-    "catalca-24-saat-acik-disci",
+    "catalca-acil-dis-hastanesi",
     "Çatalca",
     "Çatalca",
     "avrupa",
@@ -271,7 +271,7 @@ export const districts: District[] = [
     ["Çatalca Merkez", "Karacaköy", "Binkılıç", "Yalıköy"]
   ),
   d(
-    "cerrahpasa-24-saat-acik-disci",
+    "cerrahpasa-acil-dis-hastanesi",
     "Cerrahpaşa",
     "Fatih",
     "avrupa",
@@ -280,7 +280,7 @@ export const districts: District[] = [
     ["Aksaray", "Kocamustafapaşa", "Haseki", "Yenikapı"]
   ),
   d(
-    "esenler-24-saat-acik-disci",
+    "esenler-acil-dis-hastanesi",
     "Esenler",
     "Esenler",
     "avrupa",
@@ -289,7 +289,7 @@ export const districts: District[] = [
     ["Esenler Merkez", "Kemer", "Tuna", "Oruçreis"]
   ),
   d(
-    "etiler-24-saat-acik-disci",
+    "etiler-acil-dis-hastanesi",
     "Etiler",
     "Beşiktaş",
     "avrupa",
@@ -298,7 +298,7 @@ export const districts: District[] = [
     ["Levent", "Akmerkez", "Ulus", "Gayrettepe"]
   ),
   d(
-    "eyup-24-saat-acik-disci",
+    "eyup-acil-dis-hastanesi",
     "Eyüp",
     "Eyüpsultan",
     "avrupa",
@@ -307,7 +307,7 @@ export const districts: District[] = [
     ["Eyüp Merkez", "Alibeyköy", "Silahtarağa", "Göktürk"]
   ),
   d(
-    "fatih-24-saat-acik-disci",
+    "fatih-acil-dis-hastanesi",
     "Fatih",
     "Fatih",
     "avrupa",
@@ -316,7 +316,7 @@ export const districts: District[] = [
     ["Aksaray", "Cerrahpaşa", "Topkapı", "Vatan Caddesi"]
   ),
   d(
-    "gaziosmanpasa-24-saat-acik-disci",
+    "gaziosmanpasa-acil-dis-hastanesi",
     "Gaziosmanpaşa",
     "Gaziosmanpaşa",
     "avrupa",
@@ -325,7 +325,7 @@ export const districts: District[] = [
     ["Karadeniz Mahallesi", "Yeni Mahalle", "Küçükköy", "Sarıgöl"]
   ),
   d(
-    "gokturk-24-saat-acik-disci",
+    "gokturk-acil-dis-hastanesi",
     "Göktürk",
     "Eyüpsultan",
     "avrupa",
@@ -334,7 +334,7 @@ export const districts: District[] = [
     ["Kemerburgaz", "Alibeyköy", "Göktürk Merkez", "Çiftalan"]
   ),
   d(
-    "goztepe-24-saat-acik-disci",
+    "goztepe-acil-dis-hastanesi",
     "Göztepe",
     "Kadıköy",
     "anadolu",
@@ -343,7 +343,7 @@ export const districts: District[] = [
     ["Caddebostan", "Kozyatağı", "Feneryolu", "Erenköy"]
   ),
   d(
-    "gultepe-24-saat-acik-disci",
+    "gultepe-acil-dis-hastanesi",
     "Gültepe",
     "Kağıthane",
     "avrupa",
@@ -352,7 +352,7 @@ export const districts: District[] = [
     ["Çağlayan", "Kağıthane Merkez", "Hamidiye", "Seyrantepe"]
   ),
   d(
-    "gungoren-24-saat-acik-disci",
+    "gungoren-acil-dis-hastanesi",
     "Güngören",
     "Güngören",
     "avrupa",
@@ -361,7 +361,7 @@ export const districts: District[] = [
     ["Merkez Mahallesi", "Haznedar", "Gençosman", "Abdurrahman Nafiz"]
   ),
   d(
-    "icerenkoy-24-saat-acik-disci",
+    "icerenkoy-acil-dis-hastanesi",
     "İçerenköy",
     "Ataşehir",
     "anadolu",
@@ -370,7 +370,7 @@ export const districts: District[] = [
     ["Ataşehir", "Koşuyolu", "Yenisahra", "Hasanpaşa"]
   ),
   d(
-    "istinye-24-saat-acik-disci",
+    "istinye-acil-dis-hastanesi",
     "İstinye",
     "Sarıyer",
     "avrupa",
@@ -379,7 +379,7 @@ export const districts: District[] = [
     ["Sarıyer Merkez", "Emirgan", "Yeniköy", "Tarabya"]
   ),
   d(
-    "kagithane-24-saat-acik-disci",
+    "kagithane-acil-dis-hastanesi",
     "Kağıthane",
     "Kağıthane",
     "avrupa",
@@ -388,7 +388,7 @@ export const districts: District[] = [
     ["Çağlayan", "Gültepe", "Hamidiye", "Mecidiyeköy"]
   ),
   d(
-    "kalamis-24-saat-acik-disci",
+    "kalamis-acil-dis-hastanesi",
     "Kalamış",
     "Kadıköy",
     "anadolu",
@@ -397,7 +397,7 @@ export const districts: District[] = [
     ["Fenerbahçe", "Moda", "Yeldeğirmeni", "Kadıköy Merkez"]
   ),
   d(
-    "kartal-24-saat-acik-disci",
+    "kartal-acil-dis-hastanesi",
     "Kartal",
     "Kartal",
     "anadolu",
@@ -406,7 +406,7 @@ export const districts: District[] = [
     ["Yukarı Mahalle", "Soğanlık", "Yakacık", "Kartal Merkez"]
   ),
   d(
-    "kasimpasa-24-saat-acik-disci",
+    "kasimpasa-acil-dis-hastanesi",
     "Kasımpaşa",
     "Beyoğlu",
     "avrupa",
@@ -415,7 +415,7 @@ export const districts: District[] = [
     ["Camiikebir", "Hacıahmet", "Piyalepaşa", "Okmeydanı"]
   ),
   d(
-    "kavacik-24-saat-acik-disci",
+    "kavacik-acil-dis-hastanesi",
     "Kavacık",
     "Beykoz",
     "anadolu",
@@ -424,7 +424,7 @@ export const districts: District[] = [
     ["Göksu", "Çubuklu", "Anadoluhisarı", "Beykoz Merkez"]
   ),
   d(
-    "kemerburgaz-24-saat-acik-disci",
+    "kemerburgaz-acil-dis-hastanesi",
     "Kemerburgaz",
     "Eyüpsultan",
     "avrupa",
@@ -433,7 +433,7 @@ export const districts: District[] = [
     ["Göktürk", "Çiftalan", "Kemerburgaz Merkez", "Alibeyköy"]
   ),
   d(
-    "kiziltoprak-24-saat-acik-disci",
+    "kiziltoprak-acil-dis-hastanesi",
     "Kızıltoprak",
     "Kadıköy",
     "anadolu",
@@ -442,7 +442,7 @@ export const districts: District[] = [
     ["Yeldeğirmeni", "Rasimpaşa", "Caddebostan", "Koşuyolu"]
   ),
   d(
-    "kozyatagi-24-saat-acik-disci",
+    "kozyatagi-acil-dis-hastanesi",
     "Kozyatağı",
     "Kadıköy",
     "anadolu",
@@ -451,7 +451,7 @@ export const districts: District[] = [
     ["Sahrayıcedid", "Göztepe", "Bostancı", "Erenköy"]
   ),
   d(
-    "kucukcekmece-24-saat-acik-disci",
+    "kucukcekmece-acil-dis-hastanesi",
     "Küçükçekmece",
     "Küçükçekmece",
     "avrupa",
@@ -460,7 +460,7 @@ export const districts: District[] = [
     ["Halkalı", "Sefaköy", "Florya", "Atakent"]
   ),
   d(
-    "kucukkoy-24-saat-acik-disci",
+    "kucukkoy-acil-dis-hastanesi",
     "Küçükköy",
     "Gaziosmanpaşa",
     "avrupa",
@@ -469,7 +469,7 @@ export const districts: District[] = [
     ["Gaziosmanpaşa", "Sarıgöl", "Karadeniz", "Yeni Mahalle"]
   ),
   d(
-    "maltepe-24-saat-acik-disci",
+    "maltepe-acil-dis-hastanesi",
     "Maltepe",
     "Maltepe",
     "anadolu",
@@ -478,7 +478,7 @@ export const districts: District[] = [
     ["Bağlarbaşı", "Fındıklı", "Altayçeşme", "Yalı Mahallesi"]
   ),
   d(
-    "maslak-24-saat-acik-disci",
+    "maslak-acil-dis-hastanesi",
     "Maslak",
     "Sarıyer",
     "avrupa",
@@ -487,7 +487,7 @@ export const districts: District[] = [
     ["Darüşşafaka", "İTÜ Ayazağa", "Huzur Mahallesi", "Ayazağa"]
   ),
   d(
-    "mecidiyekoy-24-saat-acik-disci",
+    "mecidiyekoy-acil-dis-hastanesi",
     "Mecidiyeköy",
     "Şişli",
     "avrupa",
@@ -496,7 +496,7 @@ export const districts: District[] = [
     ["Şişli", "Fulya", "Gayrettepe", "Çağlayan"]
   ),
   d(
-    "merter-24-saat-acik-disci",
+    "merter-acil-dis-hastanesi",
     "Merter",
     "Güngören",
     "avrupa",
@@ -505,7 +505,7 @@ export const districts: District[] = [
     ["Güngören", "Haznedar", "Bahçelievler", "Zeytinburnu"]
   ),
   d(
-    "nisantasi-24-saat-acik-disci",
+    "nisantasi-acil-dis-hastanesi",
     "Nişantaşı",
     "Şişli",
     "avrupa",
@@ -514,7 +514,7 @@ export const districts: District[] = [
     ["Teşvikiye", "Harbiye", "Osmanbey", "Mecidiyeköy"]
   ),
   d(
-    "okmeydani-24-saat-acik-disci",
+    "okmeydani-acil-dis-hastanesi",
     "Okmeydanı",
     "Şişli",
     "avrupa",
@@ -523,7 +523,7 @@ export const districts: District[] = [
     ["Küçükköy", "Çağlayan", "Kasımpaşa", "Şişli Merkez"]
   ),
   d(
-    "pasabahce-24-saat-acik-disci",
+    "pasabahce-acil-dis-hastanesi",
     "Paşabahçe",
     "Beykoz",
     "anadolu",
@@ -532,7 +532,7 @@ export const districts: District[] = [
     ["Beykoz Merkez", "Çubuklu", "Kavacık", "Tokatköy"]
   ),
   d(
-    "pendik-24-saat-acik-disci",
+    "pendik-acil-dis-hastanesi",
     "Pendik",
     "Pendik",
     "anadolu",
@@ -541,7 +541,7 @@ export const districts: District[] = [
     ["Pendik Merkez", "Esenyalı", "Tuzla", "Kartal"]
   ),
   d(
-    "sariyer-24-saat-acik-disci",
+    "sariyer-acil-dis-hastanesi",
     "Sarıyer",
     "Sarıyer",
     "avrupa",
@@ -550,7 +550,7 @@ export const districts: District[] = [
     ["İstinye", "Emirgan", "Tarabya", "Maslak", "Yeniköy"]
   ),
   d(
-    "silivri-24-saat-acik-disci",
+    "silivri-acil-dis-hastanesi",
     "Silivri",
     "Silivri",
     "avrupa",
@@ -559,7 +559,7 @@ export const districts: District[] = [
     ["Silivri Merkez", "Selimpaşa", "Değirmenköy", "Gümüşyaka"]
   ),
   d(
-    "sisli-24-saat-acik-disci",
+    "sisli-acil-dis-hastanesi",
     "Şişli",
     "Şişli",
     "avrupa",
@@ -568,7 +568,7 @@ export const districts: District[] = [
     ["Nişantaşı", "Mecidiyeköy", "Bomonti", "Halaskargazi"]
   ),
   d(
-    "taksim-24-saat-acik-disci",
+    "taksim-acil-dis-hastanesi",
     "Taksim",
     "Beyoğlu",
     "avrupa",
@@ -577,7 +577,7 @@ export const districts: District[] = [
     ["İstiklal", "Gümüşsuyu", "Harbiye", "Cihangir"]
   ),
   d(
-    "tarabya-24-saat-acik-disci",
+    "tarabya-acil-dis-hastanesi",
     "Tarabya",
     "Sarıyer",
     "avrupa",
@@ -586,7 +586,7 @@ export const districts: District[] = [
     ["Yeniköy", "İstinye", "Sarıyer Merkez", "Emirgan"]
   ),
   d(
-    "tuzla-24-saat-acik-disci",
+    "tuzla-acil-dis-hastanesi",
     "Tuzla",
     "Tuzla",
     "anadolu",
@@ -595,7 +595,7 @@ export const districts: District[] = [
     ["Tuzla Merkez", "İçmeler", "Aydınlı", "Şifa"]
   ),
   d(
-    "umraniye-24-saat-acik-disci",
+    "umraniye-acil-dis-hastanesi",
     "Ümraniye",
     "Ümraniye",
     "anadolu",
@@ -604,7 +604,7 @@ export const districts: District[] = [
     ["Çakmak", "İnkılap", "Dudullu", "Yamanevler"]
   ),
   d(
-    "zeytinburnu-24-saat-acik-disci",
+    "zeytinburnu-acil-dis-hastanesi",
     "Zeytinburnu",
     "Zeytinburnu",
     "avrupa",

@@ -47,8 +47,8 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 İstanbul Ağız ve Diş Sağlığı Merkezi" },
-      { href: "/kadikoy-24-saat-acik-disci/", label: "Kadıköy Nöbetçi Dişçi" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 İstanbul Ağız ve Diş Sağlığı Merkezi" },
+      { href: "/kadikoy-acil-dis-hastanesi/", label: "Kadıköy Nöbetçi Dişçi" },
       { href: "/iletisim/", label: "İletişim" },
     ],
     faq: [
@@ -95,8 +95,8 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/anadolu-yakasi-24-saat-acik-disci/", label: "Anadolu Yakası Nöbetçi Dişçi" },
-      { href: "/avrupa-yakasi-24-saat-acik-disci/", label: "Avrupa Yakası Nöbetçi Dişçi" },
+      { href: "/anadolu-yakasi-acil-dis-hastanesi/", label: "Anadolu Yakası Nöbetçi Dişçi" },
+      { href: "/avrupa-yakasi-acil-dis-hastanesi/", label: "Avrupa Yakası Nöbetçi Dişçi" },
     ],
     faq: [
       {
@@ -143,7 +143,7 @@ export const posts: BlogPost[] = [
     ],
     relatedLinks: [
       { href: "/dis-implant-fiyatlari/", label: "İmplant Diş Fiyatları" },
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul Acil Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul Acil Diş" },
     ],
     faq: [
       {
@@ -284,7 +284,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "7/24 Acil Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "7/24 Acil Diş" },
       { href: "/porselen-dis-kaplama-fiyatlari/", label: "Kaplama Fiyatları" },
     ],
     faq: [
@@ -331,7 +331,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul İstanbul Ağız ve Diş Sağlığı Merkezi" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul İstanbul Ağız ve Diş Sağlığı Merkezi" },
       { href: "/dis-implant-fiyatlari/", label: "İmplant Fiyatları" },
     ],
     faq: [
@@ -378,8 +378,8 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Diş" },
-      { href: "/kadikoy-24-saat-acik-disci/", label: "Kadıköy Nöbetçi Dişçi" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 Diş" },
+      { href: "/kadikoy-acil-dis-hastanesi/", label: "Kadıköy Nöbetçi Dişçi" },
     ],
     faq: [
       {
@@ -424,7 +424,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul Acil Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul Acil Diş" },
       { href: "/protez-takma-dis-fiyatlari/", label: "Protez Diş Fiyatları" },
     ],
     faq: [
@@ -471,7 +471,7 @@ export const posts: BlogPost[] = [
     ],
     relatedLinks: [
       { href: "/semtler/", label: "İstanbul Nöbetçi Dişçiler" },
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 Diş" },
     ],
     faq: [
       {
@@ -611,7 +611,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Acil Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 Acil Diş" },
       { href: "/iletisim/", label: "İletişim" },
     ],
     faq: [
@@ -659,7 +659,7 @@ export const posts: BlogPost[] = [
     ],
     relatedLinks: [
       { href: "/dis-implant-fiyatlari/", label: "İmplant Diş Fiyatları" },
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Acil Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 Acil Diş" },
     ],
     faq: [
       {
@@ -801,7 +801,7 @@ export const posts: BlogPost[] = [
     relatedLinks: [
       { href: "/dis-beyazlatma/", label: "Diş Beyazlatma" },
       { href: "/dis-dolgusu/", label: "Diş Dolgusu" },
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "İstanbul 7/24 Diş" },
     ],
     faq: [
       { question: "Diş minesi kendini yeniler mi?", answer: "Hayır. Mine kendini yenileyemez; bu yüzden korunması önemlidir." },
@@ -925,7 +925,7 @@ export const posts: BlogPost[] = [
     relatedLinks: [
       { href: "/acil-dis-tedavisi/", label: "Acil Diş Tedavisi" },
       { href: "/kanal-tedavisi/", label: "Kanal Tedavisi" },
-      { href: "/istanbul-24-saat-acik-disci/", label: "7/24 İstanbul Diş" },
+      { href: "/istanbul-acil-dis-hastanesi/", label: "7/24 İstanbul Diş" },
     ],
     faq: [
       { question: "Diş apsesi evde geçer mi?", answer: "Hayır, apse profesyonel tedavi gerektirir." },
