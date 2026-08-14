@@ -1,13 +1,29 @@
 import type { MetadataRoute } from "next";
+import { SITE } from "@/lib/site";
 
 export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: {
-      userAgent: "*",
-      allow: "/",
-    },
-    sitemap: "https://acildishastanesi.org/sitemap.xml",
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+      {
+        userAgent: "Googlebot",
+        allow: "/",
+      },
+      {
+        userAgent: "Bingbot",
+        allow: "/",
+      },
+      {
+        userAgent: "Yandex",
+        allow: "/",
+      },
+    ],
+    sitemap: `${SITE.domain}/sitemap.xml`,
+    host: SITE.domain.replace("https://", ""),
   };
 }

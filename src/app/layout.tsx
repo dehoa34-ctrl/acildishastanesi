@@ -8,7 +8,7 @@ import MobileBar from "@/components/MobileBar";
 import FloatingButtons from "@/components/FloatingButtons";
 import Analytics from "@/components/Analytics";
 import { SITE } from "@/lib/site";
-import { SEO_IMAGE } from "@/lib/seo";
+import { SEO_IMAGE, organizationSchema, websiteSchema } from "@/lib/seo";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -72,6 +72,14 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${inter.variable} ${jakarta.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col pb-16 font-sans sm:pb-0">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema()) }}
+        />
         <TopStrip />
         <Header />
         <main className="flex-1">{children}</main>

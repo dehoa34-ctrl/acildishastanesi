@@ -166,3 +166,44 @@ export function articleSchema({
     category,
   };
 }
+
+/** Organization şeması (marka / kurum). */
+export function organizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${SITE.domain}/#organization`,
+    name: SITE.name,
+    url: SITE.domain,
+    logo: { "@type": "ImageObject", url: `${SITE.domain}${SEO_IMAGE}` },
+    telephone: CONTACT.phoneDisplay,
+    sameAs: [
+      "https://www.facebook.com/avrupadis/",
+      "https://www.instagram.com/avrupadis/",
+      "https://x.com/AvrupaDis",
+      "https://www.youtube.com/channel/UCIxjb6-MAfugkVjf27M3WJQ",
+      "https://www.linkedin.com/company/avrupadis/",
+      "https://www.tiktok.com/@avrupadis",
+    ],
+  };
+}
+
+/** WebSite + SearchAction şeması (sitelinks search box). */
+export function websiteSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": `${SITE.domain}/#website`,
+    url: SITE.domain,
+    name: SITE.name,
+    description: "İstanbul'da 7/24 açık ağız ve diş sağlığı merkezi.",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE.domain}/semtler/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}

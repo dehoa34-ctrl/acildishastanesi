@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 import { districts } from "@/lib/districts";
 import { services } from "@/lib/services";
 import { posts } from "@/lib/posts";
+import { getServiceContent } from "@/lib/service-content";
 
 export const dynamic = "force-static";
 
@@ -35,6 +36,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "monthly",
     priority: 0.8,
+    images: [getServiceContent(x.slug)?.image ?? "/images/servis/cekim-hero.webp"].map(
+      (img) => `${SITE.domain}${img}`
+    ),
   }));
 
   const blogPages: MetadataRoute.Sitemap = posts.map((x) => ({
@@ -42,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(x.date),
     changeFrequency: "monthly",
     priority: 0.6,
+    images: [`${SITE.domain}${x.image}`],
   }));
 
   return [...staticPages, ...districtPages, ...servicePages, ...blogPages];
