@@ -8,19 +8,22 @@ import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PhoneIcon, WhatsAppIcon, ToothIcon } from "@/components/Header";
 import { dentistSchema } from "@/lib/seo";
+import { getServiceContent } from "@/lib/service-content";
 
 function homeServiceImage(s: Service): string {
+  const c = getServiceContent(s.slug);
+  if (c?.image) return c.image.replace("-hero.webp", "-card.webp");
   const map: Record<Service["category"], string> = {
-    implant: "/images/ph-implant-card.webp",
-    estetik: "/images/ph-smile-card.webp",
-    kaplama: "/images/ph-smile-card.webp",
-    ortodonti: "/images/ph-ortodonti-card.webp",
-    cocuk: "/images/ph-cocuk-card.webp",
-    cerrahi: "/images/ph-implant-card.webp",
-    dolgu: "/images/ph-dolgu-card.webp",
-    acil: "/images/ph-uniite-card.webp",
+    implant: "/images/servis/implant-card.webp",
+    estetik: "/images/servis/lamine-card.webp",
+    kaplama: "/images/servis/zirkonyum-card.webp",
+    ortodonti: "/images/servis/ortodonti-card.webp",
+    cocuk: "/images/servis/pedodonti-card.webp",
+    cerrahi: "/images/servis/cekim-card.webp",
+    dolgu: "/images/servis/kanal-card.webp",
+    acil: "/images/servis/cekim-card.webp",
   };
-  return map[s.category] || "/images/ph-uniite-card.webp";
+  return map[s.category] || "/images/servis/cekim-card.webp";
 }
 
 export default function HomePage() {

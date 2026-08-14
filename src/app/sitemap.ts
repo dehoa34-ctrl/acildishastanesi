@@ -19,7 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.domain}/hakkimizda/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.domain}/hekimlerimiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.domain}/kliniklerimiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE.domain}/before-after/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.domain}/saglik-turizmi/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.domain}/online-randevu/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.domain}/anlasmali-kurumlar/`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },

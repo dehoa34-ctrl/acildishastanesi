@@ -5,9 +5,9 @@ import { CONTACT } from "@/lib/site";
 import { districts, getDistrict } from "@/lib/districts";
 import { services, getService } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
-import FaqAccordion from "@/components/FaqAccordion";
 import PageHero from "@/components/PageHero";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
+import { getServiceContent } from "@/lib/service-content";
 import { faqs } from "@/lib/faqs";
 import { getDistrictExtra } from "@/lib/district-extras";
 import { SEO_IMAGE } from "@/lib/seo";
@@ -279,16 +279,19 @@ function serviceImage(service: (typeof services)[number]): string {
 }
 
 function ServicePage({ service }: { service: (typeof services)[number] }) {
+  const content = getServiceContent(service.slug);
   const schema = serviceSchema(service);
   const crumbs = breadcrumbSchema([
     { name: "Anasayfa", url: "/" },
     { name: service.name, url: `/${service.slug}/` },
   ]);
-  const faqData = faqs.map((f) => ({
-    question: f.question,
-    answer: f.answer,
-  }));
+  const faqData = content?.faq?.length
+    ? content.faq
+    : faqs.map((f) => ({ question: f.question, answer: f.answer }));
   const faq = faqSchema(faqData);
+  const relatedServices = (content?.related ?? [])
+    .map((slug) => getService(slug))
+    .filter((s): s is (typeof services)[number] => Boolean(s));
 
   return (
     <>
@@ -307,7 +310,7 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
 
       {/* Hero */}
       <PageHero
-        image={serviceImage(service)}
+        image={content?.image || serviceImage(service)}
         title={service.name}
         subtitle={service.intro}
       >
@@ -380,6 +383,24 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
         </div>
       </section>
 
+      {/* Body content */}
+      {content?.body && content.body.length > 0 && (
+        <section className="bg-white py-16">
+          <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+            {content.body.map((section) => (
+              <section key={section.h2}>
+                <h2 className="text-2xl font-extrabold text-slate-900">{section.h2}</h2>
+                {section.paragraphs.map((para, i) => (
+                  <p key={i} className="mt-4 leading-8 text-slate-600">
+                    {para}
+                  </p>
+                ))}
+              </section>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Features */}
       <section className="bg-slate-50 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -395,10 +416,32 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
             ))}
           </div>
 
+          {relatedServices.length > 0 && (
+            <div className="mt-12">
+              <h2 className="text-2xl font-extrabold text-slate-900">İlgili Tedaviler</h2>
+              <div className="mt-5 flex flex-wrap gap-2.5">
+                {relatedServices.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/${s.slug}`}
+                    className="rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:border-brand-400 hover:text-brand-700"
+                  >
+                    {s.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="mt-12">
             <h2 className="text-2xl font-extrabold text-slate-900">Sık Sorulan Sorular</h2>
-            <div className="mt-6">
-              <FaqAccordion />
+            <div className="mt-6 space-y-4">
+              {faqData.map((f) => (
+                <div key={f.question} className="rounded-2xl border border-slate-200 bg-white p-5">
+                  <p className="font-bold text-slate-900">{f.question}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

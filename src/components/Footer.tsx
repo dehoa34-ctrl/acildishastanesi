@@ -97,7 +97,6 @@ export default function Footer() {
               <li><Link href="/hakkimizda" className="hover:text-white">Hakkımızda</Link></li>
               <li><Link href="/hekimlerimiz" className="hover:text-white">Hekimlerimiz</Link></li>
               <li><Link href="/kliniklerimiz" className="hover:text-white">Kliniklerimiz</Link></li>
-              <li><Link href="/before-after" className="hover:text-white">Before / After</Link></li>
               <li><Link href="/saglik-turizmi" className="hover:text-white">Sağlık Turizmi</Link></li>
               <li><Link href="/online-randevu" className="hover:text-white">Online Randevu</Link></li>
               <li><Link href="/anlasmali-kurumlar" className="hover:text-white">Anlaşmalı Kurumlar</Link></li>

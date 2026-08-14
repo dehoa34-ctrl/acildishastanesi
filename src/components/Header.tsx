@@ -64,7 +64,6 @@ export default function Header() {
                   { href: "/hakkimizda", label: "Hakkımızda" },
                   { href: "/hekimlerimiz", label: "Hekimlerimiz" },
                   { href: "/kliniklerimiz", label: "Kliniklerimiz" },
-                  { href: "/before-after", label: "Before / After" },
                   { href: "/saglik-turizmi", label: "Sağlık Turizmi" },
                   { href: "/anlasmali-kurumlar", label: "Anlaşmalı Kurumlar" },
                 ].map((m) => (

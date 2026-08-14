@@ -7,6 +7,10 @@ export type Service = {
   priceRows?: { name: string; price: string }[];
   features: string[];
   category: "acil" | "implant" | "estetik" | "kaplama" | "ortodonti" | "cocuk" | "cerrahi" | "dolgu";
+  image?: string;
+  body?: { h2: string; paragraphs: string[] }[];
+  faq?: { question: string; answer: string }[];
+  related?: string[];
 };
 
 export const services: Service[] = [

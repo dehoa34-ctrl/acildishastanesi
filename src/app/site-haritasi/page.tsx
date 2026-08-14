@@ -44,7 +44,6 @@ export default function SiteHaritasiPage() {
               <Row href="/hakkimizda/" label="Hakkımızda" />
               <Row href="/hekimlerimiz/" label="Hekimlerimiz" />
               <Row href="/kliniklerimiz/" label="Kliniklerimiz" />
-              <Row href="/before-after/" label="Before / After" />
               <Row href="/saglik-turizmi/" label="Sağlık Turizmi" />
               <Row href="/anlasmali-kurumlar/" label="Anlaşmalı Kurumlar" />
             </Group>
