@@ -162,72 +162,171 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
 
       {/* Content */}
       <section className="bg-white py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-extrabold text-slate-900">
-            {district.name}&apos;te 7/24 Açık Acil Diş Hastanesi
-          </h2>
-          {extra && (
-            <p className="mt-4 leading-7 text-slate-600">{extra.featureContent}</p>
-          )}
-          <p className="mt-4 leading-7 text-slate-600">
-            {district.name} ve çevresindeki mahallelerde ({district.neighborhoods.join(", ")}) ani başlayan
-            diş ağrıları, kırılan dişler ve hafta sonu yaşanan diş travmaları için 7 gün 24 saat açık acil diş
-            kliniğimizden yararlanabilirsiniz. Gece saatlerinde dahi nöbetçi diş hekimi ekibimiz hazırdır.
-          </p>
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-10 lg:grid-cols-[1fr_340px]">
+            <div className="mx-auto w-full max-w-3xl lg:mx-0">
+              <h2 className="text-2xl font-extrabold text-slate-900">
+                {district.name}&apos;te 7/24 Açık Acil Diş Hastanesi
+              </h2>
+              {extra && (
+                <p className="mt-4 leading-8 text-slate-600">{extra.featureContent}</p>
+              )}
+              <p className="mt-4 leading-8 text-slate-600">
+                {district.name} ve çevresindeki mahallelerde ({district.neighborhoods.join(", ")}) ani başlayan
+                diş ağrıları, kırılan dişler ve hafta sonu yaşanan diş travmaları için 7 gün 24 saat açık acil diş
+                kliniğimizden yararlanabilirsiniz. Gece saatlerinde dahi nöbetçi diş hekimi ekibimiz hazırdır.
+              </p>
 
-          {extra && (
-            <>
-              <h3 className="mt-10 text-xl font-extrabold text-slate-900">
-                {district.name}&apos;te Kamu Diş Sağlığı Desteği
+              <div className="my-8 overflow-hidden rounded-3xl shadow-md">
+                <Image
+                  src="/images/servis/kanal-hero.webp"
+                  alt={`${district.name} 7/24 açık nöbetçi diş kliniği`}
+                  width={1600}
+                  height={600}
+                  className="aspect-[16/7] w-full object-cover"
+                />
+              </div>
+
+              <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                {district.name}&apos;te Gece Nöbetçi Diş Hekimi
               </h3>
-              <p className="mt-3 leading-7 text-slate-600">{extra.publicDental}</p>
-            </>
-          )}
+              <p className="mt-3 leading-8 text-slate-600">
+                Diş ağrısı özellikle gece saatlerinde, yatar pozisyonda kan basıncının artmasıyla daha şiddetli
+                hissedilir. {district.name}&apos;te gece yarısı başlayan zonklayıcı bir diş ağrısı, düşen bir
+                dolgu veya kırılan bir diş için kliniğimiz 7/24 açıktır. Nöbetçi diş hekimimiz, acil durumunuzu
+                bildirdiğiniz anda sizi bekletmeden muayene eder ve aynı gece müdahale eder.
+              </p>
 
-          <h3 className="mt-10 text-xl font-extrabold text-slate-900">
-            {district.name} Nöbetçi Dişçide Yapılan Acil İşlemler
-          </h3>
-          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
-            {[
-              "Acil kanal tedavisi",
-              "Ağrısız diş çekimi",
-              "Dolgu ve diş onarımı",
-              "Apse ve şişlik müdahalesi",
-              "Düşen kaplama / protez tamiri",
-              "Gece ve pazar diş hekimi muayenesi",
-            ].map((item) => (
-              <li key={item} className="flex items-start gap-2.5 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm font-semibold text-slate-700">
-                <span className="mt-0.5 text-brand-600">✓</span> {item}
-              </li>
-            ))}
-          </ul>
-
-          {extra && (
-            <>
-              <h3 className="mt-10 text-xl font-extrabold text-slate-900">
-                {district.name}&apos;te Diş Ağrısı Hakkında Sık Sorulanlar
+              <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                Pazar ve Hafta Sonu Açık Diş Kliniği
               </h3>
-              <div className="mt-4 space-y-4">
-                {extra.localFaqs.map((f) => (
-                  <div key={f.question} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                    <p className="font-bold text-slate-900">{f.question}</p>
-                    <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+              <p className="mt-3 leading-8 text-slate-600">
+                Pek çok diş kliniği cumartesi, pazar ve resmî tatillerde kapalıdır. {district.name}&apos;te
+                yaşayanlar için kliniğimiz hafta sonu ve bayram günlerinde de tam kapasite hizmet verir. Pazar
+                günü acil dolgu, kanal tedavisi, diş çekimi, apse müdahalesi ve düşen kaplama/protez onarımı
+                rahatlıkla yapılabilmektedir.
+              </p>
+
+              {extra && (
+                <>
+                  <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                    {district.name}&apos;te Kamu Diş Sağlığı Desteği
+                  </h3>
+                  <p className="mt-3 leading-8 text-slate-600">{extra.publicDental}</p>
+                </>
+              )}
+
+              <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                {district.name} Nöbetçi Dişçide Yapılan Acil İşlemler
+              </h3>
+              <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+                {[
+                  "Acil kanal tedavisi",
+                  "Ağrısız diş çekimi",
+                  "Dolgu ve diş onarımı",
+                  "Apse ve şişlik müdahalesi",
+                  "Düşen kaplama / protez tamiri",
+                  "Gece ve pazar diş hekimi muayenesi",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-2.5 rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm font-semibold text-slate-700">
+                    <span className="mt-0.5 text-brand-600">✓</span> {item}
+                  </li>
+                ))}
+              </ul>
+
+              <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                Tedavi Süreciniz Nasıl İlerler?
+              </h3>
+              <div className="mt-4 grid gap-4 sm:grid-cols-3">
+                {[
+                  { step: "1", title: "Muayene", text: "Ağız yapınız ve şikayetiniz değerlendirilir, gerekirse röntgen alınır." },
+                  { step: "2", title: "Planlama", text: "Size özel tedavi planı ve net fiyat bilgisi sunulur." },
+                  { step: "3", title: "Tedavi", text: "Acil müdahale aynı seansta, ağrısız ve güvenli şekilde tamamlanır." },
+                ].map((s) => (
+                  <div key={s.step} className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-brand-600 text-sm font-extrabold text-white">
+                      {s.step}
+                    </span>
+                    <p className="mt-3 font-bold text-slate-900">{s.title}</p>
+                    <p className="mt-1 text-sm leading-6 text-slate-600">{s.text}</p>
                   </div>
                 ))}
               </div>
-            </>
-          )}
 
-          <div className="mt-10 rounded-3xl bg-brand-50 p-6 text-center">
-            <p className="text-lg font-extrabold text-slate-900">
-              Diş ağrınız mı var? {district.name}&apos;teki nöbetçi dişçimiz hemen yanınızda.
-            </p>
-            <a
-              href={CONTACT.phoneHref}
-              className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-bold text-white hover:bg-brand-700"
-            >
-              <PhoneIcon /> {CONTACT.phoneDisplay}
-            </a>
+              {extra && (
+                <>
+                  <h3 className="mt-8 text-xl font-extrabold text-slate-900">
+                    {district.name}&apos;te Diş Ağrısı Hakkında Sık Sorulanlar
+                  </h3>
+                  <div className="mt-4 space-y-4">
+                    {extra.localFaqs.map((f) => (
+                      <div key={f.question} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                        <p className="font-bold text-slate-900">{f.question}</p>
+                        <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+
+              <div className="mt-10 rounded-3xl bg-brand-50 p-6 text-center">
+                <p className="text-lg font-extrabold text-slate-900">
+                  Diş ağrınız mı var? {district.name}&apos;teki nöbetçi dişçimiz hemen yanınızda.
+                </p>
+                <a
+                  href={CONTACT.phoneHref}
+                  className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-3.5 font-bold text-white hover:bg-brand-700"
+                >
+                  <PhoneIcon /> {CONTACT.phoneDisplay}
+                </a>
+              </div>
+            </div>
+
+            {/* Sağ bilgi kartı */}
+            <aside className="hidden lg:block">
+              <div className="sticky top-24 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-bold text-emerald-600">
+                  <span className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
+                  </span>
+                  Şu An Açık • 7/24
+                </span>
+                <p className="mt-4 font-extrabold text-slate-900">{district.name} Nöbetçi Dişçi</p>
+                <p className="mt-1 text-sm text-slate-500">Nöbetçi Diş Hekimi Telefonu</p>
+                <a
+                  href={CONTACT.phoneHref}
+                  className="mt-2 block text-2xl font-extrabold text-brand-700"
+                >
+                  {CONTACT.phoneDisplay}
+                </a>
+                <div className="mt-5 space-y-3">
+                  <a
+                    href={CONTACT.phoneHref}
+                    className="flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-sm font-bold text-white hover:bg-brand-700"
+                  >
+                    <PhoneIcon /> Hemen Ara
+                  </a>
+                  <a
+                    href={CONTACT.whatsappHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-6 py-3 text-sm font-bold text-white hover:bg-emerald-600"
+                  >
+                    <WhatsAppIcon /> WhatsApp&apos;tan Yaz
+                  </a>
+                </div>
+                <div className="mt-5 border-t border-slate-100 pt-5">
+                  <p className="text-xs font-bold uppercase tracking-wide text-slate-400">Çalışma Saatleri</p>
+                  <p className="mt-2 text-sm font-semibold text-slate-700">Haftanın 7 günü, 24 saat</p>
+                  <p className="mt-1 text-xs text-slate-500">Cumartesi, pazar ve bayramlar dahil açık</p>
+                </div>
+                <div className="mt-4 border-t border-slate-100 pt-4">
+                  <p className="text-xs font-bold uppercase tracking-wide text-slate-400">Hizmet Bölgesi</p>
+                  <p className="mt-2 text-sm font-semibold text-slate-700">{district.district}</p>
+                </div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
