@@ -7,10 +7,18 @@ import { DistrictGrid } from "@/components/DistrictGrid";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PhoneIcon, WhatsAppIcon, ToothIcon } from "@/components/Header";
+import { dentistSchema } from "@/lib/seo";
 
 export default function HomePage() {
+  const schema = dentistSchema();
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-brand-100">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24 lg:px-8">
@@ -52,8 +60,8 @@ export default function HomePage() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl shadow-brand-900/10">
               <Image
-                src="/images/hero-klinik.jpg"
-                alt="7/24 açık modern diş kliniği"
+                src="/images/hero-klinik.webp"
+                alt="7/24 açık modern diş kliniği, İstanbul nöbetçi dişçi"
                 width={800}
                 height={600}
                 priority

@@ -48,6 +48,9 @@ export default function Header() {
           <Link href="/semtler" className="hover:text-brand-600">
             Nöbetçi Dişçiler
           </Link>
+          <Link href="/blog" className="hover:text-brand-600">
+            Blog
+          </Link>
           <Link href="/sss" className="hover:text-brand-600">
             SSS
           </Link>

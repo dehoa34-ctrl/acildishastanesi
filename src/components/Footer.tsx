@@ -86,6 +86,9 @@ export default function Footer() {
             © {new Date().getFullYear()} {SITE.name} | {SITE.phoneDisplay}. Tüm hakları saklıdır.
           </p>
           <nav className="flex gap-5">
+            <Link href="/blog" className="hover:text-slate-300">
+              Blog
+            </Link>
             <Link href="/sss" className="hover:text-slate-300">
               SSS
             </Link>

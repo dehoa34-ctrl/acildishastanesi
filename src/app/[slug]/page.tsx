@@ -2,12 +2,21 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CONTACT, SITE } from "@/lib/site";
+import { CONTACT } from "@/lib/site";
 import { districts, getDistrict } from "@/lib/districts";
 import { services, getService } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
+import { faqs } from "@/lib/faqs";
+import { getDistrictExtra } from "@/lib/district-extras";
+import { SEO_IMAGE } from "@/lib/seo";
+import {
+  districtSchema,
+  serviceSchema,
+  breadcrumbSchema,
+  faqSchema,
+} from "@/lib/seo";
 
 export function generateStaticParams() {
   return [
@@ -37,6 +46,7 @@ export async function generateMetadata({
         description: district.description,
         locale: "tr_TR",
         type: "website",
+        images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: `${district.name} Acil Diş Hastanesi` }],
       },
     };
   }
@@ -51,6 +61,7 @@ export async function generateMetadata({
         description: service.intro.slice(0, 160),
         locale: "tr_TR",
         type: "website",
+        images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: service.name }],
       },
     };
   }
@@ -75,24 +86,17 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
 /* ---------------- District ---------------- */
 
 function DistrictPage({ district }: { district: (typeof districts)[number] }) {
+  const extra = getDistrictExtra(district.slug);
   const related = districts
     .filter((x) => x.area === district.area && x.slug !== district.slug)
     .slice(0, 10);
 
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "Dentist",
-    name: `${district.name} Acil Diş Hastanesi`,
-    description: district.description,
-    telephone: CONTACT.phoneDisplay,
-    openingHours: "Mo-Su 00:00-24:00",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: district.district,
-      addressRegion: "İstanbul",
-      addressCountry: "TR",
-    },
-  };
+  const schema = districtSchema(district);
+  const crumbs = breadcrumbSchema([
+    { name: "Anasayfa", url: "/" },
+    { name: `${district.name} Acil Diş Hastanesi`, url: `/${district.slug}/` },
+  ]);
+  const localFaq = extra ? faqSchema(extra.localFaqs) : null;
 
   return (
     <>
@@ -100,6 +104,16 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+      {localFaq && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(localFaq) }}
+        />
+      )}
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white">
@@ -148,8 +162,8 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
             </div>
             <div className="hidden overflow-hidden rounded-3xl lg:block">
               <Image
-                src="/images/klinik-gece.jpg"
-                alt={`${district.name} gece açık diş kliniği`}
+                src="/images/klinik-gece.webp"
+                alt={`${district.name} gece açık nöbetçi diş kliniği`}
                 width={800}
                 height={600}
                 className="aspect-[4/3] w-full rounded-3xl object-cover shadow-2xl"
@@ -165,11 +179,23 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
           <h2 className="text-2xl font-extrabold text-slate-900">
             {district.name}&apos;te 7/24 Açık Acil Diş Hastanesi
           </h2>
+          {extra && (
+            <p className="mt-4 leading-7 text-slate-600">{extra.featureContent}</p>
+          )}
           <p className="mt-4 leading-7 text-slate-600">
             {district.name} ve çevresindeki mahallelerde ({district.neighborhoods.join(", ")}) ani başlayan
             diş ağrıları, kırılan dişler ve hafta sonu yaşanan diş travmaları için 7 gün 24 saat açık acil diş
             kliniğimizden yararlanabilirsiniz. Gece saatlerinde dahi nöbetçi diş hekimi ekibimiz hazırdır.
           </p>
+
+          {extra && (
+            <>
+              <h3 className="mt-10 text-xl font-extrabold text-slate-900">
+                {district.name}&apos;te Kamu Diş Sağlığı Desteği
+              </h3>
+              <p className="mt-3 leading-7 text-slate-600">{extra.publicDental}</p>
+            </>
+          )}
 
           <h3 className="mt-10 text-xl font-extrabold text-slate-900">
             {district.name} Nöbetçi Dişçide Yapılan Acil İşlemler
@@ -188,6 +214,22 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
               </li>
             ))}
           </ul>
+
+          {extra && (
+            <>
+              <h3 className="mt-10 text-xl font-extrabold text-slate-900">
+                {district.name}&apos;te Diş Ağrısı Hakkında Sık Sorulanlar
+              </h3>
+              <div className="mt-4 space-y-4">
+                {extra.localFaqs.map((f) => (
+                  <div key={f.question} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+                    <p className="font-bold text-slate-900">{f.question}</p>
+                    <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
 
           <div className="mt-10 rounded-3xl bg-brand-50 p-6 text-center">
             <p className="text-lg font-extrabold text-slate-900">
@@ -238,23 +280,30 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
 /* ---------------- Service ---------------- */
 
 function ServicePage({ service }: { service: (typeof services)[number] }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    name: service.name,
-    description: service.intro,
-    provider: {
-      "@type": "Dentist",
-      name: SITE.name,
-      telephone: CONTACT.phoneDisplay,
-    },
-  };
+  const schema = serviceSchema(service);
+  const crumbs = breadcrumbSchema([
+    { name: "Anasayfa", url: "/" },
+    { name: service.name, url: `/${service.slug}/` },
+  ]);
+  const faqData = faqs.map((f) => ({
+    question: f.question,
+    answer: f.answer,
+  }));
+  const faq = faqSchema(faqData);
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }}
       />
 
       {/* Hero */}

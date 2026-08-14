@@ -5,7 +5,9 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import MobileBar from "@/components/MobileBar";
 import FloatingButtons from "@/components/FloatingButtons";
+import Analytics from "@/components/Analytics";
 import { SITE } from "@/lib/site";
+import { SEO_IMAGE } from "@/lib/seo";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -43,12 +45,21 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     locale: "tr_TR",
     type: "website",
+    images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: "Acil Diş Hastanesi İstanbul" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Acil Diş Hastanesi İstanbul | 7/24 Nöbetçi Dişçi",
+    description: "İstanbul'da 7/24 açık acil diş hastanesi. Hemen arayın: 0533 582 82 79.",
+    images: [SEO_IMAGE],
   },
   robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {
   themeColor: "#0284c7",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -64,6 +75,7 @@ export default function RootLayout({
         <Footer />
         <FloatingButtons />
         <MobileBar />
+        <Analytics />
       </body>
     </html>
   );

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
 import { districts } from "@/lib/districts";
 import { services } from "@/lib/services";
+import { posts } from "@/lib/posts";
 
 export const dynamic = "force-static";
 
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${SITE.domain}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${SITE.domain}/semtler/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE.domain}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.domain}/sss/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.domain}/iletisim/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
   ];
@@ -29,5 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...districtPages, ...servicePages];
+  const blogPages: MetadataRoute.Sitemap = posts.map((x) => ({
+    url: `${SITE.domain}/blog/${x.slug}/`,
+    lastModified: new Date(x.date),
+    changeFrequency: "monthly",
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...districtPages, ...servicePages, ...blogPages];
 }
