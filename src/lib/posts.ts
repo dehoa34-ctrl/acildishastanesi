@@ -612,6 +612,144 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "dis-implanti-kimler-icin-uygundur",
+    title: "Diş İmplantı Kimler İçin Uygundur?",
+    description:
+      "Diş implantı kimlere uygulanır, kimlere uygulanmaz? İmplant için uygunluk kriterleri, kemik yapısı ve genel sağlık değerlendirmesi.",
+    category: "İmplant",
+    date: "2026-04-13",
+    readMinutes: 6,
+    body: [
+      {
+        h2: "İmplant için temel uygunluk kriterleri",
+        paragraphs: [
+          "Diş implantı, eksik dişlerin tamamlanmasında en sık tercih edilen tedavi yöntemlerinden biridir. İmplant uygulaması için hastanın genel sağlığının iyi olması ve çene kemiğinde yeterli hacim bulunması gerekir.",
+          "Diş eti hastalığı kontrol altına alınmış, ağız hijyeni düzenli olan bireyler implant için ideal adaylardır. Ayrıca çene gelişimini tamamlamış olmak önemlidir.",
+        ],
+      },
+      {
+        h2: "Kimlere implant önerilmez?",
+        paragraphs: [
+          "Kontrol altına alınmamış diyabet, ciddi kalp rahatsızlıkları, kanama bozuklukları ve yoğun sigara kullanımı implant başarısını olumsuz etkileyebilir. Bu durumlarda hekim değerlendirmesi ile alternatif tedaviler planlanır.",
+          "Kemik erimesi yaşayan ileri yaş hastaları için öncesinde kemik grefti gerekebilir. Uygunluk ancak muayene ve röntgen sonrası netleşir.",
+        ],
+      },
+      {
+        h2: "İmplant öncesi neler yapılmalı?",
+        paragraphs: [
+          "İmplant öncesi detaylı ağız muayenesi, panoramik röntgen ve gerekiyorsa 3D tomografi çekilir. Diş eti sağlığı değerlendirilir ve gerekli ön tedaviler planlanır.",
+          "Kliniğimizde implant uygunluğunuz için ücretsiz muayene yapılır; size özel tedavi planı ve fiyat bilgisi sunulur.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-implant-fiyatlari/", label: "İmplant Diş Fiyatları" },
+      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Acil Diş" },
+    ],
+    faq: [
+      {
+        question: "Herkese implant yapılabilir mi?",
+        answer: "Hayır. Yeterli kemik hacmi ve genel sağlık uygunluğu gerekir; muayene sonrası netleşir.",
+      },
+      {
+        question: "İmplant öncesi röntgen şart mı?",
+        answer: "Evet. Panoramik röntgen ve gerektiğinde 3D tomografi ile planlama yapılır.",
+      },
+    ],
+  },
+  {
+    slug: "dis-beyazlatma-islemi-kalici-midir",
+    title: "Diş Beyazlatma İşlemi Kalıcı mıdır?",
+    description:
+      "Diş beyazlatma ne kadar kalıcıdır? Beyazlatma sonrası nelere dikkat edilmeli, sonuçlar nasıl korunur? Detaylı rehber.",
+    category: "Estetik Diş",
+    date: "2026-04-13",
+    readMinutes: 5,
+    body: [
+      {
+        h2: "Diş beyazlatma kalıcı mıdır?",
+        paragraphs: [
+          "Diş beyazlatma işlemi kalıcı değildir ancak doğru bakımla uzun süre etkisini korur. Beyazlatma sonrası dişlerin rengi, yeme-içme alışkanlıklarına bağlı olarak zamanla koyulaşabilir.",
+          "Ofis tipi beyazlatma genellikle 6 ay ile 2 yıl arasında etkisini sürdürür. Bu süre kişinin beslenme alışkanlıklarına ve ağız bakımına göre değişir.",
+        ],
+      },
+      {
+        h2: "Beyazlatma sonrası nelere dikkat edilmeli?",
+        paragraphs: [
+          "Beyazlatma sonrası ilk 48 saat boyunca kahve, çay, kırmızı şarap, sigara ve renklendirici gıdalardan kaçınılmalıdır. Düzenli fırçalama ve diş ipi kullanımı sonucu korur.",
+          "Yılda bir kez yapılan bakım beyazlatmaları ile gülüşünüz uzun süre parlak kalabilir.",
+        ],
+      },
+      {
+        h2: "En etkili beyazlatma yöntemi hangisi?",
+        paragraphs: [
+          "Ofis tipi lazer beyazlatma, tek seansta en belirgin sonucu verir. Ev tipi şeffaf plaklı beyazlatma ise kademeli ve daha ekonomik bir alternatiftir.",
+          "Kombinasyon tedavisi (ofis + ev tipi) en kalıcı sonucu sağlar. Kliniğimizde size en uygun yöntem hekim tarafından belirlenir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-beyazlatma/", label: "Diş Beyazlatma" },
+      { href: "/gulus-tasarimi/", label: "Gülüş Tasarımı" },
+    ],
+    faq: [
+      {
+        question: "Diş beyazlatma dişlere zarar verir mi?",
+        answer: "Uzman hekim kontrolünde yapıldığında diş minesine zarar vermez.",
+      },
+      {
+        question: "Beyazlatma ne kadar sürede belli olur?",
+        answer: "Ofis tipi beyazlatmada sonuç tek seansta görülür.",
+      },
+    ],
+  },
+  {
+    slug: "implant-maliyeti-ne-kadar",
+    title: "Diş İmplantlarının Maliyeti Ne Kadardır?",
+    description:
+      "Diş implantı fiyatlarını belirleyen faktörler, marka karşılaştırması ve 2026 yılı güncel implant maliyetleri.",
+    category: "Fiyatlar",
+    date: "2026-04-13",
+    readMinutes: 6,
+    body: [
+      {
+        h2: "İmplant maliyetini ne belirler?",
+        paragraphs: [
+          "Diş implantlarının maliyeti; kullanılan marka, implant sayısı, çene kemiği durumu, ek cerrahi işlemler ve üst yapı malzemesine göre değişir. Tek dişten tam çene implantlara kadar fiyat farklıdır.",
+          "Kemik grefti, sinus lifting gibi ön işlemler maliyeti artırabilir ancak başarılı sonuç için gereklidir.",
+        ],
+      },
+      {
+        h2: "Marka bazlı fiyat aralıkları",
+        paragraphs: [
+          "Alman, Kore, İsviçre menşeli ve Straumann implantlar en yaygın seçeneklerdir. Kore malı implantlar ekonomik, İsviçre ve Straumann üst segment kalite sunar.",
+          "Net fiyat ancak muayene sonrası belirlenir. Kliniğimizde ücretsiz muayene ile size özel fiyat teklifi alabilirsiniz.",
+        ],
+      },
+      {
+        h2: "Ucuz implant riskli mi?",
+        paragraphs: [
+          "İmplant seçiminde yalnızca fiyata odaklanmak hata olabilir. Sertifikalı markalar ve deneyimli hekim tercih edilmelidir. Kaliteli implant doğru bakımla 25-35 yıl kullanılabilir.",
+          "Bu yüzden fiyat, malzeme kalitesi ve hekim deneyimi birlikte değerlendirilmelidir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-implant-fiyatlari/", label: "Güncel İmplant Fiyatları" },
+      { href: "/online-randevu/", label: "Online Randevu" },
+    ],
+    faq: [
+      {
+        question: "İmplant maliyeti 2026'da ne kadar?",
+        answer: "Marka ve işleme göre 3.000-12.000 TL arasında değişir; muayene ile netleşir.",
+      },
+      {
+        question: "İmplant taksitle yapılabilir mi?",
+        answer: "Evet, peşin ve taksit seçenekleri mevcuttur.",
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string) {

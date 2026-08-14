@@ -338,20 +338,29 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
       {/* Price table */}
       <section className="bg-white py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
-            <div className="border-b border-slate-200 bg-slate-50 px-6 py-4">
-              <h2 className="text-lg font-extrabold text-slate-900">2026 Güncel Fiyat Listesi</h2>
-              <p className="mt-0.5 text-xs text-slate-500">{service.priceNote}</p>
+          {service.priceRows && service.priceRows.length > 0 ? (
+            <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+              <div className="border-b border-slate-200 bg-slate-50 px-6 py-4">
+                <h2 className="text-lg font-extrabold text-slate-900">2026 Güncel Fiyat Listesi</h2>
+                <p className="mt-0.5 text-xs text-slate-500">{service.priceNote}</p>
+              </div>
+              <ul className="divide-y divide-slate-100">
+                {service.priceRows.map((row) => (
+                  <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
+                    <span className="font-semibold text-slate-700">{row.name}</span>
+                    <span className="shrink-0 font-extrabold text-brand-700">{row.price}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="divide-y divide-slate-100">
-              {service.priceRows.map((row) => (
-                <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
-                  <span className="font-semibold text-slate-700">{row.name}</span>
-                  <span className="shrink-0 font-extrabold text-brand-700">{row.price}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+          ) : (
+            <div className="rounded-3xl border border-brand-200 bg-brand-50 p-6 text-center">
+              <h2 className="text-lg font-extrabold text-slate-900">{service.name} Hakkında</h2>
+              <p className="mt-1 text-sm text-slate-600">
+                Kişiye özel tedavi planlaması için ücretsiz muayene olun.
+              </p>
+            </div>
+          )}
 
           <div className="mt-8 rounded-3xl bg-brand-50 p-6 text-center">
             <p className="text-lg font-extrabold text-slate-900">

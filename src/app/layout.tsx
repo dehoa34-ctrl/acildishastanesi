@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import TopStrip from "@/components/TopStrip";
 import Footer from "@/components/Footer";
 import MobileBar from "@/components/MobileBar";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -70,6 +71,7 @@ export default function RootLayout({
   return (
     <html lang="tr" className={`${inter.variable} ${jakarta.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col pb-16 font-sans sm:pb-0">
+        <TopStrip />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

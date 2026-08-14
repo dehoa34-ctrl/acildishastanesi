@@ -19,19 +19,28 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-brand-100">
-        <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:py-24 lg:px-8">
-          <div>
+      {/* Hero Banner (1920x600) */}
+      <section className="relative overflow-hidden">
+        <Image
+          src="/images/banner-hero.webp"
+          alt="7/24 açık acil diş hastanesi İstanbul - nöbetçi diş hekimi"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-950/85 via-brand-900/60 to-transparent" />
+        <div className="relative mx-auto flex max-w-7xl min-h-[420px] items-center px-4 py-16 sm:px-6 md:min-h-[520px] lg:min-h-[600px] lg:px-8">
+          <div className="max-w-2xl">
             <div className="mb-5 flex flex-wrap gap-2">
               <Badge icon={<ClockIcon />} text="7/24 Açık" />
               <Badge icon={<MoonIcon />} text="Gece Nöbetçi" />
               <Badge icon={<CalendarIcon />} text="Pazar & Bayram Açık" />
             </div>
-            <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-[3.4rem]">
-              İstanbul <span className="text-brand-600">Acil Diş Hastanesi</span>
+            <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[3.4rem]">
+              İstanbul <span className="text-brand-300">Acil Diş Hastanesi</span>
             </h1>
-            <p className="mt-4 max-w-xl text-lg leading-8 text-slate-600">
+            <p className="mt-4 max-w-xl text-lg leading-8 text-brand-50/90">
               Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
               Nöbetçi diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
             </p>
@@ -46,37 +55,14 @@ export default function HomePage() {
                 href={CONTACT.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-emerald-500 px-8 py-4 text-lg font-bold text-emerald-600 transition-colors hover:bg-emerald-50"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-emerald-600"
               >
                 <WhatsAppIcon /> WhatsApp
               </a>
             </div>
-            <div className="mt-6 flex items-center gap-2 text-sm text-slate-500">
+            <div className="mt-6 flex items-center gap-2 text-sm text-brand-100">
               <CheckIcon />
               Randevusuz acil kabul • Cumartesi, pazar ve resmî tatillerde açık
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl shadow-brand-900/10">
-              <Image
-                src="/images/hero-klinik.webp"
-                alt="7/24 açık modern diş kliniği, İstanbul nöbetçi dişçi"
-                width={800}
-                height={600}
-                priority
-                className="aspect-[4/3] w-full rounded-2xl object-cover"
-              />
-              <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between rounded-2xl bg-white/90 px-5 py-4 shadow-lg backdrop-blur">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wide text-brand-600">Nöbetçi Diş Hekimi</p>
-                  <p className="text-lg font-extrabold text-slate-900">{CONTACT.phoneDisplay}</p>
-                </div>
-                <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-emerald-500" />
-                </span>
-              </div>
             </div>
           </div>
         </div>
@@ -106,7 +92,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {services.map((s) => (
+            {services.slice(0, 6).map((s) => (
               <Link
                 key={s.slug}
                 href={`/${s.slug}`}
@@ -123,6 +109,20 @@ export default function HomePage() {
                 </span>
               </Link>
             ))}
+
+            <Link
+              href="/hizmetler"
+              className="group flex flex-col justify-center rounded-3xl border-2 border-dashed border-brand-300 bg-brand-50/50 p-7 text-center transition-colors hover:bg-brand-50"
+            >
+              <h3 className="text-xl font-extrabold text-brand-700">Tüm Tedaviler</h3>
+              <p className="mt-2 text-sm text-slate-600">
+                İmplant, ortodonti, estetik, çocuk diş ve daha fazlası — 30&apos;un üzerinde tedavi.
+              </p>
+              <span className="mt-4 inline-flex items-center justify-center gap-1.5 text-sm font-bold text-brand-600">
+                Tümünü gör
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </span>
+            </Link>
 
             <Link
               href="/iletisim"
@@ -228,7 +228,7 @@ export default function HomePage() {
 
 function Badge({ icon, text }: { icon: React.ReactNode; text: string }) {
   return (
-    <span className="inline-flex items-center gap-1.5 rounded-full border border-brand-200 bg-white px-3 py-1.5 text-xs font-bold text-brand-700 shadow-sm">
+    <span className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/15 px-3 py-1.5 text-xs font-bold text-white backdrop-blur">
       {icon} {text}
     </span>
   );

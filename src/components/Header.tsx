@@ -32,8 +32,8 @@ export default function Header() {
               </svg>
             </button>
             <div className="invisible absolute left-0 top-full pt-2 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
-              <div className="w-72 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
-                {services.map((s) => (
+              <div className="w-80 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
+                {services.slice(0, 8).map((s) => (
                   <Link
                     key={s.slug}
                     href={`/${s.slug}`}
@@ -42,20 +42,54 @@ export default function Header() {
                     {s.name}
                   </Link>
                 ))}
+                <Link
+                  href="/hizmetler"
+                  className="mt-1 block rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-bold text-white hover:bg-brand-700"
+                >
+                  Tüm Tedaviler →
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="group relative">
+            <button className="flex items-center gap-1 hover:text-brand-600">
+              Kurumsal
+              <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div className="invisible absolute left-0 top-full pt-2 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
+              <div className="w-64 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
+                {[
+                  { href: "/hakkimizda", label: "Hakkımızda" },
+                  { href: "/hekimlerimiz", label: "Hekimlerimiz" },
+                  { href: "/kliniklerimiz", label: "Kliniklerimiz" },
+                  { href: "/before-after", label: "Before / After" },
+                  { href: "/saglik-turizmi", label: "Sağlık Turizmi" },
+                  { href: "/anlasmali-kurumlar", label: "Anlaşmalı Kurumlar" },
+                ].map((m) => (
+                  <Link
+                    key={m.href}
+                    href={m.href}
+                    className="block rounded-xl px-4 py-2.5 text-sm font-medium text-slate-700 hover:bg-brand-50 hover:text-brand-700"
+                  >
+                    {m.label}
+                  </Link>
+                ))}
               </div>
             </div>
           </div>
           <Link href="/semtler" className="hover:text-brand-600">
             Nöbetçi Dişçiler
           </Link>
+          <Link href="/online-randevu" className="hover:text-brand-600">
+            Randevu
+          </Link>
           <Link href="/blog" className="hover:text-brand-600">
             Blog
           </Link>
-          <Link href="/sss" className="hover:text-brand-600">
-            SSS
-          </Link>
-          <Link href="/iletisim" className="hover:text-brand-600">
-            İletişim
+          <Link href="/site-haritasi" className="hover:text-brand-600">
+            Site Haritası
           </Link>
         </nav>
 

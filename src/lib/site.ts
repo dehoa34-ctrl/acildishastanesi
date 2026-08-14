@@ -9,8 +9,11 @@ export const SITE = {
   openingHours: "7 gün 24 saat",
 };
 
+// NOT: Gerçek telefon numaran geldiğinde yukarıdaki 3 alanı güncelle.
+// Şu an placeholder olarak 1234 kullanılıyor (kullanıcı numarayı henüz vermedi).
 export const CONTACT = {
-  phoneDisplay: SITE.phoneDisplay,
-  phoneHref: SITE.phoneHref,
-  whatsappHref: SITE.whatsappHref,
+  phoneDisplay: "1234",
+  phoneHref: "tel:1234",
+  whatsappHref: "https://wa.me/1234?text=Merhaba",
+  email: "info@acildishastanesi.org",
 };
