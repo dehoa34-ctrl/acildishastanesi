@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { services, serviceCategories } from "@/lib/services";
 import { districts } from "@/lib/districts";
-import { clinics } from "@/lib/clinics";
 import { posts } from "@/lib/posts";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
@@ -42,15 +41,8 @@ export default function SiteHaritasiPage() {
 
             <Group title="Kurumsal">
               <Row href="/hakkimizda/" label="Hakkımızda" />
-              <Row href="/kliniklerimiz/" label="Kliniklerimiz" />
               <Row href="/saglik-turizmi/" label="Sağlık Turizmi" />
               <Row href="/anlasmali-kurumlar/" label="Anlaşmalı Kurumlar" />
-            </Group>
-
-            <Group title="Klinikler">
-              {clinics.map((c) => (
-                <Row key={c.slug} href={`/kliniklerimiz/${c.slug}/`} label={c.name} />
-              ))}
             </Group>
 
             <div className="space-y-10">

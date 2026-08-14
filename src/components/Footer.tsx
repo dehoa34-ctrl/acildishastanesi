@@ -2,7 +2,6 @@ import Link from "next/link";
 import { CONTACT, SITE } from "@/lib/site";
 import { services } from "@/lib/services";
 import { districts } from "@/lib/districts";
-import { clinics } from "@/lib/clinics";
 import { ToothIcon } from "@/components/Header";
 
 const socials = [
@@ -95,7 +94,6 @@ export default function Footer() {
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">Kurumsal</h3>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li><Link href="/hakkimizda" className="hover:text-white">Hakkımızda</Link></li>
-              <li><Link href="/kliniklerimiz" className="hover:text-white">Kliniklerimiz</Link></li>
               <li><Link href="/saglik-turizmi" className="hover:text-white">Sağlık Turizmi</Link></li>
               <li><Link href="/online-randevu" className="hover:text-white">Online Randevu</Link></li>
               <li><Link href="/anlasmali-kurumlar" className="hover:text-white">Anlaşmalı Kurumlar</Link></li>
@@ -104,18 +102,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold uppercase tracking-wider text-white">Şubelerimiz</h3>
-            <ul className="mt-4 space-y-2.5 text-sm">
-              {clinics.slice(0, 7).map((c) => (
-                <li key={c.slug}>
-                  <Link href={`/kliniklerimiz/${c.slug}`} className="hover:text-white">
-                    {c.name.replace("AvrupaDİŞ ", "")}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            <h3 className="mt-6 text-sm font-bold uppercase tracking-wider text-white">Nöbetçi Dişçiler</h3>
-            <ul className="mt-3 grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
+            <h3 className="text-sm font-bold uppercase tracking-wider text-white">Nöbetçi Dişçiler</h3>
+            <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
               {anadolu.map((x) => (
                 <li key={x.slug}>
                   <Link href={`/${x.slug}`} className="hover:text-white">{x.name}</Link>

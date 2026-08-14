@@ -62,7 +62,6 @@ export default function Header() {
               <div className="w-64 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
                 {[
                   { href: "/hakkimizda", label: "Hakkımızda" },
-                  { href: "/kliniklerimiz", label: "Kliniklerimiz" },
                   { href: "/saglik-turizmi", label: "Sağlık Turizmi" },
                   { href: "/anlasmali-kurumlar", label: "Anlaşmalı Kurumlar" },
                 ].map((m) => (

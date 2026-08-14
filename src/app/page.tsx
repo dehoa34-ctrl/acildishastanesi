@@ -178,10 +178,10 @@ export default function HomePage() {
                   <span className="transition-transform group-hover:translate-x-1">→</span>
                 </Link>
                 <Link
-                  href="/kliniklerimiz"
+                  href="/iletisim"
                   className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-brand-600 px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
                 >
-                  Kliniklerimizi Görün
+                  Bize Ulaşın
                 </Link>
               </div>
             </div>

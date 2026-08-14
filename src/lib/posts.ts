@@ -1132,7 +1132,6 @@ export const posts: BlogPost[] = [
     ],
     relatedLinks: [
       { href: "/hizmetler/", label: "Tüm Tedaviler" },
-      { href: "/kliniklerimiz/", label: "Kliniklerimiz" },
       { href: "/online-randevu/", label: "Online Randevu" },
     ],
     faq: [
