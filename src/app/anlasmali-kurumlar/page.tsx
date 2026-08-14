@@ -23,7 +23,7 @@ export default function AnlasmaliKurumlarPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Kurumsal"
         title="Anlaşmalı Kurumlar"
         subtitle="Kurum ve sigorta anlaşmalarımız hakkında bilgi alın."

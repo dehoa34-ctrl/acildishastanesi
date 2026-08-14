@@ -34,7 +34,7 @@ export default function HizmetlerPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-smile-hero.webp"
+        image="/images/servis/emax-hero.webp"
         kicker="Tedavilerimiz"
         title="Tüm Diş Tedavileri"
         subtitle="Acil müdahaleden estetik gülüş tasarımına, implanttan ortodontiye kadar tüm diş tedavilerinde 7/24 yanınızdayız."

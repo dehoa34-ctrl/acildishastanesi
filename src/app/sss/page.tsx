@@ -30,7 +30,7 @@ export default function SssPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         kicker="Sık Sorulan Sorular"
         title="Sık Sorulan Sorular"
         subtitle="Acil diş hastanesi ve nöbetçi dişçi hizmetlerimiz hakkında merak ettikleriniz."

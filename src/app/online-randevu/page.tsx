@@ -15,7 +15,7 @@ export default function OnlineRandevuPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         kicker="Randevu"
         title="Online Randevu"
         subtitle="Gece, hafta sonu ve bayram fark etmez. İstediğiniz saatte randevunuzu alın."

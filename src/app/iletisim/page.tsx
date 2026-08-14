@@ -27,7 +27,7 @@ export default function IletisimPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="İletişim"
         title="İletişim"
         subtitle="7/24 açık acil diş hastanesi. Gece, hafta sonu ve bayram fark etmeksizin arayın."

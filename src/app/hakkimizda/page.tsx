@@ -16,7 +16,7 @@ export default function HakkimizdaPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Kurumsal"
         title="Hakkımızda"
         subtitle="Bir kliniğin ötesinde; Türkiye'nin en kapsamlı diş sağlığı ağı."

@@ -7,15 +7,15 @@ import PageHero from "@/components/PageHero";
 
 function postImage(category: string): string {
   const map: Record<string, string> = {
-    "Acil Diş": "/images/ph-uniite-card.webp",
-    "Ağız Sağlığı": "/images/ph-smile-card.webp",
-    "İmplant": "/images/ph-implant-card.webp",
-    "Fiyatlar": "/images/ph-laboratuvar-card.webp",
-    "Estetik Diş": "/images/ph-smile-card.webp",
-    "Tedaviler": "/images/ph-uniite-card.webp",
-    "Çocuk Diş": "/images/ph-cocuk-card.webp",
+    "Acil Diş": "/images/servis/cekim-card.webp",
+    "Ağız Sağlığı": "/images/servis/emax-card.webp",
+    "İmplant": "/images/servis/implant-card.webp",
+    "Fiyatlar": "/images/servis/protetik-card.webp",
+    "Estetik Diş": "/images/servis/emax-card.webp",
+    "Tedaviler": "/images/servis/kanal-card.webp",
+    "Çocuk Diş": "/images/servis/pedodonti-card.webp",
   };
-  return map[category] || "/images/ph-uniite-card.webp";
+  return map[category] || "/images/servis/cekim-card.webp";
 }
 
 export const metadata: Metadata = {
@@ -31,7 +31,7 @@ export default function BlogPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         kicker="Diş Sağlığı Rehberi"
         title="Blog & Bilgilendirme"
         subtitle="Diş sağlığı hakkında merak ettikleriniz, acil diş rehberleri ve tedavi bilgileri."

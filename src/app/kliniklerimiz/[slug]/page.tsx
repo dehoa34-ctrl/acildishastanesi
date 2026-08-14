@@ -55,7 +55,7 @@ export default async function ClinicPage({ params }: { params: Promise<{ slug: s
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Kliniklerimiz"
         title={clinic.name}
         subtitle={clinic.description}

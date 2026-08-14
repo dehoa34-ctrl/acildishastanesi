@@ -16,7 +16,7 @@ export default function HekimlerimizPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         kicker="Kurumsal"
         title="Hekimlerimiz"
         subtitle="Alanında uzman 120+ diş hekimi ile en iyi hizmeti sunuyoruz."

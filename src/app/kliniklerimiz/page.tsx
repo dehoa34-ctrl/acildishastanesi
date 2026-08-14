@@ -19,7 +19,7 @@ export default function KliniklerimizPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Kurumsal"
         title="Kliniklerimiz"
         subtitle="Türkiye genelinde 12 ağız ve diş sağlığı merkezi. Size en yakın şubeden randevu alın."

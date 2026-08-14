@@ -21,7 +21,7 @@ export default function SiteHaritasiPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         kicker="Site Haritası"
         title="Tüm Sayfalar"
         subtitle="Sitemizdeki tüm sayfalara buradan ulaşabilirsiniz."

@@ -20,7 +20,7 @@ export default function SemtlerPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Nöbetçi Dişçi Rehberi"
         title="İstanbul Nöbetçi Dişçiler"
         subtitle="İlçe veya semt adını yazın, 7/24 açık acil diş hastanesi sayfasına hemen ulaşın."

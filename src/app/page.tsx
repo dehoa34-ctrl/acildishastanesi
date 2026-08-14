@@ -46,7 +46,8 @@ export default function HomePage() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-950/85 via-brand-900/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-950/60 via-brand-900/35 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-brand-950/55 to-transparent" />
         <div className="relative mx-auto flex max-w-7xl min-h-[420px] items-center px-4 py-16 sm:px-6 md:min-h-[520px] lg:min-h-[600px] lg:px-8">
           <div className="max-w-2xl">
             <div className="mb-5 flex flex-wrap gap-2">

@@ -117,11 +117,11 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
 
       {/* Hero */}
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         title={`${district.name} Acil Diş Hastanesi`}
         subtitle={district.intro}
       >
-        <nav className="text-sm text-brand-200">
+        <nav className="text-sm text-white/90">
           <Link href="/" className="hover:text-white">Anasayfa</Link>
           <span className="mx-2">/</span>
           <span>{district.name} Acil Diş Hastanesi</span>
@@ -137,7 +137,7 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
             Pazar & Bayram Açık
           </span>
         </div>
-        <p className="mt-4 text-lg font-semibold text-brand-200">
+        <p className="mt-4 text-lg font-semibold text-white/90">
           Nöbetçi Diş Hekimi Telefonu: {CONTACT.phoneDisplay}
         </p>
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
@@ -266,16 +266,16 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
 
 function serviceImage(service: (typeof services)[number]): string {
   const map: Record<string, string> = {
-    implant: "/images/ph-implant-hero.webp",
-    estetik: "/images/ph-smile-hero.webp",
-    kaplama: "/images/ph-smile-hero.webp",
-    ortodonti: "/images/ph-ortodonti-hero.webp",
-    cocuk: "/images/ph-cocuk-hero.webp",
-    cerrahi: "/images/ph-implant-hero.webp",
-    dolgu: "/images/ph-dolgu-hero.webp",
-    acil: "/images/ph-uniite-hero.webp",
+    implant: "/images/servis/implant-hero.webp",
+    estetik: "/images/servis/emax-hero.webp",
+    kaplama: "/images/servis/emax-hero.webp",
+    ortodonti: "/images/servis/ortodonti-hero.webp",
+    cocuk: "/images/servis/pedodonti-hero.webp",
+    cerrahi: "/images/servis/implant-hero.webp",
+    dolgu: "/images/servis/kanal-hero.webp",
+    acil: "/images/servis/kanal-hero.webp",
   };
-  return map[service.category] || "/images/ph-uniite-hero.webp";
+  return map[service.category] || "/images/servis/kanal-hero.webp";
 }
 
 function ServicePage({ service }: { service: (typeof services)[number] }) {
@@ -314,7 +314,7 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
         title={service.name}
         subtitle={service.intro}
       >
-        <nav className="text-sm text-brand-200">
+        <nav className="text-sm text-white/90">
           <Link href="/" className="hover:text-white">Anasayfa</Link>
           <span className="mx-2">/</span>
           <Link href="/hizmetler" className="hover:text-white">Hizmetler</Link>

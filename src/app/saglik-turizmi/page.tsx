@@ -15,7 +15,7 @@ export default function SaglikTurizmiPage() {
   return (
     <>
       <PageHero
-        image="/images/ph-reception-hero.webp"
+        image="/images/servis/implant-hero.webp"
         kicker="Kurumsal"
         title="Sağlık Turizmi"
         subtitle="Yurt dışından gelen hastalarımız için transfer, konaklama ve tedaviyi tek pakette planlıyoruz."

@@ -71,11 +71,11 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
       {/* Header */}
       <PageHero
-        image="/images/ph-uniite-hero.webp"
+        image="/images/servis/kanal-hero.webp"
         title={post.title}
         subtitle={`${post.readMinutes} dk okuma süresi`}
       >
-        <nav className="text-sm text-brand-200">
+        <nav className="text-sm text-white/90">
           <Link href="/" className="hover:text-white">Anasayfa</Link>
           <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-white">Blog</Link>
