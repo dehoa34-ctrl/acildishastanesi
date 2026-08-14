@@ -7,7 +7,6 @@ import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 import ServiceSlider from "@/components/ServiceSlider";
-import ClinicGrid from "@/components/ClinicGrid";
 import { dentistSchema } from "@/lib/seo";
 
 export default function HomePage() {
@@ -130,20 +129,62 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Diş Sağlığı Merkezleri (3x3) */}
+      {/* Hakkımızda */}
       <section className="bg-slate-50 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-bold uppercase tracking-wider text-brand-600">Şubelerimiz</p>
-            <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Diş Sağlığı Merkezlerimiz
-            </h2>
-            <p className="mt-3 text-lg text-slate-600">
-              Size en yakın merkezi seçin, konumu haritada görün.
-            </p>
-          </div>
-          <div className="mt-12">
-            <ClinicGrid />
+          <div className="grid items-center gap-12 lg:grid-cols-2">
+            <div className="relative overflow-hidden rounded-3xl shadow-xl">
+              <Image
+                src="/images/servis/implant-hero.webp"
+                alt="Acil Diş Hastanesi - modern diş kliniği"
+                width={1600}
+                height={900}
+                className="aspect-[16/10] w-full object-cover"
+              />
+              <div className="absolute bottom-5 left-5 rounded-2xl bg-white/95 px-6 py-4 shadow-lg backdrop-blur">
+                <p className="text-2xl font-extrabold text-brand-700">25+</p>
+                <p className="text-xs font-semibold text-slate-600">Yıllık Deneyim</p>
+              </div>
+            </div>
+
+            <div>
+              <p className="text-sm font-bold uppercase tracking-wider text-brand-600">Hakkımızda</p>
+              <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+                Bir Kliniğin Ötesinde, Diş Sağlığında Güvenin Adı
+              </h2>
+              <p className="mt-5 leading-8 text-slate-600">
+                Acil Diş Hastanesi; 7 ağız ve diş sağlığı polikliniği, 5 ağız ve diş sağlığı merkezi ve 1
+                laboratuvar olmak üzere toplamda 12 sağlık kuruluşundan oluşan geniş bir diş sağlığı ağıdır.
+                Toplam 150 ünitede 370 kişilik uzman medikal kadromuzla hizmet vermekteyiz.
+              </p>
+              <p className="mt-4 leading-8 text-slate-600">
+                25 yılı aşkın deneyimimiz, 850.000&apos;den fazla başarılı tedavi ve ISO 9001 belgeli dijital
+                teknoloji altyapımızla İstanbul&apos;da en güvenilir diş sağlığı merkezlerinden biri olarak
+                kendimizi kanıtladık.
+              </p>
+
+              <div className="mt-8 grid grid-cols-3 gap-4">
+                <MiniStat value="25+" label="Yıl Deneyim" />
+                <MiniStat value="120+" label="Uzman Hekim" />
+                <MiniStat value="250K+" label="Mutlu Hasta" />
+              </div>
+
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <Link
+                  href="/hakkimizda"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-7 py-3.5 font-bold text-white hover:bg-brand-700"
+                >
+                  Daha Fazla Bilgi
+                  <span className="transition-transform group-hover:translate-x-1">→</span>
+                </Link>
+                <Link
+                  href="/hekimlerimiz"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-brand-600 px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
+                >
+                  Hekimlerimizi Keşfedin
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -247,6 +288,15 @@ function Stat({ value, label }: { value: string; label: string }) {
     <div>
       <p className="text-3xl font-extrabold text-brand-700 sm:text-4xl">{value}</p>
       <p className="mt-1 text-sm font-medium text-slate-500">{label}</p>
+    </div>
+  );
+}
+
+function MiniStat({ value, label }: { value: string; label: string }) {
+  return (
+    <div className="rounded-2xl border border-slate-200 bg-white p-4 text-center shadow-sm">
+      <p className="text-2xl font-extrabold text-brand-700">{value}</p>
+      <p className="mt-1 text-xs font-medium text-slate-500">{label}</p>
     </div>
   );
 }
