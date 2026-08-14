@@ -8,7 +8,7 @@ export default function NotFound() {
     <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden px-4 py-20 text-center">
       <Image
         src="/images/servis/cekim-hero.webp"
-        alt="Acil Diş Hastanesi - sayfa bulunamadı"
+        alt="İstanbul Ağız ve Diş Sağlığı Merkezi - sayfa bulunamadı"
         fill
         sizes="100vw"
         className="object-cover"

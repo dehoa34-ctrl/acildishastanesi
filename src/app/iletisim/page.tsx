@@ -6,7 +6,7 @@ import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 export const metadata: Metadata = {
   title: "İletişim",
   description:
-    "Acil Diş Hastanesi iletişim bilgileri. 7/24 nöbetçi diş hekimi için hemen arayın: 0533 582 82 79.",
+    "İstanbul Ağız ve Diş Sağlığı Merkezi iletişim bilgileri. 7/24 nöbetçi diş hekimi için hemen arayın: 0533 582 82 79.",
   alternates: { canonical: "/iletisim/" },
 };
 
@@ -14,7 +14,7 @@ export default function IletisimPage() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "Dentist",
-    name: "Acil Diş Hastanesi",
+    name: "İstanbul Ağız ve Diş Sağlığı Merkezi",
     telephone: CONTACT.phoneDisplay,
     openingHours: "Mo-Su 00:00-24:00",
     areaServed: "İstanbul",

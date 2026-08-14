@@ -39,11 +39,11 @@ export default function HomePage() {
               <Badge icon={<CalendarIcon />} text="Pazar & Bayram Açık" />
             </div>
             <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[3.4rem]">
-              İstanbul <span className="text-brand-300">Acil Diş Hastanesi</span>
+              İstanbul <span className="text-brand-300">Ağız ve Diş Sağlığı Merkezi</span>
             </h1>
             <p className="mt-4 max-w-xl text-lg leading-8 text-brand-50/90">
               Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
-              Nöbetçi diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
+              7/24 acil diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
@@ -136,7 +136,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden rounded-3xl shadow-xl">
               <Image
                 src="/images/servis/implant-hero.webp"
-                alt="Acil Diş Hastanesi - modern diş kliniği"
+                alt="İstanbul Ağız ve Diş Sağlığı Merkezi - modern diş kliniği"
                 width={1600}
                 height={900}
                 className="aspect-[16/10] w-full object-cover"
@@ -153,7 +153,7 @@ export default function HomePage() {
                 Bir Kliniğin Ötesinde, Diş Sağlığında Güvenin Adı
               </h2>
               <p className="mt-5 leading-8 text-slate-600">
-                Acil Diş Hastanesi; 7 ağız ve diş sağlığı polikliniği, 5 ağız ve diş sağlığı merkezi ve 1
+                İstanbul Ağız ve Diş Sağlığı Merkezi; 7 ağız ve diş sağlığı polikliniği, 5 ağız ve diş sağlığı merkezi ve 1
                 laboratuvar olmak üzere toplamda 12 sağlık kuruluşundan oluşan geniş bir diş sağlığı ağıdır.
                 Toplam 150 ünitede 370 kişilik uzman medikal kadromuzla hizmet vermekteyiz.
               </p>
@@ -178,10 +178,10 @@ export default function HomePage() {
                   <span className="transition-transform group-hover:translate-x-1">→</span>
                 </Link>
                 <Link
-                  href="/hekimlerimiz"
+                  href="/kliniklerimiz"
                   className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-brand-600 px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
                 >
-                  Hekimlerimizi Keşfedin
+                  Kliniklerimizi Görün
                 </Link>
               </div>
             </div>

@@ -17,7 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.domain}/blog/`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE.domain}/site-haritasi/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.domain}/hakkimizda/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE.domain}/hekimlerimiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE.domain}/kliniklerimiz/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE.domain}/saglik-turizmi/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE.domain}/online-randevu/`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

@@ -23,12 +23,13 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: "Acil Diş Hastanesi İstanbul | 7/24 Nöbetçi Dişçi 0533 582 82 79",
-    template: "%s | Acil Diş Hastanesi İstanbul",
+    default: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş 0533 582 82 79",
+    template: "%s | İstanbul Ağız ve Diş Sağlığı Merkezi",
   },
   description:
-    "İstanbul 7/24 açık acil diş hastanesi. Gece, pazar ve bayramda nöbetçi diş hekimi. Acil kanal tedavisi, dolgu, çekim. Hemen arayın: 0533 582 82 79.",
+    "İstanbul 7/24 açık ağız ve diş sağlığı merkezi. Gece, pazar ve bayramda nöbetçi diş hekimi. Acil kanal tedavisi, dolgu, çekim, implant. Hemen arayın: 0533 582 82 79.",
   keywords: [
+    "istanbul ağız ve diş sağlığı merkezi",
     "acil diş",
     "acil diş hastanesi",
     "nöbetçi dişçi",
@@ -40,18 +41,18 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Acil Diş Hastanesi İstanbul | 7/24 Nöbetçi Dişçi",
-    description: "İstanbul'da 7/24 açık acil diş hastanesi. Gece, pazar ve bayramda nöbetçi diş hekimi.",
+    title: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş",
+    description: "İstanbul'da 7/24 açık ağız ve diş sağlığı merkezi. Gece, pazar ve bayramda nöbetçi diş hekimi.",
     url: SITE.domain,
     siteName: SITE.name,
     locale: "tr_TR",
     type: "website",
-    images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: "Acil Diş Hastanesi İstanbul" }],
+    images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: SITE.name }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Acil Diş Hastanesi İstanbul | 7/24 Nöbetçi Dişçi",
-    description: "İstanbul'da 7/24 açık acil diş hastanesi. Hemen arayın: 0533 582 82 79.",
+    title: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş",
+    description: "İstanbul'da 7/24 açık ağız ve diş sağlığı merkezi. Hemen arayın: 0533 582 82 79.",
     images: [SEO_IMAGE],
   },
   robots: { index: true, follow: true },

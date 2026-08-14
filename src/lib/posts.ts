@@ -47,7 +47,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Acil Diş Hastanesi" },
+      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 İstanbul Ağız ve Diş Sağlığı Merkezi" },
       { href: "/kadikoy-24-saat-acik-disci/", label: "Kadıköy Nöbetçi Dişçi" },
       { href: "/iletisim/", label: "İletişim" },
     ],
@@ -331,7 +331,7 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul Acil Diş Hastanesi" },
+      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul İstanbul Ağız ve Diş Sağlığı Merkezi" },
       { href: "/dis-implant-fiyatlari/", label: "İmplant Fiyatları" },
     ],
     faq: [
@@ -764,6 +764,422 @@ export const posts: BlogPost[] = [
         question: "İmplant taksitle yapılabilir mi?",
         answer: "Evet, peşin ve taksit seçenekleri mevcuttur.",
       },
+    ],
+  },
+  {
+    slug: "dis-minesi-nedir",
+    title: "Diş Minesi Nedir? Diş Minesi Aşınması Nasıl Önlenir?",
+    description:
+      "Vücudumuzun en sert tabakası olan diş minesi hakkında bilmeniz gerekenler, aşınma nedenleri ve doğal koruma yöntemleri.",
+    category: "Ağız Sağlığı",
+    date: "2026-06-20",
+    readMinutes: 5,
+    image: "/images/servis/beyazlatma-card.webp",
+    body: [
+      {
+        h2: "Diş minesi nedir?",
+        paragraphs: [
+          "Diş minesi, dişin dış yüzeyini kaplayan ve vücudumuzun en sert dokusu olan koruyucu tabakadır. Mineral bakımından zengin bu yapı, dişleri çürüklere ve aşınmalara karşı korur.",
+          "Mine, kendini yenileyemeyen tek dokudur. Bu yüzden mine kaybı geri döndürülemez ve korunması büyük önem taşır.",
+        ],
+      },
+      {
+        h2: "Diş minesi neden aşınır?",
+        paragraphs: [
+          "Asitli içecekler, şekerli gıdalar, sert diş fırçalama ve diş sıkma mine aşınmasına yol açan başlıca nedenlerdir. Aşırı asit, minenin mineral yapısını çözerek zayıflatır.",
+          "Mine aşınması ilerlediğinde diş hassasiyeti, sararma ve çürük riski artar. Erken fark edildiğinde önlenebilir.",
+        ],
+      },
+      {
+        h2: "Diş minesini koruma yöntemleri",
+        paragraphs: [
+          "Yumuşak kıllı diş fırçası kullanmak, asitli içecekleri azaltmak ve tükettikten sonra ağzı su ile çalkalamak minenizi korur. Florür içeren diş macunları minenin güçlenmesine yardımcı olur.",
+          "Düzenli diş hekimi kontrolleri ile mine sağlığınız takip edilir ve erken aşınma durumunda koruyucu tedaviler uygulanır.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-beyazlatma/", label: "Diş Beyazlatma" },
+      { href: "/dis-dolgusu/", label: "Diş Dolgusu" },
+      { href: "/istanbul-24-saat-acik-disci/", label: "İstanbul 7/24 Diş" },
+    ],
+    faq: [
+      { question: "Diş minesi kendini yeniler mi?", answer: "Hayır. Mine kendini yenileyemez; bu yüzden korunması önemlidir." },
+      { question: "Mine aşınması nasıl anlaşılır?", answer: "Soğuğa/sıcağa hassasiyet ve sararma başlıca belirtilerdir." },
+    ],
+  },
+  {
+    slug: "dis-ipi-kullanimi",
+    title: "Diş İpi Kullanımı: Doğru Teknikler ve Faydaları",
+    description:
+      "Diş ipi nasıl kullanılır? Doğru teknik, kullanım sıklığı, diş eti sağlığına katkıları ve sık yapılan hatalar.",
+    category: "Ağız Sağlığı",
+    date: "2026-06-18",
+    readMinutes: 5,
+    image: "/images/servis/periodont-card.webp",
+    body: [
+      {
+        h2: "Diş ipi neden önemlidir?",
+        paragraphs: [
+          "Diş fırçası, dişlerin sadece yüzeylerini temizler. Dişler arasındaki dar boşluklarda biriken plaklar diş ipi ile temizlenir; aksi halde çürük ve diş eti hastalıklarına yol açar.",
+          "Günde en az bir kez diş ipi kullanmak, diş eti sağlığını korumanın en etkili yollarından biridir.",
+        ],
+      },
+      {
+        h2: "Doğru diş ipi tekniği",
+        paragraphs: [
+          "Yaklaşık 40 cm diş ipi alın ve parmaklarınıza sarın. İpi dişler arasında nazikçe kaydırın, diş etine ulaştığında C şekli oluşturarak dişin yüzeyine sürtün. Her diş arası için temiz bir bölüm kullanın.",
+          "Diş etine sert bastırmamak önemlidir; nazik hareketler kanamayı ve hassasiyeti önler.",
+        ],
+      },
+      {
+        h2: "Sık yapılan hatalar",
+        paragraphs: [
+          "Diş ipini sert ve hızlı kullanmak, aynı bölümü tekrar kullanmak ve yeterli uzunlukta ip almamak en sık yapılan hatalardır. İp kullanımında diş eti kanaması olursa, düzenli kullanımla geçebilir.",
+          "Düzenli kullanımda kanama devam ediyorsa diş eti hastalığı belirtisi olabilir; diş hekiminize danışın.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/periodontoloji/", label: "Diş Eti Tedavisi" },
+      { href: "/dis-eti-kanamasi-nedenleri-ve-cozumleri", label: "Diş Eti Kanaması" },
+    ],
+    faq: [
+      { question: "Diş ipi günde kaç kez kullanılmalı?", answer: "Günde en az bir kez, tercihen akşam yatmadan önce." },
+      { question: "Diş ipi diş etine zarar verir mi?", answer: "Doğru teknikle kullanıldığında zarar vermez; aksine diş etini korur." },
+    ],
+  },
+  {
+    slug: "dis-sizlamasi-nasil-gecer",
+    title: "Diş Sızlaması Nasıl Geçer? Nedenleri ve Çözümleri",
+    description:
+      "Sıcak ve soğuk gıdalarda yaşanan diş hassasiyeti (sızlama) nedenleri, evde uygulanabilir çözümler ve klinik tedavi seçenekleri.",
+    category: "Ağız Sağlığı",
+    date: "2026-06-15",
+    readMinutes: 6,
+    image: "/images/servis/kanal-card.webp",
+    body: [
+      {
+        h2: "Diş sızlaması neden olur?",
+        paragraphs: [
+          "Diş sızlaması (hassasiyet); mine aşınması, diş eti çekilmesi, çürük veya diş gıcırdatma nedeniyle dişin iç tabakasının açığa çıkmasıyla oluşur. Sıcak, soğuk ve tatlı gıdalar bu hassasiyeti tetikler.",
+          "Diş sızlamasının altında yatan neden doğru teşhis edilmezse sorun ilerleyebilir.",
+        ],
+      },
+      {
+        h2: "Evde uygulanabilir çözümler",
+        paragraphs: [
+          "Hassasiyete özel diş macunları kullanmak, yumuşak fırça ile nazikçe fırçalamak ve asitli içeceklerden kaçınmak sızlamayı azaltabilir. Tuzlu su ile gargara da geçici rahatlama sağlar.",
+          "Bu yöntemler belirtiyi hafifletir ancak altta yatan nedeni ortadan kaldırmaz; diş hekimi muayenesi şarttır.",
+        ],
+      },
+      {
+        h2: "Klinik tedavi seçenekleri",
+        paragraphs: [
+          "Flor uygulaması, hassasiyet giderici ajanlar ve gerektiğinde dolgu ile dişin korunması başlıca tedavilerdir. Diş eti çekilmesi varsa özel tedavi uygulanır.",
+          "Sızlamanın nedeni çürükse dolgu; sinir iltihabıysa kanal tedavisi gerekebilir. Erken müdahale en iyi sonucu verir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-dolgusu/", label: "Diş Dolgusu" },
+      { href: "/kanal-tedavisi/", label: "Kanal Tedavisi" },
+    ],
+    faq: [
+      { question: "Diş sızlaması geçer mi?", answer: "Nedene bağlıdır; doğru tedaviyle büyük ölçüde giderilebilir." },
+      { question: "Diş sızlamasına ne iyi gelir?", answer: "Hassasiyet diş macunu ve flor uygulaması en etkili çözümlerdendir." },
+    ],
+  },
+  {
+    slug: "dis-apsesi-agrisina-ne-iyi-gelir",
+    title: "Diş Apsesi Ağrısına Ne İyi Gelir?",
+    description:
+      "Diş apsesi belirtileri, zonklayan ağrıyı hafifletmek için evde uygulanabilecek geçici yöntemler ve kalıcı klinik tedavi süreçleri.",
+    category: "Acil Diş",
+    date: "2026-06-12",
+    readMinutes: 6,
+    image: "/images/servis/cerrahi-card.webp",
+    body: [
+      {
+        h2: "Diş apsesi nedir ve belirtileri nelerdir?",
+        paragraphs: [
+          "Diş apsesi, dişin içinde veya diş eti bölgesinde biriken enfeksiyondur. Şiddetli ve sürekli ağrı, diş etinde şişlik, yüzde asimetri, ateş ve kötü tat apse belirtilerindendir.",
+          "Apse tedavi edilmezse enfeksiyon çevre dokulara yayılabilir; bu yüzden ciddiye alınmalıdır.",
+        ],
+      },
+      {
+        h2: "Evde geçici rahatlama yöntemleri",
+        paragraphs: [
+          "Ilık tuzlu su ile gargara yapmak, yüzün şiş olan bölgesine soğuk kompres uygulamak ve ağrı kesici kullanmak geçici rahatlama sağlar. Ancak bunlar apseyi tedavi etmez.",
+          "Apse mutlaka profesyonel müdahale gerektirir; antibiyotik ve drenaj hekim tarafından uygulanmalıdır.",
+        ],
+      },
+      {
+        h2: "Acil müdahale ne zaman gerekir?",
+        paragraphs: [
+          "Yüzde şişlik yayılıyorsa, ateş varsa veya yutma güçlüğü oluşuyorsa bu acil bir durumdur. 7/24 nöbetçi diş kliniğimiz bu tür acillerde her an hizmet verir.",
+          "Erken müdahale apsenin yayılmasını önler ve dişin kurtarılma şansını artırır.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/acil-dis-tedavisi/", label: "Acil Diş Tedavisi" },
+      { href: "/kanal-tedavisi/", label: "Kanal Tedavisi" },
+      { href: "/istanbul-24-saat-acik-disci/", label: "7/24 İstanbul Diş" },
+    ],
+    faq: [
+      { question: "Diş apsesi evde geçer mi?", answer: "Hayır, apse profesyonel tedavi gerektirir." },
+      { question: "Diş apsesi acil midir?", answer: "Yayılma riski taşıdığı için evet, acil müdahale gerekir." },
+    ],
+  },
+  {
+    slug: "disler-kac-yasindan-sonra-cikmaz",
+    title: "Dişler Kaç Yaşından Sonra Çıkmaz?",
+    description:
+      "Yetişkinlikte yeni diş oluşur mu? Süt dişlerinden yirmilik akıl dişlerine kadar diş gelişim süreci ve yaş sınırları.",
+    category: "Ağız Sağlığı",
+    date: "2026-06-10",
+    readMinutes: 5,
+    image: "/images/servis/pedodonti-card.webp",
+    body: [
+      {
+        h2: "Diş gelişimi hangi yaşlarda tamamlanır?",
+        paragraphs: [
+          "Süt dişleri 6-12 yaş arasında dökülerek kalıcı dişlere yer açar. Kalıcı dişler genellikle 6-13 yaş arasında çıkar; 20'lik (yirmilik) dişler ise 17-25 yaş arasında sürer.",
+          "20'lik dişlerin tamamı çıktığında diş gelişimi tamamlanmış olur. Bazı kişilerde 20'lik dişler gömülü kalabilir.",
+        ],
+      },
+      {
+        h2: "Yetişkinlikte yeni diş oluşur mu?",
+        paragraphs: [
+          "Hayır. İnsanlarda iki nesil diş vardır: süt dişleri ve kalıcı dişler. Kalıcı dişlerin ardından doğal olarak yeni diş çıkmaz; kaybedilen dişlerin yerine implant veya protez gerekir.",
+          "Diş kaybı sonrası boşluk bırakılırsa komşu dişler kayar ve çene kemiği erir. Bu yüzden eksik dişlerin en kısa sürede tamamlanması önerilir.",
+        ],
+      },
+      {
+        h2: "20'lik dişler ne zaman çekilmeli?",
+        paragraphs: [
+          "20'lik dişler ağrı, iltihap yapıyorsa veya çevre dişlere zarar veriyorsa çekim önerilir. Genç yaşta yapılan çekimlerde iyileşme daha hızlıdır.",
+          "Düzenli kontroller ile 20'lik dişlerin durumu takip edilir ve gerektiğinde müdahale edilir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/20lik-dis-cekimi/", label: "20'lik Diş Çekimi" },
+      { href: "/cocuk-dis/", label: "Çocuk Diş Hekimliği" },
+    ],
+    faq: [
+      { question: "Son diş kaç yaşında çıkar?", answer: "20'lik dişler genellikle 17-25 yaş arasında çıkar." },
+      { question: "Yetişkinde yeni diş çıkar mı?", answer: "Hayır, kalıcı dişlerin ardından doğal diş çıkmaz." },
+    ],
+  },
+  {
+    slug: "dis-teli-takilma-yasi",
+    title: "Diş Teli Takılma Yaşı: En Uygun Zaman Ne Zaman?",
+    description:
+      "Ortodontik tedavilerde yaş sınırları; çocuklar, ergenler ve yetişkinler için en uygun diş teli takılma yaşı kriterleri.",
+    category: "Tedaviler",
+    date: "2026-06-08",
+    readMinutes: 5,
+    image: "/images/servis/ortodonti-card.webp",
+    body: [
+      {
+        h2: "Çocuklarda ortodonti ne zaman başlamalı?",
+        paragraphs: [
+          "Ortodonti uzmanları, ilk değerlendirmenin 7 yaş civarında yapılmasını önerir. Bu yaşta çene gelişimi takip edilerek ileride oluşabilecek sorunlar önlenebilir.",
+          "Erken müdahale, çene kemiği büyümesini yönlendirerek daha kısa ve etkili bir tedavi sağlar.",
+        ],
+      },
+      {
+        h2: "Ergenler için ideal yaş",
+        paragraphs: [
+          "12-14 yaş arası, diş tellerinin en sık uygulandığı dönemdir. Kalıcı dişlerin çoğu çıkmıştır ve çene büyümesi hâlâ devam ettiği için dişler kolayca hizalanabilir.",
+          "Bu dönemde yapılan tedaviler genellikle en hızlı ve başarılı sonucu verir.",
+        ],
+      },
+      {
+        h2: "Yetişkinlere diş teli takılır mı?",
+        paragraphs: [
+          "Evet. Çene gelişimi tamamlanmış olsa bile dişler her yaşta düzeltilebilir. Görünmeyen şeffaf plaklar ve estetik seramik braketler yetişkinler için idealdir.",
+          "Yetişkin ortodontisi genellikle daha uzun sürebilir ancak sonuçlar aynı derecede başarılıdır.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/ortodonti/", label: "Ortodonti" },
+      { href: "/dis-teli-tedavisi/", label: "Diş Teli Tedavisi" },
+      { href: "/seffaf-plak/", label: "Şeffaf Plak" },
+    ],
+    faq: [
+      { question: "Diş teli için en uygun yaş nedir?", answer: "12-14 yaş en ideal dönemdir; ancak her yaşta uygulanabilir." },
+      { question: "Yetişkinlerde diş teli ne kadar sürer?", answer: "Genellikle 18-30 ay arasında, duruma göre değişir." },
+    ],
+  },
+  {
+    slug: "implant-duser-mi",
+    title: "İmplant Düşer mi? İmplant Başarısını Etkileyen Faktörler",
+    description:
+      "Diş implantı düşer mi? İmplant başarısını etkileyen faktörler, bakım kuralları ve implant ömrünü uzatan yöntemler.",
+    category: "İmplant",
+    date: "2026-06-05",
+    readMinutes: 6,
+    image: "/images/servis/implant-card.webp",
+    body: [
+      {
+        h2: "İmplant düşer mi?",
+        paragraphs: [
+          "İmplant düşebilir, ancak bu nadir bir durumdur ve genellikle önlenebilir. İmplantın çene kemiğine yeterince kaynaşmaması veya aşırı yüklenme başarısızlığa yol açabilir.",
+          "Doğru planlama, kaliteli malzeme ve deneyimli hekim ile implant başarı oranı %95'in üzerindedir.",
+        ],
+      },
+      {
+        h2: "İmplant başarısını etkileyen faktörler",
+        paragraphs: [
+          "Sigara kullanımı, kontrol altında olmayan diyabet, yetersiz ağız hijyeni ve yetersiz kemik hacmi implant başarısını olumsuz etkiler. Kemik yetersizliğinde öncesinde kemik grefti uygulanır.",
+          "Ayrıca implant sonrası aşırı sert gıdalar ve diş sıkma implant üzerindeki yükü artırabilir.",
+        ],
+      },
+      {
+        h2: "İmplant ömrü nasıl uzatılır?",
+        paragraphs: [
+          "Düzenli fırçalama, diş ipi kullanımı, yılda en az bir kez diş hekimi kontrolü ve koruyucu bakım implant ömrünü uzatır. Doğru bakımla implantlar 25-35 yıl kullanılabilir.",
+          "Sigara bırakma, implant başarısını ve iyileşme sürecini önemli ölçüde olumlu etkiler.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/dis-implant-fiyatlari/", label: "İmplant Fiyatları" },
+      { href: "/all-on-four-implant/", label: "All On Four" },
+    ],
+    faq: [
+      { question: "İmplant ne kadar dayanır?", answer: "Doğru bakımla 25-35 yıl kullanılabilir." },
+      { question: "İmplantın düşmemesi için ne yapmalı?", answer: "Düzenli ağız bakımı ve kontroller şarttır." },
+    ],
+  },
+  {
+    slug: "istanbul-nobetci-disci",
+    title: "İstanbul Nöbetçi Dişçi: Gece ve Hafta Sonu Diş Hekimi",
+    description:
+      "İstanbul'da gece ve hafta sonu açık nöbetçi dişçi arıyorsanız doğru yerdesiniz. 7/24 acil diş hizmeti, gece açık klinikler ve hızlı randevu.",
+    category: "Acil Diş",
+    date: "2026-06-03",
+    readMinutes: 5,
+    image: "/images/servis/cekim-card.webp",
+    body: [
+      {
+        h2: "İstanbul'da gece diş hekimi bulmak",
+        paragraphs: [
+          "İstanbul'un birçok ilçesinde diş klinikleri mesai saatleri dışında kapalıdır. Gece ve hafta sonu ihtiyaçlar için 7/24 çalışan nöbetçi diş klinikleri en güvenilir seçenektir.",
+          "Diş ağrısı, kırılan diş, düşen dolgu ve apse gibi acillerde gece saatlerinde bile hızlı müdahale gerekir.",
+        ],
+      },
+      {
+        h2: "Nöbetçi dişçide hangi işlemler yapılır?",
+        paragraphs: [
+          "Acil dolgu, kanal tedavisi, diş çekimi, apse drenajı, düşen kaplama/protez yapıştırma ve çocuk diş travması müdahalesi gece ve hafta sonu yapılabilir.",
+          "Kliniğimiz 7/24 hizmet verir; randevu beklemeden acil hastaları kabul ederiz.",
+        ],
+      },
+      {
+        h2: "Hızlı ulaşım ve randevu",
+        paragraphs: [
+          "İstanbul'un Anadolu ve Avrupa yakasında merkezi konumlarımızdan kolayca ulaşabilirsiniz. Telefon ile aradığınızda size en yakın nöbetçi diş hekimine yönlendirme yapılır.",
+          "Acil durumunuzda bekletilmeden muayene edilir ve aynı gece müdahale edilir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/semtler/", label: "Tüm Nöbetçi Dişçiler" },
+      { href: "/acil-dis-tedavisi/", label: "Acil Diş Tedavisi" },
+      { href: "/iletisim/", label: "İletişim" },
+    ],
+    faq: [
+      { question: "İstanbul'da gece açık dişçi var mı?", answer: "Evet, kliniğimiz 7/24 açıktır." },
+      { question: "Nöbetçi dişçi pazar günü çalışır mı?", answer: "Evet, pazar günleri de acil diş hizmeti veriyoruz." },
+    ],
+  },
+  {
+    slug: "istanbul-dis-klinigi",
+    title: "İstanbul Diş Kliniği: Modern ve Güvenilir Diş Sağlığı",
+    description:
+      "İstanbul'da diş kliniği arayanlara modern, düzenli ve hasta odaklı bir deneyim sunuyoruz. Tüm diş tedavilerinde 7/24 hizmet.",
+    category: "Ağız Sağlığı",
+    date: "2026-06-01",
+    readMinutes: 5,
+    image: "/images/servis/emax-card.webp",
+    body: [
+      {
+        h2: "Modern diş kliniği deneyimi",
+        paragraphs: [
+          "Kliniğimizde son teknoloji cihazlar, dijital röntgen ve modern tedavi yöntemleri kullanılır. Hasta konforu ve güvenliği her şeyin önündedir.",
+          "Tüm branşlarda uzman hekim kadromuz ile geniş bir tedavi yelpazesi sunuyoruz.",
+        ],
+      },
+      {
+        h2: "Hangi tedaviler yapılır?",
+        paragraphs: [
+          "Acil diş müdahalesinden implant, kaplama, kanal tedavisi, ortodonti, çocuk diş ve estetik gülüş tasarımına kadar tüm tedaviler tek çatı altında yapılır.",
+          "Klinik içi laboratuvarımız sayesinde kaplama ve protezler hızlı ve kaliteli üretilir.",
+        ],
+      },
+      {
+        h2: "Hasta odaklı yaklaşım",
+        paragraphs: [
+          "İlk muayenede ücretsiz değerlendirme yapılır, tedavi planı ve net fiyat bilgisi sunulur. Tedavi süresince her adımda yanınızdayız.",
+          "Kliniğimiz gece, hafta sonu ve bayramlarda dahil 7/24 açıktır; acil durumlarınızda randevusuz kabul edilirsiniz.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/hizmetler/", label: "Tüm Tedaviler" },
+      { href: "/kliniklerimiz/", label: "Kliniklerimiz" },
+      { href: "/online-randevu/", label: "Online Randevu" },
+    ],
+    faq: [
+      { question: "İlk muayene ücretli mi?", answer: "Hayır, ilk muayenemiz ücretsizdir." },
+      { question: "Kliniğiniz 7/24 açık mı?", answer: "Evet, gece ve hafta sonu dahil kesintisiz hizmet veriyoruz." },
+    ],
+  },
+  {
+    slug: "cocuklarda-dis-curugu",
+    title: "Çocuklarda Diş Çürüğü: Nedenleri, Belirtileri ve Korunma",
+    description:
+      "Çocuklarda diş çürüğünün nedenleri, erken belirtileri, korunma yolları ve tedavi seçenekleri. Sağlıklı diş gelişimi için rehber.",
+    category: "Çocuk Diş",
+    date: "2026-05-28",
+    readMinutes: 6,
+    image: "/images/servis/pedodonti-card.webp",
+    body: [
+      {
+        h2: "Çocuklarda diş çürüğü neden olur?",
+        paragraphs: [
+          "Çocuklarda diş çürüğünün başlıca nedeni şekerli gıdaların sık tüketimi ve yetersiz ağız bakımıdır. Özellikle yatmadan önce şekerli içecekler ve gıdalar çürük riskini artırır.",
+          "Süt dişlerinin minesi kalıcı dişlere göre daha incedir, bu yüzden çürük daha hızlı ilerler.",
+        ],
+      },
+      {
+        h2: "Erken belirtiler nelerdir?",
+        paragraphs: [
+          "Dişlerde beyaz lekeler, yemek yerken ağrı, sıcağa/soğuğa hassasiyet ve kötü ağız kokusu çürüğün erken belirtileridir. Erken fark edilen çürükler basit dolgu ile tedavi edilebilir.",
+          "Düzenli 6 aylık pedodonti kontrolleri çürüğün erken yakalanmasını sağlar.",
+        ],
+      },
+      {
+        h2: "Korunma ve tedavi",
+        paragraphs: [
+          "Günde iki kez fırçalama, diş ipi kullanımı, şekerli gıdaların azaltılması ve flor uygulaması çürüğü önler. Fissür örtücü ile azı dişlerinin çürüğe karşı korunması sağlanır.",
+          "Çürük oluşmuşsa dolgu, ilerlemişse süt diş kanal tedavisi veya çekim uygulanabilir.",
+        ],
+      },
+    ],
+    relatedLinks: [
+      { href: "/cocuk-dis/", label: "Çocuk Diş Doktoru" },
+      { href: "/sut-dis-cekimi/", label: "Süt Diş Çekimi" },
+      { href: "/dis-dolgusu/", label: "Diş Dolgusu" },
+    ],
+    faq: [
+      { question: "Çocuk ne zaman diş hekimine gitmeli?", answer: "İlk diş çıktığında veya 1 yaşında." },
+      { question: "Süt dişi çürüğü tedavi edilmeli mi?", answer: "Evet, alttaki kalıcı dişi korumak için tedavi şarttır." },
     ],
   },
 ];

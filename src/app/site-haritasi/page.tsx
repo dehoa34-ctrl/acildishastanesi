@@ -9,7 +9,7 @@ import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Site Haritası",
-  description: "Acil Diş Hastanesi web sitesinin tüm sayfaları. Hizmetler, nöbetçi dişçiler, klinikler, blog ve kurumsal sayfalar.",
+  description: "İstanbul Ağız ve Diş Sağlığı Merkezi web sitesinin tüm sayfaları. Hizmetler, nöbetçi dişçiler, klinikler, blog ve kurumsal sayfalar.",
   alternates: { canonical: "/site-haritasi/" },
 };
 
@@ -42,7 +42,6 @@ export default function SiteHaritasiPage() {
 
             <Group title="Kurumsal">
               <Row href="/hakkimizda/" label="Hakkımızda" />
-              <Row href="/hekimlerimiz/" label="Hekimlerimiz" />
               <Row href="/kliniklerimiz/" label="Kliniklerimiz" />
               <Row href="/saglik-turizmi/" label="Sağlık Turizmi" />
               <Row href="/anlasmali-kurumlar/" label="Anlaşmalı Kurumlar" />

@@ -61,7 +61,7 @@ export function districtSchema(district: District) {
     "@context": "https://schema.org",
     "@type": "Dentist",
     "@id": `${SITE.domain}/${district.slug}/#dentist`,
-    name: `${district.name} Acil Diş Hastanesi`,
+    name: `${district.name} İstanbul Ağız ve Diş Sağlığı Merkezi`,
     url: `${SITE.domain}/${district.slug}/`,
     image: `${SITE.domain}${SEO_IMAGE}`,
     description: district.description,

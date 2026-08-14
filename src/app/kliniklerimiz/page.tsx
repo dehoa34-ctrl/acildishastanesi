@@ -7,7 +7,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Kliniklerimiz",
   description:
-    "Acil Diş Hastanesi'nin İstanbul Avrupa, Anadolu Yakası ve Antalya'daki tüm şubeleri. Size en yakın diş kliniğini bulun.",
+    "İstanbul Ağız ve Diş Sağlığı Merkezi'nin İstanbul Avrupa, Anadolu Yakası ve Antalya'daki tüm şubeleri. Size en yakın diş kliniğini bulun.",
   alternates: { canonical: "/kliniklerimiz/" },
 };
 

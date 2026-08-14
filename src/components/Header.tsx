@@ -15,7 +15,7 @@ export default function Header() {
               {SITE.name}
             </span>
             <span className="block text-xs font-medium text-brand-600">
-              7/24 Açık • Nöbetçi Dişçi
+              {SITE.tagline}
             </span>
           </span>
         </Link>
@@ -62,7 +62,6 @@ export default function Header() {
               <div className="w-64 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
                 {[
                   { href: "/hakkimizda", label: "Hakkımızda" },
-                  { href: "/hekimlerimiz", label: "Hekimlerimiz" },
                   { href: "/kliniklerimiz", label: "Kliniklerimiz" },
                   { href: "/saglik-turizmi", label: "Sağlık Turizmi" },
                   { href: "/anlasmali-kurumlar", label: "Anlaşmalı Kurumlar" },

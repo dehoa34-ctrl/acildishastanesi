@@ -71,6 +71,41 @@ export default function SaglikTurizmiPage() {
         </div>
       </section>
 
+      <section className="bg-slate-50 py-16">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-extrabold text-slate-900">Sık Sorulan Sorular</h2>
+          <div className="mt-6 space-y-4">
+            {[
+              {
+                q: "Garanti alabilir miyim?",
+                a: "Röntgen görüntünüzü e-posta veya WhatsApp üzerinden bize gönderebilirsiniz. Doktorlarımız durumunuzu değerlendirir ve size en uygun çözümü belirler. Birkaç gün içinde teklifimizi ve tedavi takviminizi net şekilde paylaşırız.",
+              },
+              {
+                q: "Seyahatim sırasında süreç tam olarak nasıl ilerliyor?",
+                a: "İstanbul'a vardığınızda sizi havalimanından VIP transfer aracımızla karşılar, önce otelinize götürürüz. Ardından ilk kontrol muayenesi için kliniğimize transferiniz sağlanır. Otel-klinik arasındaki tüm transferler rezervasyona dahildir. Konaklama süreniz uygulanacak tedaviye göre önceden netleştirilir.",
+              },
+              {
+                q: "Fiyata neler dahil?",
+                a: "Uçak biletinizi yalnızca siz ayarlarsınız. Transfer ve otel gibi diğer masraflar fiyata dahildir. Her şeyin sizin için düzenli ve planlı şekilde organize edildiğinden emin olabilirsiniz.",
+              },
+              {
+                q: "Diş protezlerim ne kadar dayanır?",
+                a: "İmplantlar teorik olarak ömür boyu kullanılabilir; üst restorasyonlar (kaplama/protez) zaman içinde yenilenebilir. Düzenli ve doğru ağız bakımı, koruyucu bakım randevuları ve düzenli kontroller ile protezlerinizin ömrünü uzatabilirsiniz.",
+              },
+              {
+                q: "Merkezde tercüman var mı?",
+                a: "Evet. Tüm muayene ve kontrolleriniz boyunca size tercümanlar eşlik eder ve her zaman yanınızda bir iletişim sorumlusu bulunur. Böylece tedavi sürecinizde herhangi bir iletişim sorunu yaşamazsınız.",
+              },
+            ].map((f) => (
+              <div key={f.q} className="rounded-2xl border border-slate-200 bg-white p-5">
+                <p className="font-bold text-slate-900">{f.q}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-600">{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CtaBand />
     </>
   );

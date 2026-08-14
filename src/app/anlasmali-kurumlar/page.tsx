@@ -6,7 +6,7 @@ import { CONTACT } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Anlaşmalı Kurumlar",
   description:
-    "Acil Diş Hastanesi'nin anlaşmalı olduğu sigorta ve kurumlar. Kurumsal diş sağlığı anlaşmaları.",
+    "İstanbul Ağız ve Diş Sağlığı Merkezi'nin anlaşmalı olduğu sigorta ve kurumlar. Kurumsal diş sağlığı anlaşmaları.",
   alternates: { canonical: "/anlasmali-kurumlar/" },
 };
 
