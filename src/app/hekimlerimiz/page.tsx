@@ -3,6 +3,7 @@ import Link from "next/link";
 import { dentists } from "@/lib/dentists";
 import { clinics } from "@/lib/clinics";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
   title: "Hekimlerimiz",
@@ -14,15 +15,12 @@ export const metadata: Metadata = {
 export default function HekimlerimizPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-brand-300">Kurumsal</p>
-          <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">Hekimlerimiz</h1>
-          <p className="mt-3 max-w-xl text-lg text-brand-100">
-            Alanında uzman 120+ diş hekimi ile en iyi hizmeti sunuyoruz.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        image="/images/ph-uniite-hero.webp"
+        kicker="Kurumsal"
+        title="Hekimlerimiz"
+        subtitle="Alanında uzman 120+ diş hekimi ile en iyi hizmeti sunuyoruz."
+      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

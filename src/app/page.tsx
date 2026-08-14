@@ -1,13 +1,27 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SITE, CONTACT } from "@/lib/site";
-import { services } from "@/lib/services";
+import { services, type Service } from "@/lib/services";
 import DistrictSearch from "@/components/DistrictSearch";
 import { DistrictGrid } from "@/components/DistrictGrid";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
 import { PhoneIcon, WhatsAppIcon, ToothIcon } from "@/components/Header";
 import { dentistSchema } from "@/lib/seo";
+
+function homeServiceImage(s: Service): string {
+  const map: Record<Service["category"], string> = {
+    implant: "/images/ph-implant-card.webp",
+    estetik: "/images/ph-smile-card.webp",
+    kaplama: "/images/ph-smile-card.webp",
+    ortodonti: "/images/ph-ortodonti-card.webp",
+    cocuk: "/images/ph-cocuk-card.webp",
+    cerrahi: "/images/ph-implant-card.webp",
+    dolgu: "/images/ph-dolgu-card.webp",
+    acil: "/images/ph-uniite-card.webp",
+  };
+  return map[s.category] || "/images/ph-uniite-card.webp";
+}
 
 export default function HomePage() {
   const schema = dentistSchema();
@@ -96,17 +110,27 @@ export default function HomePage() {
               <Link
                 key={s.slug}
                 href={`/${s.slug}`}
-                className="group flex flex-col rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl"
+                className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl"
               >
-                <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
-                  <ToothIcon className="h-6 w-6" />
-                </span>
-                <h3 className="mt-5 text-lg font-extrabold text-slate-900">{s.name}</h3>
-                <p className="mt-2 flex-1 text-sm leading-6 text-slate-600">{s.short}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-brand-600">
-                  Detaylı bilgi & fiyat
-                  <span className="transition-transform group-hover:translate-x-1">→</span>
-                </span>
+                <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
+                  <Image
+                    src={homeServiceImage(s)}
+                    alt={s.name}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-7">
+                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                    <ToothIcon className="h-6 w-6" />
+                  </span>
+                  <h3 className="mt-4 text-lg font-extrabold text-slate-900">{s.name}</h3>
+                  <p className="mt-2 flex-1 text-sm leading-6 text-slate-600">{s.short}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-brand-600">
+                    Detaylı bilgi & fiyat
+                    <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </span>
+                </div>
               </Link>
             ))}
 

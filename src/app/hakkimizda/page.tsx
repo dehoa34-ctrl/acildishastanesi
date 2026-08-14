@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { CONTACT } from "@/lib/site";
 import { dentists } from "@/lib/dentists";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 import { PhoneIcon } from "@/components/Header";
 
 export const metadata: Metadata = {
@@ -14,15 +15,12 @@ export const metadata: Metadata = {
 export default function HakkimizdaPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-brand-300">Kurumsal</p>
-          <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">Hakkımızda</h1>
-          <p className="mt-3 max-w-2xl text-lg text-brand-100">
-            Bir kliniğin ötesinde; Türkiye&apos;nin en kapsamlı diş sağlığı ağı.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        image="/images/ph-reception-hero.webp"
+        kicker="Kurumsal"
+        title="Hakkımızda"
+        subtitle="Bir kliniğin ötesinde; Türkiye'nin en kapsamlı diş sağlığı ağı."
+      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">

@@ -429,9 +429,8 @@ export const posts: BlogPost[] = [
     ],
   },
   {
-    slug: "pazar-gunu-acik-dis-kliniği-nasil-bulunur",
-    title: "Pazar Günü Açık Diş Kliniği Nasıl Bulunur?",
-    description:
+    slug: "pazar-gunu-acik-dis-klinigi-nasil-bulunur",
+    title: "Pazar Günü Açık Diş Kliniği Nasıl Bulunur?",    description:
       "Hafta sonu diş ağrısı için pazar günü açık diş kliniği arama rehberi. İstanbul'da pazar günü nöbetçi dişçi bulma yöntemleri.",
     category: "Acil Diş",
     date: "2026-04-08",

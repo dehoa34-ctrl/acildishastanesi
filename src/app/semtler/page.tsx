@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { districts } from "@/lib/districts";
 import DistrictSearch from "@/components/DistrictSearch";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -18,18 +19,16 @@ export default function SemtlerPage() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-brand-300">Nöbetçi Dişçi Rehberi</p>
-          <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">İstanbul Nöbetçi Dişçiler</h1>
-          <p className="mx-auto mt-3 max-w-xl text-lg text-brand-100">
-            İlçe veya semt adını yazın, 7/24 açık acil diş hastanesi sayfasına hemen ulaşın.
-          </p>
-          <div className="mt-8 flex justify-center">
-            <DistrictSearch limit={20} />
-          </div>
+      <PageHero
+        image="/images/ph-reception-hero.webp"
+        kicker="Nöbetçi Dişçi Rehberi"
+        title="İstanbul Nöbetçi Dişçiler"
+        subtitle="İlçe veya semt adını yazın, 7/24 açık acil diş hastanesi sayfasına hemen ulaşın."
+      >
+        <div className="mt-8 flex justify-center">
+          <DistrictSearch limit={20} />
         </div>
-      </section>
+      </PageHero>
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

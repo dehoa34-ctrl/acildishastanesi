@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CONTACT } from "@/lib/site";
@@ -7,6 +6,7 @@ import { districts, getDistrict } from "@/lib/districts";
 import { services, getService } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
+import PageHero from "@/components/PageHero";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 import { faqs } from "@/lib/faqs";
 import { getDistrictExtra } from "@/lib/district-extras";
@@ -116,62 +116,47 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
       )}
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <nav className="text-sm text-brand-200">
-            <Link href="/" className="hover:text-white">Anasayfa</Link>
-            <span className="mx-2">/</span>
-            <span>{district.name} Acil Diş Hastanesi</span>
-          </nav>
-          <div className="mt-6 grid items-center gap-8 lg:grid-cols-2">
-            <div>
-              <div className="mb-4 flex flex-wrap gap-2">
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
-                  7/24 Açık
-                </span>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
-                  Gece Nöbetçi
-                </span>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
-                  Pazar & Bayram Açık
-                </span>
-              </div>
-              <h1 className="text-3xl font-extrabold leading-tight sm:text-4xl">
-                {district.name} Acil Diş Hastanesi
-              </h1>
-              <p className="mt-3 text-lg font-semibold text-brand-200">
-                Nöbetçi Diş Hekimi Telefonu: {CONTACT.phoneDisplay}
-              </p>
-              <p className="mt-4 leading-7 text-brand-100">{district.intro}</p>
-              <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-                <a
-                  href={CONTACT.phoneHref}
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
-                >
-                  <PhoneIcon /> {CONTACT.phoneDisplay}
-                </a>
-                <a
-                  href={CONTACT.whatsappHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
-                >
-                  <WhatsAppIcon /> WhatsApp
-                </a>
-              </div>
-            </div>
-            <div className="hidden overflow-hidden rounded-3xl lg:block">
-              <Image
-                src="/images/klinik-gece.webp"
-                alt={`${district.name} gece açık nöbetçi diş kliniği`}
-                width={800}
-                height={600}
-                className="aspect-[4/3] w-full rounded-3xl object-cover shadow-2xl"
-              />
-            </div>
-          </div>
+      <PageHero
+        image="/images/ph-uniite-hero.webp"
+        title={`${district.name} Acil Diş Hastanesi`}
+        subtitle={district.intro}
+      >
+        <nav className="text-sm text-brand-200">
+          <Link href="/" className="hover:text-white">Anasayfa</Link>
+          <span className="mx-2">/</span>
+          <span>{district.name} Acil Diş Hastanesi</span>
+        </nav>
+        <div className="mt-5 flex flex-wrap gap-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
+            7/24 Açık
+          </span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
+            Gece Nöbetçi
+          </span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
+            Pazar & Bayram Açık
+          </span>
         </div>
-      </section>
+        <p className="mt-4 text-lg font-semibold text-brand-200">
+          Nöbetçi Diş Hekimi Telefonu: {CONTACT.phoneDisplay}
+        </p>
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+          <a
+            href={CONTACT.phoneHref}
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
+          >
+            <PhoneIcon /> {CONTACT.phoneDisplay}
+          </a>
+          <a
+            href={CONTACT.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
+          >
+            <WhatsAppIcon /> WhatsApp
+          </a>
+        </div>
+      </PageHero>
 
       {/* Content */}
       <section className="bg-white py-16">
@@ -279,6 +264,20 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
 
 /* ---------------- Service ---------------- */
 
+function serviceImage(service: (typeof services)[number]): string {
+  const map: Record<string, string> = {
+    implant: "/images/ph-implant-hero.webp",
+    estetik: "/images/ph-smile-hero.webp",
+    kaplama: "/images/ph-smile-hero.webp",
+    ortodonti: "/images/ph-ortodonti-hero.webp",
+    cocuk: "/images/ph-cocuk-hero.webp",
+    cerrahi: "/images/ph-implant-hero.webp",
+    dolgu: "/images/ph-dolgu-hero.webp",
+    acil: "/images/ph-uniite-hero.webp",
+  };
+  return map[service.category] || "/images/ph-uniite-hero.webp";
+}
+
 function ServicePage({ service }: { service: (typeof services)[number] }) {
   const schema = serviceSchema(service);
   const crumbs = breadcrumbSchema([
@@ -307,33 +306,35 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
       />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 text-white">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <nav className="text-sm text-brand-200">
-            <Link href="/" className="hover:text-white">Anasayfa</Link>
-            <span className="mx-2">/</span>
-            <span>{service.name}</span>
-          </nav>
-          <h1 className="mt-6 max-w-3xl text-3xl font-extrabold leading-tight sm:text-4xl">{service.name}</h1>
-          <p className="mt-4 max-w-3xl text-lg leading-8 text-brand-100">{service.intro}</p>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-            <a
-              href={CONTACT.phoneHref}
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
-            >
-              <PhoneIcon /> {CONTACT.phoneDisplay}
-            </a>
-            <a
-              href={CONTACT.whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
-            >
-              <WhatsAppIcon /> Fiyat Al
-            </a>
-          </div>
+      <PageHero
+        image={serviceImage(service)}
+        title={service.name}
+        subtitle={service.intro}
+      >
+        <nav className="text-sm text-brand-200">
+          <Link href="/" className="hover:text-white">Anasayfa</Link>
+          <span className="mx-2">/</span>
+          <Link href="/hizmetler" className="hover:text-white">Hizmetler</Link>
+          <span className="mx-2">/</span>
+          <span>{service.name}</span>
+        </nav>
+        <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <a
+            href={CONTACT.phoneHref}
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
+          >
+            <PhoneIcon /> {CONTACT.phoneDisplay}
+          </a>
+          <a
+            href={CONTACT.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
+          >
+            <WhatsAppIcon /> Fiyat Al
+          </a>
         </div>
-      </section>
+      </PageHero>
 
       {/* Price table */}
       <section className="bg-white py-16">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 import { CONTACT } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -11,26 +12,23 @@ export const metadata: Metadata = {
 };
 
 const cases = [
-  { title: "Gülüş Tasarımı", desc: "Hollywood smile ile estetik gülüş dönüşümü" },
-  { title: "İmplant Tedavisi", desc: "Eksik dişlerin implant ile tamamlanması" },
-  { title: "Lamine Kaplama", desc: "Yaprak porselen ile doğal gülüş" },
-  { title: "Zirkonyum Kaplama", desc: "Metal içermeyen estetik kaplamalar" },
-  { title: "Diş Beyazlatma", desc: "Birkaç ton aydınlanan gülüş" },
-  { title: "Ortodonti", desc: "Çapraşık dişlerin düzeltilmesi" },
+  { title: "Gülüş Tasarımı", desc: "Hollywood smile ile estetik gülüş dönüşümü", img: "/images/ph-beforeafter-card.webp" },
+  { title: "İmplant Tedavisi", desc: "Eksik dişlerin implant ile tamamlanması", img: "/images/ph-implant-card.webp" },
+  { title: "Lamine Kaplama", desc: "Yaprak porselen ile doğal gülüş", img: "/images/ph-smile-card.webp" },
+  { title: "Zirkonyum Kaplama", desc: "Metal içermeyen estetik kaplamalar", img: "/images/ph-uniite-card.webp" },
+  { title: "Diş Beyazlatma", desc: "Birkaç ton aydınlanan gülüş", img: "/images/ph-beyazlatma-card.webp" },
+  { title: "Ortodonti", desc: "Çapraşık dişlerin düzeltilmesi", img: "/images/ph-ortodonti-card.webp" },
 ];
 
 export default function BeforeAfterPage() {
   return (
     <>
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-brand-300">Galeri</p>
-          <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">Before / After</h1>
-          <p className="mt-3 max-w-xl text-lg text-brand-100">
-            Gerçek insanlar, gerçek gülümsemeler. Hastalarımızın dönüşüm hikayelerini keşfedin.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        image="/images/ph-beforeafter-hero.webp"
+        kicker="Galeri"
+        title="Before / After"
+        subtitle="Gerçek insanlar, gerçek gülümsemeler. Hastalarımızın dönüşüm hikayelerini keşfedin."
+      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -39,7 +37,7 @@ export default function BeforeAfterPage() {
               <div key={c.title} className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
                 <div className="relative aspect-[16/10] bg-slate-100">
                   <Image
-                    src="/images/hero-klinik.webp"
+                    src={c.img}
                     alt={`${c.title} before after`}
                     fill
                     className="object-cover"

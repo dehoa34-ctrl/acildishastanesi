@@ -2,7 +2,7 @@ import { CONTACT, SITE } from "@/lib/site";
 import type { District } from "@/lib/districts";
 import type { Service } from "@/lib/services";
 
-export const SEO_IMAGE = "/images/hero-klinik.webp";
+export const SEO_IMAGE = "/images/ph-smile-hero.webp";
 
 /** Ortak Dentist / LocalBusiness şeması (ana sayfa). */
 export function dentistSchema({

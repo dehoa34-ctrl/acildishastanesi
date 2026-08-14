@@ -1,7 +1,22 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { posts } from "@/lib/posts";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
+
+function postImage(category: string): string {
+  const map: Record<string, string> = {
+    "Acil Diş": "/images/ph-uniite-card.webp",
+    "Ağız Sağlığı": "/images/ph-smile-card.webp",
+    "İmplant": "/images/ph-implant-card.webp",
+    "Fiyatlar": "/images/ph-laboratuvar-card.webp",
+    "Estetik Diş": "/images/ph-smile-card.webp",
+    "Tedaviler": "/images/ph-uniite-card.webp",
+    "Çocuk Diş": "/images/ph-cocuk-card.webp",
+  };
+  return map[category] || "/images/ph-uniite-card.webp";
+}
 
 export const metadata: Metadata = {
   title: "Diş Sağlığı Rehberi & Blog",
@@ -15,15 +30,12 @@ export default function BlogPage() {
 
   return (
     <>
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-bold uppercase tracking-wider text-brand-300">Diş Sağlığı Rehberi</p>
-          <h1 className="mt-2 text-3xl font-extrabold sm:text-4xl">Blog & Bilgilendirme</h1>
-          <p className="mt-3 max-w-xl text-lg text-brand-100">
-            Diş sağlığı hakkında merak ettikleriniz, acil diş rehberleri ve tedavi bilgileri.
-          </p>
-        </div>
-      </section>
+      <PageHero
+        image="/images/ph-uniite-hero.webp"
+        kicker="Diş Sağlığı Rehberi"
+        title="Blog & Bilgilendirme"
+        subtitle="Diş sağlığı hakkında merak ettikleriniz, acil diş rehberleri ve tedavi bilgileri."
+      />
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -40,17 +52,27 @@ export default function BlogPage() {
               <Link
                 key={p.slug}
                 href={`/blog/${p.slug}`}
-                className="group flex flex-col rounded-3xl border border-slate-200 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl"
+                className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl"
               >
-                <span className="text-xs font-bold uppercase tracking-wide text-brand-600">{p.category}</span>
-                <h2 className="mt-3 text-lg font-extrabold leading-snug text-slate-900 group-hover:text-brand-700">
-                  {p.title}
-                </h2>
-                <p className="mt-3 flex-1 text-sm leading-6 text-slate-600">{p.description}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400">
-                  {p.readMinutes} dk okuma
-                  <span className="transition-transform group-hover:translate-x-1">→</span>
-                </span>
+                <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
+                  <Image
+                    src={postImage(p.category)}
+                    alt={p.title}
+                    fill
+                    className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col p-7">
+                  <span className="text-xs font-bold uppercase tracking-wide text-brand-600">{p.category}</span>
+                  <h2 className="mt-3 text-lg font-extrabold leading-snug text-slate-900 group-hover:text-brand-700">
+                    {p.title}
+                  </h2>
+                  <p className="mt-3 flex-1 text-sm leading-6 text-slate-600">{p.description}</p>
+                  <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400">
+                    {p.readMinutes} dk okuma
+                    <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </span>
+                </div>
               </Link>
             ))}
           </div>

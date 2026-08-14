@@ -5,6 +5,7 @@ import { posts, getPost } from "@/lib/posts";
 import { CONTACT } from "@/lib/site";
 import { articleSchema, breadcrumbSchema, faqSchema, SEO_IMAGE } from "@/lib/seo";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 import { PhoneIcon } from "@/components/Header";
 
 export function generateStaticParams() {
@@ -69,20 +70,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {faq && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faq) }} />}
 
       {/* Header */}
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-14 text-white">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6">
-          <nav className="text-sm text-brand-200">
-            <Link href="/" className="hover:text-white">Anasayfa</Link>
-            <span className="mx-2">/</span>
-            <Link href="/blog" className="hover:text-white">Blog</Link>
-          </nav>
-          <span className="mt-5 inline-block rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
-            {post.category}
-          </span>
-          <h1 className="mt-4 text-3xl font-extrabold leading-tight sm:text-4xl">{post.title}</h1>
-          <p className="mt-3 text-sm text-brand-200">{post.readMinutes} dk okuma süresi</p>
-        </div>
-      </section>
+      <PageHero
+        image="/images/ph-uniite-hero.webp"
+        title={post.title}
+        subtitle={`${post.readMinutes} dk okuma süresi`}
+      >
+        <nav className="text-sm text-brand-200">
+          <Link href="/" className="hover:text-white">Anasayfa</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-white">Blog</Link>
+        </nav>
+        <span className="mt-5 inline-block rounded-full bg-white/15 px-3 py-1.5 text-xs font-bold">
+          {post.category}
+        </span>
+      </PageHero>
 
       {/* Body */}
       <article className="bg-white py-14">

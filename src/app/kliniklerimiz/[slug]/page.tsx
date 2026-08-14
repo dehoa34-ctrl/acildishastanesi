@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { clinics, getClinic } from "@/lib/clinics";
 import { CONTACT } from "@/lib/site";
 import CtaBand from "@/components/CtaBand";
+import PageHero from "@/components/PageHero";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 
 export function generateStaticParams() {
@@ -53,35 +54,29 @@ export default async function ClinicPage({ params }: { params: Promise<{ slug: s
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
-      <section className="bg-gradient-to-br from-brand-700 to-brand-900 py-16 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-brand-200">
-            <Link href="/" className="hover:text-white">Anasayfa</Link>
-            <span className="mx-2">/</span>
-            <Link href="/kliniklerimiz" className="hover:text-white">Kliniklerimiz</Link>
-            <span className="mx-2">/</span>
-            <span>{clinic.name}</span>
-          </nav>
-          <h1 className="mt-6 text-3xl font-extrabold sm:text-4xl">{clinic.name}</h1>
-          <p className="mt-3 max-w-2xl text-lg text-brand-100">{clinic.description}</p>
-          <div className="mt-7 flex flex-col gap-3 sm:flex-row">
-            <a
-              href={CONTACT.phoneHref}
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
-            >
-              <PhoneIcon /> {CONTACT.phoneDisplay}
-            </a>
-            <a
-              href={CONTACT.whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
-            >
-              <WhatsAppIcon /> WhatsApp Randevu
-            </a>
-          </div>
+      <PageHero
+        image="/images/ph-reception-hero.webp"
+        kicker="Kliniklerimiz"
+        title={clinic.name}
+        subtitle={clinic.description}
+      >
+        <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+          <a
+            href={CONTACT.phoneHref}
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-7 py-3.5 font-bold text-brand-700 hover:bg-brand-50"
+          >
+            <PhoneIcon /> {CONTACT.phoneDisplay}
+          </a>
+          <a
+            href={CONTACT.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-7 py-3.5 font-bold text-white hover:bg-emerald-600"
+          >
+            <WhatsAppIcon /> WhatsApp Randevu
+          </a>
         </div>
-      </section>
+      </PageHero>
 
       <section className="bg-white py-16">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
