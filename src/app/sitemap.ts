@@ -1,0 +1,33 @@
+import type { MetadataRoute } from "next";
+import { SITE } from "@/lib/site";
+import { districts } from "@/lib/districts";
+import { services } from "@/lib/services";
+
+export const dynamic = "force-static";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const now = new Date();
+
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: `${SITE.domain}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE.domain}/semtler/`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE.domain}/sss/`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: `${SITE.domain}/iletisim/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
+  ];
+
+  const districtPages: MetadataRoute.Sitemap = districts.map((x) => ({
+    url: `${SITE.domain}/${x.slug}/`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.8,
+  }));
+
+  const servicePages: MetadataRoute.Sitemap = services.map((x) => ({
+    url: `${SITE.domain}/${x.slug}/`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...districtPages, ...servicePages];
+}
