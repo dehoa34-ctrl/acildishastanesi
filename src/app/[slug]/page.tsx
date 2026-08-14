@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CONTACT } from "@/lib/site";
@@ -6,6 +7,7 @@ import { districts, getDistrict } from "@/lib/districts";
 import { services, getService } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
+import ServiceSidebar from "@/components/ServiceSidebar";
 import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 import { getServiceContent } from "@/lib/service-content";
 import { faqs } from "@/lib/faqs";
@@ -339,20 +341,38 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
         </div>
       </PageHero>
 
-      {/* Body content */}
+      {/* Body content + sidebar */}
       {content?.body && content.body.length > 0 && (
         <section className="bg-white py-16">
-          <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-            {content.body.map((section) => (
-              <section key={section.h2}>
-                <h2 className="text-2xl font-extrabold text-slate-900">{section.h2}</h2>
-                {section.paragraphs.map((para, i) => (
-                  <p key={i} className="mt-4 leading-8 text-slate-600">
-                    {para}
-                  </p>
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="grid gap-10 lg:grid-cols-[1fr_320px]">
+              <div className="mx-auto w-full max-w-3xl lg:mx-0">
+                {content.body.map((section, idx) => (
+                  <section key={section.h2}>
+                    <h2 className="text-2xl font-extrabold text-slate-900">{section.h2}</h2>
+                    {section.paragraphs.map((para, i) => (
+                      <p key={i} className="mt-4 leading-8 text-slate-600">
+                        {para}
+                      </p>
+                    ))}
+                    {idx === 0 && content.image && (
+                      <div className="my-8 overflow-hidden rounded-3xl shadow-md">
+                        <Image
+                          src={content.image}
+                          alt={service.name}
+                          width={1600}
+                          height={600}
+                          className="aspect-[16/7] w-full object-cover"
+                        />
+                      </div>
+                    )}
+                  </section>
                 ))}
-              </section>
-            ))}
+              </div>
+              <div className="hidden lg:block">
+                <ServiceSidebar activeSlug={service.slug} />
+              </div>
+            </div>
           </div>
         </section>
       )}
@@ -388,6 +408,11 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
               </div>
             </div>
           )}
+
+          {/* Mobilde sağ menü burada görünür */}
+          <div className="mt-12 lg:hidden">
+            <ServiceSidebar activeSlug={service.slug} />
+          </div>
 
           <div className="mt-12">
             <h2 className="text-2xl font-extrabold text-slate-900">Sık Sorulan Sorular</h2>
