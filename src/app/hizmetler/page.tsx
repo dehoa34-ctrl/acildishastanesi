@@ -20,6 +20,8 @@ function svcImg(s: Service): string {
     cerrahi: "/images/servis/cekim-card.webp",
     dolgu: "/images/servis/kanal-card.webp",
     acil: "/images/servis/cekim-card.webp",
+    branc: "/images/servis/cerrahi-uygulamalar-card.webp",
+    gulus: "/images/servis/emax-dis-kaplama-card.webp",
   };
   return map[s.category] || "/images/servis/cekim-card.webp";
 }
@@ -36,22 +38,22 @@ const groups = [
   {
     title: "Branşlar",
     desc: "Temel ağız ve diş sağlığı branşları",
-    cats: ["acil", "dolgu", "cocuk", "cerrahi"],
+    cats: ["branc", "dolgu", "cocuk"],
   },
   {
     title: "Cerrahi Tedaviler",
     desc: "İmplant ve cerrahi uygulamalar",
-    cats: ["implant", "cerrahi"],
+    cats: ["cerrahi", "implant"],
   },
   {
     title: "Estetik Tedaviler",
-    desc: "Estetik ve gülüş odaklı tedaviler",
-    cats: ["estetik", "ortodonti"],
+    desc: "Estetik ve ortodontik tedaviler",
+    cats: ["estetik", "ortodonti", "acil"],
   },
   {
     title: "Gülüş Tasarımı",
     desc: "Kaplama ve gülüş tasarımı çözümleri",
-    cats: ["kaplama", "estetik"],
+    cats: ["gulus", "kaplama"],
   },
 ];
 

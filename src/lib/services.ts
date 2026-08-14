@@ -1,4 +1,4 @@
-export type Service = {
+﻿export type Service = {
   slug: string;
   name: string;
   short: string;
@@ -6,7 +6,7 @@ export type Service = {
   priceNote?: string;
   priceRows?: { name: string; price: string }[];
   features: string[];
-  category: "acil" | "implant" | "estetik" | "kaplama" | "ortodonti" | "cocuk" | "cerrahi" | "dolgu";
+  category: "acil" | "implant" | "estetik" | "kaplama" | "ortodonti" | "cocuk" | "cerrahi" | "dolgu" | "branc" | "gulus";
   image?: string;
   body?: { h2: string; paragraphs: string[] }[];
   faq?: { question: string; answer: string }[];
@@ -14,687 +14,493 @@ export type Service = {
 };
 
 export const services: Service[] = [
-  /* ---------- ACİL ---------- */
   {
-    slug: "acil-dis-tedavisi",
-    name: "Acil Diş Tedavisi",
-    short: "Gece, pazar ve bayramda 7/24 acil diş müdahalesi. Beklemeden aynı gün çözüm.",
-    intro:
-      "Diş ağrısı randevu beklemez. Gece yarısı başlayan zonklama, kırılan diş, düşen dolgu veya şişlik yapan apse için 7/24 açık kliniğimizde acil diş hekimi hazırdır. Beklemeden arayın, aynı gece müdahale edelim.",
-    priceNote: "Acil muayene ve müdahale için hemen arayın.",
-    priceRows: [{ name: "Acil Diş Muayenesi", price: "Arayın" }],
+    slug: "cerrahi-uygulamalar",
+    name: "Cerrahi Uygulamalar",
+    short: "Ã‡ene cerrahisi baÅŸta aÄŸÄ±z ve diÅŸlere baÄŸlÄ± kistler tÃ¼mÃ¶rler gibi patolojilerin yanÄ± sÄ±ra diÅŸ ve Ã§ene kÄ±rÄ±klarÄ±...",
+    intro: "Ã‡ene cerrahisi baÅŸta aÄŸÄ±z ve diÅŸlere baÄŸlÄ± kistler tÃ¼mÃ¶rler gibi patolojilerin yanÄ± sÄ±ra diÅŸ ve Ã§ene kÄ±rÄ±klarÄ± Ã§ene kemiÄŸi iÃ§inde gÃ¶mÃ¼k kalmÄ±ÅŸ diÅŸlerin Ã§Ä±kartÄ±lmasÄ± veya sÃ¼rdÃ¼rÃ¼lmesi, protez yapÄ±mÄ±na yardÄ±mcÄ± olmak iÃ§in aÄŸzÄ±n sert ve yumuÅŸak dokularÄ±nda yapÄ±lan dÃ¼zeltmeleri iÃ§ermektedir. Ã‡ene-yÃ¼z bÃ¶lgesi aÄŸrÄ±larÄ±, alt Ã§ene eklemi hastalÄ±klarÄ± tÃ¼kÃ¼rÃ¼k bezi rahatsÄ±zlÄ±klarÄ± da Ã§ene cerrahisinin Ã§alÄ±ÅŸma alanÄ± iÃ§indedir. AynÄ± zamanda bazÄ± sistemik hastalÄ±klarÄ±n aÄŸÄ±z iÃ§erisindeki belirtilerinin saptanmasÄ± ve tedavisi de Ã§alÄ±ÅŸma alanÄ±na girer.",
     features: [
-      "Gece, pazar ve bayram dahil 7/24 açık",
-      "Acil dolgu, kanal ve çekim",
-      "Apse ve şişlik müdahalesi",
-      "Randevusuz acil kabul",
-      "Düşen dolgu/kaplama yapıştırma",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
-    category: "acil",
+    category: "branc",
   },
   {
-    slug: "dis-cekimi",
-    name: "Diş Çekimi",
-    short: "Ağrısız ve komplikasyonsuz diş çekimi. Uzman hekim, son teknoloji ekipman.",
-    intro:
-      "Kurtarılamayan çürük, iltihap veya travma sonucu hasar gören dişlerin ağrısız şekilde çekilmesi gerekir. Lokal anestezi ile konforlu bir işlem olan diş çekimi, kliniğimizde son teknoloji ekipmanlarla ve uzman hekimlerce gerçekleştirilir.",
-    priceNote: "Çekim fiyatı dişin durumuna göre değişir.",
-    priceRows: [
-      { name: "Basit Diş Çekimi", price: "475 TL" },
-      { name: "20'lik Diş Çekimi", price: "Kişiye özel" },
-      { name: "Gömülü Diş Çekimi", price: "Kişiye özel" },
-    ],
+    slug: "dijital-dis-hekimligi",
+    name: "Dijital DiÅŸ HekimliÄŸi",
+    short: "DiÅŸ estetiÄŸi ve tedavisinde Ã§Ã¶zÃ¼me hemen ulaÅŸmak iÃ§in, dijital diÅŸ hekimliÄŸinin hÄ±zlÄ± ve etkili Ã§Ã¶zÃ¼mlerinden ...",
+    intro: "DiÅŸ estetiÄŸi ve tedavisinde Ã§Ã¶zÃ¼me hemen ulaÅŸmak iÃ§in, dijital diÅŸ hekimliÄŸinin hÄ±zlÄ± ve etkili Ã§Ã¶zÃ¼mlerinden yararlanÄ±n. Cad-cam hassas gÃ¶rÃ¼ntÃ¼leme sistemleri ve bilgisayar programlarÄ± ile diÅŸlerinize tam uyum saÄŸlayan tedavileri doktorunuz ile birlikte tasarlayÄ±n ve sonucu aynÄ± gÃ¼n iÃ§erisinde alÄ±n!",
     features: [
-      "Lokal anestezi ile ağrısız işlem",
-      "Basit ve cerrahi çekim seçenekleri",
-      "20'lik ve gömülü diş uzmanlığı",
-      "Çekim sonrası bakım talimatı",
-      "Gece ve hafta sonu dahil hizmet",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "kanal-tedavisi-nedir-kanal-tedavisi-neden-yapilir",
+    name: "Kanal Tedavisi Nedir?",
+    short: "Kanal tedavisi, diÅŸin iÃ§indeki enfekte sinir ve dokularÄ±n temizlenip doldurulmasÄ±yla diÅŸi kurtarmaya yÃ¶nelik b...",
+    intro: "Kanal tedavisi, diÅŸin iÃ§indeki enfekte sinir ve dokularÄ±n temizlenip doldurulmasÄ±yla diÅŸi kurtarmaya yÃ¶nelik bir tedavi yÃ¶ntemidir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "protetik-dis-tedavisi-nedir-protetik-dis-tedavisi-nasil-yapilir",
+    name: "Protetik DiÅŸ Tedavisi Nedir?",
+    short: "Protetik diÅŸ tedavisi, hastanÄ±n eksik diÅŸlerinin yerine fonksiyonel ve estetik Ã§Ã¶zÃ¼mler getiren bir dizi adÄ±m ...",
+    intro: "Protetik diÅŸ tedavisi, hastanÄ±n eksik diÅŸlerinin yerine fonksiyonel ve estetik Ã§Ã¶zÃ¼mler getiren bir dizi adÄ±m iÃ§erir. Ä°lk olarak, hastanÄ±n aÄŸÄ±z yapÄ±sÄ± incelenir ve diÅŸ Ã¶lÃ§Ã¼leri alÄ±nÄ±r. Bu sÃ¼reÃ§te diÅŸ hekimi, hastanÄ±n ihtiyaÃ§larÄ±na ve aÄŸÄ±z yapÄ±sÄ±na gÃ¶re bir tedavi planÄ± oluÅŸturur. Protez diÅŸlerin veya kaplamalarÄ±n doÄŸru bir ÅŸekilde yerleÅŸtirilebilmesi iÃ§in diÅŸlerin ya da Ã§ene yapÄ±sÄ±nÄ±n durumuna gÃ¶re iÅŸlem yapÄ±lÄ±r. ArdÄ±ndan, alÄ±nan Ã¶lÃ§Ã¼ler doÄŸrultusunda protezler laboratuvarda Ã¶zel olarak hazÄ±rlanÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "kirik-dis-tedavisi",
+    name: "KÄ±rÄ±k DiÅŸ Tedavisi",
+    short: "KÄ±rÄ±k diÅŸ tedavisi, Ã§atlamÄ±ÅŸ veya kÄ±rÄ±lmÄ±ÅŸ diÅŸin yapÄ±sÄ±nÄ± ve iÅŸlevini onarmak iÃ§in uygulanan diÅŸ hekimliÄŸi yÃ¶n...",
+    intro: "KÄ±rÄ±k diÅŸ tedavisi, Ã§atlamÄ±ÅŸ veya kÄ±rÄ±lmÄ±ÅŸ diÅŸin yapÄ±sÄ±nÄ± ve iÅŸlevini onarmak iÃ§in uygulanan diÅŸ hekimliÄŸi yÃ¶ntemidir. Tedavi yÃ¶ntemi, kÄ±rÄ±ÄŸÄ±n boyutu ve konumuna gÃ¶re deÄŸiÅŸiklik gÃ¶sterir. KÃ¼Ã§Ã¼k kÄ±rÄ±klar genellikle dolgu veya bonding ile onarÄ±lÄ±rken, daha bÃ¼yÃ¼k hasarlarda kanal tedavisi ve kaplama gerekebilir. DiÅŸ kÃ¶kÃ¼ne kadar inen ciddi kÄ±rÄ±klarda ise diÅŸ Ã§ekimi ve implant tedavisi tercih edilebilir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "pedodonti-cocuk-dis-hekimligi",
+    name: "Pedodonti (Ã‡ocuk DiÅŸ HekimliÄŸi)",
+    short: "Pedodonti, Ã§ocuklarÄ±n aÄŸÄ±z ve diÅŸ saÄŸlÄ±ÄŸÄ±yla ilgilenen diÅŸ hekimliÄŸi dalÄ±dÄ±r. 0-13 yaÅŸ arasÄ± Ã§ocuklarÄ±n sÃ¼t di...",
+    intro: "Pedodonti, Ã§ocuklarÄ±n aÄŸÄ±z ve diÅŸ saÄŸlÄ±ÄŸÄ±yla ilgilenen diÅŸ hekimliÄŸi dalÄ±dÄ±r. 0-13 yaÅŸ arasÄ± Ã§ocuklarÄ±n sÃ¼t diÅŸleri ve daimi diÅŸlerinin saÄŸlÄ±klÄ± geliÅŸimi  pedodonti  uzmanlarÄ±nÄ±n sorumluluÄŸundadÄ±r. Bu alanda Ã§Ã¼rÃ¼k tedavisi, diÅŸ Ã§ekimi, fissÃ¼r Ã¶rtÃ¼cÃ¼ uygulamalarÄ± ve travma tedavileri yapÄ±lÄ±r. AyrÄ±ca Ã§ocuklara diÅŸ fÄ±rÃ§alama alÄ±ÅŸkanlÄ±ÄŸÄ± kazandÄ±rmak ve diÅŸ hekimi korkusunu yenmek iÃ§in Ã¶zel iletiÅŸim yÃ¶ntemleri kullanÄ±lÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "ortodonti-nedir-ortodonti-tedavisi-ne-demek",
+    name: "Ortodonti Nedir?",
+    short: "DiÅŸ teli tedavisi, diÅŸ hekimliÄŸinin bir uzmanlÄ±k alanÄ± olan ortodonti bÃ¶lÃ¼mÃ¼ tarafÄ±ndan gerÃ§ekleÅŸtirilir. Orto...",
+    intro: "DiÅŸ teli tedavisi, diÅŸ hekimliÄŸinin bir uzmanlÄ±k alanÄ± olan ortodonti bÃ¶lÃ¼mÃ¼ tarafÄ±ndan gerÃ§ekleÅŸtirilir. Ortodonti uzmanlarÄ±, diÅŸlerdeki ve Ã§enedeki hizalama sorunlarÄ±nÄ± dÃ¼zeltmek iÃ§in diÅŸ teli gibi tedavi yÃ¶ntemlerini uygularlar. DiÅŸ teli tedavisi, diÅŸlerin doÄŸru pozisyona getirilmesi amacÄ±yla kullanÄ±lan en yaygÄ±n yÃ¶ntemlerden biridir. DiÅŸler arasÄ±ndaki boÅŸluklarÄ± kapatmak, Ã§apraÅŸÄ±k diÅŸleri dÃ¼zeltmek ve Ã§ene bozukluklarÄ±nÄ± tedavi etmek iÃ§in diÅŸ teli kullanÄ±lÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "periodontoloji",
+    name: "Periodontoloji",
+    short: "Periodontoloji, diÅŸleri Ã§evreleyen yumuÅŸak dokularÄ±n (diÅŸ eti) ve diÅŸleri Ã§ene kemiÄŸine baÄŸlayan sert dokularÄ±...",
+    intro: "Periodontoloji, diÅŸleri Ã§evreleyen yumuÅŸak dokularÄ±n (diÅŸ eti) ve diÅŸleri Ã§ene kemiÄŸine baÄŸlayan sert dokularÄ±n saÄŸlÄ±ÄŸÄ±yla ilgilenen diÅŸ hekimliÄŸi uzmanlÄ±k dalÄ±dÄ±r. Halk arasÄ±nda â€œdiÅŸ eti hastalÄ±klarÄ± bÃ¶lÃ¼mÃ¼â€ olarak bilinse de, Ã§alÄ±ÅŸma alanÄ± sadece iltihap tedavisiyle sÄ±nÄ±rlÄ± deÄŸildir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "branc",
+  },
+  {
+    slug: "implant-nedir-implant-tedavisi-nasil-yapilir",
+    name: "Ä°mplant Nedir? Ä°mplant Tedavisi NasÄ±l YapÄ±lÄ±r?",
+    short: "Komple implant, aÄŸÄ±zdaki tÃ¼m diÅŸlerin eksik olduÄŸu durumlarda tÃ¼m aÄŸÄ±z iÃ§in uygulanan bir tedavi yÃ¶ntemidir. B...",
+    intro: "Komple implant, aÄŸÄ±zdaki tÃ¼m diÅŸlerin eksik olduÄŸu durumlarda tÃ¼m aÄŸÄ±z iÃ§in uygulanan bir tedavi yÃ¶ntemidir. Bu tedavide alt ve Ã¼st Ã§ene iÃ§in belirli sayÄ±da implant yerleÅŸtirilir ve Ã¼zerine sabit veya hareketli protez diÅŸler takÄ±lÄ±r. Ä°lk aÅŸamada Ã§ene yapÄ±sÄ± incelenir ve gerekli gÃ¶rÃ¼len implant sayÄ±sÄ± belirlenir. Cerrahi iÅŸlemle Ã§ene kemiÄŸine implantlar yerleÅŸtirilir ve iyileÅŸme sÃ¼reci baÅŸlar. ",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "cerrahi",
   },
   {
-    slug: "20lik-dis-cekimi",
-    name: "20'lik Diş Çekimi",
-    short: "20 yaş dişi (yirmilik diş) ağrısı ve çekimi. Uzman cerrahi müdahale.",
-    intro:
-      "20 yaş dişleri ağızda yer kalmadığında gömülü kalabilir veya yanlış açıyla çıkarak ağrı, iltihap ve çevre dişlere baskı yapabilir. Kliniğimizde 20'lik diş çekimleri lokal anestezi ile konforlu ve güvenli şekilde yapılır.",
-    priceNote: "20'lik diş çekim fiyatı gömülülük durumuna göre değişir.",
-    priceRows: [
-      { name: "20'lik Diş Muayenesi", price: "Ücretsiz" },
-      { name: "20'lik Diş Çekimi", price: "Kişiye özel" },
-      { name: "Gömülü 20'lik Diş Çekimi", price: "Kişiye özel" },
-    ],
+    slug: "all-on-four-implant",
+    name: "All On Four Ä°mplant",
+    short: "All On Four implant konsepti, adÄ±ndan da anlaÅŸÄ±lacaÄŸÄ± Ã¼zere, tam diÅŸsiz bir Ã§ene kemiÄŸine yerleÅŸtirilen dÃ¶rt a...",
+    intro: "All On Four implant konsepti, adÄ±ndan da anlaÅŸÄ±lacaÄŸÄ± Ã¼zere, tam diÅŸsiz bir Ã§ene kemiÄŸine yerleÅŸtirilen dÃ¶rt adet dental implant Ã¼zerine sabit bir protezin vidalanmasÄ± esasÄ±na dayanÄ±r. Bu teknik, geleneksel implant uygulamalarÄ±ndan biyomekanik prensipleriyle ayrÄ±lÄ±r. Standart uygulamalarda Ã§ene kemiÄŸine dikey olarak 6 veya 8 implant yerleÅŸtirmek gerekirken, All On Four tekniÄŸinde Ã¶n bÃ¶lgeye iki adet implant dikey, arka bÃ¶lgeye ise iki adet implant 30 ila 45 derecelik aÃ§Ä±larla yerleÅŸtirilir. Bu aÃ§Ä±lÄ± yerleÅŸim, anatomik engellerden (sinÃ¼s boÅŸluklarÄ± ve sinir kanallarÄ±) kaÃ§Ä±nmamÄ±zÄ± saÄŸlarken, implantlarÄ±n daha kaliteli kemik dokusuna tutunmasÄ±na olanak tanÄ±r.",
     features: [
-      "Röntgen ile durum analizi",
-      "Gömülü ve yarı gömülü 20'lik çekimi",
-      "Lokal anestezi ile ağrısız işlem",
-      "Çekim sonrası iyileşme takibi",
-      "Cumartesi, pazar açık",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "cerrahi",
   },
   {
-    slug: "gomulu-20lik-dis-cekimi",
-    name: "Gömülü 20'lik Diş Çekimi",
-    short: "Diş eti altında kalmış 20'lik dişlerin cerrahi çekimi.",
-    intro:
-      "Bazı 20'lik dişler tamamen diş eti veya kemik içinde gömülü kalır. Bu dişler kist, iltihap ve çevre dişlerde çürüme riski oluşturabilir. Gömülü 20'lik diş çekimi, uzman cerrah tarafından güvenli ve ağrısız şekilde gerçekleştirilir.",
-    priceNote: "Gömülü diş çekim fiyatı zorluk derecesine göre değişir.",
-    priceRows: [{ name: "Gömülü 20'lik Diş Çekimi", price: "Kişiye özel" }],
+    slug: "bir-gunde-implant",
+    name: "Bir GÃ¼nde Ä°mplant",
+    short: "Bir gÃ¼nde implant, diÅŸ Ã§ekimi ile implant vidasÄ±nÄ±n aynÄ± seansta yerleÅŸtirildiÄŸi ve Ã¼zerine geÃ§ici diÅŸin takÄ±l...",
+    intro: "Bir gÃ¼nde implant, diÅŸ Ã§ekimi ile implant vidasÄ±nÄ±n aynÄ± seansta yerleÅŸtirildiÄŸi ve Ã¼zerine geÃ§ici diÅŸin takÄ±ldÄ±ÄŸÄ± hÄ±zlÄ± bir tedavi yÃ¶ntemidir. Klasik implant tedavisindeki aylarca bekleme sÃ¼resini ortadan kaldÄ±rdÄ±ÄŸÄ± iÃ§in tÄ±p literatÃ¼rÃ¼nde â€œImmediate YÃ¼klemeâ€ olarak da bilinir.",
     features: [
-      "3D röntgen ile planlama",
-      "Gömülü ve yarı gömülü dişler",
-      "Genel veya lokal anestezi seçeneği",
-      "Dikişli cerrahi müdahale",
-      "Sonrası kontrollü iyileşme",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "cerrahi",
   },
   {
-    slug: "komplikasyonlu-dis-cekimi",
-    name: "Komplikasyonlu Diş Çekimi",
-    short: "Kökü kırık, eğri veya yapışık dişlerin zorlu cerrahi çekimi.",
-    intro:
-      "Bazı dişlerin kökleri eğri, kırık veya çevre dokulara yapışık olabilir. Bu durumlarda standart çekim yerine cerrahi müdahale gerekir. Deneyimli cerrah kadromuz komplikasyonlu çekimleri güvenle gerçekleştirir.",
-    priceNote: "Fiyat işlemin zorluk derecesine göre belirlenir.",
-    priceRows: [{ name: "Komplikasyonlu Diş Çekimi", price: "Kişiye özel" }],
+    slug: "sinus-lifting-sinus-kaldirma-nedir-sinus-sarkmasi-belirtileri-nelerdir",
+    name: "Sinus Lifting (SinÃ¼s KaldÄ±rma)",
+    short: "Sinus lifting, Ã¼st Ã§ene arka bÃ¶lgesine implant yerleÅŸtirmek iÃ§in sinÃ¼s boÅŸluÄŸunu yÃ¼kselterek kemik hacmini art...",
+    intro: "Sinus lifting, Ã¼st Ã§ene arka bÃ¶lgesine implant yerleÅŸtirmek iÃ§in sinÃ¼s boÅŸluÄŸunu yÃ¼kselterek kemik hacmini artÄ±ran cerrahi bir iÅŸlemdir.",
     features: [
-      "Kök ucu kırık dişler",
-      "Eğri ve yapışık kökler",
-      "Uzman cerrah kadrosu",
-      "Cerrahi dikiş ve sonrası bakım",
-      "Ağrısız işlem garantisi",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "cerrahi",
+  },
+  {
+    slug: "dis-cekimi-nedir-dis-nasil-cekilir-dis-cekimi-ne-kadar-surer",
+    name: "DiÅŸ Ã‡ekimi Nedir? DiÅŸ NasÄ±l Ã‡ekilir?",
+    short: "DiÅŸ Ã§ekiminin sÃ¼resi, diÅŸin durumu ve Ã§ekilecek diÅŸin tÃ¼rÃ¼ne gÃ¶re deÄŸiÅŸiklik gÃ¶sterebilir. Basit bir diÅŸ Ã§ekim...",
+    intro: "DiÅŸ Ã§ekiminin sÃ¼resi, diÅŸin durumu ve Ã§ekilecek diÅŸin tÃ¼rÃ¼ne gÃ¶re deÄŸiÅŸiklik gÃ¶sterebilir. Basit bir diÅŸ Ã§ekimi genellikle 20 ila 30 dakika arasÄ±nda tamamlanÄ±r. Ancak, gÃ¶mÃ¼lÃ¼ veya karmaÅŸÄ±k bir diÅŸ Ã§ekimi iÅŸlemi bu sÃ¼reyi uzatabilir ve yaklaÅŸÄ±k 45 dakikaya kadar sÃ¼rebilir. Ã–zellikle azÄ± diÅŸi Ã§ekimi ya da 20â€™lik diÅŸ Ã§ekimi gibi daha zorlu vakalarda iÅŸlem daha uzun sÃ¼rebilir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "cerrahi",
+  },
+  {
+    slug: "20lik-dis-nedir-20lik-dis-ne-ise-yarar-20lik-dis-cekimi",
+    name: "20'lik DiÅŸ Nedir? 20'lik DiÅŸ Ã‡ekimi",
+    short: "20â€™lik diÅŸ belirtileri genellikle diÅŸlerin Ã§Ä±kma sÃ¼reciyle ortaya Ã§Ä±kar. Bu diÅŸlerin Ã§Ä±karken neden olduÄŸu en ...",
+    intro: "20â€™lik diÅŸ belirtileri genellikle diÅŸlerin Ã§Ä±kma sÃ¼reciyle ortaya Ã§Ä±kar. Bu diÅŸlerin Ã§Ä±karken neden olduÄŸu en yaygÄ±n belirtiler arasÄ±nda arka diÅŸ etlerinde aÄŸrÄ±, ÅŸiÅŸlik, kÄ±zarÄ±klÄ±k ve hassasiyet yer alÄ±r. AyrÄ±ca Ã§iÄŸneme sÄ±rasÄ±nda yaÅŸanan zorluklar ve aÄŸÄ±z aÃ§mada gÃ¼Ã§lÃ¼k gibi semptomlar da yaygÄ±ndÄ±r. Bu diÅŸlerin Ã§Ä±kma sÃ¼recinde, bÃ¶lgedeki diÅŸ etinde iltihaplanma da gÃ¶rÃ¼lebilir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "cerrahi",
+  },
+  {
+    slug: "gomulu-20lik-dis-nedir-gomulu-20lik-dis-cekimi",
+    name: "GÃ¶mÃ¼lÃ¼ 20'lik DiÅŸ Nedir? GÃ¶mÃ¼lÃ¼ 20'lik DiÅŸ Ã‡ekimi",
+    short: "GÃ¶mÃ¼lÃ¼ 20â€™lik diÅŸ Ã§ekimi sonrasÄ± aÄŸrÄ±, genellikle iÅŸlemden sonraki ilk 24 ila 48 saat iÃ§inde en yoÄŸun seviyede...",
+    intro: "GÃ¶mÃ¼lÃ¼ 20â€™lik diÅŸ Ã§ekimi sonrasÄ± aÄŸrÄ±, genellikle iÅŸlemden sonraki ilk 24 ila 48 saat iÃ§inde en yoÄŸun seviyede olur ve daha sonra kademeli olarak azalÄ±r. AÄŸrÄ±nÄ±n ÅŸiddeti, diÅŸin ne kadar derin gÃ¶mÃ¼lÃ¼ olduÄŸuna ve Ã§ekim iÅŸleminin zorluÄŸuna baÄŸlÄ± olarak deÄŸiÅŸir. Basit bir Ã§ekimde aÄŸrÄ± birkaÃ§ gÃ¼n iÃ§inde hafiflerken, daha karmaÅŸÄ±k cerrahi iÅŸlemlerde bu sÃ¼re bir hafta ya da daha fazla sÃ¼rebilir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "cerrahi",
+  },
+  {
+    slug: "komplikasyonlu-dis-cekimi-nedir-komplikasyonlu-dis-cekimi-nasil-yapilir",
+    name: "Komplikasyonlu DiÅŸ Ã‡ekimi Nedir?",
+    short: "Komplikasyonlu diÅŸ Ã§ekimi, diÅŸin Ã§Ä±karÄ±lmasÄ±nÄ±n zor olduÄŸu durumlarda cerrahi tekniklerle yapÄ±lÄ±r. Ä°lk adÄ±mda ...",
+    intro: "Komplikasyonlu diÅŸ Ã§ekimi, diÅŸin Ã§Ä±karÄ±lmasÄ±nÄ±n zor olduÄŸu durumlarda cerrahi tekniklerle yapÄ±lÄ±r. Ä°lk adÄ±mda diÅŸ hekimi, diÅŸin tam pozisyonunu ve kÃ¶klerinin durumunu belirlemek iÃ§in rÃ¶ntgen Ã§eker. DiÅŸin gÃ¶mÃ¼lÃ¼ olmasÄ±, kÃ¶klerinin eÄŸri ya da yayÄ±lmÄ±ÅŸ olmasÄ± gibi durumlar Ã§ekimi zorlaÅŸtÄ±ran faktÃ¶rlerdir. Ã‡ekim sÃ¼recinde lokal anestezi kullanÄ±lÄ±r ve diÅŸ Ã§evresindeki diÅŸ eti dokularÄ± dikkatlice aÃ§Ä±larak diÅŸ kÃ¶kÃ¼ne ulaÅŸÄ±lÄ±r. Gerekirse diÅŸ parÃ§alara ayrÄ±larak Ã§Ä±karÄ±lÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "cerrahi",
   },
   {
     slug: "sut-dis-cekimi",
-    name: "Süt Diş Çekimi",
-    short: "Çocuklarda sallanan veya çürük süt dişlerinin güvenli çekimi.",
-    intro:
-      "Sallanarak düşmeyen veya derin çürük nedeniyle kurtarılamayan süt dişlerinin çekimi, çocuğun ağrısız ve güvenli bir deneyim yaşaması için özel ilgi gerektirir. Çocuk dostu yaklaşımımızla süt diş çekimi konforlu geçer.",
-    priceNote: "Süt diş çekimi fiyatı için arayın.",
-    priceRows: [{ name: "Süt Diş Çekimi", price: "Kişiye özel" }],
+    name: "SÃ¼t DiÅŸ Ã‡ekimi",
+    short: "SÃ¼t diÅŸ Ã§ekimi, sallanarak kendiliÄŸinden dÃ¼ÅŸmeyen veya derin Ã§Ã¼rÃ¼k nedeniyle kurtarÄ±lamayan geÃ§ici diÅŸlerin he...",
+    intro: "SÃ¼t diÅŸ Ã§ekimi, sallanarak kendiliÄŸinden dÃ¼ÅŸmeyen veya derin Ã§Ã¼rÃ¼k nedeniyle kurtarÄ±lamayan geÃ§ici diÅŸlerin hekim tarafÄ±ndan alÄ±nmasÄ± iÅŸlemidir. Genellikle diÅŸ kÃ¶kÃ¼nde oluÅŸan inatÃ§Ä± enfeksiyonlar veya alttan gelen daimi diÅŸe yer aÃ§mak iÃ§in bu yÃ¶nteme baÅŸvurulur.",
     features: [
-      "Çocuk dostu, yumuşak yaklaşım",
-      "Gerekmedikçe süt diş korunur",
-      "Lokal anestezi ile konfor",
-      "Çürük ve iltihap kontrolü",
-      "Gece ve hafta sonu dahil hizmet",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
-    category: "cocuk",
-  },
-
-  /* ---------- İMPLANT ---------- */
-  {
-    slug: "dis-implant-fiyatlari",
-    name: "İmplant Diş Fiyatları",
-    short: "Tek diş implant, alman/kore/isviçre implant seçenekleri ve ömür boyu çözümler.",
-    intro:
-      "İmplant, eksik dişlerin en kalıcı ve doğal çözümüdür. Titanyum kök, çene kemiğine yerleştirilerek hem görünüm hem çiğneme fonksiyonu açısından en yakın sonucu verir. Kliniğimizde tek dişten tam çene implantlara kadar tüm işlemler son teknoloji cihazlarla ve uzman hekimlerce gerçekleştirilir.",
-    priceNote:
-      "İmplant fiyatları marka, çene durumu ve üst yapı seçimine göre değişir. Net fiyat için muayene ve kişiye özel planlama gerekir.",
-    priceRows: [
-      { name: "Kemik İçi İmplant (Tek Diş)", price: "3.090 TL" },
-      { name: "Alman Malı İmplant", price: "5.000 – 6.500 TL" },
-      { name: "Kore Malı İmplant", price: "4.000 – 4.500 TL" },
-      { name: "İsviçre Malı İmplant", price: "5.250 – 6.000 TL" },
-      { name: "Straumann İmplant", price: "9.000 – 12.000 TL" },
-      { name: "İmplant Üstü Zirkonyum Kron", price: "2.240 TL" },
-      { name: "Diş Çekimi", price: "475 TL" },
-    ],
-    features: [
-      "Lokal anestezi ile ağrısız uygulama",
-      "Alman, Kore, İsviçre ve Straumann marka seçenekleri",
-      "Son teknoloji panoramik röntgen ve 3D planlama",
-      "Ortalama 25-35 yıl kullanım ömrü",
-      "Cumartesi, pazar ve bayramlarda açık",
-    ],
-    category: "implant",
-  },
-  {
-    slug: "all-on-four-implant",
-    name: "All On Four İmplant",
-    short: "Tam çene dişsizlikte 4 implant ile sabit protez çözümü.",
-    intro:
-      "All On Four, dişsiz bir çeneye yerleştirilen dört implant üzerine sabit bir protezin vidalanması esasına dayanır. Tek seansta geçici dişler takılabilir; hareketli protez derdi olmadan sabit ve konforlu bir gülüş sağlar.",
-    priceNote: "All On Four fiyatı çene durumuna ve protez malzemesine göre değişir.",
-    priceRows: [{ name: "All On Four (Tek Çene)", price: "Kişiye özel" }],
-    features: [
-      "4 implant ile tam çene çözümü",
-      "Tek seansta geçici dişler",
-      "Hareketli proteze alternatif",
-      "Kemik yetmezliğinde de uygulanabilir",
-      "Uzun ömürlü sabit protez",
-    ],
-    category: "implant",
-  },
-  {
-    slug: "bir-gunde-implant",
-    name: "Bir Günde İmplant",
-    short: "Diş çekimi ve implant aynı seansta. Geçici dişler aynı gün takılır.",
-    intro:
-      "Bir günde implant; diş çekimi, implant vidasının yerleştirilmesi ve üzerine geçici dişlerin takılmasının aynı seansta yapıldığı hızlı bir tedavidir. Böylece estetik kaygı yaşamadan kısa sürede sabit dişlere kavuşursunuz.",
-    priceNote: "Fiyat implant sayısı ve üst yapıya göre değişir.",
-    priceRows: [{ name: "Bir Günde İmplant", price: "Kişiye özel" }],
-    features: [
-      "Aynı seansta çekim + implant",
-      "Geçici dişler aynı gün takılır",
-      "Estetik bekleme dönemi yok",
-      "3D dijital planlama",
-      "Uzman implant hekimi",
-    ],
-    category: "implant",
-  },
-  {
-    slug: "sinus-lifting",
-    name: "Sinus Lifting (Sinüs Kaldırma)",
-    short: "Üst çene arka bölgede implant için kemik hacmi artırma.",
-    intro:
-      "Sinus lifting, üst çene arka bölgesine implant yerleştirmek için sinüs boşluğunu yükselterek kemik hacmini artıran bir işlemdir. Kemik yetersizliği olan hastalarda implant tedavisinin ön koşuludur ve uzman cerrah tarafından güvenle uygulanır.",
-    priceNote: "Sinus lifting fiyatı için muayene gerekir.",
-    priceRows: [{ name: "Sinus Lifting", price: "Kişiye özel" }],
-    features: [
-      "Kemik yetersizliğinde implant imkânı",
-      "Açık ve kapalı teknik seçenekleri",
-      "Uzman cerrah kadrosu",
-      "3D röntgen ile planlama",
-      "Güvenli, kontrollü iyileşme",
-    ],
-    category: "implant",
-  },
-
-  /* ---------- ESTETİK ---------- */
-  {
-    slug: "gulus-tasarimi",
-    name: "Gülüş Tasarımı",
-    short: "Dijital smile design ile kişiye özel estetik gülüş planlaması.",
-    intro:
-      "Gülüş tasarımı; dişlerin rengi, şekli, boyutu ve diş eti çizgisi bütün olarak değerlendirilerek kişiye özel estetik bir gülüş planlanmasıdır. Dijital planlama sayesinde sonucu önceden görebilir, ön izleme ile karar verebilirsiniz.",
-    priceNote: "Gülüş tasarımı fiyatı kapsama göre değişir.",
-    priceRows: [
-      { name: "Gülüş Tasarımı Danışmanlığı", price: "Ücretsiz" },
-      { name: "Dijital Smile Design", price: "Kişiye özel" },
-    ],
-    features: [
-      "Dijital gülüş planlama (smile design)",
-      "Ön izleme ile sonucu görme",
-      "Lamine, Emax ve zirkonyum ile uygulama",
-      "Yüz hatlarıyla uyumlu tasarım",
-      "3 günde gülüş tasarımı imkânı",
-    ],
-    category: "estetik",
-  },
-  {
-    slug: "dis-beyazlatma",
-    name: "Diş Beyazlatma (Bleaching)",
-    short: "Ofis tipi ve ev tipi diş beyazlatma ile daha aydınlık gülüş.",
-    intro:
-      "Diş beyazlatma; kahve, çay, sigara ve yaşlanma kaynaklı renklenmelerin giderilmesini sağlar. Ofis tipi lazer beyazlatma tek seansta birkaç ton aydınlatırken, ev tipi uygulamalar kullanım kolaylığı sunar.",
-    priceNote: "Diş beyazlatma fiyatı yönteme göre değişir.",
-    priceRows: [
-      { name: "Ofis Tipi Beyazlatma", price: "Kişiye özel" },
-      { name: "Ev Tipi Beyazlatma Seti", price: "Kişiye özel" },
-    ],
-    features: [
-      "Tek seansta birkaç ton aydınlatma",
-      "Ofis ve ev tipi seçenekler",
-      "Diş minesine zarar vermez",
-      "Uzman hekim kontrolünde",
-      "Kalıcı sonuç için bakım önerisi",
-    ],
-    category: "estetik",
+    category: "cerrahi",
   },
   {
     slug: "dental-bonding",
     name: "Dental Bonding",
-    short: "Kompozit dolgu maddesi ile kırık, çatlak ve aralıklı dişlerin estetik onarımı.",
-    intro:
-      "Dental bonding; kırık, çatlak, renklenmiş veya aralıklı dişlerin kompozit reçine ile tek seansta estetik şekilde onarılmasıdır. Diş kesimi gerektirmeyen, ekonomik ve hızlı bir estetik çözümdür.",
-    priceNote: "Bonding fiyatı diş sayısına göre değişir.",
-    priceRows: [{ name: "Dental Bonding (Tek Diş)", price: "Kişiye özel" }],
+    short: "Dental bonding, diÅŸin doÄŸal rengine uygun kompozit reÃ§ine malzemesinin diÅŸe yapÄ±ÅŸtÄ±rÄ±larak ÅŸekil verilmesi iÅŸl...",
+    intro: "Dental bonding, diÅŸin doÄŸal rengine uygun kompozit reÃ§ine malzemesinin diÅŸe yapÄ±ÅŸtÄ±rÄ±larak ÅŸekil verilmesi iÅŸlemidir. Hekimler bu yÃ¶ntemi genellikle kÄ±rÄ±k, Ã§atlak diÅŸleri onarmak veya diÅŸler arasÄ±ndaki ayrÄ±k boÅŸluklarÄ± (diastema) kapatmak iÃ§in kullanÄ±r.",
     features: [
-      "Tek seansta estetik onarım",
-      "Diş kesimi gerekmez",
-      "Kırık ve çatlaklarda hızlı çözüm",
-      "Aralıklı dişlerin kapatılması",
-      "Ekonomik estetik seçenek",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "estetik",
   },
   {
-    slug: "dis-eti-estetigi",
-    name: "Diş Eti Estetiği (Pembe Estetik)",
-    short: "Gülüş hattını düzenleyen diş eti şekillendirme ve estetik tedaviler.",
-    intro:
-      "Pembe estetik; diş etlerinin sağlıklı, simetrik ve estetik bir görünüme kavuşturulması için yapılan tedavilerdir. Gülümserken fazla görünen diş eti veya asimetrik gülüş hattı, diş eti estetiği ile düzeltilir.",
-    priceNote: "Pembe estetik fiyatı uygulama kapsamına göre değişir.",
-    priceRows: [{ name: "Diş Eti Estetiği", price: "Kişiye özel" }],
+    slug: "dis-beyazlatma-bleaching-nedir-en-etkili-dis-beyazlatma-yontemleri-nelerdir",
+    name: "DiÅŸ Beyazlatma (Bleaching) Nedir?",
+    short: "DiÅŸ beyazlatma fiyatlarÄ± , tercih edilen yÃ¶ntem ve klinik koÅŸullarÄ±na baÄŸlÄ± olarak farklÄ±lÄ±k gÃ¶sterebilir. Pro...",
+    intro: "DiÅŸ beyazlatma fiyatlarÄ± , tercih edilen yÃ¶ntem ve klinik koÅŸullarÄ±na baÄŸlÄ± olarak farklÄ±lÄ±k gÃ¶sterebilir. Profesyonel diÅŸ beyazlatma iÅŸlemleri, genellikle diÅŸ kliniÄŸinde yapÄ±lan lazerle beyazlatma ya da ev tipi beyazlatma kitleri gibi seÃ§enekler arasÄ±nda deÄŸiÅŸiklik gÃ¶sterir.",
     features: [
-      "Gülüş hattı düzenleme",
-      "Lazerle ağrısız işlem",
-      "Simetrik diş eti görünümü",
-      "Diş eti büyümesi tedavisi",
-      "Estetik ve fonksiyonel sonuç",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "estetik",
   },
   {
     slug: "inlay-onlay-overlay-dolgular",
-    name: "Inlay / Onlay / Overlay Dolgular",
-    short: "Laboratuvarda hazırlanan porselen dolgularla doğal ve dayanıklı onarım.",
-    intro:
-      "Inlay, onlay ve overlay dolgular; büyük çürüklerin laboratuvarda hazırlanan porselen veya kompozit parçalarla onarıldığı modern restorasyonlardır. Dişin sağlıklı dokusu korunur ve doğal görünümlü, dayanıklı sonuç elde edilir.",
-    priceNote: "Fiyat diş başına ve malzemeye göre değişir.",
-    priceRows: [{ name: "Inlay/Onlay Dolgu", price: "Kişiye özel" }],
+    name: "Inlay Onlay Overlay Dolgular",
+    short: "DiÅŸle aynÄ± sertlikte olan bu porselen dolgu, Ä±sÄ±rma kuvvetlerinden oluÅŸan kÄ±rÄ±lmalarÄ± Ã¶nler ve diÅŸin eskisi ka...",
+    intro: "DiÅŸle aynÄ± sertlikte olan bu porselen dolgu, Ä±sÄ±rma kuvvetlerinden oluÅŸan kÄ±rÄ±lmalarÄ± Ã¶nler ve diÅŸin eskisi kadar saÄŸlÄ±klÄ± olmasÄ±nÄ± saÄŸlar.",
     features: [
-      "Diş dokusunu korur",
-      "Porselen ve kompozit seçenekler",
-      "Doğal, estetik görünüm",
-      "Uzun ömürlü restorasyon",
-      "Laboratuvar destekli üretim",
-    ],
-    category: "dolgu",
-  },
-
-  /* ---------- KAPLAMA ---------- */
-  {
-    slug: "lamine-emax-kaplama-dis-fiyatlari",
-    name: "Lamine Diş (Emax) Fiyatları",
-    short: "Gülüş tasarımı, yaprak porselen ve Emax kaplama ile estetik gülüş.",
-    intro:
-      "Lamine diş, dişlerin ön yüzeyine uygulanan ince yaprak porselendir. Minene zarar vermeden diş şekli, rengi ve boyutunu düzelterek doğal bir gülüş sağlar. Emax malzeme, ışık geçirgenliğiyle gerçek dişten ayırt edilemeyen sonuçlar sunar.",
-    priceNote:
-      "Lamine ve Emax fiyatları; diş sayısına, malzeme kalitesine ve gülüş tasarımına göre değişir.",
-    priceRows: [
-      { name: "Lamine Yaprak Porselen (Tek Diş)", price: "2.500 – 4.000 TL" },
-      { name: "Emax Lamine (Tek Diş)", price: "3.000 – 5.000 TL" },
-      { name: "Gülüş Tasarımı + Dijital Planlama", price: "Ücretsiz muayene" },
-    ],
-    features: [
-      "Minimal diş kesimi, maksimum doğallık",
-      "Emax ve yüksek kalite porselen malzemeler",
-      "Dijital gülüş tasarımı ile ön izleme",
-      "Estetik ve fonksiyonel sonuç garantisi",
-      "Randevu ile aynı gün başlama imkânı",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "estetik",
+  },
+  {
+    slug: "seffaf-plak-nedir-seffaf-dis-plagi-ne-ise-yarar",
+    name: "Åeffaf Plak Nedir? Åeffaf DiÅŸ PlaÄŸÄ± Ne Ä°ÅŸe Yarar?",
+    short: "Åeffaf plak tedavisi, diÅŸlerin detaylÄ± bir analizinin yapÄ±lmasÄ± ile baÅŸlar. DiÅŸ hekiminiz, plaklarÄ±n ne kadar ...",
+    intro: "Åeffaf plak tedavisi, diÅŸlerin detaylÄ± bir analizinin yapÄ±lmasÄ± ile baÅŸlar. DiÅŸ hekiminiz, plaklarÄ±n ne kadar sÃ¼reyle ve hangi sÄ±rayla kullanÄ±lacaÄŸÄ±nÄ± belirlemek iÃ§in diÅŸ yapÄ±nÄ±zÄ± inceler ve dijital taramalar ya da Ã¶lÃ§Ã¼ler alÄ±r. Åeffaf plak tedavisi sÄ±rasÄ±nda, her plak seti genellikle 1-2 hafta boyunca kullanÄ±lÄ±r ve sonra bir sonraki aÅŸamaya geÃ§ilir. Plaklar her aÅŸamada diÅŸleri biraz daha dÃ¼zeltir ve nihai pozisyona ulaÅŸana kadar kullanÄ±lÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "lamine-dis-kaplama-nedir-yaprak-dis-kaplama-nasil-yapilir",
+    name: "Lamine DiÅŸ Kaplama Nedir? Yaprak DiÅŸ Kaplama NasÄ±l YapÄ±lÄ±r?",
+    short: "Lamine diÅŸ kaplama iÅŸlemi, diÅŸ hekiminin diÅŸleri deÄŸerlendirmesi ve uygun Ã¶lÃ§Ã¼leri almasÄ±yla baÅŸlar. Ã–ncelikle...",
+    intro: "Lamine diÅŸ kaplama iÅŸlemi, diÅŸ hekiminin diÅŸleri deÄŸerlendirmesi ve uygun Ã¶lÃ§Ã¼leri almasÄ±yla baÅŸlar. Ã–ncelikle diÅŸlerin yÃ¼zeyi hafifÃ§e inceltilir ve ardÄ±ndan hastanÄ±n diÅŸ yapÄ±sÄ±na uygun lamine kaplamalar Ã¶zel olarak hazÄ±rlanÄ±r. Bu iÅŸlem sÄ±rasÄ±nda diÅŸlerin rengi, ÅŸekli ve kaplama kalÄ±nlÄ±ÄŸÄ± detaylÄ± olarak planlanÄ±r. DiÅŸler Ã¶lÃ§Ã¼ye gÃ¶re hazÄ±rlandÄ±ÄŸÄ±nda, geÃ§ici kaplamalar yerleÅŸtirilir ve hasta kalÄ±cÄ± kaplamalar iÃ§in birkaÃ§ gÃ¼n bekler. Bu sÃ¼reÃ§te geÃ§ici lamine diÅŸ kaplamalarÄ± hastaya uygulanarak kaplamanÄ±n son gÃ¶rÃ¼nÃ¼mÃ¼ deÄŸerlendirilir ve hasta memnuniyeti saÄŸlanÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "dis-teli-tedavisi-nedir-dis-teli-ne-ise-yarar",
+    name: "DiÅŸ Teli Tedavisi Nedir? DiÅŸ Teli Ne Ä°ÅŸe Yarar?",
+    short: "DiÅŸ teli tedavisine baÅŸlamadan Ã¶nce, aÄŸÄ±z saÄŸlÄ±ÄŸÄ±nÄ±n uygun durumda olduÄŸundan emin olunmalÄ±dÄ±r. DiÅŸ teli takÄ±l...",
+    intro: "DiÅŸ teli tedavisine baÅŸlamadan Ã¶nce, aÄŸÄ±z saÄŸlÄ±ÄŸÄ±nÄ±n uygun durumda olduÄŸundan emin olunmalÄ±dÄ±r. DiÅŸ teli takÄ±lmadan Ã¶nce diÅŸ Ã§Ã¼rÃ¼kleri tedavi edilmeli, diÅŸ eti hastalÄ±klarÄ± kontrol altÄ±na alÄ±nmalÄ± ve diÅŸler detaylÄ± bir ÅŸekilde temizlenmelidir. DiÅŸ hekimi, aÄŸÄ±z yapÄ±nÄ±zÄ± inceleyerek tedavi planÄ± hazÄ±rlar ve diÅŸ teli tedavisine baÅŸlamadan Ã¶nce diÅŸlerdeki gerekli tedavileri tamamlar. EÄŸer diÅŸlerde eksiklik veya tedavi edilmesi gereken baÅŸka sorunlar varsa, bunlar diÅŸ teli takÄ±lmadan Ã¶nce giderilmelidir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "pembe-estetik-estetik-dis-eti-tedavisi",
+    name: "Pembe Estetik (Estetik DiÅŸ Eti Tedavisi)",
+    short: "Pembe estetik, diÅŸ etlerinin saÄŸlÄ±klÄ±, simetrik ve estetik bir gÃ¶rÃ¼nÃ¼me kavuÅŸturulmasÄ± iÃ§in yapÄ±lan tedavilerd...",
+    intro: "Pembe estetik, diÅŸ etlerinin saÄŸlÄ±klÄ±, simetrik ve estetik bir gÃ¶rÃ¼nÃ¼me kavuÅŸturulmasÄ± iÃ§in yapÄ±lan tedavilerdir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "zirkonyum-dis-nedir-zirkonyum-dis-kaplama-nedir",
+    name: "Zirkonyum DiÅŸ Nedir? Zirkonyum DiÅŸ Kaplama",
+    short: "Zirkonyum diÅŸ kaplama, doÄŸal diÅŸ gÃ¶rÃ¼nÃ¼mÃ¼ne en yakÄ±n estetik sonucu saÄŸlayan beyaz renkli porselen destekli ka...",
+    intro: "Zirkonyum diÅŸ kaplama, doÄŸal diÅŸ gÃ¶rÃ¼nÃ¼mÃ¼ne en yakÄ±n estetik sonucu saÄŸlayan beyaz renkli porselen destekli kaplamadÄ±r. Bu kaplamalar dayanÄ±klÄ± yapÄ±sÄ±yla hem Ã¶n hem arka diÅŸlerde gÃ¼venle kullanÄ±labilir. IÅŸÄ±k geÃ§irgenliÄŸi sayesinde doÄŸal diÅŸe Ã§ok benzer ve metal iÃ§ermez. Alerji riski dÃ¼ÅŸÃ¼k olduÄŸu iÃ§in hassas bÃ¼nyelerde de tercih edilir. DiÅŸ eti uyumu yÃ¼ksektir ve zamanla renk deÄŸiÅŸtirmez. Genellikle Ã§Ã¼rÃ¼k, kÄ±rÄ±k veya estetik sorunlu diÅŸlerde uygulanÄ±r. Uzun Ã¶mÃ¼rlÃ¼ sonuÃ§lar sunar ve iyi bir aÄŸÄ±z bakÄ±mÄ± ile yÄ±llarca sorunsuz kullanÄ±labilir. Tedavi sÃ¼resi genellikle birkaÃ§ seansta tamamlanÄ±r.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "porselen-dis-kaplama-nedir-porselen-dis-kaplama-nasil-yapilir",
+    name: "Porselen DiÅŸ Kaplama Nedir?",
+    short: "Porselen diÅŸ kaplama, estetik ve fonksiyonel amaÃ§larla diÅŸlerin Ã¶n yÃ¼zeyine uygulanan dayanÄ±klÄ±, doÄŸal gÃ¶rÃ¼nÃ¼m...",
+    intro: "Porselen diÅŸ kaplama, estetik ve fonksiyonel amaÃ§larla diÅŸlerin Ã¶n yÃ¼zeyine uygulanan dayanÄ±klÄ±, doÄŸal gÃ¶rÃ¼nÃ¼mlÃ¼ seramik kaplama iÅŸlemidir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "gulus",
   },
   {
     slug: "emax-dis-kaplama",
-    name: "Emax Diş Kaplama",
-    short: "Lityum disilikat seramikten üretilen yüksek estetik değere sahip kaplama.",
-    intro:
-      "Emax, estetik görünümlü lityum disilikat porselenden üretilen bir seramik kaplama türüdür. Işık geçirgenliği sayesinde doğal dişe en yakın görünümü sağlar ve özellikle ön diş estetiğinde tercih edilir.",
-    priceNote: "Emax fiyatı diş sayısına göre değişir.",
-    priceRows: [{ name: "Emax Kaplama (Tek Diş)", price: "4.000 – 6.000 TL" }],
+    name: "Emax DiÅŸ Kaplama",
+    short: "Emax diÅŸ kaplama, dayanÄ±klÄ± ve estetik gÃ¶rÃ¼nÃ¼mlÃ¼ lityum disilikat porselenden Ã¼retilen tam seramik bir kaplama...",
+    intro: "Emax diÅŸ kaplama, dayanÄ±klÄ± ve estetik gÃ¶rÃ¼nÃ¼mlÃ¼ lityum disilikat porselenden Ã¼retilen tam seramik bir kaplama tÃ¼rÃ¼dÃ¼r. DoÄŸal diÅŸ yapÄ±sÄ±na Ã§ok benzeyen Ä±ÅŸÄ±k geÃ§irgenliÄŸi sayesinde  Emax diÅŸ kaplama , Ã¶zellikle Ã¶n diÅŸ estetiÄŸinde sÄ±kÃ§a tercih edilir. Metal iÃ§ermediÄŸi iÃ§in diÅŸ eti uyumu yÃ¼ksektir ve alerji riski dÃ¼ÅŸÃ¼ktÃ¼r.",
     features: [
-      "Doğal dişe en yakın ışık geçirgenliği",
-      "Metal içermeyen yapı",
-      "Ön diş estetiğinde ideal",
-      "Yüksek estetik değer",
-      "Uzun ömürlü malzeme",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
-    category: "kaplama",
+    category: "gulus",
   },
   {
-    slug: "porselen-dis-kaplama-fiyatlari",
-    name: "Porselen Diş Kaplama Fiyatları",
-    short: "Zirkonyum ve metal destekli porselen kaplamalarla sağlam, estetik dişler.",
-    intro:
-      "Porselen kaplama, hasarlı veya estetik olarak yetersiz dişlerin üzerine uygulanan dayanıklı ve doğal görünümlü restorasyondur. Metal destekli ya da tam porselen seçeneklerle hem ön hem arka dişlerde uzun ömürlü çözümler üretiyoruz.",
-    priceNote:
-      "Kaplama fiyatları; kaplama tipi, malzeme ve diş sayısına göre değişiklik gösterir.",
-    priceRows: [
-      { name: "Metal Destekli Porselen", price: "1.800 – 2.500 TL" },
-      { name: "Zirkonyum Kaplama", price: "3.500 – 5.500 TL" },
-      { name: "Emax Kaplama", price: "4.000 – 6.000 TL" },
-    ],
+    slug: "metal-dis-kaplama-nedir-metal-destekli-porselen-dis-kaplama-nasil-yapilir",
+    name: "Metal DiÅŸ Kaplama Nedir?",
+    short: "Metal diÅŸ kaplama sÃ¼reci, diÅŸin kaplama iÃ§in hazÄ±rlanmasÄ±yla baÅŸlar. Ä°lk adÄ±m olarak, diÅŸin yÃ¼zeyi inceltilere...",
+    intro: "Metal diÅŸ kaplama sÃ¼reci, diÅŸin kaplama iÃ§in hazÄ±rlanmasÄ±yla baÅŸlar. Ä°lk adÄ±m olarak, diÅŸin yÃ¼zeyi inceltilerek metal ve porselen kaplamanÄ±n yerleÅŸtirilmesi iÃ§in uygun bir alan oluÅŸturulur. ArdÄ±ndan, diÅŸin Ã¶lÃ§Ã¼sÃ¼ alÄ±narak hastaya uygun bir kaplama hazÄ±rlanÄ±r. Metal destekli porselen kaplama iÃ§in laboratuvar ortamÄ±nda, alÄ±nan Ã¶lÃ§Ã¼lere gÃ¶re diÅŸin metal altyapÄ±sÄ± oluÅŸturulur. Bu metal yapÄ± Ã¼zerine doÄŸal gÃ¶rÃ¼nÃ¼mlÃ¼ porselen kaplama yapÄ±lÄ±r ve diÅŸ Ã¼zerine yerleÅŸtirilerek sabitlenir.",
     features: [
-      "Estetik ve dayanıklı porselen malzemeler",
-      "Dişe tam uyum, uzun ömürlü sonuç",
-      "Renk ve şekil olarak doğal görünüm",
-      "Kırık, renklenmiş ve çürük dişlerde çözüm",
-      "7/24 acil kaplama onarımı",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
-    category: "kaplama",
+    category: "gulus",
   },
   {
-    slug: "zirkonyum-kaplama-dis-fiyatlari",
-    name: "Zirkonyum Diş Fiyatları",
-    short: "Metal içermeyen, biyouyumlu ve son derece estetik zirkonyum kaplamalar.",
-    intro:
-      "Zirkonyum, metal altyapı içermeyen ve vücutla tam uyumlu yüksek teknoloji bir kaplama malzemesidir. Işık geçirgenliği ve doğal rengi sayesinde gülüş estetiğinde en çok tercih edilen seçeneklerin başında gelir.",
-    priceNote:
-      "Zirkonyum fiyatları; marka, katman sayısı ve diş sayısına göre değişiklik gösterir.",
-    priceRows: [
-      { name: "Zirkonyum Kaplama (Tek Diş)", price: "3.500 – 5.500 TL" },
-      { name: "Zirkonyum Köprü (3 Üye)", price: "Kişiye özel" },
-      { name: "İmplant Üstü Zirkonyum", price: "2.240 TL" },
-    ],
+    slug: "kron-dis-kaplama-nedir-kron-dis-kaplama-nasil-yapilir",
+    name: "Kron DiÅŸ Kaplama Nedir?",
+    short: "Kron diÅŸ kaplama, hasar gÃ¶rmÃ¼ÅŸ veya zayÄ±flamÄ±ÅŸ diÅŸin tamamÄ±nÄ± sararak koruyan ve gÃ¼Ã§lendiren sabit bir restora...",
+    intro: "Kron diÅŸ kaplama, hasar gÃ¶rmÃ¼ÅŸ veya zayÄ±flamÄ±ÅŸ diÅŸin tamamÄ±nÄ± sararak koruyan ve gÃ¼Ã§lendiren sabit bir restorasyondur.",
     features: [
-      "%100 metal içermeyen biyouyumlu yapı",
-      "Doğal dişe en yakın ışık geçirgenliği",
-      "Diş eti uyumu ve estetik sonuç",
-      "Uzun ömürlü, dayanıklı malzeme",
-      "Alerjik reaksiyon riski minimum",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
-    category: "kaplama",
+    category: "gulus",
   },
   {
-    slug: "metal-dis-kaplama",
-    name: "Metal Destekli Porselen Kaplama",
-    short: "Ekonomik, dayanıklı ve uzun yıllardır güvenle kullanılan kaplama çözümü.",
-    intro:
-      "Metal destekli porselen kaplama; metal altyapı üzerine porselen uygulanan, dayanıklılığı ve ekonomikliği ile bilinen klasik kaplama yöntemidir. Özellikle arka dişlerde çiğneme kuvvetlerine dayanıklı sonuç verir.",
-    priceNote: "Metal destekli porselen fiyatı diş sayısına göre değişir.",
-    priceRows: [{ name: "Metal Destekli Porselen", price: "1.800 – 2.500 TL" }],
+    slug: "acil-dis-tedavisi",
+    name: "Acil DiÅŸ Tedavisi",
+    short: "Gece, pazar ve bayramda 7/24 acil diÅŸ mÃ¼dahalesi. Beklemeden aynÄ± gÃ¼n Ã§Ã¶zÃ¼m.",
+    intro: "DiÅŸ aÄŸrÄ±sÄ± randevu beklemez. Gece yarÄ±sÄ± baÅŸlayan zonklama, kÄ±rÄ±lan diÅŸ, dÃ¼ÅŸen dolgu veya ÅŸiÅŸlik yapan apse iÃ§in 7/24 aÃ§Ä±k kliniÄŸimizde acil diÅŸ hekimi hazÄ±rdÄ±r. Beklemeden arayÄ±n, aynÄ± gece mÃ¼dahale edelim.",
     features: [
-      "Ekonomik ve dayanıklı çözüm",
-      "Arka dişlerde yüksek dayanıklılık",
-      "Uzun yıllık klinik geçmiş",
-      "Çiğneme fonksiyonunu korur",
-      "Kısa üretim süresi",
-    ],
-    category: "kaplama",
-  },
-  {
-    slug: "kron-dis-kaplama",
-    name: "Kron Diş Kaplama",
-    short: "Hasar görmüş veya zayıflamış dişin tamamını sararak koruyan kaplama.",
-    intro:
-      "Kron, hasar görmüş veya zayıflamış bir dişin tamamını sararak koruyan ve güçlendiren sabit bir restorasyondur. Kanal tedavisi görmüş dişlerde ve büyük çürüklerde dişin ömrünü uzatmak için uygulanır.",
-    priceNote: "Kron kaplama fiyatı malzemeye göre değişir.",
-    priceRows: [
-      { name: "Kron Kaplama (Zirkonyum)", price: "3.500 TL'den" },
-      { name: "Kron Kaplama (Emax)", price: "4.000 TL'den" },
-    ],
-    features: [
-      "Dişi tamamen korur ve güçlendirir",
-      "Kanal tedavili dişlerde ideal",
-      "Zirkonyum, Emax ve porselen seçenek",
-      "Doğal renk ve form",
-      "Uzun ömürlü koruma",
-    ],
-    category: "kaplama",
-  },
-
-  /* ---------- DOLGU ---------- */
-  {
-    slug: "dis-dolgusu",
-    name: "Diş Dolgusu",
-    short: "Kompozit ve porselen dolgularla çürük dişlerin estetik onarımı.",
-    intro:
-      "Diş dolgusu, çürük nedeniyle hasar gören diş dokusunun temizlenip özel dolgu malzemesiyle onarılmasıdır. Estetik kompozit dolgular doğal diş renginde olduğu için görünmez bir çözüm sunar.",
-    priceNote: "Dolgu fiyatı diş ve dolgu tipine göre değişir.",
-    priceRows: [
-      { name: "Kompozit Dolgu", price: "Kişiye özel" },
-      { name: "Estetik Ön Diş Dolgusu", price: "Kişiye özel" },
-    ],
-    features: [
-      "Doğal diş renginde kompozit",
-      "Tek seansta tamamlanır",
-      "Ağrısız, lokal anestezi ile",
-      "Çürük kontrolü ve koruma",
-      "Acil dolgu (gece dahil)",
-    ],
-    category: "dolgu",
-  },
-
-  /* ---------- KANAL ---------- */
-  {
-    slug: "kanal-tedavisi",
-    name: "Ağrısız Kanal Tedavisi",
-    short: "İltihaplı ve ağrılı dişlerin sinir dokusunun temizlenerek kurtarılması.",
-    intro:
-      "Kanal tedavisi; derin çürük veya travma nedeniyle iltihaplanan diş sinirinin temizlenip doldurulmasıyla dişin kurtarılmasıdır. Modern anestezi ve cihazlarla ağrısız yapılır ve diş kaybını önler.",
-    priceNote: "Kanal tedavisi fiyatı diş ve kanal sayısına göre değişir.",
-    priceRows: [
-      { name: "Kanal Tedavisi (Ön Diş)", price: "Kişiye özel" },
-      { name: "Kanal Tedavisi (Azı Dişi)", price: "Kişiye özel" },
-    ],
-    features: [
-      "Lokal anestezi ile ağrısız işlem",
-      "Modern endodonti cihazları",
-      "Genellikle 1-2 seansta biter",
-      "Dişi kurtararak çekimi önler",
-      "Gece ve pazar acil kanal tedavisi",
-    ],
-    category: "dolgu",
-  },
-
-  /* ---------- ORTODONTİ ---------- */
-  {
-    slug: "ortodonti",
-    name: "Ortodonti (Diş Teli)",
-    short: "Çapraşık dişlerin düzeltilmesi için tel ve şeffaf plak tedavileri.",
-    intro:
-      "Ortodonti; çapraşık, aralıklı ve kapanış bozukluğu olan dişlerin düzeltilmesini sağlayan diş hekimliği dalıdır. Metal, seramik ve şeffaf plak (telsiz) seçenekleriyle her yaştan hastaya uygun tedavi planlanır.",
-    priceNote: "Ortodonti fiyatı tedavi süresine ve yönteme göre değişir.",
-    priceRows: [
-      { name: "Metal Diş Teli", price: "Kişiye özel" },
-      { name: "Şeffaf Plak Tedavisi", price: "Kişiye özel" },
-    ],
-    features: [
-      "Metal, seramik ve şeffaf plak",
-      "Çocuk ve yetişkin tedavisi",
-      "Çapraşıklık ve kapanış düzeltme",
-      "Dijital tedavi planlaması",
-      "Düzenli kontrol takibi",
-    ],
-    category: "ortodonti",
-  },
-  {
-    slug: "dis-teli-tedavisi",
-    name: "Diş Teli Tedavisi",
-    short: "Metal ve estetik braketlerle diş düzeltme.",
-    intro:
-      "Diş teli tedavisi; çapraşık ve hizalı olmayan dişlerin braket ve ark telleri yardımıyla düzeltilmesidir. Metal braketler ekonomik, seramik braketler estetik açıdan avantajlıdır.",
-    priceNote: "Diş teli fiyatı braket tipine göre değişir.",
-    priceRows: [
-      { name: "Metal Braket", price: "Kişiye özel" },
-      { name: "Seramik Braket", price: "Kişiye özel" },
-    ],
-    features: [
-      "Metal ve estetik seçenek",
-      "Her yaş grubuna uygun",
-      "Çapraşık dişlerin düzeltilmesi",
-      "Kapanış bozukluğu tedavisi",
-      "Düzenli hekim takibi",
-    ],
-    category: "ortodonti",
-  },
-  {
-    slug: "seffaf-plak",
-    name: "Şeffaf Plak Tedavisi",
-    short: "Telsiz ortodonti. Görünmeyen, çıkarılabilir şeffaf plaklarla diş düzeltme.",
-    intro:
-      "Şeffaf plak (telsiz ortodonti), dişleri yavaşça hizalayan şeffaf ve çıkarılabilir plaklarla yapılan estetik bir tedavidir. Diş tellerinin görünümünden çekinen yetişkinler için ideal bir seçenektir.",
-    priceNote: "Şeffaf plak fiyatı tedavi süresine göre değişir.",
-    priceRows: [{ name: "Şeffaf Plak Tedavisi", price: "Kişiye özel" }],
-    features: [
-      "Görünmeyen, estetik tedavi",
-      "Çıkarılabilir plaklar",
-      "Yemek yerken çıkarılabilir",
-      "Yetişkinler için ideal",
-      "Dijital planlama",
-    ],
-    category: "ortodonti",
-  },
-
-  /* ---------- ÇOCUK ---------- */
-  {
-    slug: "cocuk-dis",
-    name: "Çocuk Diş Doktoru (Pedodonti)",
-    short: "Çocuklara özel diş tedavisi, dolgu, flor ve koruyucu uygulamalar.",
-    intro:
-      "Pedodonti, 0-13 yaş arası çocukların ağız ve diş sağlığıyla ilgilenen uzmanlık dalıdır. Çocuk dostu yaklaşımımızla süt diş dolgusu, flor uygulaması, fissür örtücü ve diş travmalarına müdahale konforlu şekilde yapılır.",
-    priceNote: "Çocuk diş tedavisi fiyatı işleme göre değişir.",
-    priceRows: [
-      { name: "Çocuk Muayenesi", price: "Kişiye özel" },
-      { name: "Süt Diş Dolgusu", price: "Kişiye özel" },
-    ],
-    features: [
-      "Çocuk dostu, yumuşak yaklaşım",
-      "Süt diş dolgusu ve kanal",
-      "Flor ve fissür örtücü",
-      "Diş travmalarına müdahale",
-      "Gece ve hafta sonu dahil hizmet",
-    ],
-    category: "cocuk",
-  },
-
-  /* ---------- PROTEZ ---------- */
-  {
-    slug: "protez-takma-dis-fiyatlari",
-    name: "Protez Diş Fiyatları",
-    short: "Takma diş, akrilik protez ve implant üstü protez çözümleri.",
-    intro:
-      "Diş eksikliği çiğneme, konuşma ve özgüveni doğrudan etkiler. Tam veya kısmi protez, akrilik ya da implant üstü protez seçenekleriyle her hastaya uygun, konforlu ve doğal görünümlü çözümler sunuyoruz.",
-    priceNote:
-      "Protez fiyatları; protez tipi, çene durumu ve malzeme kalitesine göre değişir.",
-    priceRows: [
-      { name: "Akrilik Tam Protez (Tek Çene)", price: "6.000 – 12.000 TL" },
-      { name: "Hassas Tutuculu Protez", price: "4.820 TL" },
-      { name: "İmplant Üstü Protez (Tek Çene)", price: "Kişiye özel" },
-    ],
-    features: [
-      "Tam ve kısmi protez seçenekleri",
-      "İmplant üstü hareketli protezler",
-      "Konfor ve ağıza tam uyum",
-      "Estetik ve fonksiyonel tasarım",
-      "Bayram ve tatil günlerinde de hizmet",
-    ],
-    category: "estetik",
-  },
-  {
-    slug: "protetik-dis-tedavisi",
-    name: "Protetik Diş Tedavisi",
-    short: "Diş protezleri ve kaplamaların planlanması ve uygulanması.",
-    intro:
-      "Protetik diş tedavisi; eksik dişlerin protezlerle, hasarlı dişlerin ise kron ve köprülerle restore edilmesidir. Sabit ve hareketli protez seçenekleri hastanın ihtiyacına göre planlanır.",
-    priceNote: "Protetik tedavi fiyatı uygulamaya göre değişir.",
-    priceRows: [{ name: "Protetik Tedavi", price: "Kişiye özel" }],
-    features: [
-      "Sabit ve hareketli protezler",
-      "Kron ve köprü uygulamaları",
-      "Estetik ve fonksiyonel planlama",
-      "Laboratuvar destekli üretim",
-      "Dişe tam uyum",
-    ],
-    category: "estetik",
-  },
-
-  /* ---------- DİĞER ---------- */
-  {
-    slug: "cerrahi-uygulamalar",
-    name: "Cerrahi Uygulamalar",
-    short: "Gömülü diş, kist, apse ve çene cerrahisi işlemleri.",
-    intro:
-      "Ağız, diş ve çene cerrahisi; gömülü dişlerin çekimi, kist ve tümörlerin çıkarılması, diş ve çene kırıkları, implant cerrahisi gibi işlemleri kapsar. Uzman cerrah kadromuz modern tekniklerle güvenli müdahale eder.",
-    priceNote: "Cerrahi işlem fiyatı müdahaleye göre değişir.",
-    priceRows: [{ name: "Cerrahi Değerlendirme", price: "Ücretsiz muayene" }],
-    features: [
-      "Gömülü diş ve kist cerrahisi",
-      "Çene kırıkları tedavisi",
-      "İmplant cerrahisi",
-      "Apse drenajı",
-      "Uzman cerrah kadrosu",
-    ],
-    category: "cerrahi",
-  },
-  {
-    slug: "kirik-dis-tedavisi",
-    name: "Kırık Diş Tedavisi",
-    short: "Kırılmış ve çatlamış dişlerin estetik onarımı.",
-    intro:
-      "Kırık diş tedavisi; çatlamış veya kırılmış dişin yapısını ve işlevini onarmak için uygulanan diş hekimliği yöntemidir. Bonding, dolgu veya kaplama ile dişin doğal görünümü ve fonksiyonu geri kazandırılır.",
-    priceNote: "Kırık diş tedavi fiyatı hasar durumuna göre değişir.",
-    priceRows: [{ name: "Kırık Diş Onarımı", price: "Kişiye özel" }],
-    features: [
-      "Bonding ile hızlı onarım",
-      "Dolgu veya kaplama seçeneği",
-      "Estetik ve fonksiyonel sonuç",
-      "Çocuklarda diş travması müdahalesi",
-      "Acil kırık diş (gece dahil)",
-    ],
-    category: "dolgu",
-  },
-  {
-    slug: "periodontoloji",
-    name: "Periodontoloji (Diş Eti Tedavisi)",
-    short: "Diş eti kanaması, iltihabı ve çekilmesi tedavileri.",
-    intro:
-      "Periodontoloji, dişleri çevreleyen diş eti ve destek dokuların sağlığıyla ilgilenen uzmanlık dalıdır. Diş eti kanaması, iltihap, çekilme ve kötü ağız kokusu tedavi edilmezse diş kaybına yol açabilir.",
-    priceNote: "Diş eti tedavisi fiyatı duruma göre değişir.",
-    priceRows: [
-      { name: "Diş Taşı Temizliği", price: "Kişiye özel" },
-      { name: "Diş Eti Tedavisi", price: "Kişiye özel" },
-    ],
-    features: [
-      "Diş eti iltihabı tedavisi",
-      "Diş taşı temizliği",
-      "Diş eti çekilmesi müdahalesi",
-      "Lazer destekli tedavi",
-      "Kötü ağız kokusu çözümü",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "acil",
   },
   {
-    slug: "dijital-dis-hekimligi",
-    name: "Dijital Diş Hekimliği",
-    short: "CAD/CAM, 3D röntgen ve dijital gülüş tasarımı ile hızlı ve hassas tedavi.",
-    intro:
-      "Dijital diş hekimliği; CAD/CAM teknolojisi, 3D röntgen ve dijital gülüş tasarımı ile tedavileri daha hızlı, hassas ve konforlu hale getirir. Ölçü alma süreci dijital tarayıcılarla kolaylaşır.",
-    priceNote: "Dijital tedavi fiyatı uygulamaya göre değişir.",
-    priceRows: [{ name: "Dijital Ölçü / Planlama", price: "Ücretsiz muayene" }],
+    slug: "gulus-tasarimi",
+    name: "GÃ¼lÃ¼ÅŸ TasarÄ±mÄ±",
+    short: "Dijital smile design ile kiÅŸiye Ã¶zel estetik gÃ¼lÃ¼ÅŸ planlamasÄ±.",
+    intro: "GÃ¼lÃ¼ÅŸ tasarÄ±mÄ±; diÅŸlerin rengi, ÅŸekli, boyutu ve diÅŸ eti Ã§izgisi bÃ¼tÃ¼n olarak deÄŸerlendirilerek kiÅŸiye Ã¶zel estetik bir gÃ¼lÃ¼ÅŸ planlanmasÄ±dÄ±r. Dijital planlama sayesinde sonucu Ã¶nceden gÃ¶rebilirsiniz.",
     features: [
-      "CAD/CAM ile aynı gün kaplama",
-      "3D röntgen ve tomografi",
-      "Dijital gülüş tasarımı",
-      "Hassas ve hızlı tedavi",
-      "Konforlu ölçü alma",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "estetik",
+  },
+  {
+    slug: "dis-dolgusu",
+    name: "DiÅŸ Dolgusu",
+    short: "Kompozit ve porselen dolgularla Ã§Ã¼rÃ¼k diÅŸlerin estetik onarÄ±mÄ±.",
+    intro: "DiÅŸ dolgusu; Ã§Ã¼rÃ¼k nedeniyle hasar gÃ¶ren diÅŸ dokusunun temizlenip Ã¶zel dolgu malzemesiyle onarÄ±lmasÄ±dÄ±r. Estetik kompozit dolgular doÄŸal diÅŸ rengindedir.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
+    ],
+    category: "dolgu",
+  },
+  {
+    slug: "protez-takma-dis-fiyatlari",
+    name: "Protez DiÅŸ FiyatlarÄ±",
+    short: "Takma diÅŸ, akrilik protez ve implant Ã¼stÃ¼ protez Ã§Ã¶zÃ¼mleri.",
+    intro: "DiÅŸ eksikliÄŸi Ã§iÄŸneme, konuÅŸma ve Ã¶zgÃ¼veni doÄŸrudan etkiler. Tam veya kÄ±smi protez, akrilik ya da implant Ã¼stÃ¼ protez seÃ§enekleriyle her hastaya uygun Ã§Ã¶zÃ¼mler sunuyoruz.",
+    features: [
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "estetik",
   },
   {
     slug: "agrisiz-dis-tedavisi",
-    name: "Ağrısız Diş Tedavisi",
-    short: "Sedasyon ve modern anestezi ile tamamen konforlu diş tedavisi.",
-    intro:
-      "Diş hekimi fobisi olan hastalar için ağrısız diş tedavisi özel önem taşır. Modern anestezi teknikleri, yumuşak lazerler ve gerektiğinde sedasyon desteği ile tedavi tamamen konforlu hale getirilir.",
-    priceNote: "Ağrısız tedavi fiyatı uygulamaya göre değişir.",
-    priceRows: [{ name: "Ağrısız Tedavi Değerlendirme", price: "Ücretsiz muayene" }],
+    name: "AÄŸrÄ±sÄ±z DiÅŸ Tedavisi",
+    short: "Sedasyon ve modern anestezi ile tamamen konforlu diÅŸ tedavisi.",
+    intro: "DiÅŸ hekimi fobisi olan hastalar iÃ§in aÄŸrÄ±sÄ±z diÅŸ tedavisi Ã¶zel Ã¶nem taÅŸÄ±r. Modern anestezi teknikleri ve sedasyon ile tedavi tamamen konforlu hale getirilir.",
     features: [
-      "Diş hekimi fobisine özel yaklaşım",
-      "Modern anestezi teknikleri",
-      "Sedasyon seçeneği",
-      "Lazerle minimal invaziv işlem",
-      "Konforlu ve hızlı tedavi",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "acil",
   },
   {
     slug: "dis-tedavisi-fiyatlari",
-    name: "Diş Tedavisi Fiyatları 2026",
-    short: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi.",
-    intro:
-      "Diş tedavileri; dolgu, kanal, çekim, kaplama, implant ve protez gibi uygulamalardan oluşur. Fiyatlar işlemin türüne, diş sayısına ve kullanılan malzemeye göre değişir. Güncel fiyat bilgisi için bize ulaşabilirsiniz.",
-    priceNote: "Fiyatlar kişiye özel muayene ile netleşir.",
-    priceRows: [
-      { name: "Diş Muayenesi", price: "Ücretsiz" },
-      { name: "Diş Dolgusu", price: "Kişiye özel" },
-      { name: "Kanal Tedavisi", price: "Kişiye özel" },
-      { name: "Diş Çekimi", price: "475 TL" },
-      { name: "İmplant", price: "3.090 TL'den" },
-    ],
+    name: "DiÅŸ Tedavisi FiyatlarÄ± 2026",
+    short: "TÃ¼m diÅŸ tedavilerinin 2026 gÃ¼ncel fiyat rehberi.",
+    intro: "DiÅŸ tedavileri; dolgu, kanal, Ã§ekim, kaplama, implant ve protez gibi uygulamalardan oluÅŸur. Fiyatlar iÅŸlemin tÃ¼rÃ¼ne, diÅŸ sayÄ±sÄ±na ve kullanÄ±lan malzemeye gÃ¶re deÄŸiÅŸir.",
     features: [
-      "Tüm tedaviler tek çatı altında",
-      "Ücretsiz ilk muayene",
-      "Net ve şeffaf fiyat",
-      "7/24 açık klinik",
-      "Peşin ve taksit seçenekleri",
+     "7/24 aÃ§Ä±k klinik",
+     "Uzman hekim kadrosu",
+     "Son teknoloji cihazlar",
+     "Net ve ÅŸeffaf fiyat",
+     "Cumartesi, pazar ve bayramlarda aÃ§Ä±k"
     ],
     category: "acil",
   },
@@ -705,12 +511,14 @@ export function getService(slug: string) {
 }
 
 export const serviceCategories: { key: Service["category"]; label: string }[] = [
-  { key: "acil", label: "Acil Diş" },
+  { key: "branc", label: "Branşlar" },
+  { key: "cerrahi", label: "Cerrahi Tedaviler" },
+  { key: "estetik", label: "Estetik Tedaviler" },
+  { key: "gulus", label: "Gülüş Tasarımı" },
   { key: "implant", label: "İmplant" },
-  { key: "estetik", label: "Estetik & Gülüş Tasarımı" },
   { key: "kaplama", label: "Kaplamalar" },
   { key: "dolgu", label: "Dolgu & Kanal" },
   { key: "ortodonti", label: "Ortodonti" },
   { key: "cocuk", label: "Çocuk Diş" },
-  { key: "cerrahi", label: "Cerrahi" },
+  { key: "acil", label: "Acil Diş" },
 ];
