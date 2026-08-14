@@ -11,7 +11,7 @@ export const serviceContent: Record<string, {
   related: Service["related"];
 }> = {
   "acil-dis-tedavisi": {
-    image: "/images/servis/cekim-hero.webp",
+    image: "/images/servis/acil-hero.webp",
     body: [
       {
         h2: "Gece Diş Ağrısında Ne Yapılmalı?",
@@ -270,7 +270,7 @@ export const serviceContent: Record<string, {
     related: ["all-on-four-implant", "bir-gunde-implant", "sinus-lifting"],
   },
   "all-on-four-implant": {
-    image: "/images/servis/implant-hero.webp",
+    image: "/images/servis/all-on-four-hero.webp",
     body: [
       {
         h2: "All On Four Nedir?",
@@ -307,7 +307,7 @@ export const serviceContent: Record<string, {
     related: ["dis-implant-fiyatlari", "bir-gunde-implant", "protez-takma-dis-fiyatlari"],
   },
   "bir-gunde-implant": {
-    image: "/images/servis/implant-hero.webp",
+    image: "/images/servis/bir-gunde-hero.webp",
     body: [
       {
         h2: "Bir Günde İmplant Nedir?",
@@ -381,7 +381,7 @@ export const serviceContent: Record<string, {
     related: ["dis-implant-fiyatlari", "cerrahi-uygulamalar", "gomulu-20lik-dis-cekimi"],
   },
   "gulus-tasarimi": {
-    image: "/images/servis/lamine-hero.webp",
+    image: "/images/servis/smile-design-hero.webp",
     body: [
       {
         h2: "Gülüş Tasarımı Nedir?",
@@ -640,7 +640,7 @@ export const serviceContent: Record<string, {
     related: ["lamine-emax-kaplama-dis-fiyatlari", "zirkonyum-kaplama-dis-fiyatlari", "kron-dis-kaplama"],
   },
   "porselen-dis-kaplama-fiyatlari": {
-    image: "/images/servis/lamine-hero.webp",
+    image: "/images/servis/porselen-hero.webp",
     body: [
       {
         h2: "Porselen Kaplama Nedir?",
@@ -714,7 +714,7 @@ export const serviceContent: Record<string, {
     related: ["porselen-dis-kaplama-fiyatlari", "emax-dis-kaplama", "dis-implant-fiyatlari"],
   },
   "metal-dis-kaplama": {
-    image: "/images/servis/kron-hero.webp",
+    image: "/images/servis/metal-kap-hero.webp",
     body: [
       {
         h2: "Metal Destekli Porselen Nedir?",
@@ -788,7 +788,7 @@ export const serviceContent: Record<string, {
     related: ["metal-dis-kaplama", "zirkonyum-kaplama-dis-fiyatlari", "dis-dolgusu"],
   },
   "dis-dolgusu": {
-    image: "/images/servis/kanal-hero.webp",
+    image: "/images/servis/dolgu2-hero.webp",
     body: [
       {
         h2: "Diş Dolgusu Nedir?",
@@ -1047,7 +1047,7 @@ export const serviceContent: Record<string, {
     related: ["protetik-dis-tedavisi", "dis-implant-fiyatlari", "all-on-four-implant"],
   },
   "protetik-dis-tedavisi": {
-    image: "/images/servis/protetik-hero.webp",
+    image: "/images/servis/protez2-hero.webp",
     body: [
       {
         h2: "Protetik Diş Tedavisi Nedir?",
@@ -1121,7 +1121,7 @@ export const serviceContent: Record<string, {
     related: ["gomulu-20lik-dis-cekimi", "sinus-lifting", "dis-implant-fiyatlari"],
   },
   "kirik-dis-tedavisi": {
-    image: "/images/servis/bonding-hero.webp",
+    image: "/images/servis/kirik-hero.webp",
     body: [
       {
         h2: "Kırık Diş Tedavisi Nedir?",
@@ -1158,7 +1158,7 @@ export const serviceContent: Record<string, {
     related: ["dental-bonding", "dis-dolgusu", "kron-dis-kaplama"],
   },
   "periodontoloji": {
-    image: "/images/servis/pembe-estetik-hero.webp",
+    image: "/images/servis/periodont-hero.webp",
     body: [
       {
         h2: "Periodontoloji (Diş Eti Tedavisi) Nedir?",
@@ -1232,7 +1232,7 @@ export const serviceContent: Record<string, {
     related: ["seffaf-plak", "gulus-tasarimi", "zirkonyum-kaplama-dis-fiyatlari"],
   },
   "agrisiz-dis-tedavisi": {
-    image: "/images/servis/kanal-hero.webp",
+    image: "/images/servis/sedasyon-hero.webp",
     body: [
       {
         h2: "Ağrısız Diş Tedavisi Nedir?",
@@ -1269,7 +1269,7 @@ export const serviceContent: Record<string, {
     related: ["acil-dis-tedavisi", "kanal-tedavisi", "dis-cekimi"],
   },
   "dis-tedavisi-fiyatlari": {
-    image: "/images/servis/cekim-hero.webp",
+    image: "/images/servis/fiyat-hero.webp",
     body: [
       {
         h2: "Diş Tedavisi Fiyatları Neye Göre Belirlenir?",

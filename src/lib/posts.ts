@@ -5,6 +5,7 @@ export type BlogPost = {
   category: string;
   date: string;
   readMinutes: number;
+  image: string;
   /** Blog gövdesi: başlık + paragraf bölümleri. */
   body: { h2: string; paragraphs: string[] }[];
   /** İlgili iç sayfalara linkler. */
@@ -21,6 +22,7 @@ export const posts: BlogPost[] = [
     category: "Ağız Sağlığı",
     date: "2026-01-15",
     readMinutes: 6,
+  image: "/images/servis/kanal-card.webp",
     body: [
       {
         h2: "Diş ağrısının en sık görülen nedenleri",
@@ -68,6 +70,7 @@ export const posts: BlogPost[] = [
     category: "Acil Diş",
     date: "2026-01-22",
     readMinutes: 5,
+  image: "/images/servis/cekim-card.webp",
     body: [
       {
         h2: "Gece başlayan diş ağrısı neden daha şiddetli hissedilir?",
@@ -114,6 +117,7 @@ export const posts: BlogPost[] = [
     category: "Ağız Sağlığı",
     date: "2026-02-05",
     readMinutes: 7,
+  image: "/images/servis/20lik-card.webp",
     body: [
       {
         h2: "20 yaş dişi neden ağrır?",
@@ -160,6 +164,7 @@ export const posts: BlogPost[] = [
     category: "Fiyatlar",
     date: "2026-02-12",
     readMinutes: 8,
+  image: "/images/servis/implant-card.webp",
     body: [
       {
         h2: "İmplant fiyatları neden bu kadar değişken?",
@@ -206,6 +211,7 @@ export const posts: BlogPost[] = [
     category: "Estetik Diş",
     date: "2026-02-19",
     readMinutes: 6,
+  image: "/images/servis/zirkonyum-card.webp",
     body: [
       {
         h2: "Zirkonyum kaplama nedir?",
@@ -253,6 +259,7 @@ export const posts: BlogPost[] = [
     category: "Tedaviler",
     date: "2026-03-04",
     readMinutes: 6,
+  image: "/images/servis/inlay-card.webp",
     body: [
       {
         h2: "Kanal tedavisi ne zaman gerekir?",
@@ -299,6 +306,7 @@ export const posts: BlogPost[] = [
     category: "Acil Diş",
     date: "2026-03-11",
     readMinutes: 5,
+  image: "/images/servis/cerrahi-card.webp",
     body: [
       {
         h2: "Diş apsesi nedir?",
@@ -345,6 +353,7 @@ export const posts: BlogPost[] = [
     category: "Çocuk Diş",
     date: "2026-03-18",
     readMinutes: 6,
+  image: "/images/servis/pedodonti-card.webp",
     body: [
       {
         h2: "Çocuklarda diş travması neden önemlidir?",
@@ -391,6 +400,7 @@ export const posts: BlogPost[] = [
     category: "Ağız Sağlığı",
     date: "2026-04-01",
     readMinutes: 5,
+  image: "/images/servis/pembe-estetik-card.webp",
     body: [
       {
         h2: "Diş eti kanaması neden olur?",
@@ -435,6 +445,7 @@ export const posts: BlogPost[] = [
     category: "Acil Diş",
     date: "2026-04-08",
     readMinutes: 5,
+  image: "/images/servis/protetik-card.webp",
     body: [
       {
         h2: "Pazar günü diş hekimi bulmak neden zordur?",
@@ -481,6 +492,7 @@ export const posts: BlogPost[] = [
     category: "Estetik Diş",
     date: "2026-04-22",
     readMinutes: 7,
+  image: "/images/servis/lamine-card.webp",
     body: [
       {
         h2: "Gülüş tasarımı nedir?",
@@ -527,6 +539,7 @@ export const posts: BlogPost[] = [
     category: "Tedaviler",
     date: "2026-05-06",
     readMinutes: 7,
+  image: "/images/servis/kron-card.webp",
     body: [
       {
         h2: "Protez diş nedir?",
@@ -573,6 +586,7 @@ export const posts: BlogPost[] = [
     category: "Acil Diş",
     date: "2026-05-13",
     readMinutes: 5,
+  image: "/images/servis/seffaf-card.webp",
     body: [
       {
         h2: "Bayramda diş kliniği bulmak neden zor?",
@@ -619,6 +633,7 @@ export const posts: BlogPost[] = [
     category: "İmplant",
     date: "2026-04-13",
     readMinutes: 6,
+  image: "/images/servis/sinus-card.webp",
     body: [
       {
         h2: "İmplant için temel uygunluk kriterleri",
@@ -665,6 +680,7 @@ export const posts: BlogPost[] = [
     category: "Estetik Diş",
     date: "2026-04-13",
     readMinutes: 5,
+  image: "/images/servis/beyazlatma-card.webp",
     body: [
       {
         h2: "Diş beyazlatma kalıcı mıdır?",
@@ -711,6 +727,7 @@ export const posts: BlogPost[] = [
     category: "Fiyatlar",
     date: "2026-04-13",
     readMinutes: 6,
+  image: "/images/servis/emax-card.webp",
     body: [
       {
         h2: "İmplant maliyetini ne belirler?",

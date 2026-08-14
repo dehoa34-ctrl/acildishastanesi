@@ -71,7 +71,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
       {/* Header */}
       <PageHero
-        image="/images/servis/kanal-hero.webp"
+        image={post.image.replace("-card.webp", "-hero.webp")}
         title={post.title}
         subtitle={`${post.readMinutes} dk okuma süresi`}
       >

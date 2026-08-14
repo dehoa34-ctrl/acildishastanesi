@@ -5,19 +5,6 @@ import { posts } from "@/lib/posts";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 
-function postImage(category: string): string {
-  const map: Record<string, string> = {
-    "Acil Diş": "/images/servis/cekim-card.webp",
-    "Ağız Sağlığı": "/images/servis/emax-card.webp",
-    "İmplant": "/images/servis/implant-card.webp",
-    "Fiyatlar": "/images/servis/protetik-card.webp",
-    "Estetik Diş": "/images/servis/emax-card.webp",
-    "Tedaviler": "/images/servis/kanal-card.webp",
-    "Çocuk Diş": "/images/servis/pedodonti-card.webp",
-  };
-  return map[category] || "/images/servis/cekim-card.webp";
-}
-
 export const metadata: Metadata = {
   title: "Diş Sağlığı Rehberi & Blog",
   description:
@@ -56,7 +43,7 @@ export default function BlogPage() {
               >
                 <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
                   <Image
-                    src={postImage(p.category)}
+                    src={p.image}
                     alt={p.title}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"
