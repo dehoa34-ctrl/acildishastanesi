@@ -1,30 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import { SITE, CONTACT } from "@/lib/site";
-import { services, type Service } from "@/lib/services";
 import DistrictSearch from "@/components/DistrictSearch";
 import { DistrictGrid } from "@/components/DistrictGrid";
 import CtaBand from "@/components/CtaBand";
 import FaqAccordion from "@/components/FaqAccordion";
-import { PhoneIcon, WhatsAppIcon, ToothIcon } from "@/components/Header";
+import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
+import ServiceSlider from "@/components/ServiceSlider";
+import ClinicGrid from "@/components/ClinicGrid";
 import { dentistSchema } from "@/lib/seo";
-import { getServiceContent } from "@/lib/service-content";
-
-function homeServiceImage(s: Service): string {
-  const c = getServiceContent(s.slug);
-  if (c?.image) return c.image.replace("-hero.webp", "-card.webp");
-  const map: Record<Service["category"], string> = {
-    implant: "/images/servis/implant-card.webp",
-    estetik: "/images/servis/lamine-card.webp",
-    kaplama: "/images/servis/zirkonyum-card.webp",
-    ortodonti: "/images/servis/ortodonti-card.webp",
-    cocuk: "/images/servis/pedodonti-card.webp",
-    cerrahi: "/images/servis/cekim-card.webp",
-    dolgu: "/images/servis/kanal-card.webp",
-    acil: "/images/servis/cekim-card.webp",
-  };
-  return map[s.category] || "/images/servis/cekim-card.webp";
-}
 
 export default function HomePage() {
   const schema = dentistSchema();
@@ -102,74 +86,70 @@ export default function HomePage() {
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-bold uppercase tracking-wider text-brand-600">Tedavilerimiz</p>
             <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-              Diş Sağlığına Tam Çözüm
+              Diş Sağlığına Çözüm
             </h2>
             <p className="mt-3 text-lg text-slate-600">
               Acil müdahaleden estetik gülüş tasarımına, implanttan proteze tüm diş tedavilerinde 7/24 yanınızdayız.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {services.slice(0, 6).map((s) => (
-              <Link
-                key={s.slug}
-                href={`/${s.slug}`}
-                className="group flex flex-col overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition-all hover:-translate-y-1 hover:border-brand-300 hover:shadow-xl"
-              >
-                <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
-                  <Image
-                    src={homeServiceImage(s)}
-                    alt={s.name}
-                    fill
-                    className="object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
-                </div>
-                <div className="flex flex-1 flex-col p-7">
-                  <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
-                    <ToothIcon className="h-6 w-6" />
-                  </span>
-                  <h3 className="mt-4 text-lg font-extrabold text-slate-900">{s.name}</h3>
-                  <p className="mt-2 flex-1 text-sm leading-6 text-slate-600">{s.short}</p>
-                  <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold text-brand-600">
-                    Detaylı bilgi & fiyat
-                    <span className="transition-transform group-hover:translate-x-1">→</span>
-                  </span>
-                </div>
-              </Link>
-            ))}
+          <div className="mt-12">
+            <ServiceSlider />
+          </div>
 
+          {/* Tüm Tedaviler + Acil durum 2 kutu */}
+          <div className="mt-10 grid gap-5 sm:grid-cols-2">
             <Link
               href="/hizmetler"
-              className="group flex flex-col justify-center rounded-3xl border-2 border-dashed border-brand-300 bg-brand-50/50 p-7 text-center transition-colors hover:bg-brand-50"
+              className="group flex items-center justify-between rounded-3xl border-2 border-dashed border-brand-300 bg-brand-50/50 p-7 transition-colors hover:bg-brand-50"
             >
-              <h3 className="text-xl font-extrabold text-brand-700">Tüm Tedaviler</h3>
-              <p className="mt-2 text-sm text-slate-600">
-                İmplant, ortodonti, estetik, çocuk diş ve daha fazlası — 30&apos;un üzerinde tedavi.
-              </p>
-              <span className="mt-4 inline-flex items-center justify-center gap-1.5 text-sm font-bold text-brand-600">
-                Tümünü gör
-                <span className="transition-transform group-hover:translate-x-1">→</span>
-              </span>
+              <div>
+                <h3 className="text-xl font-extrabold text-brand-700">Tüm Tedaviler</h3>
+                <p className="mt-1 text-sm text-slate-600">
+                  İmplant, ortodonti, estetik, çocuk diş ve daha fazlası — 30&apos;un üzerinde tedavi.
+                </p>
+              </div>
+              <span className="text-2xl text-brand-600 transition-transform group-hover:translate-x-1">→</span>
             </Link>
 
             <Link
               href="/iletisim"
-              className="group flex flex-col justify-center rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 p-7 text-white shadow-lg shadow-brand-600/25"
+              className="group flex items-center justify-between rounded-3xl bg-gradient-to-br from-brand-600 to-brand-800 p-7 text-white shadow-lg shadow-brand-600/25"
             >
-              <h3 className="text-2xl font-extrabold">Acil durum mu var?</h3>
-              <p className="mt-2 text-brand-100">
-                Hemen arayın, nöbetçi diş hekimimiz size en kısa sürede yardımcı olsun.
-              </p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-bold">
-                {CONTACT.phoneDisplay} <span className="transition-transform group-hover:translate-x-1">→</span>
+              <div>
+                <h3 className="text-xl font-extrabold">Acil durum mu var?</h3>
+                <p className="mt-1 text-sm text-brand-100">
+                  Hemen arayın, nöbetçi diş hekimimiz size en kısa sürede yardımcı olsun.
+                </p>
+              </div>
+              <span className="shrink-0 text-2xl text-white transition-transform group-hover:translate-x-1">
+                {CONTACT.phoneDisplay}
               </span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Why us */}
+      {/* Diş Sağlığı Merkezleri (3x3) */}
       <section className="bg-slate-50 py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-sm font-bold uppercase tracking-wider text-brand-600">Şubelerimiz</p>
+            <h2 className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
+              Diş Sağlığı Merkezlerimiz
+            </h2>
+            <p className="mt-3 text-lg text-slate-600">
+              Size en yakın merkezi seçin, konumu haritada görün.
+            </p>
+          </div>
+          <div className="mt-12">
+            <ClinicGrid />
+          </div>
+        </div>
+      </section>
+
+      {/* Why us */}
+      <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-bold uppercase tracking-wider text-brand-600">Neden Biz?</p>
