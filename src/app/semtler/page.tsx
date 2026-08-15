@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 };
 
 export default function SemtlerPage() {
-  const anadolu = districts.filter((x) => x.area === "anadolu");
   const avrupa = districts.filter((x) => x.area === "avrupa");
   const merkez = districts.filter((x) => x.area === "merkez");
 
@@ -36,7 +35,6 @@ export default function SemtlerPage() {
             {merkez.length > 0 && (
               <SectionBlock title="İstanbul Geneli" items={merkez} />
             )}
-            <SectionBlock title="Anadolu Yakası" items={anadolu} />
             <SectionBlock title="Avrupa Yakası" items={avrupa} />
           </div>
         </div>

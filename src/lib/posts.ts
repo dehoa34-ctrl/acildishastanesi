@@ -95,7 +95,6 @@ export const posts: BlogPost[] = [
       },
     ],
     relatedLinks: [
-      { href: "/anadolu-yakasi-acil-dis-hastanesi/", label: "Anadolu Yakası Nöbetçi Dişçi" },
       { href: "/avrupa-yakasi-acil-dis-hastanesi/", label: "Avrupa Yakası Nöbetçi Dişçi" },
     ],
     faq: [
@@ -1083,7 +1082,7 @@ export const posts: BlogPost[] = [
       {
         h2: "Hızlı ulaşım ve randevu",
         paragraphs: [
-          "İstanbul'un Anadolu ve Avrupa yakasında merkezi konumlarımızdan kolayca ulaşabilirsiniz. Telefon ile aradığınızda size en yakın nöbetçi diş hekimine yönlendirme yapılır.",
+          "İstanbul'un Avrupa yakasında merkezi konumlarımızdan kolayca ulaşabilirsiniz. Telefon ile aradığınızda size en yakın nöbetçi diş hekimine yönlendirme yapılır.",
           "Acil durumunuzda bekletilmeden muayene edilir ve aynı gece müdahale edilir.",
         ],
       },

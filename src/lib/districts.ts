@@ -2,7 +2,7 @@ export type District = {
   slug: string;
   name: string;
   district: string;
-  area: "anadolu" | "avrupa" | "merkez";
+  area: "avrupa" | "merkez";
   description: string;
   intro: string;
   neighborhoods: string[];
@@ -19,6 +19,7 @@ const d = (
 ): District => ({ slug, name, district, area, description, intro, neighborhoods });
 
 export const districts: District[] = [
+
   d(
     "istanbul-acil-dis-hastanesi",
     "İstanbul",
@@ -26,15 +27,6 @@ export const districts: District[] = [
     "merkez",
     "İstanbul'da 7/24 açık acil diş hastanesi. Gece, pazar ve bayramda nöbetçi dişçi. Hemen arayın: 0533 582 82 79.",
     "İstanbul'un hangi yakasında olursanız olun, ani bir diş ağrısıyla karşılaştığınızda 7 gün 24 saat ulaşabileceğiniz tek telefon bizde: 0533 582 82 79. Gece yarısı başlayan ağrılar, pazar günü kırılan bir kaplama veya bayram tatilinde acil kanal tedavisi ihtiyacı… Hepsi için nöbetçi diş hekimi ekibimiz hazır bekliyor."
-  ),
-  d(
-    "anadolu-yakasi-acil-dis-hastanesi",
-    "Anadolu Yakası",
-    "İstanbul (Anadolu Yakası)",
-    "anadolu",
-    "Anadolu Yakası'nda 7/24 acil diş hastanesi. Kadıköy, Üsküdar, Maltepe ve çevresinde gece nöbetçi dişçi.",
-    "Anadolu Yakası'nda yaşıyor ve dişiniz mi ağrıyor? Gece saatlerinde, hafta sonunda ya da bayramda bile açık olan acil diş kliniğimiz, Kadıköy'den Tuzla'ya kadar tüm bölgeye hizmet verir. 0533 582 82 79 numarasını aradığınızda en yakın nöbetçi diş hekimine anında yönlendirilirsiniz.",
-    ["Kadıköy", "Üsküdar", "Maltepe", "Ataşehir"]
   ),
   d(
     "avrupa-yakasi-acil-dis-hastanesi",
@@ -46,33 +38,6 @@ export const districts: District[] = [
     ["Beşiktaş", "Şişli", "Bakırköy", "Fatih"]
   ),
   d(
-    "kadikoy-acil-dis-hastanesi",
-    "Kadıköy",
-    "Kadıköy",
-    "anadolu",
-    "Kadıköy'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi, pazar açık diş kliniği. 0533 582 82 79 ile hemen ulaşın.",
-    "Kadıköy'de gece yarısı başlayan zonklayıcı bir diş ağrısı, düşen bir dolgu ya da pazar günü kırılan bir diş… Tüm bu acillerde Kadıköy nöbetçi diş hekimi ekibimiz 7/24 yanınızda. Altıyol, Bahariye, Moda veya Bağdat Caddesi'nden kısa sürede kliniğimize ulaşabilir, gece ve hafta sonu dahil ağrısız tedavinizi olabilirsiniz.",
-    ["Altıyol", "Bahariye", "Moda", "Bağdat Caddesi", "Göztepe"]
-  ),
-  d(
-    "uskudar-acil-dis-hastanesi",
-    "Üsküdar",
-    "Üsküdar",
-    "anadolu",
-    "Üsküdar'da 7/24 acil diş hastanesi. Gece ve pazar nöbetçi dişçi, acil kanal tedavisi. Telefon: 0533 582 82 79.",
-    "Üsküdar'da yaşıyorsanız gece diş ağrısı çekmek zorunda değilsiniz. Boğaz manzaralı semtin en yakın 7/24 diş kliniği olarak gece, pazar ve bayram demeden hizmet veriyoruz. Acil kanal tedavisi, ağrısız çekim ve diş apsesi müdahalesi için 0533 582 82 79 numarasından bize ulaşın.",
-    ["Salacak", "Çengelköy", "Kuzguncuk", "Altunizade"]
-  ),
-  d(
-    "altunizade-acil-dis-hastanesi",
-    "Altunizade",
-    "Üsküdar",
-    "anadolu",
-    "Altunizade'de 7/24 acil diş hastanesi. Nöbetçi dişçi ve gece açık diş kliniği. 0533 582 82 79.",
-    "Altunizade'de ani gelişen diş problemlerinde kliniğimiz 7/24 açıktır. Üsküdar'ın en hareketli noktalarından biri olan Altunizade'de gece nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayın; dolgu, kanal tedavisi ve çekim gibi tüm acil işlemleriniz aynı gece tamamlanır.",
-    ["Kısıklı", "Çamlıca", "Küçük Çamlıca"]
-  ),
-  d(
     "alibeykoy-acil-dis-hastanesi",
     "Alibeyköy",
     "Eyüpsultan",
@@ -82,15 +47,6 @@ export const districts: District[] = [
     ["Göktürk", "Yeşilpınar", "Rami", "Cebeci"]
   ),
   d(
-    "acibadem-acil-dis-hastanesi",
-    "Acıbadem",
-    "Kadıköy",
-    "anadolu",
-    "Acıbadem'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi, pazar açık diş hekimi. 0533 582 82 79.",
-    "Acıbadem'de yaşayanlar için gece diş ağrısı artık kâbus değil. Kadıköy'ün bu şık semtinde 7/24 açık olan kliniğimiz, acil durumlar için daima nöbetçi diş hekimi bulundurur. Diş ağrısı, apse ve kırık diş için hemen 0533 582 82 79'u arayın.",
-    ["Koşuyolu", "Hasanpaşa", "Rasimpaşa", "Yeldeğirmeni"]
-  ),
-  d(
     "atakoy-acil-dis-hastanesi",
     "Ataköy",
     "Bakırköy",
@@ -98,15 +54,6 @@ export const districts: District[] = [
     "Ataköy'de 7/24 acil diş hastanesi. Gece ve pazar nöbetçi dişçi, acil tedavi. 0533 582 82 79.",
     "Ataköy'de hafta sonu diş ağrısı mı yaşıyorsunuz? Bakırköy'ün bu modern sahil semtinde 7/24 hizmet veren kliniğimiz, gece ve pazar günleri de nöbetçi diş hekimiyle hizmetinizdedir. Acil diş müdahalesi için 0533 582 82 79 numarasını arayabilirsiniz.",
     ["Atakent", "Yeşilköy", "Florya", "Şenlikköy"]
-  ),
-  d(
-    "atasehir-acil-dis-hastanesi",
-    "Ataşehir",
-    "Ataşehir",
-    "anadolu",
-    "Ataşehir'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Ataşehir'in modern konutlarında gece yarısı diş ağrısı yaşandığında ulaşılacak en hızlı adres kliniğimizdir. Anadolu Yakası'nın bu gelişmiş ilçesinde 7/24 açık olan kliniğimiz, acil dolgu, kanal tedavisi ve çekim işlemlerini gece dahi gerçekleştirir. Hemen arayın: 0533 582 82 79.",
-    ["İçerenköy", "Küçükbakkalköy", "Yenisahra", "Atatürk Mahallesi"]
   ),
   d(
     "avcilar-acil-dis-hastanesi",
@@ -190,15 +137,6 @@ export const districts: District[] = [
     ["Levent", "Etiler", "Zincirlikuyu", "Ortaköy", "Bebek"]
   ),
   d(
-    "beykoz-acil-dis-hastanesi",
-    "Beykoz",
-    "Beykoz",
-    "anadolu",
-    "Beykoz'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Beykoz'un yeşil vadilerinde gece diş ağrısı yaşadığınızda 7/24 açık kliniğimize güvenebilirsiniz. Anadolu Yakası'nın bu köklü ilçesinde nöbetçi diş hekimi hizmeti sunuyor; acil tedavilerinizi gece ve hafta sonu dahil tamamlıyoruz.",
-    ["Çubuklu", "Kanlıca", "Anadoluhisarı", "Kavacık"]
-  ),
-  d(
     "beylikduzu-acil-dis-hastanesi",
     "Beylikdüzü",
     "Beylikdüzü",
@@ -217,15 +155,6 @@ export const districts: District[] = [
     ["İstiklal", "Taksim", "Galata", "Cihangir", "Şişhane"]
   ),
   d(
-    "bostanci-acil-dis-hastanesi",
-    "Bostancı",
-    "Kadıköy",
-    "anadolu",
-    "Bostancı'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Bostancı sahilinde yaşıyorsanız gece diş ağrınız için kliniğimiz her an hazır. Kadıköy'ün bu gözde sahil semtinde 7/24 hizmet veren kliniğimiz, nöbetçi diş hekimi kadrosuyla hafta sonu ve bayram dahil tüm acil işlemleri yapar.",
-    ["Sahrayıcedid", "Kozyatağı", "Caddebostan", "Suadiye"]
-  ),
-  d(
     "buyukcekmece-acil-dis-hastanesi",
     "Büyükçekmece",
     "Büyükçekmece",
@@ -235,15 +164,6 @@ export const districts: District[] = [
     ["Mimarsinan", "Kumburgaz", "Celaliye", "Tepecik"]
   ),
   d(
-    "caddebostan-acil-dis-hastanesi",
-    "Caddebostan",
-    "Kadıköy",
-    "anadolu",
-    "Caddebostan'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş hekimi. 0533 582 82 79.",
-    "Caddebostan'da deniz kenarında gece diş ağrısı yaşayanlar için kliniğimiz 7/24 açıktır. Anadolu Yakası'nın en lüks sahil semtlerinden birinde nöbetçi diş hekimi hizmeti veriyor; acil müdahale ve estetik tedaviler için bize ulaşabilirsiniz.",
-    ["Suadiye", "Bostancı", "Göztepe", "Kozyatağı"]
-  ),
-  d(
     "caglayan-acil-dis-hastanesi",
     "Çağlayan",
     "Kağıthane",
@@ -251,15 +171,6 @@ export const districts: District[] = [
     "Çağlayan'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
     "Çağlayan'da gece başlayan diş ağrılarında kliniğimiz her an hizmetinizdedir. Kağıthane'nin bu hareketli semtinde 7/24 açık olan kliniğimiz, nöbetçi diş hekimiyle acil kanal tedavisi, dolgu ve çekim işlemlerini gece saatlerinde bile yapar.",
     ["Kağıthane Merkez", "Şişli", "Mecidiyeköy", "Hamidiye"]
-  ),
-  d(
-    "camlica-acil-dis-hastanesi",
-    "Çamlıca",
-    "Üsküdar",
-    "anadolu",
-    "Çamlıca'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Çamlıca'nın yükseklerinde gece diş ağrısı yaşadığınızda 7/24 açık kliniğimize güvenin. Üsküdar'ın bu nezih bölgesinde nöbetçi diş hekimi hizmeti sunuyor; acil tedavilerinizi hafta sonu ve bayramlarda dahi tamamlıyoruz.",
-    ["Kısıklı", "Altunizade", "Acıbadem", "Bulgurlu"]
   ),
   d(
     "catalca-acil-dis-hastanesi",
@@ -334,15 +245,6 @@ export const districts: District[] = [
     ["Kemerburgaz", "Alibeyköy", "Göktürk Merkez", "Çiftalan"]
   ),
   d(
-    "goztepe-acil-dis-hastanesi",
-    "Göztepe",
-    "Kadıköy",
-    "anadolu",
-    "Göztepe'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Göztepe'de gece başlayan diş ağrıları için kliniğimiz her an hizmetinizdedir. Kadıköy'ün bu köklü semtinde 7/24 açık olan kliniğimiz, nöbetçi diş hekimiyle acil kanal tedavisi, dolgu ve çekim işlemlerini gece dahi gerçekleştirir.",
-    ["Caddebostan", "Kozyatağı", "Feneryolu", "Erenköy"]
-  ),
-  d(
     "gultepe-acil-dis-hastanesi",
     "Gültepe",
     "Kağıthane",
@@ -359,15 +261,6 @@ export const districts: District[] = [
     "Güngören'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
     "Güngören'de gece ya da hafta sonu diş ağrısı yaşıyorsanız kliniğimiz her zaman açıktır. Avrupa Yakası'nın merkezi ilçelerinden Güngören'de nöbetçi diş hekimi hizmeti sunuyor; acil müdahale için 0533 582 82 79'u arayabilirsiniz.",
     ["Merkez Mahallesi", "Haznedar", "Gençosman", "Abdurrahman Nafiz"]
-  ),
-  d(
-    "icerenkoy-acil-dis-hastanesi",
-    "İçerenköy",
-    "Ataşehir",
-    "anadolu",
-    "İçerenköy'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "İçerenköy'de gece başlayan diş ağrıları için 7/24 açık kliniğimiz hizmetinizdedir. Ataşehir'in bu işlek bölgesinde nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayabilir, acil dolgu ve kanal tedavinizi aynı gece tamamlatabilirsiniz.",
-    ["Ataşehir", "Koşuyolu", "Yenisahra", "Hasanpaşa"]
   ),
   d(
     "istinye-acil-dis-hastanesi",
@@ -388,24 +281,6 @@ export const districts: District[] = [
     ["Çağlayan", "Gültepe", "Hamidiye", "Mecidiyeköy"]
   ),
   d(
-    "kalamis-acil-dis-hastanesi",
-    "Kalamış",
-    "Kadıköy",
-    "anadolu",
-    "Kalamış'ta 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Kalamış'ta marina kenarında gece diş ağrısı çekenler için kliniğimiz 7/24 açıktır. Kadıköy'ün bu şık sahil semtinde nöbetçi diş hekimi hizmeti sunuyor; acil tedavilerinizi gece ve hafta sonu dahil tamamlıyoruz.",
-    ["Fenerbahçe", "Moda", "Yeldeğirmeni", "Kadıköy Merkez"]
-  ),
-  d(
-    "kartal-acil-dis-hastanesi",
-    "Kartal",
-    "Kartal",
-    "anadolu",
-    "Kartal'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Kartal'da gece başlayan diş ağrıları için 7/24 açık kliniğimiz hizmetinizdedir. Anadolu Yakası'nın bu gelişmiş ilçesinde nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayabilir, acil dolgu ve kanal tedavinizi aynı gece yaptırabilirsiniz.",
-    ["Yukarı Mahalle", "Soğanlık", "Yakacık", "Kartal Merkez"]
-  ),
-  d(
     "kasimpasa-acil-dis-hastanesi",
     "Kasımpaşa",
     "Beyoğlu",
@@ -415,15 +290,6 @@ export const districts: District[] = [
     ["Camiikebir", "Hacıahmet", "Piyalepaşa", "Okmeydanı"]
   ),
   d(
-    "kavacik-acil-dis-hastanesi",
-    "Kavacık",
-    "Beykoz",
-    "anadolu",
-    "Kavacık'ta 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Kavacık'ta gece geç saatlerde diş ağrısı mı başladı? Beykoz'un bu modern bölgesinde 7/24 açık kliniğimiz, nöbetçi diş hekimiyle hafta sonu dahil tüm acil işlemleri gerçekleştirir. Hemen arayın: 0533 582 82 79.",
-    ["Göksu", "Çubuklu", "Anadoluhisarı", "Beykoz Merkez"]
-  ),
-  d(
     "kemerburgaz-acil-dis-hastanesi",
     "Kemerburgaz",
     "Eyüpsultan",
@@ -431,24 +297,6 @@ export const districts: District[] = [
     "Kemerburgaz'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
     "Kemerburgaz'da orman kenarında gece diş ağrısı çekenler için kliniğimiz 7/24 açıktır. Eyüpsultan'ın bu yeşil bölgesinde nöbetçi diş hekimi hizmeti sunuyor; acil tedavilerinizi hafta sonu ve bayramlarda dahi tamamlıyoruz.",
     ["Göktürk", "Çiftalan", "Kemerburgaz Merkez", "Alibeyköy"]
-  ),
-  d(
-    "kiziltoprak-acil-dis-hastanesi",
-    "Kızıltoprak",
-    "Kadıköy",
-    "anadolu",
-    "Kızıltoprak'ta 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Kızıltoprak'ta gece başlayan diş ağrıları için 7/24 açık kliniğimiz hizmetinizdedir. Kadıköy'ün bu merkezi semtinde nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayabilir, acil müdahalenizi hemen gerçekleştirebilirsiniz.",
-    ["Yeldeğirmeni", "Rasimpaşa", "Caddebostan", "Koşuyolu"]
-  ),
-  d(
-    "kozyatagi-acil-dis-hastanesi",
-    "Kozyatağı",
-    "Kadıköy",
-    "anadolu",
-    "Kozyatağı'nda 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Kozyatağı'nda gece diş ağrısı çekenler için kliniğimiz her an açıktır. Kadıköy'ün bu gelişmiş semtinde nöbetçi diş hekimi hizmeti veriyor; acil dolgu, kanal ve çekim işlemlerini gece saatlerinde bile yapıyoruz.",
-    ["Sahrayıcedid", "Göztepe", "Bostancı", "Erenköy"]
   ),
   d(
     "kucukcekmece-acil-dis-hastanesi",
@@ -467,15 +315,6 @@ export const districts: District[] = [
     "Küçükköy'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
     "Küçükköy'de gece başlayan diş ağrıları için 7/24 açık kliniğimiz hizmetinizdedir. Gaziosmanpaşa'nın bu yoğun semtinde nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayabilirsiniz.",
     ["Gaziosmanpaşa", "Sarıgöl", "Karadeniz", "Yeni Mahalle"]
-  ),
-  d(
-    "maltepe-acil-dis-hastanesi",
-    "Maltepe",
-    "Maltepe",
-    "anadolu",
-    "Maltepe'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Maltepe'de gece diş ağrısı yaşayanlar için kliniğimiz 7/24 açıktır. Anadolu Yakası'nın sahil ilçelerinden Maltepe'de nöbetçi diş hekimi hizmeti veriyor; acil tedavilerinizi gece ve hafta sonu dahil tamamlıyoruz.",
-    ["Bağlarbaşı", "Fındıklı", "Altayçeşme", "Yalı Mahallesi"]
   ),
   d(
     "maslak-acil-dis-hastanesi",
@@ -523,24 +362,6 @@ export const districts: District[] = [
     ["Küçükköy", "Çağlayan", "Kasımpaşa", "Şişli Merkez"]
   ),
   d(
-    "pasabahce-acil-dis-hastanesi",
-    "Paşabahçe",
-    "Beykoz",
-    "anadolu",
-    "Paşabahçe'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
-    "Paşabahçe'de gece diş ağrısı çekenler için kliniğimiz her an açıktır. Beykoz'un boğaz kıyısındaki bu semtinde nöbetçi diş hekimi hizmeti sunuyor; acil tedavilerinizi gece ve hafta sonu dahil tamamlıyoruz.",
-    ["Beykoz Merkez", "Çubuklu", "Kavacık", "Tokatköy"]
-  ),
-  d(
-    "pendik-acil-dis-hastanesi",
-    "Pendik",
-    "Pendik",
-    "anadolu",
-    "Pendik'te 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Pendik'te gece ya da pazar günü diş ağrısı çekmek zorunda değilsiniz. Anadolu Yakası'nın bu büyük ilçesinde 7/24 hizmet veren kliniğimiz, nöbetçi diş hekimiyle tüm acil işlemleri gerçekleştirir. Hemen arayın: 0533 582 82 79.",
-    ["Pendik Merkez", "Esenyalı", "Tuzla", "Kartal"]
-  ),
-  d(
     "sariyer-acil-dis-hastanesi",
     "Sarıyer",
     "Sarıyer",
@@ -584,24 +405,6 @@ export const districts: District[] = [
     "Tarabya'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık klinik. 0533 582 82 79.",
     "Tarabya'nın boğaz kıyısındaki konaklarında gece diş ağrısı çekenler için kliniğimiz 7/24 açıktır. Sarıyer'in bu şık sahil semtinde nöbetçi diş hekimi hizmeti sunuyor; acil müdahale için 0533 582 82 79'u arayın.",
     ["Yeniköy", "İstinye", "Sarıyer Merkez", "Emirgan"]
-  ),
-  d(
-    "tuzla-acil-dis-hastanesi",
-    "Tuzla",
-    "Tuzla",
-    "anadolu",
-    "Tuzla'da 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Tuzla'da gece ya da pazar günü diş ağrısı çekenler için kliniğimiz her zaman açıktır. Anadolu Yakası'nın bu sanayi ve sahil ilçesinde nöbetçi diş hekimi hizmeti veriyor; 0533 582 82 79 ile hemen ulaşın.",
-    ["Tuzla Merkez", "İçmeler", "Aydınlı", "Şifa"]
-  ),
-  d(
-    "umraniye-acil-dis-hastanesi",
-    "Ümraniye",
-    "Ümraniye",
-    "anadolu",
-    "Ümraniye'de 7/24 acil diş hastanesi. Gece nöbetçi dişçi ve pazar açık diş kliniği. 0533 582 82 79.",
-    "Ümraniye'de gece başlayan diş ağrıları için 7/24 açık kliniğimiz hizmetinizdedir. Anadolu Yakası'nın gelişmiş ilçelerinden Ümraniye'de nöbetçi diş hekimi bulmak için 0533 582 82 79'u arayabilirsiniz.",
-    ["Çakmak", "İnkılap", "Dudullu", "Yamanevler"]
   ),
   d(
     "zeytinburnu-acil-dis-hastanesi",

@@ -354,7 +354,7 @@ function DistrictPage({ district }: { district: (typeof districts)[number] }) {
       <section className="bg-slate-50 py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-extrabold text-slate-900">
-            {district.area === "anadolu" ? "Anadolu Yakası" : district.area === "avrupa" ? "Avrupa Yakası" : "İstanbul"}{" "}
+            {district.area === "avrupa" ? "Avrupa Yakası" : "İstanbul"}{" "}
             Diğer Nöbetçi Dişçiler
           </h2>
           <div className="mt-6 flex flex-wrap gap-2.5">

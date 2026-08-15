@@ -15,7 +15,6 @@ export const metadata: Metadata = {
 };
 
 export default function SiteHaritasiPage() {
-  const anadolu = districts.filter((d) => d.area === "anadolu");
   const avrupa = districts.filter((d) => d.area === "avrupa");
   const merkez = districts.filter((d) => d.area === "merkez");
 
@@ -118,7 +117,6 @@ export default function SiteHaritasiPage() {
             />
             <div className="mt-6 grid gap-5 lg:grid-cols-3">
               <DistrictCard title="İstanbul Geneli" accent="brand" items={merkez} />
-              <DistrictCard title="Anadolu Yakası" accent="sky" items={anadolu} />
               <DistrictCard title="Avrupa Yakası" accent="teal" items={avrupa} />
             </div>
           </div>

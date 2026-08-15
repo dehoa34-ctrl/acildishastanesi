@@ -2,12 +2,10 @@ import Link from "next/link";
 import { districts } from "@/lib/districts";
 
 export function DistrictGrid() {
-  const anadolu = districts.filter((x) => x.area === "anadolu");
   const avrupa = districts.filter((x) => x.area === "avrupa");
 
   return (
     <div className="grid gap-8 lg:grid-cols-2">
-      <DistrictColumn title="Anadolu Yakası" items={anadolu} />
       <DistrictColumn title="Avrupa Yakası" items={avrupa} />
     </div>
   );

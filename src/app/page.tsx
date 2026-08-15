@@ -208,7 +208,7 @@ export default function HomePage() {
             <WhyCard icon={<ShieldIcon />} title="Son Teknoloji Cihazlar" text="Dijital röntgen ve modern ekipmanlarla güvenli, ağrısız tedavi." />
             <WhyCard icon={<MoneyIcon />} title="Net ve Şeffaf Fiyat" text="Muayene sonrası net fiyat bilgisi. Sürpriz maliyet yok." />
             <WhyCard icon={<SmileIcon />} title="Gülüş Tasarımı" text="Estetik diş hekimliği ile size özel, doğal görünümlü gülüş." />
-            <WhyCard icon={<MapIcon />} title="Tüm İstanbul'da" text="Anadolu ve Avrupa yakasında 65'in üzerinde bölgeden ulaşılabilir." />
+            <WhyCard icon={<MapIcon />} title="Tüm İstanbul'da" text="Avrupa yakasında 40'ın üzerinde bölgeden ulaşılabilir." />
           </div>
         </div>
       </section>

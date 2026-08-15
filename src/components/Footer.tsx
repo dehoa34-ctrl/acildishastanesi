@@ -14,7 +14,6 @@ const socials = [
 ];
 
 export default function Footer() {
-  const anadolu = districts.filter((x) => x.area === "anadolu").slice(0, 8);
   const avrupa = districts.filter((x) => x.area === "avrupa").slice(0, 8);
 
   return (
@@ -104,11 +103,6 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">Nöbetçi Dişçiler</h3>
             <ul className="mt-4 grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
-              {anadolu.map((x) => (
-                <li key={x.slug}>
-                  <Link href={`/${x.slug}`} className="hover:text-white">{x.name}</Link>
-                </li>
-              ))}
               {avrupa.map((x) => (
                 <li key={x.slug}>
                   <Link href={`/${x.slug}`} className="hover:text-white">{x.name}</Link>
