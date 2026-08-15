@@ -1,8 +1,29 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { CONTACT, SITE } from "@/lib/site";
-import { services } from "@/lib/services";
+import { services, serviceCategories } from "@/lib/services";
+import { districts } from "@/lib/districts";
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
+  const categoriesWithItems = serviceCategories.filter(
+    (cat) => services.filter((s) => s.category === cat.key).length > 0
+  );
+  const popularDistricts = districts
+    .filter((d) => d.area === "avrupa")
+    .filter((d) => ["besiktas", "sisli", "bakirkoy", "fatih", "sariyer", "zeytinburnu"].includes(d.slug.split("-")[0]))
+    .slice(0, 6);
+
   return (
     <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
@@ -97,7 +118,145 @@ export default function Header() {
           <PhoneIcon />
           {CONTACT.phoneDisplay}
         </a>
+
+        <button
+          type="button"
+          onClick={() => setOpen(!open)}
+          className="flex h-10 w-10 items-center justify-center rounded-xl border border-slate-200 text-slate-700 transition-colors hover:bg-slate-100 lg:hidden"
+          aria-label={open ? "Menüyü kapat" : "Menüyü aç"}
+          aria-expanded={open}
+        >
+          {open ? (
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          ) : (
+            <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          )}
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {open && (
+        <div className="border-t border-slate-200 bg-white lg:hidden">
+          <div className="max-h-[calc(100vh-4rem)] overflow-y-auto px-4 py-5 sm:px-6">
+            {/* Tedaviler */}
+            <div>
+              <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Tedaviler</p>
+              <div className="mt-3 space-y-4">
+                {categoriesWithItems.map((cat) => (
+                  <div key={cat.key}>
+                    <p className="text-sm font-extrabold text-slate-900">{cat.label}</p>
+                    <ul className="mt-1.5 grid grid-cols-1 gap-0.5">
+                      {services
+                        .filter((s) => s.category === cat.key)
+                        .map((s) => (
+                          <li key={s.slug}>
+                            <Link
+                              href={`/${s.slug}`}
+                              onClick={() => setOpen(false)}
+                              className="block rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                            >
+                              {s.name}
+                            </Link>
+                          </li>
+                        ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+              <Link
+                href="/hizmetler"
+                onClick={() => setOpen(false)}
+                className="mt-4 inline-block rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-bold text-white hover:bg-brand-700"
+              >
+                Tüm Tedaviler →
+              </Link>
+            </div>
+
+            {/* Nöbetçi Dişçiler */}
+            <div className="mt-7 border-t border-slate-200 pt-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Nöbetçi Dişçiler</p>
+              <ul className="mt-3 grid grid-cols-2 gap-1">
+                {popularDistricts.map((d) => (
+                  <li key={d.slug}>
+                    <Link
+                      href={`/${d.slug}`}
+                      onClick={() => setOpen(false)}
+                      className="block rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                    >
+                      {d.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-3 flex flex-wrap gap-2">
+                <Link
+                  href="/semtler"
+                  onClick={() => setOpen(false)}
+                  className="rounded-full bg-brand-600 px-4 py-2 text-sm font-bold text-white hover:bg-brand-700"
+                >
+                  Tüm Semtler →
+                </Link>
+                <Link
+                  href="/site-haritasi"
+                  onClick={() => setOpen(false)}
+                  className="rounded-full border border-slate-300 px-4 py-2 text-sm font-semibold text-slate-700 hover:border-brand-400"
+                >
+                  Site Haritası →
+                </Link>
+              </div>
+            </div>
+
+            {/* Kurumsal */}
+            <div className="mt-7 border-t border-slate-200 pt-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Kurumsal</p>
+              <ul className="mt-3 grid grid-cols-1 gap-0.5">
+                {[
+                  { href: "/hakkimizda", label: "Hakkımızda" },
+                  { href: "/saglik-turizmi", label: "Sağlık Turizmi" },
+                  { href: "/anlasmali-kurumlar", label: "Anlaşmalı Kurumlar" },
+                ].map((m) => (
+                  <li key={m.href}>
+                    <Link
+                      href={m.href}
+                      onClick={() => setOpen(false)}
+                      className="block rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                    >
+                      {m.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Diğer */}
+            <div className="mt-7 border-t border-slate-200 pt-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-brand-600">Diğer</p>
+              <ul className="mt-3 grid grid-cols-1 gap-0.5">
+                {[
+                  { href: "/online-randevu", label: "Online Randevu" },
+                  { href: "/blog", label: "Blog & Rehber" },
+                  { href: "/sss", label: "Sık Sorulan Sorular" },
+                  { href: "/iletisim", label: "İletişim" },
+                ].map((m) => (
+                  <li key={m.href}>
+                    <Link
+                      href={m.href}
+                      onClick={() => setOpen(false)}
+                      className="block rounded-lg px-2 py-1.5 text-sm text-slate-600 hover:bg-brand-50 hover:text-brand-700"
+                    >
+                      {m.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
