@@ -22,6 +22,7 @@ function svcImg(s: Service): string {
     acil: "/images/servis/cekim-card.webp",
     branc: "/images/servis/cerrahi-uygulamalar-card.webp",
     gulus: "/images/servis/emax-dis-kaplama-card.webp",
+    fiyat: "/images/servis/dis-tedavisi-fiyatlari-card.webp",
   };
   return map[s.category] || "/images/servis/cekim-card.webp";
 }
@@ -55,12 +56,17 @@ const groups = [
     desc: "Kaplama ve gülüş tasarımı çözümleri",
     cats: ["gulus", "kaplama"],
   },
+  {
+    title: "Fiyatlar",
+    desc: "2026 güncel diş tedavisi fiyat rehberleri",
+    cats: ["fiyat"],
+  },
 ];
 
 export default function HizmetlerPage() {
   const stats = [
     { value: "25+", label: "Yıllık Deneyim" },
-    { value: "35+", label: "Tedavi Çeşidi" },
+    { value: "50+", label: "Tedavi Çeşidi" },
     { value: "100K+", label: "Mutlu Hasta" },
     { value: "12", label: "Şube" },
   ];
