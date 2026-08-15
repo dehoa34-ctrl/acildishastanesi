@@ -9,7 +9,7 @@ export const faqs: Faq[] = [
   {
     question: "Gece diş ağrısı için aramam yeterli mi?",
     answer:
-      "Evet. 0533 582 82 79 numarasını aradığınızda nöbetçi diş hekimimize bağlanırsınız. Acil durumunuzu bildirdiğinizde kliniğe beklenmeden kabul edilir ve gerekli müdahale aynı gece yapılır.",
+      "Evet. 0532 438 13 03 numarasını aradığınızda nöbetçi diş hekimimize bağlanırsınız. Acil durumunuzu bildirdiğinizde kliniğe beklenmeden kabul edilir ve gerekli müdahale aynı gece yapılır.",
   },
   {
     question: "Randevu almadan gelebilir miyim?",

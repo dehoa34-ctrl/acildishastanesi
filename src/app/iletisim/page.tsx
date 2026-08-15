@@ -6,7 +6,7 @@ import { PhoneIcon, WhatsAppIcon } from "@/components/Header";
 export const metadata: Metadata = {
   title: "İletişim",
   description:
-    "İstanbul Ağız ve Diş Sağlığı Merkezi iletişim bilgileri. 7/24 nöbetçi diş hekimi için hemen arayın: 0533 582 82 79.",
+    "İstanbul Ağız ve Diş Sağlığı Merkezi iletişim bilgileri. 7/24 nöbetçi diş hekimi için hemen arayın: 0532 438 13 03.",
   alternates: { canonical: "/iletisim/" },
 };
 

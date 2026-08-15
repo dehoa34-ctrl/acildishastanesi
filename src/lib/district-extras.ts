@@ -23,7 +23,7 @@ export const districtExtras: Record<string, DistrictExtra> = {
     [
       {
         question: "İstanbul'da gece diş ağrısı için nereyi aramalıyım?",
-        answer: "7/24 açık acil diş kliniğimizi 0533 582 82 79 numarasından arayabilirsiniz. Nöbetçi diş hekimimiz, gece ve hafta sonu dahil her saat sizi kabul eder.",
+        answer: "7/24 açık acil diş kliniğimizi 0532 438 13 03 numarasından arayabilirsiniz. Nöbetçi diş hekimimiz, gece ve hafta sonu dahil her saat sizi kabul eder.",
       },
       {
         question: "İstanbul'da pazar günü diş kliniği açık mı?",
@@ -38,7 +38,7 @@ export const districtExtras: Record<string, DistrictExtra> = {
     [
       {
         question: "Avrupa Yakası'nda bayramda açık diş kliniği var mı?",
-        answer: "Evet. Kliniğimiz bayram ve resmî tatillerde de açıktır. 0533 582 82 79 numarasından 7/24 ulaşabilirsiniz.",
+        answer: "Evet. Kliniğimiz bayram ve resmî tatillerde de açıktır. 0532 438 13 03 numarasından 7/24 ulaşabilirsiniz.",
       },
       {
         question: "Beylikdüzü veya Bakırköy'den gece gelmek zor olur mu?",
@@ -83,7 +83,7 @@ export const districtExtras: Record<string, DistrictExtra> = {
     [
       {
         question: "Avcılar'da gece açık dişçi var mı?",
-        answer: "Evet. Nöbetçi diş hekimimiz gece saatlerinde de hizmet verir. Hemen arayın: 0533 582 82 79.",
+        answer: "Evet. Nöbetçi diş hekimimiz gece saatlerinde de hizmet verir. Hemen arayın: 0532 438 13 03.",
       },
       {
         question: "Avcılar'dan kliniğe ulaşım nasıl?",

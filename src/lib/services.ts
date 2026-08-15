@@ -424,7 +424,7 @@ export const services: Service[] = [
     slug: "acil-dis-tedavisi",
     name: "Acil Diş Tedavisi",
     short: "Gece, pazar ve bayramda 7/24 acil diş müdahalesi. Beklemeden aynı gün çözüm.",
-    intro: "Gece, pazar ve bayramda 7/24 acil diş müdahalesi. Beklemeden aynı gün çözüm. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Gece, pazar ve bayramda 7/24 acil diş müdahalesi. Beklemeden aynı gün çözüm. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",
@@ -438,7 +438,7 @@ export const services: Service[] = [
     slug: "gulus-tasarimi",
     name: "Gülüş Tasarımı",
     short: "Dijital smile design ile kişiye özel estetik gülüş planlaması.",
-    intro: "Dijital smile design ile kişiye özel estetik gülüş planlaması. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Dijital smile design ile kişiye özel estetik gülüş planlaması. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",
@@ -452,7 +452,7 @@ export const services: Service[] = [
     slug: "dis-dolgusu",
     name: "Diş Dolgusu",
     short: "Kompozit ve porselen dolgularla çürük dişlerin estetik onarımı.",
-    intro: "Kompozit ve porselen dolgularla çürük dişlerin estetik onarımı. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Kompozit ve porselen dolgularla çürük dişlerin estetik onarımı. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",
@@ -466,7 +466,7 @@ export const services: Service[] = [
     slug: "protez-takma-dis-fiyatlari",
     name: "Protez Diş Fiyatları",
     short: "Takma diş, akrilik protez ve implant üstü protez çözümleri.",
-    intro: "Takma diş, akrilik protez ve implant üstü protez çözümleri. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Takma diş, akrilik protez ve implant üstü protez çözümleri. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",
@@ -480,7 +480,7 @@ export const services: Service[] = [
     slug: "agrisiz-dis-tedavisi",
     name: "Ağrısız Diş Tedavisi",
     short: "Sedasyon ve modern anestezi ile tamamen konforlu diş tedavisi.",
-    intro: "Sedasyon ve modern anestezi ile tamamen konforlu diş tedavisi. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Sedasyon ve modern anestezi ile tamamen konforlu diş tedavisi. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",
@@ -494,7 +494,7 @@ export const services: Service[] = [
     slug: "dis-tedavisi-fiyatlari",
     name: "Diş Tedavisi Fiyatları 2026",
     short: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi.",
-    intro: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi. Detaylı bilgi için 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+    intro: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
     features: [
       "7/24 açık klinik",
       "Uzman hekim kadrosu",

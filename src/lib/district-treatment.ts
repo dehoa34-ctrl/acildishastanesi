@@ -74,4 +74,4 @@ export const treatmentSections = [
 
 /** Avrupadis semt sayfalarındaki tanıtım metni (her semtte aynı, avrupadis birebir). */
 export const districtIntroText =
-  "İstanbul'da 11 şube ile ve tüm diş hekimliği uzmanlıklarında ağız ve diş sağlığı hizmeti vermekteyiz. Acil diş hekimliği tedavilerinde her gün 0533 582 82 79 numaralı telefonumuzdan irtibata geçebilirsiniz. Ya da web sitemiz üzerinden online randevu alabilirsiniz.";
+  "İstanbul'da 11 şube ile ve tüm diş hekimliği uzmanlıklarında ağız ve diş sağlığı hizmeti vermekteyiz. Acil diş hekimliği tedavilerinde her gün 0532 438 13 03 numaralı telefonumuzdan irtibata geçebilirsiniz. Ya da web sitemiz üzerinden online randevu alabilirsiniz.";

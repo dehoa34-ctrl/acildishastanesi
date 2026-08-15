@@ -23,11 +23,11 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.domain),
   title: {
-    default: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş 0533 582 82 79",
+    default: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş 0532 438 13 03",
     template: "%s | İstanbul Ağız ve Diş Sağlığı Merkezi",
   },
   description:
-    "İstanbul 7/24 açık ağız ve diş sağlığı merkezi. Gece, pazar ve bayramda nöbetçi diş hekimi. Acil kanal tedavisi, dolgu, çekim, implant. Hemen arayın: 0533 582 82 79.",
+    "İstanbul 7/24 açık ağız ve diş sağlığı merkezi. Gece, pazar ve bayramda nöbetçi diş hekimi. Acil kanal tedavisi, dolgu, çekim, implant. Hemen arayın: 0532 438 13 03.",
   keywords: [
     "istanbul ağız ve diş sağlığı merkezi",
     "acil diş",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "İstanbul Ağız ve Diş Sağlığı Merkezi | 7/24 Acil Diş",
-    description: "İstanbul'da 7/24 açık ağız ve diş sağlığı merkezi. Hemen arayın: 0533 582 82 79.",
+    description: "İstanbul'da 7/24 açık ağız ve diş sağlığı merkezi. Hemen arayın: 0532 438 13 03.",
     images: [SEO_IMAGE],
   },
   robots: { index: true, follow: true },

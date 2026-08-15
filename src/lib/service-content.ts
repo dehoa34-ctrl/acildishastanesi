@@ -48,7 +48,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -78,7 +78,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -166,7 +166,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -403,7 +403,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -486,7 +486,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -575,7 +575,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -740,7 +740,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -822,7 +822,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -992,7 +992,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1047,7 +1047,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1113,7 +1113,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1190,7 +1190,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1482,7 +1482,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1759,7 +1759,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -1910,7 +1910,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2047,7 +2047,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2142,7 +2142,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2211,7 +2211,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2371,7 +2371,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2425,7 +2425,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2691,7 +2691,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -2945,7 +2945,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3299,7 +3299,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3377,7 +3377,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3451,7 +3451,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3533,7 +3533,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3630,7 +3630,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3882,7 +3882,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",
@@ -3968,7 +3968,7 @@ export const serviceContent: Record<string, {
     faq: [
      {
       "question": "Bu tedavi nasıl uygulanır?",
-      "answer": "Detaylı bilgi için kliniğimizi arayın: 0533 582 82 79. Muayene sonrası size özel tedavi planı oluşturulur."
+      "answer": "Detaylı bilgi için kliniğimizi arayın: 0532 438 13 03. Muayene sonrası size özel tedavi planı oluşturulur."
      },
      {
       "question": "Bu tedavi ne kadar sürer?",

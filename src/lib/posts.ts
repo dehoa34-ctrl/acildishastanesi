@@ -58,7 +58,7 @@ export const posts: BlogPost[] = [
       },
       {
         question: "Gece diş ağrısı için nereyi aramalıyım?",
-        answer: "7/24 açık nöbetçi diş kliniğimizi 0533 582 82 79 numarasından arayabilirsiniz.",
+        answer: "7/24 açık nöbetçi diş kliniğimizi 0532 438 13 03 numarasından arayabilirsiniz.",
       },
     ],
   },
@@ -90,7 +90,7 @@ export const posts: BlogPost[] = [
         h2: "İstanbul'da gece açık nöbetçi dişçi nasıl bulunur?",
         paragraphs: [
           "İstanbul'un birçok ilçesinde diş klinikleri mesai saatleri dışında kapalıdır. Gece ve hafta sonu ihtiyaçlar için 7/24 çalışan nöbetçi diş klinikleri en güvenilir seçenektir.",
-          "Kliniğimiz İstanbul'un merkezi noktalarına yakın konumuyla gece, pazar ve bayram dahil kesintisiz hizmet verir. 0533 582 82 79 numarasını aradığınızda size en yakın nöbetçi diş hekimine yönlendirme yapılır.",
+          "Kliniğimiz İstanbul'un merkezi noktalarına yakın konumuyla gece, pazar ve bayram dahil kesintisiz hizmet verir. 0532 438 13 03 numarasını aradığınızda size en yakın nöbetçi diş hekimine yönlendirme yapılır.",
         ],
       },
     ],
@@ -464,7 +464,7 @@ export const posts: BlogPost[] = [
         h2: "İstanbul'da pazar günü nöbetçi dişçi nasıl bulunur?",
         paragraphs: [
           "İnternette arama yaparken 'pazar günü açık dişçi', 'nöbetçi dişçi istanbul' gibi kelimelerle güncel sonuçları kontrol edebilirsiniz. En güvenilir yöntem, 7/24 hizmet verdiğini belirten klinikleri aramaktır.",
-          "Kliniğimiz haftanın 7 günü açıktır. Pazar günü diş ağrınız için 0533 582 82 79 numarasını arayabilirsiniz.",
+          "Kliniğimiz haftanın 7 günü açıktır. Pazar günü diş ağrınız için 0532 438 13 03 numarasını arayabilirsiniz.",
         ],
       },
     ],
@@ -605,7 +605,7 @@ export const posts: BlogPost[] = [
         h2: "Bayramda nöbetçi dişçi nasıl bulunur?",
         paragraphs: [
           "Bayram öncesi yakınınızdaki 7/24 çalışan kliniklerin telefonunu not etmek en pratik yöntemdir. Acil durumda internetten 'bayramda açık dişçi' araması da yapılabilir.",
-          "İstanbul'un herhangi bir semtinde bayramda diş ağrısı yaşarsanız 0533 582 82 79 numaralı hattımızı arayabilirsiniz.",
+          "İstanbul'un herhangi bir semtinde bayramda diş ağrısı yaşarsanız 0532 438 13 03 numaralı hattımızı arayabilirsiniz.",
         ],
       },
     ],
