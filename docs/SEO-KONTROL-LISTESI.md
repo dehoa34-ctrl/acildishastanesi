@@ -39,7 +39,7 @@ arama motoru ping'leri ve backlink/dizin kayıtları için yapılması gereken a
    - Şehir: **İstanbul**
    - Çalışma saatleri: **Haftanın 7 günü, 24 saat**
 3. Kategoriler: **Diş Hekimi**, **Acil Sağlık Hizmetleri**
-4. **Hizmet alanını** "İstanbul" olarak genişletin.
+4. **Hizmet alanını** "İstanbul" (Avrupa yakası) olarak genişletin.
 5. **Fotoğraflar**: dış cephe, muayene odası, ekip + en az 3 hasta görseli.
 6. **İncelemeler**: memnun hastalardan Google yorumu isteyin.
 7. **Randevu butonu**: 0533 582 82 79.
@@ -72,6 +72,14 @@ IndexNow anahtar dosyası: `public/8f2a1c3d9e4b5a6c7d8e9f0a1b2c3d4e.txt`
 `{"host":"acildishastanesi.org","key":"8f2a1c3d9e4b5a6c7d8e9f0a1b2c3d4e","urlList":["https://acildishastanesi.org/..."]}`
 POST edilir.
 
+**Son ping durumu (yayın sonrası):**
+- ✅ Yandex sitemap ping → HTTP 200
+- ✅ IndexNow (116 URL, 2 batch) → HTTP 202 / 202
+- ⚠️ **BOM uyarısı:** URL listesi gönderilirken dosya BOM'lu kaydedilirse IndexNow HTTP 400 döner.
+  URL'ler düz metin (BOM'suz UTF-8) gönderilmelidir.
+- ⚠️ **Kaldırılan anadolu sayfaları** (22 semt) artık 404 dönüyor. Google'da indexliyse
+  GSC > Sayfa Kaldırma isteği ile temizlenebilir veya ilgili sayfalardan iç link kalırsa kaldırılmalıdır.
+
 ## 8. Backlink / Dizin kayıtları
 
 Aşağıdaki dizinlere **tutarlı NAP** (İstanbul Ağız ve Diş Sağlığı Merkezi / 0533 582 82 79 / İstanbul) ile kayıt olun:
@@ -100,7 +108,7 @@ Aşağıdaki dizinlere **tutarlı NAP** (İstanbul Ağız ve Diş Sağlığı Me
 - ✅ Semt sayfalarında Dentist + FAQPage schema
 - ✅ Hizmet sayfalarında MedicalProcedure + BreadcrumbList + FAQPage
 - ✅ Blog'da Article + BreadcrumbList + FAQPage
-- ✅ Sitemap.xml (138 URL + görsel etiketleri)
+- ✅ Sitemap.xml (116 URL + görsel etiketleri — sadece Avrupa yakası)
 - ✅ robots.txt (bot kuralları + host + sitemap)
 - ✅ og:image + Twitter Card tüm sayfalarda
 - ✅ Canonical tüm sayfalarda
