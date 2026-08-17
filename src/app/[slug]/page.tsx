@@ -572,18 +572,18 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-left text-sm">
                   <thead>
-                    <tr className="border-b border-slate-200 bg-slate-50">
-                      <th className="px-6 py-3.5 font-extrabold text-slate-900">{service.name}</th>
-                      <th className="px-6 py-3.5 text-right font-extrabold text-slate-900">KDV HARİÇ</th>
+                    <tr className="bg-slate-100">
+                      <th className="border border-slate-200 px-6 py-3.5 font-extrabold text-slate-900">{service.name}</th>
+                      <th className="border border-slate-200 px-6 py-3.5 text-right font-extrabold text-slate-900">KDV HARİÇ</th>
                     </tr>
                   </thead>
-                  <tbody className="divide-y divide-slate-100">
+                  <tbody>
                     {service.priceRows
                       .filter((row) => !/^kdv/i.test(row.price))
-                      .map((row) => (
-                        <tr key={row.name} className="transition-colors hover:bg-slate-50">
-                          <td className="px-6 py-3.5 font-semibold text-slate-700">{fmtYear(row.name)}</td>
-                          <td className="px-6 py-3.5 text-right font-extrabold text-brand-700">
+                      .map((row, i) => (
+                        <tr key={row.name} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                          <td className="border border-slate-200 px-6 py-3.5 font-semibold text-slate-700">{fmtYear(row.name)}</td>
+                          <td className="border border-slate-200 px-6 py-3.5 text-right font-extrabold text-brand-700">
                             {fmtYear(row.price)}
                           </td>
                         </tr>
