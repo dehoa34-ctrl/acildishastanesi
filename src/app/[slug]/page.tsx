@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, CURRENT_YEAR, fmtYear } from "@/lib/site";
 import { districts, getDistrict } from "@/lib/districts";
 import { services, getService, getPriceGroup, getRelatedPriceSlugs } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
@@ -56,12 +56,12 @@ export async function generateMetadata({
 
   if (service) {
     return {
-      title: `${service.name} 2026 İstanbul Güncel Fiyatları`,
-      description: service.intro.slice(0, 160),
+      title: `${service.name} ${CURRENT_YEAR} İstanbul Güncel Fiyatları`,
+      description: fmtYear(service.intro).slice(0, 160),
       alternates: { canonical: `/${service.slug}/` },
       openGraph: {
-        title: `${service.name} 2026`,
-        description: service.intro.slice(0, 160),
+        title: `${service.name} ${CURRENT_YEAR}`,
+        description: fmtYear(service.intro).slice(0, 160),
         locale: "tr_TR",
         type: "website",
         images: [{ url: SEO_IMAGE, width: 1200, height: 900, alt: service.name }],
@@ -408,7 +408,7 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
   const faqData = content?.faq?.length
     ? content.faq
     : faqs.map((f) => ({ question: f.question, answer: f.answer }));
-  const faq = faqSchema(faqData);
+  const faq = faqSchema(faqData.map((f) => ({ question: fmtYear(f.question), answer: fmtYear(f.answer) })));
   const relatedServices = (content?.related ?? [])
     .map((slug) => getService(slug))
     .filter((s): s is (typeof services)[number] => Boolean(s));
@@ -442,7 +442,7 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
       <PageHero
         image={content?.image || serviceImage(service)}
         title={service.name}
-        subtitle={service.intro}
+        subtitle={fmtYear(service.intro)}
       >
         <nav className="text-sm text-white/90">
           <Link href="/" className="hover:text-white">Anasayfa</Link>
@@ -477,10 +477,10 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
               <div className="mx-auto w-full max-w-3xl lg:mx-0">
                 {content.body.map((section, idx) => (
                   <section key={section.h2}>
-                    <h2 className="text-2xl font-extrabold text-slate-900">{section.h2}</h2>
+                    <h2 className="text-2xl font-extrabold text-slate-900">{fmtYear(section.h2)}</h2>
                     {section.paragraphs.map((para, i) => (
                       <p key={i} className="mt-4 leading-8 text-slate-600">
-                        {para}
+                        {fmtYear(para)}
                       </p>
                     ))}
                     {idx === 0 && content.image && (
@@ -515,7 +515,7 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
                 <span className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-700">
                   ⓜ
                 </span>
-                <span className="text-sm font-semibold text-slate-700">{f}</span>
+                <span className="text-sm font-semibold text-slate-700">{fmtYear(f)}</span>
               </div>
             ))}
           </div>
@@ -553,8 +553,8 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
             <div className="mt-6 space-y-4">
               {faqData.map((f) => (
                 <div key={f.question} className="rounded-2xl border border-slate-200 bg-white p-5">
-                  <p className="font-bold text-slate-900">{f.question}</p>
-                  <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+                  <p className="font-bold text-slate-900">{fmtYear(f.question)}</p>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{fmtYear(f.answer)}</p>
                 </div>
               ))}
             </div>
@@ -568,14 +568,14 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
           {service.priceRows && service.priceRows.length > 0 ? (
             <div className="overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
               <div className="border-b border-slate-200 bg-slate-50 px-6 py-4">
-                <h2 className="text-lg font-extrabold text-slate-900">2026 Güncel Fiyat Listesi</h2>
-                <p className="mt-0.5 text-xs text-slate-500">{service.priceNote}</p>
+                <h2 className="text-lg font-extrabold text-slate-900">{CURRENT_YEAR} Güncel Fiyat Listesi</h2>
+                <p className="mt-0.5 text-xs text-slate-500">{fmtYear(service.priceNote)}</p>
               </div>
               <ul className="divide-y divide-slate-100">
                 {service.priceRows.map((row) => (
                   <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
-                    <span className="font-semibold text-slate-700">{row.name}</span>
-                    <span className="shrink-0 font-extrabold text-brand-700">{row.price}</span>
+                    <span className="font-semibold text-slate-700">{fmtYear(row.name)}</span>
+                    <span className="shrink-0 font-extrabold text-brand-700">{fmtYear(row.price)}</span>
                   </li>
                 ))}
               </ul>

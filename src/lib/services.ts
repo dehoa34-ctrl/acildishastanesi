@@ -16,7 +16,7 @@ export type Service = {
 };
 
 export const services: Service[] = [
-  {
+{
     slug: "cerrahi-uygulamalar",
     name: "Cerrahi Uygulamalar",
     short: "Ağız, diş ve çene cerrahisi, gömülü diş, kist ve implant cerrahisi işlemleri.",
@@ -30,7 +30,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "dijital-dis-hekimligi",
     name: "Dijital Diş Hekimliği",
     short: "CAD/CAM, 3D röntgen ve dijital gülüş tasarımı ile hızlı ve hassas tedavi.",
@@ -44,7 +44,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "kanal-tedavisi-nedir-kanal-tedavisi-neden-yapilir",
     name: "Kanal Tedavisi Nedir?",
     short: "Dişin içindeki enfekte sinir ve dokuların temizlenip doldurulmasıyla dişi kurtarma tedavisi.",
@@ -58,7 +58,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "protetik-dis-tedavisi-nedir-protetik-dis-tedavisi-nasil-yapilir",
     name: "Protetik Diş Tedavisi Nedir?",
     short: "Eksik dişlerin protez, kron ve köprülerle restore edilmesi.",
@@ -72,7 +72,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "kirik-dis-tedavisi",
     name: "Kırık Diş Tedavisi",
     short: "Kırılmış veya çatlamış dişlerin estetik ve fonksiyonel onarımı.",
@@ -86,7 +86,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "pedodonti-cocuk-dis-hekimligi",
     name: "Pedodonti (Çocuk Diş Hekimliği)",
     short: "0-13 yaş çocukların ağız ve diş sağlığına özel tedaviler.",
@@ -100,7 +100,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "ortodonti-nedir-ortodonti-tedavisi-ne-demek",
     name: "Ortodonti Nedir?",
     short: "Çapraşık dişlerin tel ve şeffaf plak ile düzeltilmesi.",
@@ -114,7 +114,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "periodontoloji",
     name: "Periodontoloji",
     short: "Diş eti ve dişi çevreleyen destek dokuların sağlığıyla ilgilenen uzmanlık dalı.",
@@ -128,7 +128,7 @@ export const services: Service[] = [
     ],
     category: "branc",
   },
-  {
+{
     slug: "implant-nedir-implant-tedavisi-nasil-yapilir",
     name: "İmplant Nedir? İmplant Tedavisi Nasıl Yapılır?",
     short: "Eksik dişlerin çene kemiğine yerleştirilen titanyum köklerle tamamlanması.",
@@ -142,7 +142,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "all-on-four-implant",
     name: "All On Four İmplant",
     short: "Dört implant üzerine sabit protez ile tam çene çözümü.",
@@ -156,7 +156,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "bir-gunde-implant",
     name: "Bir Günde İmplant",
     short: "Diş çekimi ve implantın aynı seansta yapılarak aynı gün diş takılması.",
@@ -170,7 +170,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "sinus-lifting-sinus-kaldirma-nedir-sinus-sarkmasi-belirtileri-nelerdir",
     name: "Sinus Lifting (Sinüs Kaldırma)",
     short: "Üst çene arka bölgede implant için kemik hacmini artıran işlem.",
@@ -184,7 +184,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "dis-cekimi-nedir-dis-nasil-cekilir-dis-cekimi-ne-kadar-surer",
     name: "Diş Çekimi Nedir?",
     short: "Kurtarılamayan dişlerin ağrısız ve güvenli şekilde çekilmesi.",
@@ -198,7 +198,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "20lik-dis-nedir-20lik-dis-ne-ise-yarar-20lik-dis-cekimi",
     name: "20'lik Diş Nedir? 20'lik Diş Çekimi",
     short: "Yirmilik dişlerin ağrısı ve gömülü 20'lik diş çekimi.",
@@ -212,7 +212,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "gomulu-20lik-dis-nedir-gomulu-20lik-dis-cekimi",
     name: "Gömülü 20'lik Diş Nedir? Gömülü 20'lik Diş Çekimi",
     short: "Diş eti ve kemik içinde gömülü kalan 20'lik dişlerin cerrahi çekimi.",
@@ -226,7 +226,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "komplikasyonlu-dis-cekimi-nedir-komplikasyonlu-dis-cekimi-nasil-yapilir",
     name: "Komplikasyonlu Diş Çekimi Nedir?",
     short: "Kökü kırık, eğri veya yapışık dişlerin cerrahi çekimi.",
@@ -240,7 +240,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "sut-dis-cekimi",
     name: "Süt Diş Çekimi",
     short: "Sallanan veya çürük süt dişlerinin güvenli ve ağrısız çekimi.",
@@ -254,7 +254,7 @@ export const services: Service[] = [
     ],
     category: "cerrahi",
   },
-  {
+{
     slug: "dental-bonding",
     name: "Dental Bonding",
     short: "Kompozit ile kırık, çatlak ve aralıklı dişlerin tek seansta onarımı.",
@@ -268,7 +268,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "dis-beyazlatma-bleaching-nedir-en-etkili-dis-beyazlatma-yontemleri-nelerdir",
     name: "Diş Beyazlatma (Bleaching) Nedir?",
     short: "Lazer ve jel ile diş rengini birkaç ton aydınlatan estetik uygulama.",
@@ -282,7 +282,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "inlay-onlay-overlay-dolgular",
     name: "Inlay Onlay Overlay Dolgular",
     short: "Büyük çürüklerde laboratuvar destekli porselen dolgu çözümleri.",
@@ -296,7 +296,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "seffaf-plak-nedir-seffaf-dis-plagi-ne-ise-yarar",
     name: "Şeffaf Plak Nedir? Şeffaf Diş Plağı Ne İşe Yarar?",
     short: "Görünmeyen, çıkarılabilir şeffaf plaklarla telsiz ortodonti.",
@@ -310,7 +310,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "lamine-dis-kaplama-nedir-yaprak-dis-kaplama-nasil-yapilir",
     name: "Lamine Diş Kaplama Nedir? Yaprak Diş Kaplama Nasıl Yapılır?",
     short: "Ön dişlere ince porselen yaprak kaplama ile estetik gülüş.",
@@ -324,7 +324,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "dis-teli-tedavisi-nedir-dis-teli-ne-ise-yarar",
     name: "Diş Teli Tedavisi Nedir?",
     short: "Metal ve estetik braketlerle çapraşık dişlerin düzeltilmesi.",
@@ -338,7 +338,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "pembe-estetik-estetik-dis-eti-tedavisi",
     name: "Pembe Estetik (Estetik Diş Eti Tedavisi)",
     short: "Diş eti şekillendirme ile gülüş hattının estetik düzenlenmesi.",
@@ -352,7 +352,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "zirkonyum-dis-nedir-zirkonyum-dis-kaplama-nedir",
     name: "Zirkonyum Diş Nedir? Zirkonyum Diş Kaplama",
     short: "Metal içermeyen, biyouyumlu ve estetik zirkonyum kaplamalar.",
@@ -366,7 +366,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "porselen-dis-kaplama-nedir-porselen-dis-kaplama-nasil-yapilir",
     name: "Porselen Diş Kaplama Nedir?",
     short: "Metal destekli ve tam porselen ile dayanıklı, estetik kaplamalar.",
@@ -380,7 +380,7 @@ export const services: Service[] = [
     ],
     category: "gulus",
   },
-  {
+{
     slug: "emax-dis-kaplama",
     name: "Emax Diş Kaplama",
     short: "Lityum disilikat seramikten üretilen yüksek estetik kaplama.",
@@ -394,7 +394,7 @@ export const services: Service[] = [
     ],
     category: "gulus",
   },
-  {
+{
     slug: "metal-dis-kaplama-nedir-metal-destekli-porselen-dis-kaplama-nasil-yapilir",
     name: "Metal Diş Kaplama Nedir?",
     short: "Metal destekli porselen ile ekonomik ve dayanıklı kaplamalar.",
@@ -408,7 +408,7 @@ export const services: Service[] = [
     ],
     category: "gulus",
   },
-  {
+{
     slug: "kron-dis-kaplama-nedir-kron-dis-kaplama-nasil-yapilir",
     name: "Kron Diş Kaplama Nedir?",
     short: "Hasar görmüş dişi sararak koruyan sabit kaplama.",
@@ -422,7 +422,7 @@ export const services: Service[] = [
     ],
     category: "gulus",
   },
-  {
+{
     slug: "acil-dis-tedavisi",
     name: "Acil Diş Tedavisi",
     short: "Gece, pazar ve bayramda 7/24 acil diş müdahalesi. Beklemeden aynı gün çözüm.",
@@ -436,7 +436,7 @@ export const services: Service[] = [
     ],
     category: "acil",
   },
-  {
+{
     slug: "gulus-tasarimi",
     name: "Gülüş Tasarımı",
     short: "Dijital smile design ile kişiye özel estetik gülüş planlaması.",
@@ -450,7 +450,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "dis-dolgusu",
     name: "Diş Dolgusu",
     short: "Kompozit ve porselen dolgularla çürük dişlerin estetik onarımı.",
@@ -464,7 +464,7 @@ export const services: Service[] = [
     ],
     category: "dolgu",
   },
-  {
+{
     slug: "protez-takma-dis-fiyatlari",
     name: "Protez Diş Fiyatları",
     short: "Takma diş, akrilik protez ve implant üstü protez çözümleri.",
@@ -478,7 +478,7 @@ export const services: Service[] = [
     ],
     category: "estetik",
   },
-  {
+{
     slug: "agrisiz-dis-tedavisi",
     name: "Ağrısız Diş Tedavisi",
     short: "Sedasyon ve modern anestezi ile tamamen konforlu diş tedavisi.",
@@ -492,7 +492,7 @@ export const services: Service[] = [
     ],
     category: "acil",
   },
-  {
+{
     slug: "implant-fiyatlari",
     name: "İmplant Fiyatları",
     short: "2026 implant fiyatları. TDB güncel tarifesi ve implant tedavi ücretleri.",
@@ -508,7 +508,7 @@ export const services: Service[] = [
     priceRows: [{"name":"Kemik İçi İmplant (Tek Silindirik İmplant Ücreti Hariç)","price":"15.675,00 TL"},{"name":"İmplant Üstü Veneer Kuron (Seramik) (Abutment Ücreti Hariç)","price":"10.090,00 TL"},{"name":"İmplant Destekli Hareketli Protezler (Hassas Tutucu Ücreti Hariç - Tek Çene)","price":"26.035,00 TL"},{"name":"İmplant Rehberi (Yarım Çene)","price":"7.235,00 TL"},{"name":"İmplant Rehberi (Tam Çene)","price":"10.485,00 TL"},{"name":"Kapişon İzalesi - İmplant Üstü Açılması","price":"2.705,00 TL"},{"name":"İmplant Çıkartılması","price":"7.680,00 TL"},{"name":"Zigoma İmplant (İmplant Ücreti Hariç)","price":"31.105,00 TL"}],
     category: "fiyat",
   },
-  {
+{
     slug: "dis-tedavisi-fiyatlari",
     name: "Diş Tedavisi Fiyatları 2026",
     short: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi.",
@@ -522,39 +522,7 @@ export const services: Service[] = [
     ],
     category: "acil",
   },
-  {
-    slug: "afyonkarahisar-dis-rontgeni-fiyatlari",
-    name: "Afyonkarahisar Diş Röntgeni Fiyatları",
-    short: "2026 Afyonkarahisar diş röntgeni (periapikal) fiyatları. TDB güncel tarifesi.",
-    intro: "Diş röntgeni (periapikal) işlemi, diş kökü, çevresindeki kemik dokusu ve dişin genel sağlığı hakkında detaylı bilgi sunar. Özellikle çürük, enfeksiyon, kist veya travma gibi duruml",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Diş Röntgeni Fiyatları","price":"KDV HARİÇ"},{"name":"Diş Röntgeni (Periapikal) Fiyatları Ne Kadar? (2026 TDB Diş Röntgeni Ücreti)","price":"Ücretsiz"},{"name":"Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıksız Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıklı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Panoramik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çocuk Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Apsesi İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Enfeksiyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"20'lik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Süt Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Normal Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Lezyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Bebek Diş Röntgeni Fiyatları","price":"5 Yaş Altı Yok"},{"name":"Düzgün Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Gömülü Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavili Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"3 Boyutlu 3D Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Gerektiren Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Dolgulu Diş Röntgeni Fiyatları","price":"Ücretsiz"}],
-    category: "fiyat",
-  },
-  {
-    slug: "ardahan-dis-rontgeni-fiyatlari",
-    name: "Ardahan Diş Röntgeni Fiyatları",
-    short: "2026 Ardahan diş röntgeni (periapikal) fiyatları. TDB güncel tarifesi.",
-    intro: "Diş röntgeni (periapikal) işlemi, diş kökü, çevresindeki kemik dokusu ve dişin genel sağlığı hakkında detaylı bilgi sunar. Özellikle çürük, enfeksiyon, kist veya travma gibi duruml",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Diş Röntgeni Fiyatları","price":"KDV HARİÇ"},{"name":"Diş Röntgeni (Periapikal) Fiyatları Ne Kadar? (2026 TDB Diş Röntgeni Ücreti)","price":"Ücretsiz"},{"name":"Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıksız Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıklı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Panoramik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çocuk Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Apsesi İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Enfeksiyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"20'lik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Süt Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Normal Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Lezyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Bebek Diş Röntgeni Fiyatları","price":"5 Yaş Altı Yok"},{"name":"Düzgün Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Gömülü Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavili Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"3 Boyutlu 3D Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Gerektiren Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Dolgulu Diş Röntgeni Fiyatları","price":"Ücretsiz"}],
-    category: "fiyat",
-  },
-  {
+{
     slug: "bahcelievler-dis-beyazlatma-fiyatlari",
     name: "Bahçelievler Diş Beyazlatma Fiyatları",
     short: "2026 Bahçelievler diş beyazlatma fiyatları. Lazer, jel, kalıcı beyazlatma.",
@@ -570,7 +538,7 @@ export const services: Service[] = [
     priceRows: [{"name":"Bahçelievler Diş Beyazlatma Fiyatları","price":"KDV HARİÇ"},{"name":"Bahçelievler Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Kalıcı Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Jel ile Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Lazerle Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Ev Tipi Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Zirkonyum Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Kanal Tedavili Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Ofis Tipi Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler Tüm Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."},{"name":"Bahçelievler 18 Yaş Altı Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."}],
     category: "fiyat",
   },
-  {
+{
     slug: "catalca-dis-kaplama-fiyatlari",
     name: "Çatalca Diş Kaplama Fiyatları",
     short: "2026 Çatalca diş kaplama fiyatları. TDB güncel tarifesi.",
@@ -586,7 +554,7 @@ export const services: Service[] = [
     priceRows: [{"name":"Çatalca Diş Kaplama Fiyatları","price":"KDV HARİÇ"},{"name":"Çatalca Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Zirkonyum Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Porselen Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Lamine Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Tek Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Kron Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Ön Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Altın Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Yamuk Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Gümüş Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Metal Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Kırık Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Seramik Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Kompozit Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Emax Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Çocuk Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Titanyum Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Silikon Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Köprü Tek Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Pırlanta Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Metal Destekli Porselen Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Alt Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Çarpık Diş Kaplama","price":"4.800 TL'den başlamaktadır."},{"name":"Çatalca Kompozit Laminate Veneer Diş Kaplama","price":"4.800 TL'den başlamaktadır."}],
     category: "fiyat",
   },
-  {
+{
     slug: "esenler-porselen-dis-kaplama-fiyatlari",
     name: "Esenler Porselen Diş Kaplama Fiyatları",
     short: "2026 Esenler porselen diş kaplama fiyatları. TDB güncel tarifesi.",
@@ -602,55 +570,7 @@ export const services: Service[] = [
     priceRows: [{"name":"Esenler Porselen Diş Kaplama Fiyatları","price":"KDV HARİÇ"},{"name":"Esenler Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Esenler Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
     category: "fiyat",
   },
-  {
-    slug: "eskisehir-dis-dolgu-fiyatlari",
-    name: "Eskişehir Diş Dolgu Fiyatları",
-    short: "2026 Eskişehir diş dolgu fiyatları. Kompozit ve porselen dolgu tarifesi.",
-    intro: "Eskişehir diş dolgu fiyatları, kullanılan malzeme türü ve dolgunun kapsamına göre değişiklik göstermektedir. 2026 yılı itibariyle, Eskişehir diş dolgusu fiyatları 1.454 TL'den başl",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Eskişehir Diş Dolgu Fiyatları","price":"KDV HARİÇ"},{"name":"Eskişehir Diş Dolgu Tedavisi","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Estetik Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Kompozit Dolgu (Tek Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Kompozit Dolgu (İki Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Kompozit Dolgu (Üç Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Ön Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Arka Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Kırık Ön Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Bir Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Amalgam Dolgu (Tek Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Amalgam Dolgu (İki Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Amalgam Dolgu (Üç Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Çocuk Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir İnley Dolgu (Bir Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir İnley Dolgu (İki Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir İnley Dolgu (Üç Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Seramik İnley Dolgu (Bir Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Seramik İnley Dolgu (İki Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Seramik İnley Dolgu (Üç Yüzlü)","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Porselen Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Işıklı Kompozit Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Beyaz Diş Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Azı Dişi Dolgu","price":"1.454 TL'den başlamaktadır."},{"name":"Eskişehir Vidalı Dolgu","price":"1.454 TL'den başlamaktadır."}],
-    category: "fiyat",
-  },
-  {
-    slug: "giresun-dis-rontgeni-fiyatlari",
-    name: "Giresun Diş Röntgeni Fiyatları",
-    short: "2026 Giresun diş röntgeni (periapikal) fiyatları. TDB güncel tarifesi.",
-    intro: "Diş röntgeni (periapikal) işlemi, diş kökü, çevresindeki kemik dokusu ve dişin genel sağlığı hakkında detaylı bilgi sunar. Özellikle çürük, enfeksiyon, kist veya travma gibi duruml",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Diş Röntgeni Fiyatları","price":"KDV HARİÇ"},{"name":"Diş Röntgeni (Periapikal) Fiyatları Ne Kadar? (2026 TDB Diş Röntgeni Ücreti)","price":"Ücretsiz"},{"name":"Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıksız Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Sağlıklı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Panoramik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çocuk Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Apsesi İltihaplı Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Enfeksiyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"20'lik Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Süt Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Normal Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Lezyonlu Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Bebek Diş Röntgeni Fiyatları","price":"5 Yaş Altı Yok"},{"name":"Düzgün Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Gömülü Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavili Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Çürük Apseli Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"3 Boyutlu 3D Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Gerektiren Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Kanal Tedavisi Diş Röntgeni Fiyatları","price":"Ücretsiz"},{"name":"Dolgulu Diş Röntgeni Fiyatları","price":"Ücretsiz"}],
-    category: "fiyat",
-  },
-  {
-    slug: "isparta-zirkonyum-dis-kaplama-fiyatlari",
-    name: "Isparta Zirkonyum Diş Kaplama Fiyatları",
-    short: "2026 Isparta zirkonyum diş kaplama fiyatları. TDB güncel tarifesi.",
-    intro: "Isparta zirkonyum diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi süreci ve kliniğe göre değişiklik gösterebilir. 2026 yılı itibariyle, Isparta zirkonyum diş kaplama fiy",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Isparta Zirkonyum Diş Kaplama Fiyatları","price":"KDV HARİÇ"},{"name":"Isparta Zirkonyum Diş Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Ön Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Üst Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Alt Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Tek Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta İmplant Üstü Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta İki Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Üç Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Dört Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Tüm Diş Komple Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Ön İki Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Arka Dişler İçin Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Porselen Destekli Zirkonyum Diş Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Monolitik Zirkonyum Diş Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Yamuk Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Kırık Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Çarpık Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Eksik Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Ayrık Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Azı Dişi Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Doğal Görünümlü Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Şeffaf Zirkonyum Diş Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Eğri Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."},{"name":"Isparta Seyrek Diş Zirkonyum Kaplama","price":"7.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-  },
-  {
+{
     slug: "kucukcekmece-gulus-tasarimi-fiyatlari",
     name: "Küçükçekmece Gülüş Tasarımı Fiyatları",
     short: "2026 Küçükçekmece gülüş tasarımı fiyatları. Dijital smile design.",
@@ -666,7 +586,7 @@ export const services: Service[] = [
     priceRows: [{"name":"Küçükçekmece Gülüş Tasarımı Fiyatları","price":"KDV HARİÇ"},{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
     category: "fiyat",
   },
-  {
+{
     slug: "sariyer-ortodonti-tedavisi-ve-fiyatlari",
     name: "Sarıyer Ortodonti Tedavisi ve Fiyatları",
     short: "2026 Sarıyer ortodonti tedavisi fiyatları. Diş teli ve Invisalign.",
@@ -682,39 +602,7 @@ export const services: Service[] = [
     priceRows: [{"name":"7","price":"ORTODONTİ"},{"name":"7-1","price":"Lateral Sefalometrik Film Analizi"},{"name":"7-2","price":"Antero Posterior Sefalometrik Film Analizi (Frontal Film Analizi)"},{"name":"7-3","price":"Kemik Yaşı Tayini"},{"name":"7-4","price":"Ortodontik Fotoğraf"},{"name":"7-5","price":"Ortodontik Fotoğraf Tetkiki"},{"name":"7-6","price":"Ortodontik Model Yapımı"},{"name":"7-7","price":"Ortodontik Model Analizi"},{"name":"7-8","price":"Ara Dönem Sefalometrik Film Analizi"},{"name":"7-9","price":"Ara Dönem Model Yapımı"},{"name":"7-10","price":"Angle Sınıf I Anomalilerinin Ortodontik Tedavisi"},{"name":"7-11","price":"Angle Sınıf II Anomalilerinin Ortodontik Tedavisi"},{"name":"7-12","price":"Angle Sınıf III Anomalilerinin Ortodontik Tedavisi"},{"name":"7-13","price":"Sabit Kapanış Yükseltici Tatbiki (Kısa Süreli)"},{"name":"7-14","price":"Lingual Teknikle Angle Sınıf I Anomalilerinin Ortodontik Tedavisi"},{"name":"7-15","price":"Lingual Teknikle Angle Sınıf II Anomalilerinin Ortodontik Tedavisi"},{"name":"7-16","price":"Lingual Teknikle Angle Sınıf III Anomalilerinin Ortodontik Tedavisi"},{"name":"7-17","price":"Açık Kapanışın Ortodontik Tedavisi"},{"name":"7-18","price":"Önleyici Ortodontik Tedavi"},{"name":"7-19","price":"Kısa Süreli Ortodontik Tedavi"},{"name":"7-20","price":"Pekiştirme Tedavisi"},{"name":"7-21","price":"Pekiştirme Aygıtı (Hawley Aygıtı vb.)"}],
     category: "fiyat",
   },
-  {
-    slug: "tekirdag-gulus-tasarimi-fiyatlari",
-    name: "Tekirdağ Gülüş Tasarımı Fiyatları",
-    short: "2026 Tekirdağ gülüş tasarımı fiyatları. Dijital smile design.",
-    intro: "Tekirdağ Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Tekirdağ gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanıla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Tekirdağ Gülüş Tasarımı Fiyatları","price":"KDV HARİÇ"},{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülü�� Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-  },
-  {
-    slug: "canakkale-protez-dis-fiyatlari",
-    name: "Çanakkale Protez Diş Fiyatları",
-    short: "2026 Çanakkale protez diş fiyatları. Takma diş ve protez tarifesi.",
-    intro: "Çanakkale Protez Diş Fiyatları Ne Kadar? (2026 Çanakkale TDB Protez Diş Ücreti) Protez diş tedavileri, eksik dişlerin yerini doldurmak ve hem estetik hem fonksiyonel açıdan ağız sa",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Çanakkale Protez Diş Fiyatları","price":"KDV HARİÇ"},{"name":"Protez Diş Fiyatları Ne Kadar? (2026 TDB Protez Diş Ücreti)","price":"6.000 TL'den başlamaktadır."},{"name":"Alt Üst Protez Diş Fiyatları","price":"15.000 TL'den başlamaktadır."},{"name":"SGK Protez Diş Fiyatları","price":"15.000 TL'den başlamaktadır."},{"name":"Özel Hastane Protez Diş Fiyatları","price":"15.000 TL'den başlamaktadır."},{"name":"Sabit Protez Diş Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Geçici Protez Diş Fiyatları","price":"7.500 TL'den başlamaktadır."},{"name":"Ankerli (Çıtçıtlı) Protez Diş Fiyatlar��","price":"7.500 TL'den başlamaktadır."},{"name":"Hareketli Protez Diş Fiyatları","price":"6.800 TL'den başlamaktadır."},{"name":"Tek Diş Protez Diş Fiyatları","price":"250 TL'den başlamaktadır."},{"name":"Tam Damak (Komple) Protez Diş Fiyatları","price":"17.000 TL'den başlamaktadır."},{"name":"Deflex Protez Diş Fiyatları","price":"7.000 TL'den başlamaktadır."},{"name":"Hazır Protez Diş Fiyatları","price":"7.400 TL'den başlamaktadır."},{"name":"Akrilik Protez Diş Fiyatları","price":"6.200 TL'den başlamaktadır."},{"name":"Şeffaf Akrilik Protez Diş Fiyatları","price":"7.500 TL'den başlamaktadır."},{"name":"Alt Çene Protez Diş Fiyatları","price":"7.500 TL'den başlamaktadır."},{"name":"Üst Çene Protez Diş Fiyatları","price":"7.500 TL'den başlamaktadır."},{"name":"Zirkonyum Protez Diş Fiyatları","price":"7.000 TL'den başlamaktadır."},{"name":"Porselen Protez Diş Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Mikro Protez Diş Fiyatları","price":"7.000 TL'den başlamaktadır."},{"name":"Esnek Protez Diş Fiyatları","price":"7.600 TL'den başlamaktadır."},{"name":"Köprü Protez Diş Fiyatları","price":"6.800 TL'den başlamaktadır."},{"name":"Yarım Damak Protez Diş Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"Ön Diş Protez Diş Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"Vakumlu Protez Diş Fiyatları","price":"8.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-  },
-  {
+{
     slug: "dis-agrisi-tedavisi-fiyatlari",
     name: "Diş Ağrısı Tedavisi Fiyatları",
     short: "2026 diş ağrısı tedavisi fiyatları. Acil diş ağrısı müdahalesi.",
@@ -728,7 +616,7 @@ export const services: Service[] = [
     ],
     category: "fiyat",
   },
-  {
+{
     slug: "dis-eti-estetigi-fiyatlari",
     name: "Diş Eti Estetiği Fiyatları",
     short: "2026 diş eti estetiği fiyatları. Pembe estetik ve gingivektomi.",
@@ -742,7 +630,7 @@ export const services: Service[] = [
     ],
     category: "fiyat",
   },
-  {
+{
     slug: "lazerle-dis-beyazlatma-fiyatlari",
     name: "Lazerle Diş Beyazlatma Fiyatları",
     short: "2026 lazerle diş beyazlatma fiyatları. Ofis tipi lazer beyazlatma.",
@@ -756,1080 +644,7 @@ export const services: Service[] = [
     ],
     category: "fiyat",
   },
-
-
-  {
-    slug: "amasya-porselen-dis-kaplama-fiyatlari",
-    name: "Amasya Porselen Diş Kaplama Fiyatları",
-    short: "Amasya Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Amasya porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Amasya Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Amasya Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "aksaray-porselen-dis-kaplama-fiyatlari",
-    name: "Aksaray Porselen Diş Kaplama Fiyatları",
-    short: "Aksaray Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Aksaray porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Aksaray Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aksaray Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "afyonkarahisar-porselen-dis-kaplama-fiyatlari",
-    name: "Afyonkarahisar Porselen Diş Kaplama Fiyatları",
-    short: "Afyonkarahisar Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Afyonkarahisar porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Afyonkarahisar Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Afyonkarahisar Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "adana-porselen-dis-kaplama-fiyatlari",
-    name: "Adana Porselen Diş Kaplama Fiyatları",
-    short: "Adana Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Adana porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Adana Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adana Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "agri-porselen-dis-kaplama-fiyatlari",
-    name: "Agri Porselen Diş Kaplama Fiyatları",
-    short: "Agri Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ağrı porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itiba",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Ağrı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ağrı Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "antalya-porselen-dis-kaplama-fiyatlari",
-    name: "Antalya Porselen Diş Kaplama Fiyatları",
-    short: "Antalya Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Antalya porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Antalya Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Antalya Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "ardahan-porselen-dis-kaplama-fiyatlari",
-    name: "Ardahan Porselen Diş Kaplama Fiyatları",
-    short: "Ardahan Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ardahan porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Ardahan Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ardahan Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "balikesir-porselen-dis-kaplama-fiyatlari",
-    name: "Balikesir Porselen Diş Kaplama Fiyatları",
-    short: "Balikesir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Balıkesir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Balıkesir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Balıkesir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bartin-porselen-dis-kaplama-fiyatlari",
-    name: "Bartin Porselen Diş Kaplama Fiyatları",
-    short: "Bartin Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bartın porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Bartın Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bartın Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bayburt-porselen-dis-kaplama-fiyatlari",
-    name: "Bayburt Porselen Diş Kaplama Fiyatları",
-    short: "Bayburt Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bayburt porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Bayburt Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bayburt Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "batman-porselen-dis-kaplama-fiyatlari",
-    name: "Batman Porselen Diş Kaplama Fiyatları",
-    short: "Batman Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Batman porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Batman Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Batman Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "aydin-porselen-dis-kaplama-fiyatlari",
-    name: "Aydin Porselen Diş Kaplama Fiyatları",
-    short: "Aydin Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Aydın porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Aydın Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Aydın Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bingol-porselen-dis-kaplama-fiyatlari",
-    name: "Bingol Porselen Diş Kaplama Fiyatları",
-    short: "Bingol Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bingöl porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Bingöl Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bingöl Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bursa-porselen-dis-kaplama-fiyatlari",
-    name: "Bursa Porselen Diş Kaplama Fiyatları",
-    short: "Bursa Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bursa porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Bursa Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bursa Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "canakkale-porselen-dis-kaplama-fiyatlari",
-    name: "Canakkale Porselen Diş Kaplama Fiyatları",
-    short: "Canakkale Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çanakkale porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Çanakkale Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çanakkale Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bitlis-porselen-dis-kaplama-fiyatlari",
-    name: "Bitlis Porselen Diş Kaplama Fiyatları",
-    short: "Bitlis Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bitlis porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Bitlis Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Bitlis Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "cankiri-porselen-dis-kaplama-fiyatlari",
-    name: "Cankiri Porselen Diş Kaplama Fiyatları",
-    short: "Cankiri Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çankırı porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Çankırı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çankırı Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "corum-porselen-dis-kaplama-fiyatlari",
-    name: "Corum Porselen Diş Kaplama Fiyatları",
-    short: "Corum Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çorum porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Çorum Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çorum Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "denizli-porselen-dis-kaplama-fiyatlari",
-    name: "Denizli Porselen Diş Kaplama Fiyatları",
-    short: "Denizli Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Denizli porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Denizli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Denizli Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "edirne-porselen-dis-kaplama-fiyatlari",
-    name: "Edirne Porselen Diş Kaplama Fiyatları",
-    short: "Edirne Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Edirne porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Edirne Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Edirne Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "duzce-porselen-dis-kaplama-fiyatlari",
-    name: "Duzce Porselen Diş Kaplama Fiyatları",
-    short: "Duzce Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Düzce porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Düzce Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Düzce Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "elazig-porselen-dis-kaplama-fiyatlari",
-    name: "Elazig Porselen Diş Kaplama Fiyatları",
-    short: "Elazig Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Elazığ porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Elazığ Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Elazığ Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "erzurum-porselen-dis-kaplama-fiyatlari",
-    name: "Erzurum Porselen Diş Kaplama Fiyatları",
-    short: "Erzurum Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Erzurum porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Erzurum Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Erzurum Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "eskisehir-porselen-dis-kaplama-fiyatlari",
-    name: "Eskisehir Porselen Diş Kaplama Fiyatları",
-    short: "Eskisehir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Eskişehir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Eskişehir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Eskişehir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "gaziantep-porselen-dis-kaplama-fiyatlari",
-    name: "Gaziantep Porselen Diş Kaplama Fiyatları",
-    short: "Gaziantep Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Gaziantep porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gaziantep Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Gaziantep Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "giresun-porselen-dis-kaplama-fiyatlari",
-    name: "Giresun Porselen Diş Kaplama Fiyatları",
-    short: "Giresun Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Giresun porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Giresun Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Giresun Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "hatay-porselen-dis-kaplama-fiyatlari",
-    name: "Hatay Porselen Diş Kaplama Fiyatları",
-    short: "Hatay Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Hatay porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Hatay Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Hatay Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "igdir-porselen-dis-kaplama-fiyatlari",
-    name: "Igdir Porselen Diş Kaplama Fiyatları",
-    short: "Igdir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Iğdır porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Iğdır Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Iğdır Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "izmir-porselen-dis-kaplama-fiyatlari",
-    name: "Izmir Porselen Diş Kaplama Fiyatları",
-    short: "Izmir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "İzmir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"İzmir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"İzmir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kahramanmaras-porselen-dis-kaplama-fiyatlari",
-    name: "Kahramanmaras Porselen Diş Kaplama Fiyatları",
-    short: "Kahramanmaras Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kahramanmaraş porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 y",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kahramanmaraş Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kahramanmaraş Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "karabuk-porselen-dis-kaplama-fiyatlari",
-    name: "Karabuk Porselen Diş Kaplama Fiyatları",
-    short: "Karabuk Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Karabük porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Karabük Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karabük Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "karaman-porselen-dis-kaplama-fiyatlari",
-    name: "Karaman Porselen Diş Kaplama Fiyatları",
-    short: "Karaman Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Karaman porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Karaman Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Karaman Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kars-porselen-dis-kaplama-fiyatlari",
-    name: "Kars Porselen Diş Kaplama Fiyatları",
-    short: "Kars Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kars porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itiba",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kars Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kars Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kastamonu-porselen-dis-kaplama-fiyatlari",
-    name: "Kastamonu Porselen Diş Kaplama Fiyatları",
-    short: "Kastamonu Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kastamonu porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kastamonu Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kastamonu Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kayseri-porselen-dis-kaplama-fiyatlari",
-    name: "Kayseri Porselen Diş Kaplama Fiyatları",
-    short: "Kayseri Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kayseri porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kayseri Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kayseri Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirikkale-porselen-dis-kaplama-fiyatlari",
-    name: "Kirikkale Porselen Diş Kaplama Fiyatları",
-    short: "Kirikkale Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırıkkale porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kırıkkale Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırıkkale Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirklareli-porselen-dis-kaplama-fiyatlari",
-    name: "Kirklareli Porselen Diş Kaplama Fiyatları",
-    short: "Kirklareli Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırklareli porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kırklareli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırklareli Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirsehir-porselen-dis-kaplama-fiyatlari",
-    name: "Kirsehir Porselen Diş Kaplama Fiyatları",
-    short: "Kirsehir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırşehir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kırşehir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kırşehir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kilis-porselen-dis-kaplama-fiyatlari",
-    name: "Kilis Porselen Diş Kaplama Fiyatları",
-    short: "Kilis Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kilis porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kilis Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kilis Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "konya-porselen-dis-kaplama-fiyatlari",
-    name: "Konya Porselen Diş Kaplama Fiyatları",
-    short: "Konya Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Konya porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Konya Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Konya Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "manisa-porselen-dis-kaplama-fiyatlari",
-    name: "Manisa Porselen Diş Kaplama Fiyatları",
-    short: "Manisa Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Manisa porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Manisa Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Manisa Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "malatya-porselen-dis-kaplama-fiyatlari",
-    name: "Malatya Porselen Diş Kaplama Fiyatları",
-    short: "Malatya Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Malatya porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Malatya Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Malatya Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mersin-porselen-dis-kaplama-fiyatlari",
-    name: "Mersin Porselen Diş Kaplama Fiyatları",
-    short: "Mersin Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Mersin porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Mersin Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mersin Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mardin-porselen-dis-kaplama-fiyatlari",
-    name: "Mardin Porselen Diş Kaplama Fiyatları",
-    short: "Mardin Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Mardin porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Mardin Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Mardin Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "nevsehir-porselen-dis-kaplama-fiyatlari",
-    name: "Nevsehir Porselen Diş Kaplama Fiyatları",
-    short: "Nevsehir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Nevşehir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Nevşehir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Nevşehir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "ordu-porselen-dis-kaplama-fiyatlari",
-    name: "Ordu Porselen Diş Kaplama Fiyatları",
-    short: "Ordu Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ordu porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itiba",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Ordu Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ordu Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "nigde-porselen-dis-kaplama-fiyatlari",
-    name: "Nigde Porselen Diş Kaplama Fiyatları",
-    short: "Nigde Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Niğde porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Niğde Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Niğde Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "osmaniye-porselen-dis-kaplama-fiyatlari",
-    name: "Osmaniye Porselen Diş Kaplama Fiyatları",
-    short: "Osmaniye Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Osmaniye porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Osmaniye Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Osmaniye Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "rize-porselen-dis-kaplama-fiyatlari",
-    name: "Rize Porselen Diş Kaplama Fiyatları",
-    short: "Rize Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Rize porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itiba",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Rize Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Rize Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sakarya-porselen-dis-kaplama-fiyatlari",
-    name: "Sakarya Porselen Diş Kaplama Fiyatları",
-    short: "Sakarya Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sakarya porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Sakarya Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sakarya Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "samsun-porselen-dis-kaplama-fiyatlari",
-    name: "Samsun Porselen Diş Kaplama Fiyatları",
-    short: "Samsun Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Samsun porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Samsun Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Samsun Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "siirt-porselen-dis-kaplama-fiyatlari",
-    name: "Siirt Porselen Diş Kaplama Fiyatları",
-    short: "Siirt Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Siirt porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Siirt Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Siirt Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sinop-porselen-dis-kaplama-fiyatlari",
-    name: "Sinop Porselen Diş Kaplama Fiyatları",
-    short: "Sinop Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sinop porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Sinop Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sinop Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sanliurfa-porselen-dis-kaplama-fiyatlari",
-    name: "Sanliurfa Porselen Diş Kaplama Fiyatları",
-    short: "Sanliurfa Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Şanlıurfa porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şanlıurfa Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şanlıurfa Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sivas-porselen-dis-kaplama-fiyatlari",
-    name: "Sivas Porselen Diş Kaplama Fiyatları",
-    short: "Sivas Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sivas porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Sivas Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Sivas Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sirnak-porselen-dis-kaplama-fiyatlari",
-    name: "Sirnak Porselen Diş Kaplama Fiyatları",
-    short: "Sirnak Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Şırnak porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şırnak Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Şırnak Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tekirdag-porselen-dis-kaplama-fiyatlari",
-    name: "Tekirdag Porselen Diş Kaplama Fiyatları",
-    short: "Tekirdag Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tekirdağ porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Tekirdağ Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tekirdağ Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tokat-porselen-dis-kaplama-fiyatlari",
-    name: "Tokat Porselen Diş Kaplama Fiyatları",
-    short: "Tokat Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tokat porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itib",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Tokat Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Tokat Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "trabzon-porselen-dis-kaplama-fiyatlari",
-    name: "Trabzon Porselen Diş Kaplama Fiyatları",
-    short: "Trabzon Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Trabzon porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı it",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Trabzon Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Trabzon Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "usak-porselen-dis-kaplama-fiyatlari",
-    name: "Usak Porselen Diş Kaplama Fiyatları",
-    short: "Usak Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Uşak porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı itiba",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Uşak Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Uşak Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "yalova-porselen-dis-kaplama-fiyatlari",
-    name: "Yalova Porselen Diş Kaplama Fiyatları",
-    short: "Yalova Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Yalova porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Yalova Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yalova Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "yozgat-porselen-dis-kaplama-fiyatlari",
-    name: "Yozgat Porselen Diş Kaplama Fiyatları",
-    short: "Yozgat Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Yozgat porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Yozgat Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Yozgat Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "zonguldak-porselen-dis-kaplama-fiyatlari",
-    name: "Zonguldak Porselen Diş Kaplama Fiyatları",
-    short: "Zonguldak Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Zonguldak porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Zonguldak Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Zonguldak Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "istanbul-porselen-dis-kaplama-fiyatlari",
     name: "Istanbul Porselen Diş Kaplama Fiyatları",
     short: "Istanbul Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1846,7 +661,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "sisli-porselen-dis-kaplama-fiyatlari",
     name: "Sisli Porselen Diş Kaplama Fiyatları",
     short: "Sisli Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1863,24 +678,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "adalar-porselen-dis-kaplama-fiyatlari",
-    name: "Adalar Porselen Diş Kaplama Fiyatları",
-    short: "Adalar Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Adalar porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Adalar Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Adalar Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "arnavutkoy-porselen-dis-kaplama-fiyatlari",
     name: "Arnavutkoy Porselen Diş Kaplama Fiyatları",
     short: "Arnavutkoy Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1897,24 +695,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "atasehir-porselen-dis-kaplama-fiyatlari",
-    name: "Atasehir Porselen Diş Kaplama Fiyatları",
-    short: "Atasehir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ataşehir porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Ataşehir Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Ataşehir Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "avcilar-porselen-dis-kaplama-fiyatlari",
     name: "Avcilar Porselen Diş Kaplama Fiyatları",
     short: "Avcilar Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1931,7 +712,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "bagcilar-porselen-dis-kaplama-fiyatlari",
     name: "Bagcilar Porselen Diş Kaplama Fiyatları",
     short: "Bagcilar Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1948,7 +729,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "bakirkoy-porselen-dis-kaplama-fiyatlari",
     name: "Bakirkoy Porselen Diş Kaplama Fiyatları",
     short: "Bakirkoy Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1965,7 +746,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "basaksehir-porselen-dis-kaplama-fiyatlari",
     name: "Basaksehir Porselen Diş Kaplama Fiyatları",
     short: "Basaksehir Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1982,7 +763,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "besiktas-porselen-dis-kaplama-fiyatlari",
     name: "Besiktas Porselen Diş Kaplama Fiyatları",
     short: "Besiktas Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -1999,24 +780,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "beykoz-porselen-dis-kaplama-fiyatlari",
-    name: "Beykoz Porselen Diş Kaplama Fiyatları",
-    short: "Beykoz Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Beykoz porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Beykoz Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Beykoz Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "beylikduzu-porselen-dis-kaplama-fiyatlari",
     name: "Beylikduzu Porselen Diş Kaplama Fiyatları",
     short: "Beylikduzu Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2033,7 +797,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "beyoglu-porselen-dis-kaplama-fiyatlari",
     name: "Beyoglu Porselen Diş Kaplama Fiyatları",
     short: "Beyoglu Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2050,7 +814,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "buyukcekmece-porselen-dis-kaplama-fiyatlari",
     name: "Buyukcekmece Porselen Diş Kaplama Fiyatları",
     short: "Buyukcekmece Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2067,24 +831,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "cekmekoy-porselen-dis-kaplama-fiyatlari",
-    name: "Cekmekoy Porselen Diş Kaplama Fiyatları",
-    short: "Cekmekoy Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çekmeköy porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı i",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Çekmeköy Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Çekmeköy Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "esenyurt-porselen-dis-kaplama-fiyatlari",
     name: "Esenyurt Porselen Diş Kaplama Fiyatları",
     short: "Esenyurt Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2101,7 +848,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "eyupsultan-porselen-dis-kaplama-fiyatlari",
     name: "Eyupsultan Porselen Diş Kaplama Fiyatları",
     short: "Eyupsultan Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2118,7 +865,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "fatih-porselen-dis-kaplama-fiyatlari",
     name: "Fatih Porselen Diş Kaplama Fiyatları",
     short: "Fatih Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2135,7 +882,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "gaziosmanpasa-porselen-dis-kaplama-fiyatlari",
     name: "Gaziosmanpasa Porselen Diş Kaplama Fiyatları",
     short: "Gaziosmanpasa Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2152,7 +899,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "gungoren-porselen-dis-kaplama-fiyatlari",
     name: "Gungoren Porselen Diş Kaplama Fiyatları",
     short: "Gungoren Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2169,24 +916,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "kartal-porselen-dis-kaplama-fiyatlari",
-    name: "Kartal Porselen Diş Kaplama Fiyatları",
-    short: "Kartal Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kartal porselen diş kaplama fiyatları, kullanılan malzeme kalitesi, tedavi yöntemi ve kliniğin bulunduğu bölge gibi faktörlere bağlı olarak değişiklik göstermektedir. 2026 yılı iti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Kartal Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Ön Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Üst Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Alt Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Tek Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal İmplant Üstü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Üç Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Dört Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Tüm Diş Komple Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Ön İki Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Arka Dişler İçin Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Porselen Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Metal Destekli Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Zirkonyum Altyapılı Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Yamuk Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Kırık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Çarpık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Eksik Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Ayrık Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Azı Dişi Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Doğal Görünümlü Porselen Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Şeffaf Porselen Diş Kaplama","price":"5.500 TL'den başlamaktadır."},{"name":"Kartal Eğri Diş Porselen Kaplama","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "kucukcekmece-porselen-dis-kaplama-fiyatlari",
     name: "Kucukcekmece Porselen Diş Kaplama Fiyatları",
     short: "Kucukcekmece Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2203,41 +933,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "pendik-porselen-dis-kaplama-fiyatlari",
-    name: "Pendik Porselen Diş Kaplama Fiyatları",
-    short: "Pendik Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "2026 TDB ağız diş sağlığı ve muayene ücretleri yakın zamanda içeriğimize eklenecektir. Daha detaylı 2026 TDB fiyatları için https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tar",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üst Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Alt Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tek Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İmplant Üstü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üç Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Dört Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tüm Diş Komple Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Arka Dişler İçin Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Porselen Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Metal Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Zirkonyum Altyapılı Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Yamuk Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Kırık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Çarpık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eksik Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ayrık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Azı Dişi Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Doğal Görünümlü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Şeffaf Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eğri Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sultanbeyli-porselen-dis-kaplama-fiyatlari",
-    name: "Sultanbeyli Porselen Diş Kaplama Fiyatları",
-    short: "Sultanbeyli Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "2026 TDB ağız diş sağlığı ve muayene ücretleri yakın zamanda içeriğimize eklenecektir. Daha detaylı 2026 TDB fiyatları için https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tar",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üst Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Alt Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tek Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İmplant Üstü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üç Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Dört Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tüm Diş Komple Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Arka Dişler İçin Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Porselen Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Metal Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Zirkonyum Altyapılı Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Yamuk Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Kırık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Çarpık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eksik Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ayrık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Azı Dişi Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Doğal Görünümlü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Şeffaf Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eğri Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "silivri-porselen-dis-kaplama-fiyatlari",
     name: "Silivri Porselen Diş Kaplama Fiyatları",
     short: "Silivri Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2254,7 +950,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "sultangazi-porselen-dis-kaplama-fiyatlari",
     name: "Sultangazi Porselen Diş Kaplama Fiyatları",
     short: "Sultangazi Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2271,41 +967,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "umraniye-porselen-dis-kaplama-fiyatlari",
-    name: "Umraniye Porselen Diş Kaplama Fiyatları",
-    short: "Umraniye Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "2026 TDB ağız diş sağlığı ve muayene ücretleri yakın zamanda içeriğimize eklenecektir. Daha detaylı 2026 TDB fiyatları için https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tar",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üst Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Alt Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tek Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İmplant Üstü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üç Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Dört Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tüm Diş Komple Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Arka Dişler İçin Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Porselen Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Metal Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Zirkonyum Altyapılı Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Yamuk Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Kırık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Çarpık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eksik Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ayrık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Azı Dişi Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Doğal Görünümlü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Şeffaf Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eğri Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "uskudar-porselen-dis-kaplama-fiyatlari",
-    name: "Uskudar Porselen Diş Kaplama Fiyatları",
-    short: "Uskudar Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "2026 TDB ağız diş sağlığı ve muayene ücretleri yakın zamanda içeriğimize eklenecektir. Daha detaylı 2026 TDB fiyatları için https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tar",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üst Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Alt Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tek Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İmplant Üstü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Üç Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Dört Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Tüm Diş Komple Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ön İki Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Arka Dişler İçin Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Porselen Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Metal Destekli Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Zirkonyum Altyapılı Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Yamuk Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Kırık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Çarpık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eksik Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Ayrık Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Azı Dişi Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Doğal Görünümlü Porselen Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Şeffaf Porselen Diş Kaplama","price":"3.600 TL'den başlamaktadır."},{"name":"Eğri Diş Porselen Kaplama","price":"3.600 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "zeytinburnu-porselen-dis-kaplama-fiyatlari",
     name: "Zeytinburnu Porselen Diş Kaplama Fiyatları",
     short: "Zeytinburnu Porselen Diş Kaplama Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2322,517 +984,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "adana-seffaf-plak-fiyatlari",
-    name: "Adana Şeffaf Plak Fiyatları",
-    short: "Adana Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Adana Şeffaf Plak Fiyatları Ne Kadar? (2026 Adana TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "aksaray-seffaf-plak-fiyatlari",
-    name: "Aksaray Şeffaf Plak Fiyatları",
-    short: "Aksaray Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Aksaray Şeffaf Plak Fiyatları Ne Kadar? (2026 Aksaray TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "amasya-seffaf-plak-fiyatlari",
-    name: "Amasya Şeffaf Plak Fiyatları",
-    short: "Amasya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Amasya Şeffaf Plak Fiyatları Ne Kadar? (2026 Amasya TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "ankara-seffaf-plak-fiyatlari",
-    name: "Ankara Şeffaf Plak Fiyatları",
-    short: "Ankara Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ankara Şeffaf Plak Fiyatları Ne Kadar? (2026 Ankara TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "antalya-seffaf-plak-fiyatlari",
-    name: "Antalya Şeffaf Plak Fiyatları",
-    short: "Antalya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Antalya Şeffaf Plak Fiyatları Ne Kadar? (2026 Antalya TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "balikesir-seffaf-plak-fiyatlari",
-    name: "Balikesir Şeffaf Plak Fiyatları",
-    short: "Balikesir Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Balıkesir Şeffaf Plak Fiyatları Ne Kadar? (2026 Balıkesir TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bayburt-seffaf-plak-fiyatlari",
-    name: "Bayburt Şeffaf Plak Fiyatları",
-    short: "Bayburt Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bayburt Şeffaf Plak Fiyatları Ne Kadar? (2026 Bayburt TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bartin-seffaf-plak-fiyatlari",
-    name: "Bartin Şeffaf Plak Fiyatları",
-    short: "Bartin Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bartın Şeffaf Plak Fiyatları Ne Kadar? (2026 Bartın TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bilecik-seffaf-plak-fiyatlari",
-    name: "Bilecik Şeffaf Plak Fiyatları",
-    short: "Bilecik Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bilecik Şeffaf Plak Fiyatları Ne Kadar? (2026 Bilecik TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bingol-seffaf-plak-fiyatlari",
-    name: "Bingol Şeffaf Plak Fiyatları",
-    short: "Bingol Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bingöl Şeffaf Plak Fiyatları Ne Kadar? (2026 Bingöl TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bitlis-seffaf-plak-fiyatlari",
-    name: "Bitlis Şeffaf Plak Fiyatları",
-    short: "Bitlis Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bitlis Şeffaf Plak Fiyatları Ne Kadar? (2026 Bitlis TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bolu-seffaf-plak-fiyatlari",
-    name: "Bolu Şeffaf Plak Fiyatları",
-    short: "Bolu Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bolu Şeffaf Plak Fiyatları Ne Kadar? (2026 Bolu TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodonti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "burdur-seffaf-plak-fiyatlari",
-    name: "Burdur Şeffaf Plak Fiyatları",
-    short: "Burdur Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Burdur Şeffaf Plak Fiyatları Ne Kadar? (2026 Burdur TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bursa-seffaf-plak-fiyatlari",
-    name: "Bursa Şeffaf Plak Fiyatları",
-    short: "Bursa Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bursa Şeffaf Plak Fiyatları Ne Kadar? (2026 Bursa TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "canakkale-seffaf-plak-fiyatlari",
-    name: "Canakkale Şeffaf Plak Fiyatları",
-    short: "Canakkale Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çanakkale Şeffaf Plak Fiyatları Ne Kadar? (2026 Çanakkale TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "cankiri-seffaf-plak-fiyatlari",
-    name: "Cankiri Şeffaf Plak Fiyatları",
-    short: "Cankiri Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çankırı Şeffaf Plak Fiyatları Ne Kadar? (2026 Çankırı TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "corum-seffaf-plak-fiyatlari",
-    name: "Corum Şeffaf Plak Fiyatları",
-    short: "Corum Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çorum Şeffaf Plak Fiyatları Ne Kadar? (2026 Çorum TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "denizli-seffaf-plak-fiyatlari",
-    name: "Denizli Şeffaf Plak Fiyatları",
-    short: "Denizli Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Denizli Şeffaf Plak Fiyatları Ne Kadar? (2026 Denizli TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "diyarbakir-seffaf-plak-fiyatlari",
-    name: "Diyarbakir Şeffaf Plak Fiyatları",
-    short: "Diyarbakir Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Diyarbakır Şeffaf Plak Fiyatları Ne Kadar? (2026 Diyarbakır TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik b",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "duzce-seffaf-plak-fiyatlari",
-    name: "Duzce Şeffaf Plak Fiyatları",
-    short: "Duzce Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Düzce Şeffaf Plak Fiyatları Ne Kadar? (2026 Düzce TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "edirne-seffaf-plak-fiyatlari",
-    name: "Edirne Şeffaf Plak Fiyatları",
-    short: "Edirne Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Edirne Şeffaf Plak Fiyatları Ne Kadar? (2026 Edirne TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "elazig-seffaf-plak-fiyatlari",
-    name: "Elazig Şeffaf Plak Fiyatları",
-    short: "Elazig Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Elazığ Şeffaf Plak Fiyatları Ne Kadar? (2026 Elazığ TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "erzincan-seffaf-plak-fiyatlari",
-    name: "Erzincan Şeffaf Plak Fiyatları",
-    short: "Erzincan Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Erzincan Şeffaf Plak Fiyatları Ne Kadar? (2026 Erzincan TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir o",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "erzurum-seffaf-plak-fiyatlari",
-    name: "Erzurum Şeffaf Plak Fiyatları",
-    short: "Erzurum Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Erzurum Şeffaf Plak Fiyatları Ne Kadar? (2026 Erzurum TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "eskisehir-seffaf-plak-fiyatlari",
-    name: "Eskisehir Şeffaf Plak Fiyatları",
-    short: "Eskisehir Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Eskişehir Şeffaf Plak Fiyatları Ne Kadar? (2026 Eskişehir TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "gaziantep-seffaf-plak-fiyatlari",
-    name: "Gaziantep Şeffaf Plak Fiyatları",
-    short: "Gaziantep Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Gaziantep Şeffaf Plak Fiyatları Ne Kadar? (2026 Gaziantep TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "gumushane-seffaf-plak-fiyatlari",
-    name: "Gumushane Şeffaf Plak Fiyatları",
-    short: "Gumushane Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Gümüşhane Şeffaf Plak Fiyatları Ne Kadar? (2026 Gümüşhane TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "hakkari-seffaf-plak-fiyatlari",
-    name: "Hakkari Şeffaf Plak Fiyatları",
-    short: "Hakkari Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Hakkari Şeffaf Plak Fiyatları Ne Kadar? (2026 Hakkari TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "hatay-seffaf-plak-fiyatlari",
-    name: "Hatay Şeffaf Plak Fiyatları",
-    short: "Hatay Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Hatay Şeffaf Plak Fiyatları Ne Kadar? (2026 Hatay TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "isparta-seffaf-plak-fiyatlari",
-    name: "Isparta Şeffaf Plak Fiyatları",
-    short: "Isparta Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Isparta Şeffaf Plak Fiyatları Ne Kadar? (2026 Isparta TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "istanbul-seffaf-plak-fiyatlari",
     name: "Istanbul Şeffaf Plak Fiyatları",
     short: "Istanbul Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
@@ -2849,1486 +1001,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
-    slug: "izmir-seffaf-plak-fiyatlari",
-    name: "Izmir Şeffaf Plak Fiyatları",
-    short: "Izmir Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "İzmir Şeffaf Plak Fiyatları Ne Kadar? (2026 İzmir TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kahramanmaras-seffaf-plak-fiyatlari",
-    name: "Kahramanmaras Şeffaf Plak Fiyatları",
-    short: "Kahramanmaras Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kahramanmaraş Şeffaf Plak Fiyatları Ne Kadar? (2026 Kahramanmaraş TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve est",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "karaman-seffaf-plak-fiyatlari",
-    name: "Karaman Şeffaf Plak Fiyatları",
-    short: "Karaman Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Karaman Şeffaf Plak Fiyatları Ne Kadar? (2026 Karaman TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "karabuk-seffaf-plak-fiyatlari",
-    name: "Karabuk Şeffaf Plak Fiyatları",
-    short: "Karabuk Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Karabük Şeffaf Plak Fiyatları Ne Kadar? (2026 Karabük TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kastamonu-seffaf-plak-fiyatlari",
-    name: "Kastamonu Şeffaf Plak Fiyatları",
-    short: "Kastamonu Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kastamonu Şeffaf Plak Fiyatları Ne Kadar? (2026 Kastamonu TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kars-seffaf-plak-fiyatlari",
-    name: "Kars Şeffaf Plak Fiyatları",
-    short: "Kars Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kars Şeffaf Plak Fiyatları Ne Kadar? (2026 Kars TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodonti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kayseri-seffaf-plak-fiyatlari",
-    name: "Kayseri Şeffaf Plak Fiyatları",
-    short: "Kayseri Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kayseri Şeffaf Plak Fiyatları Ne Kadar? (2026 Kayseri TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirikkale-seffaf-plak-fiyatlari",
-    name: "Kirikkale Şeffaf Plak Fiyatları",
-    short: "Kirikkale Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırıkkale Şeffaf Plak Fiyatları Ne Kadar? (2026 Kırıkkale TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirklareli-seffaf-plak-fiyatlari",
-    name: "Kirklareli Şeffaf Plak Fiyatları",
-    short: "Kirklareli Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırklareli Şeffaf Plak Fiyatları Ne Kadar? (2026 Kırklareli TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik b",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kocaeli-seffaf-plak-fiyatlari",
-    name: "Kocaeli Şeffaf Plak Fiyatları",
-    short: "Kocaeli Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kocaeli Şeffaf Plak Fiyatları Ne Kadar? (2026 Kocaeli TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "konya-seffaf-plak-fiyatlari",
-    name: "Konya Şeffaf Plak Fiyatları",
-    short: "Konya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Konyaaltı Şeffaf Plak Fiyatları Ne Kadar? (2026 Konyaaltı TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kutahya-seffaf-plak-fiyatlari",
-    name: "Kutahya Şeffaf Plak Fiyatları",
-    short: "Kutahya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kütahya Şeffaf Plak Fiyatları Ne Kadar? (2026 Kütahya TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "malatya-seffaf-plak-fiyatlari",
-    name: "Malatya Şeffaf Plak Fiyatları",
-    short: "Malatya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Malatya Şeffaf Plak Fiyatları Ne Kadar? (2026 Malatya TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "manisa-seffaf-plak-fiyatlari",
-    name: "Manisa Şeffaf Plak Fiyatları",
-    short: "Manisa Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Manisa Şeffaf Plak Fiyatları Ne Kadar? (2026 Manisa TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mersin-seffaf-plak-fiyatlari",
-    name: "Mersin Şeffaf Plak Fiyatları",
-    short: "Mersin Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Mersin Şeffaf Plak Fiyatları Ne Kadar? (2026 Mersin TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mus-seffaf-plak-fiyatlari",
-    name: "Mus Şeffaf Plak Fiyatları",
-    short: "Mus Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Muş Şeffaf Plak Fiyatları Ne Kadar? (2026 Muş TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodontik ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mugla-seffaf-plak-fiyatlari",
-    name: "Mugla Şeffaf Plak Fiyatları",
-    short: "Mugla Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Muğla Şeffaf Plak Fiyatları Ne Kadar? (2026 Muğla TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "nigde-seffaf-plak-fiyatlari",
-    name: "Nigde Şeffaf Plak Fiyatları",
-    short: "Nigde Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Niğde Şeffaf Plak Fiyatları Ne Kadar? (2026 Niğde TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "osmaniye-seffaf-plak-fiyatlari",
-    name: "Osmaniye Şeffaf Plak Fiyatları",
-    short: "Osmaniye Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Osmaniye Şeffaf Plak Fiyatları Ne Kadar? (2026 Osmaniye TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir o",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sakarya-seffaf-plak-fiyatlari",
-    name: "Sakarya Şeffaf Plak Fiyatları",
-    short: "Sakarya Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sakarya Şeffaf Plak Fiyatları Ne Kadar? (2026 Sakarya TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "rize-seffaf-plak-fiyatlari",
-    name: "Rize Şeffaf Plak Fiyatları",
-    short: "Rize Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Rize Şeffaf Plak Fiyatları Ne Kadar? (2026 Rize TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodonti",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "samsun-seffaf-plak-fiyatlari",
-    name: "Samsun Şeffaf Plak Fiyatları",
-    short: "Samsun Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Samsun Şeffaf Plak Fiyatları Ne Kadar? (2026 Samsun TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sinop-seffaf-plak-fiyatlari",
-    name: "Sinop Şeffaf Plak Fiyatları",
-    short: "Sinop Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sinop Şeffaf Plak Fiyatları Ne Kadar? (2026 Sinop TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sanliurfa-seffaf-plak-fiyatlari",
-    name: "Sanliurfa Şeffaf Plak Fiyatları",
-    short: "Sanliurfa Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Şanlıurfa Şeffaf Plak Fiyatları Ne Kadar? (2026 Şanlıurfa TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sirnak-seffaf-plak-fiyatlari",
-    name: "Sirnak Şeffaf Plak Fiyatları",
-    short: "Sirnak Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Şırnak Şeffaf Plak Fiyatları Ne Kadar? (2026 Şırnak TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tekirdag-seffaf-plak-fiyatlari",
-    name: "Tekirdag Şeffaf Plak Fiyatları",
-    short: "Tekirdag Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tekirdağ Şeffaf Plak Fiyatları Ne Kadar? (2026 Tekirdağ TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir o",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tokat-seffaf-plak-fiyatlari",
-    name: "Tokat Şeffaf Plak Fiyatları",
-    short: "Tokat Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tokat Şeffaf Plak Fiyatları Ne Kadar? (2026 Tokat TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodon",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "trabzon-seffaf-plak-fiyatlari",
-    name: "Trabzon Şeffaf Plak Fiyatları",
-    short: "Trabzon Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Trabzon Şeffaf Plak Fiyatları Ne Kadar? (2026 Trabzon TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tunceli-seffaf-plak-fiyatlari",
-    name: "Tunceli Şeffaf Plak Fiyatları",
-    short: "Tunceli Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tunceli Şeffaf Plak Fiyatları Ne Kadar? (2026 Tunceli TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ort",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "van-seffaf-plak-fiyatlari",
-    name: "Van Şeffaf Plak Fiyatları",
-    short: "Van Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Van Şeffaf Plak Fiyatları Ne Kadar? (2026 Van TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortodontik ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "yozgat-seffaf-plak-fiyatlari",
-    name: "Yozgat Şeffaf Plak Fiyatları",
-    short: "Yozgat Şeffaf Plak Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Yozgat Şeffaf Plak Fiyatları Ne Kadar? (2026 Yozgat TDB Şeffaf Plak Ücreti) Şeffaf plak tedavisi, dişlerdeki çapraşıklıkları düzeltmek için kullanılan görünmez ve estetik bir ortod",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Şeffaf Plak Fiyatları Ne Kadar? (2026 TDB Şeffaf Plak Ücreti)","price":"80.000 TL'den başlamaktadır."},{"name":"Üst Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Alt Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"18 Yaş Altı Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çocuk Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Çift Çene Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Aparey Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Clearcorrect Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Devlet Hastanesi Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Diş Teli Çıktıktan Sonra Takılan Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."},{"name":"Pekiştirme Tedavisi Şeffaf Plak Fiyatları","price":"80.000 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "adiyaman-gulus-tasarimi-fiyatlari",
-    name: "Adiyaman Gülüş Tasarımı Fiyatları",
-    short: "Adiyaman Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Adıyaman Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Adıyaman gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanıla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "aksaray-gulus-tasarimi-fiyatlari",
-    name: "Aksaray Gülüş Tasarımı Fiyatları",
-    short: "Aksaray Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Aksaray Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Aksaray gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "agri-gulus-tasarimi-fiyatlari",
-    name: "Agri Gülüş Tasarımı Fiyatları",
-    short: "Agri Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ağrı Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Ağrı gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak malz",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "antalya-gulus-tasarimi-fiyatlari",
-    name: "Antalya Gülüş Tasarımı Fiyatları",
-    short: "Antalya Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Antalya Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Antalya gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "ardahan-gulus-tasarimi-fiyatlari",
-    name: "Ardahan Gülüş Tasarımı Fiyatları",
-    short: "Ardahan Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ardahan Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Ardahan gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "balikesir-gulus-tasarimi-fiyatlari",
-    name: "Balikesir Gülüş Tasarımı Fiyatları",
-    short: "Balikesir Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Balıkesir Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Balıkesir gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "batman-gulus-tasarimi-fiyatlari",
-    name: "Batman Gülüş Tasarımı Fiyatları",
-    short: "Batman Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Batman Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Batman gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bartin-gulus-tasarimi-fiyatlari",
-    name: "Bartin Gülüş Tasarımı Fiyatları",
-    short: "Bartin Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bartın Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bartın gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bayburt-gulus-tasarimi-fiyatlari",
-    name: "Bayburt Gülüş Tasarımı Fiyatları",
-    short: "Bayburt Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bayburt Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bayburt gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bingol-gulus-tasarimi-fiyatlari",
-    name: "Bingol Gülüş Tasarımı Fiyatları",
-    short: "Bingol Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bingöl Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bingöl gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bilecik-gulus-tasarimi-fiyatlari",
-    name: "Bilecik Gülüş Tasarımı Fiyatları",
-    short: "Bilecik Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bilecik Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bilecik gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bitlis-gulus-tasarimi-fiyatlari",
-    name: "Bitlis Gülüş Tasarımı Fiyatları",
-    short: "Bitlis Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bitlis Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bitlis gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "bursa-gulus-tasarimi-fiyatlari",
-    name: "Bursa Gülüş Tasarımı Fiyatları",
-    short: "Bursa Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Bursa Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Bursa gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "denizli-gulus-tasarimi-fiyatlari",
-    name: "Denizli Gülüş Tasarımı Fiyatları",
-    short: "Denizli Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Denizli Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Denizli gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "corum-gulus-tasarimi-fiyatlari",
-    name: "Corum Gülüş Tasarımı Fiyatları",
-    short: "Corum Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Çorum Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Çorum gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "diyarbakir-gulus-tasarimi-fiyatlari",
-    name: "Diyarbakir Gülüş Tasarımı Fiyatları",
-    short: "Diyarbakir Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Diyarbakır Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Diyarbakır gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kulla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "edirne-gulus-tasarimi-fiyatlari",
-    name: "Edirne Gülüş Tasarımı Fiyatları",
-    short: "Edirne Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Edirne Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Edirne gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "duzce-gulus-tasarimi-fiyatlari",
-    name: "Duzce Gülüş Tasarımı Fiyatları",
-    short: "Duzce Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Düzce Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Düzce gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "elazig-gulus-tasarimi-fiyatlari",
-    name: "Elazig Gülüş Tasarımı Fiyatları",
-    short: "Elazig Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Elazığ Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Elazığ gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "erzurum-gulus-tasarimi-fiyatlari",
-    name: "Erzurum Gülüş Tasarımı Fiyatları",
-    short: "Erzurum Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Erzurum Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Erzurum gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "eskisehir-gulus-tasarimi-fiyatlari",
-    name: "Eskisehir Gülüş Tasarımı Fiyatları",
-    short: "Eskisehir Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Eskişehir Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Eskişehir gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "giresun-gulus-tasarimi-fiyatlari",
-    name: "Giresun Gülüş Tasarımı Fiyatları",
-    short: "Giresun Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Giresun Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Giresun gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "gaziantep-gulus-tasarimi-fiyatlari",
-    name: "Gaziantep Gülüş Tasarımı Fiyatları",
-    short: "Gaziantep Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Gaziantep Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Gaziantep gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "hakkari-gulus-tasarimi-fiyatlari",
-    name: "Hakkari Gülüş Tasarımı Fiyatları",
-    short: "Hakkari Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Hakk&acirc;ri Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Hakk&acirc;ri gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "gumushane-gulus-tasarimi-fiyatlari",
-    name: "Gumushane Gülüş Tasarımı Fiyatları",
-    short: "Gumushane Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Gümüşhane Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Gümüşhane gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "isparta-gulus-tasarimi-fiyatlari",
-    name: "Isparta Gülüş Tasarımı Fiyatları",
-    short: "Isparta Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Isparta Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Isparta gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kahramanmaras-gulus-tasarimi-fiyatlari",
-    name: "Kahramanmaras Gülüş Tasarımı Fiyatları",
-    short: "Kahramanmaras Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kahramanmaraş Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kahramanmaraş gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "karabuk-gulus-tasarimi-fiyatlari",
-    name: "Karabuk Gülüş Tasarımı Fiyatları",
-    short: "Karabuk Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Karabük Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Karabük gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kastamonu-gulus-tasarimi-fiyatlari",
-    name: "Kastamonu Gülüş Tasarımı Fiyatları",
-    short: "Kastamonu Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kastamonu Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kastamonu gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kayseri-gulus-tasarimi-fiyatlari",
-    name: "Kayseri Gülüş Tasarımı Fiyatları",
-    short: "Kayseri Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kayseri Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kayseri gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirikkale-gulus-tasarimi-fiyatlari",
-    name: "Kirikkale Gülüş Tasarımı Fiyatları",
-    short: "Kirikkale Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırıkkale Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kırıkkale gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kilis-gulus-tasarimi-fiyatlari",
-    name: "Kilis Gülüş Tasarımı Fiyatları",
-    short: "Kilis Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kilis Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kilis gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirklareli-gulus-tasarimi-fiyatlari",
-    name: "Kirklareli Gülüş Tasarımı Fiyatları",
-    short: "Kirklareli Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırklareli Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kırklareli gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kulla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kirsehir-gulus-tasarimi-fiyatlari",
-    name: "Kirsehir Gülüş Tasarımı Fiyatları",
-    short: "Kirsehir Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kırşehir Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kırşehir gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanıla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "kocaeli-gulus-tasarimi-fiyatlari",
-    name: "Kocaeli Gülüş Tasarımı Fiyatları",
-    short: "Kocaeli Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Kocaeli Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Kocaeli gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "konya-gulus-tasarimi-fiyatlari",
-    name: "Konya Gülüş Tasarımı Fiyatları",
-    short: "Konya Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Konya Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Konya gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mardin-gulus-tasarimi-fiyatlari",
-    name: "Mardin Gülüş Tasarımı Fiyatları",
-    short: "Mardin Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Mardin Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Mardin gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "manisa-gulus-tasarimi-fiyatlari",
-    name: "Manisa Gülüş Tasarımı Fiyatları",
-    short: "Manisa Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Manisa Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Manisa gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mersin-gulus-tasarimi-fiyatlari",
-    name: "Mersin Gülüş Tasarımı Fiyatları",
-    short: "Mersin Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Mersin Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Mersin gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "mugla-gulus-tasarimi-fiyatlari",
-    name: "Mugla Gülüş Tasarımı Fiyatları",
-    short: "Mugla Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Muğla Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Muğla gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "nevsehir-gulus-tasarimi-fiyatlari",
-    name: "Nevsehir Gülüş Tasarımı Fiyatları",
-    short: "Nevsehir Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Nevşehir Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Nevşehir gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanıla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "osmaniye-gulus-tasarimi-fiyatlari",
-    name: "Osmaniye Gülüş Tasarımı Fiyatları",
-    short: "Osmaniye Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Osmaniye Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Osmaniye gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanıla",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "ordu-gulus-tasarimi-fiyatlari",
-    name: "Ordu Gülüş Tasarımı Fiyatları",
-    short: "Ordu Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Ordu Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Ordu gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak malz",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "rize-gulus-tasarimi-fiyatlari",
-    name: "Rize Gülüş Tasarımı Fiyatları",
-    short: "Rize Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Rize Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Rize gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak malz",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sakarya-gulus-tasarimi-fiyatlari",
-    name: "Sakarya Gülüş Tasarımı Fiyatları",
-    short: "Sakarya Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sakarya Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Sakarya gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "samsun-gulus-tasarimi-fiyatlari",
-    name: "Samsun Gülüş Tasarımı Fiyatları",
-    short: "Samsun Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Samsun Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Samsun gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "siirt-gulus-tasarimi-fiyatlari",
-    name: "Siirt Gülüş Tasarımı Fiyatları",
-    short: "Siirt Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Siirt Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Siirt gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sinop-gulus-tasarimi-fiyatlari",
-    name: "Sinop Gülüş Tasarımı Fiyatları",
-    short: "Sinop Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sinop Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Sinop gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sivas-gulus-tasarimi-fiyatlari",
-    name: "Sivas Gülüş Tasarımı Fiyatları",
-    short: "Sivas Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Sivas Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Sivas gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "sirnak-gulus-tasarimi-fiyatlari",
-    name: "Sirnak Gülüş Tasarımı Fiyatları",
-    short: "Sirnak Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Şırnak Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Şırnak gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tokat-gulus-tasarimi-fiyatlari",
-    name: "Tokat Gülüş Tasarımı Fiyatları",
-    short: "Tokat Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tokat Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Tokat gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ma",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "tunceli-gulus-tasarimi-fiyatlari",
-    name: "Tunceli Gülüş Tasarımı Fiyatları",
-    short: "Tunceli Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Tunceli Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Tunceli gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılaca",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "usak-gulus-tasarimi-fiyatlari",
-    name: "Usak Gülüş Tasarımı Fiyatları",
-    short: "Usak Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Uşak Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Uşak gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak malz",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "yalova-gulus-tasarimi-fiyatlari",
-    name: "Yalova Gülüş Tasarımı Fiyatları",
-    short: "Yalova Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Yalova Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Yalova gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak ",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "zonguldak-gulus-tasarimi-fiyatlari",
-    name: "Zonguldak Gülüş Tasarımı Fiyatları",
-    short: "Zonguldak Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Zonguldak Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Zonguldak gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanı",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
-    slug: "van-gulus-tasarimi-fiyatlari",
-    name: "Van Gülüş Tasarımı Fiyatları",
-    short: "Van Gülüş Tasarımı Fiyatları — 2026 güncel TDB tarifesi.",
-    intro: "Van Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti) Van gülüş tasarımı fiyatları, uygulanacak işlemlerin kapsamına, hastanın diş yapısına ve kullanılacak malzem",
-    features: [
-      "7/24 açık klinik",
-      "Uzman hekim kadrosu",
-      "Son teknoloji cihazlar",
-      "Net ve şeffaf fiyat",
-      "Cumartesi, pazar ve bayramlarda açık"
-    ],
-    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
-    priceRows: [{"name":"Gülüş Tasarımı Fiyatları Ne Kadar? (2026 TDB Gülüş Estetiği Ücreti)","price":"5.500 TL'den başlamaktadır."},{"name":"Zirkonyum Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Tavşan Diş Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Akıllı (Smile Design) Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Hollywood Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Özel Hastane Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Üniversite Hastanesinde Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Kompozit Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Lamine Gülüş Tasarımı Fiyatları","price":"6.000 TL'den başlamaktadır."},{"name":"İmplant Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"İnvisaling Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Çarpık Dişlere Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Porselen Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Pembe Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ön Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."},{"name":"Ayrık Dişler İçin Gülüş Tasarımı Fiyatları","price":"5.500 TL'den başlamaktadır."}],
-    category: "fiyat",
-    menu: false,
-  },
-  {
+{
     slug: "nobel-biocare-implant-fiyati",
     name: "Nobel Biocare İmplant Fiyatları",
     short: "Nobel Biocare İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4343,7 +1016,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "astra-implant-fiyati",
     name: "Astra İmplant Fiyatları",
     short: "Astra İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4358,7 +1031,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "straumann-implant-fiyati",
     name: "Straumann İmplant Fiyatları",
     short: "Straumann İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4373,7 +1046,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "medentika-implant-fiyati",
     name: "Medentika İmplant Fiyatları",
     short: "Medentika İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4388,7 +1061,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "bego-implant-fiyati",
     name: "Bego İmplant Fiyatları",
     short: "Bego İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4403,7 +1076,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "osstem-implant-fiyati",
     name: "Osstem İmplant Fiyatları",
     short: "Osstem İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4418,7 +1091,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "nucleoss-implant-fiyati",
     name: "Nucleoss İmplant Fiyatları",
     short: "Nucleoss İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4433,7 +1106,7 @@ export const services: Service[] = [
     category: "fiyat",
     menu: false,
   },
-  {
+{
     slug: "medigma-implant-fiyati",
     name: "Medigma İmplant Fiyatları",
     short: "Medigma İmplant Fiyatları — 2026 güncel TDB tarifesi.",
@@ -4447,7 +1120,7 @@ export const services: Service[] = [
     ],
     category: "fiyat",
     menu: false,
-  },
+  }
 ];
 
 

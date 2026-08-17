@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { services, type Service } from "@/lib/services";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, CURRENT_YEAR } from "@/lib/site";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import { PhoneIcon, WhatsAppIcon, ToothIcon } from "@/components/Header";
@@ -58,7 +58,7 @@ const groups = [
   },
   {
     title: "Fiyatlar",
-    desc: "2026 güncel diş tedavisi fiyat rehberleri",
+    desc: `${CURRENT_YEAR} güncel diş tedavisi fiyat rehberleri`,
     cats: ["fiyat"],
   },
 ];

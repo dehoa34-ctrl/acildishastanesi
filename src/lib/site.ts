@@ -1,3 +1,12 @@
+/** Güncel takvim yılı — fiyat tarihlerinde "2026" hardcode yerine kullanılır. */
+export const CURRENT_YEAR = new Date().getFullYear();
+
+/** Fiyat metinlerindeki sabit yıl ibaresini güncel yıla çevirir (örn. "2026" → "2027"). */
+export function fmtYear(text?: string): string {
+  if (!text) return "";
+  return text.replaceAll("2026", String(CURRENT_YEAR));
+}
+
 export const SITE = {
   name: "İstanbul Ağız ve Diş Sağlığı Merkezi",
   shortName: "İstanbul Diş",

@@ -1,4 +1,4 @@
-import { CONTACT, SITE } from "@/lib/site";
+import { CONTACT, SITE, fmtYear } from "@/lib/site";
 import type { District } from "@/lib/districts";
 import type { Service } from "@/lib/services";
 
@@ -100,9 +100,9 @@ export function serviceSchema(service: Service) {
     "@type": "MedicalProcedure",
     name: service.name,
     url: `${SITE.domain}/${service.slug}/`,
-    description: service.intro,
+    description: fmtYear(service.intro),
     image: `${SITE.domain}${SEO_IMAGE}`,
-    procedureType: service.name,
+    procedureType: fmtYear(service.name),
     provider: dentistSchema({ name: SITE.name }),
   };
 }

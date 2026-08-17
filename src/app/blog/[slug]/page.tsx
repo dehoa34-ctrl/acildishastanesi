@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { posts, getPost } from "@/lib/posts";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, fmtYear } from "@/lib/site";
 import { articleSchema, breadcrumbSchema, faqSchema, SEO_IMAGE } from "@/lib/seo";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
@@ -25,12 +25,12 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.title,
-    description: post.description,
+    title: fmtYear(post.title),
+    description: fmtYear(post.description),
     alternates: { canonical: `/blog/${post.slug}/` },
     openGraph: {
-      title: post.title,
-      description: post.description,
+      title: fmtYear(post.title),
+      description: fmtYear(post.description),
       locale: "tr_TR",
       type: "article",
       publishedTime: post.date,
@@ -38,8 +38,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.description,
+      title: fmtYear(post.title),
+      description: fmtYear(post.description),
       images: [SEO_IMAGE],
     },
   };
@@ -89,14 +89,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
       {/* Body */}
       <article className="bg-white py-14">
         <div className="mx-auto max-w-3xl px-4 sm:px-6">
-          <p className="text-lg leading-8 text-slate-600">{post.description}</p>
+          <p className="text-lg leading-8 text-slate-600">{fmtYear(post.description)}</p>
 
           {post.body.map((section, idx) => (
             <section key={section.h2}>
-              <h2 className="mt-10 text-2xl font-extrabold text-slate-900">{section.h2}</h2>
+              <h2 className="mt-10 text-2xl font-extrabold text-slate-900">{fmtYear(section.h2)}</h2>
               {section.paragraphs.map((para, i) => (
                 <p key={i} className="mt-4 leading-8 text-slate-600">
-                  {para}
+                  {fmtYear(para)}
                 </p>
               ))}
               {idx === 0 && (
@@ -119,8 +119,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               <div className="mt-5 space-y-4">
                 {post.faq.map((f) => (
                   <div key={f.question} className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
-                    <p className="font-bold text-slate-900">{f.question}</p>
-                    <p className="mt-2 text-sm leading-6 text-slate-600">{f.answer}</p>
+                    <p className="font-bold text-slate-900">{fmtYear(f.question)}</p>
+                    <p className="mt-2 text-sm leading-6 text-slate-600">{fmtYear(f.answer)}</p>
                   </div>
                 ))}
               </div>

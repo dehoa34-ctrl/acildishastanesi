@@ -1,0 +1,1078 @@
+[
+  {
+    "slug": "cerrahi-uygulamalar",
+    "cat": "branc"
+  },
+  {
+    "slug": "dijital-dis-hekimligi",
+    "cat": "branc"
+  },
+  {
+    "slug": "kanal-tedavisi-nedir-kanal-tedavisi-neden-yapilir",
+    "cat": "branc"
+  },
+  {
+    "slug": "protetik-dis-tedavisi-nedir-protetik-dis-tedavisi-nasil-yapilir",
+    "cat": "branc"
+  },
+  {
+    "slug": "kirik-dis-tedavisi",
+    "cat": "branc"
+  },
+  {
+    "slug": "pedodonti-cocuk-dis-hekimligi",
+    "cat": "branc"
+  },
+  {
+    "slug": "ortodonti-nedir-ortodonti-tedavisi-ne-demek",
+    "cat": "branc"
+  },
+  {
+    "slug": "periodontoloji",
+    "cat": "branc"
+  },
+  {
+    "slug": "implant-nedir-implant-tedavisi-nasil-yapilir",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "all-on-four-implant",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "bir-gunde-implant",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "sinus-lifting-sinus-kaldirma-nedir-sinus-sarkmasi-belirtileri-nelerdir",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "dis-cekimi-nedir-dis-nasil-cekilir-dis-cekimi-ne-kadar-surer",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "20lik-dis-nedir-20lik-dis-ne-ise-yarar-20lik-dis-cekimi",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "gomulu-20lik-dis-nedir-gomulu-20lik-dis-cekimi",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "komplikasyonlu-dis-cekimi-nedir-komplikasyonlu-dis-cekimi-nasil-yapilir",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "sut-dis-cekimi",
+    "cat": "cerrahi"
+  },
+  {
+    "slug": "dental-bonding",
+    "cat": "estetik"
+  },
+  {
+    "slug": "dis-beyazlatma-bleaching-nedir-en-etkili-dis-beyazlatma-yontemleri-nelerdir",
+    "cat": "estetik"
+  },
+  {
+    "slug": "inlay-onlay-overlay-dolgular",
+    "cat": "estetik"
+  },
+  {
+    "slug": "seffaf-plak-nedir-seffaf-dis-plagi-ne-ise-yarar",
+    "cat": "estetik"
+  },
+  {
+    "slug": "lamine-dis-kaplama-nedir-yaprak-dis-kaplama-nasil-yapilir",
+    "cat": "estetik"
+  },
+  {
+    "slug": "dis-teli-tedavisi-nedir-dis-teli-ne-ise-yarar",
+    "cat": "estetik"
+  },
+  {
+    "slug": "pembe-estetik-estetik-dis-eti-tedavisi",
+    "cat": "estetik"
+  },
+  {
+    "slug": "zirkonyum-dis-nedir-zirkonyum-dis-kaplama-nedir",
+    "cat": "estetik"
+  },
+  {
+    "slug": "porselen-dis-kaplama-nedir-porselen-dis-kaplama-nasil-yapilir",
+    "cat": "gulus"
+  },
+  {
+    "slug": "emax-dis-kaplama",
+    "cat": "gulus"
+  },
+  {
+    "slug": "metal-dis-kaplama-nedir-metal-destekli-porselen-dis-kaplama-nasil-yapilir",
+    "cat": "gulus"
+  },
+  {
+    "slug": "kron-dis-kaplama-nedir-kron-dis-kaplama-nasil-yapilir",
+    "cat": "gulus"
+  },
+  {
+    "slug": "acil-dis-tedavisi",
+    "cat": "acil"
+  },
+  {
+    "slug": "gulus-tasarimi",
+    "cat": "estetik"
+  },
+  {
+    "slug": "dis-dolgusu",
+    "cat": "dolgu"
+  },
+  {
+    "slug": "protez-takma-dis-fiyatlari",
+    "cat": "estetik"
+  },
+  {
+    "slug": "agrisiz-dis-tedavisi",
+    "cat": "acil"
+  },
+  {
+    "slug": "implant-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "dis-tedavisi-fiyatlari",
+    "cat": "acil"
+  },
+  {
+    "slug": "afyonkarahisar-dis-rontgeni-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ardahan-dis-rontgeni-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bahcelievler-dis-beyazlatma-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "catalca-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "esenler-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "eskisehir-dis-dolgu-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "giresun-dis-rontgeni-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "isparta-zirkonyum-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kucukcekmece-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sariyer-ortodonti-tedavisi-ve-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tekirdag-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "canakkale-protez-dis-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "dis-agrisi-tedavisi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "dis-eti-estetigi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "lazerle-dis-beyazlatma-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "amasya-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "aksaray-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "afyonkarahisar-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "adana-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "agri-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "antalya-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ardahan-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "balikesir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bartin-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bayburt-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "batman-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "aydin-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bingol-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bursa-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "canakkale-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bitlis-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "cankiri-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "corum-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "denizli-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "edirne-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "duzce-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "elazig-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "erzurum-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "eskisehir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gaziantep-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "giresun-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "hatay-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "igdir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "izmir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kahramanmaras-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "karabuk-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "karaman-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kars-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kastamonu-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kayseri-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirikkale-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirklareli-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirsehir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kilis-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "konya-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "manisa-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "malatya-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mersin-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mardin-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nevsehir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ordu-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nigde-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "osmaniye-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "rize-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sakarya-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "samsun-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "siirt-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sinop-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sanliurfa-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sivas-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sirnak-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tekirdag-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tokat-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "trabzon-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "usak-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "yalova-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "yozgat-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "zonguldak-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "istanbul-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sisli-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "adalar-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "arnavutkoy-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "atasehir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "avcilar-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bagcilar-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bakirkoy-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "basaksehir-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "besiktas-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "beykoz-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "beylikduzu-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "beyoglu-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "buyukcekmece-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "cekmekoy-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "esenyurt-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "eyupsultan-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "fatih-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gaziosmanpasa-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gungoren-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kartal-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kucukcekmece-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "pendik-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sultanbeyli-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "silivri-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sultangazi-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "umraniye-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "uskudar-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "zeytinburnu-porselen-dis-kaplama-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "adana-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "aksaray-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "amasya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ankara-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "antalya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "balikesir-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bayburt-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bartin-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bilecik-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bingol-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bitlis-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bolu-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "burdur-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bursa-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "canakkale-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "cankiri-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "corum-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "denizli-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "diyarbakir-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "duzce-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "edirne-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "elazig-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "erzincan-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "erzurum-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "eskisehir-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gaziantep-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gumushane-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "hakkari-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "hatay-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "isparta-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "istanbul-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "izmir-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kahramanmaras-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "karaman-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "karabuk-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kastamonu-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kars-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kayseri-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirikkale-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirklareli-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kocaeli-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "konya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kutahya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "malatya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "manisa-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mersin-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mus-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mugla-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nigde-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "osmaniye-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sakarya-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "rize-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "samsun-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sinop-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sanliurfa-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sirnak-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tekirdag-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tokat-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "trabzon-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tunceli-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "van-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "yozgat-seffaf-plak-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "adiyaman-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "aksaray-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "agri-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "antalya-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ardahan-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "balikesir-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "batman-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bartin-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bayburt-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bingol-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bilecik-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bitlis-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bursa-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "denizli-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "corum-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "diyarbakir-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "edirne-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "duzce-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "elazig-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "erzurum-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "eskisehir-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "giresun-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gaziantep-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "hakkari-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "gumushane-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "isparta-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kahramanmaras-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "karabuk-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kastamonu-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kayseri-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirikkale-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kilis-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirklareli-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kirsehir-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "kocaeli-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "konya-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mardin-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "manisa-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mersin-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "mugla-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nevsehir-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "osmaniye-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "ordu-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "rize-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sakarya-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "samsun-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "siirt-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sinop-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sivas-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "sirnak-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tokat-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "tunceli-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "usak-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "yalova-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "zonguldak-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "van-gulus-tasarimi-fiyatlari",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nobel-biocare-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "astra-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "straumann-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "medentika-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "bego-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "osstem-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "nucleoss-implant-fiyati",
+    "cat": "fiyat"
+  },
+  {
+    "slug": "medigma-implant-fiyati",
+    "cat": "fiyat"
+  }
+]
