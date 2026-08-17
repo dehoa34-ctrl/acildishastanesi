@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { services, serviceCategories } from "@/lib/services";
+import { services, serviceCategories, isServiceHidden } from "@/lib/services";
 
 export default function ServiceSidebar({ activeSlug }: { activeSlug: string }) {
   return (
@@ -8,7 +8,7 @@ export default function ServiceSidebar({ activeSlug }: { activeSlug: string }) {
         <h2 className="text-lg font-extrabold text-slate-900">Tüm Tedaviler</h2>
         <div className="mt-4 space-y-5">
           {serviceCategories.map((cat) => {
-            const items = services.filter((s) => s.category === cat.key && s.menu !== false);
+            const items = services.filter((s) => s.category === cat.key && s.menu !== false && !isServiceHidden(s.slug));
             if (items.length === 0) return null;
             return (
               <div key={cat.key}>

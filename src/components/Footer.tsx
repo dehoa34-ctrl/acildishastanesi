@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { CONTACT, SITE } from "@/lib/site";
-import { services } from "@/lib/services";
-import { districts } from "@/lib/districts";
+import { services, isServiceHidden } from "@/lib/services";
+import { districts, isDistrictHidden } from "@/lib/districts";
 import { ToothIcon } from "@/components/Header";
 
 const socials = [
@@ -14,7 +14,7 @@ const socials = [
 ];
 
 export default function Footer() {
-  const avrupa = districts.filter((x) => x.area === "avrupa").slice(0, 8);
+  const avrupa = districts.filter((x) => x.area === "avrupa" && !isDistrictHidden(x.slug)).slice(0, 8);
 
   return (
     <footer className="border-t border-slate-200 bg-slate-900 text-slate-300">
@@ -74,7 +74,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">Tedaviler</h3>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {services.filter((s) => s.menu !== false).slice(0, 9).map((s) => (
+              {services.filter((s) => s.menu !== false && !isServiceHidden(s.slug)).slice(0, 9).map((s) => (
                 <li key={s.slug}>
                   <Link href={`/${s.slug}`} className="hover:text-white">
                     {s.name}

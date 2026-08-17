@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { posts } from "@/lib/posts";
+import { posts, isPostHidden } from "@/lib/posts";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
-  const categories = [...new Set(posts.map((p) => p.category))];
+  const categories = [...new Set(posts.filter((p) => !isPostHidden(p.slug)).map((p) => p.category))];
 
   return (
     <>
@@ -35,7 +35,7 @@ export default function BlogPage() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {posts.map((p) => (
+            {posts.filter((p) => !isPostHidden(p.slug)).map((p) => (
               <Link
                 key={p.slug}
                 href={`/blog/${p.slug}`}

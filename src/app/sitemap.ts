@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/site";
-import { districts } from "@/lib/districts";
-import { services } from "@/lib/services";
-import { posts } from "@/lib/posts";
+import { districts, isDistrictHidden } from "@/lib/districts";
+import { services, isServiceHidden } from "@/lib/services";
+import { posts, isPostHidden } from "@/lib/posts";
 import { getServiceContent } from "@/lib/service-content";
 
 export const dynamic = "force-static";
@@ -24,30 +24,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE.domain}/iletisim/`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
   ];
 
-  const districtPages: MetadataRoute.Sitemap = districts.map((x) => ({
-    url: `${SITE.domain}/${x.slug}/`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.8,
-  }));
+  const districtPages: MetadataRoute.Sitemap = districts
+    .filter((x) => !isDistrictHidden(x.slug))
+    .map((x) => ({
+      url: `${SITE.domain}/${x.slug}/`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    }));
 
-  const servicePages: MetadataRoute.Sitemap = services.map((x) => ({
-    url: `${SITE.domain}/${x.slug}/`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.8,
-    images: [getServiceContent(x.slug)?.image ?? "/images/servis/cekim-hero.webp"].map(
-      (img) => `${SITE.domain}${img}`
-    ),
-  }));
+  const servicePages: MetadataRoute.Sitemap = services
+    .filter((x) => !isServiceHidden(x.slug))
+    .map((x) => ({
+      url: `${SITE.domain}/${x.slug}/`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.8,
+      images: [getServiceContent(x.slug)?.image ?? "/images/servis/cekim-hero.webp"].map(
+        (img) => `${SITE.domain}${img}`
+      ),
+    }));
 
-  const blogPages: MetadataRoute.Sitemap = posts.map((x) => ({
-    url: `${SITE.domain}/blog/${x.slug}/`,
-    lastModified: new Date(x.date),
-    changeFrequency: "monthly",
-    priority: 0.6,
-    images: [`${SITE.domain}${x.image}`],
-  }));
+  const blogPages: MetadataRoute.Sitemap = posts
+    .filter((x) => !isPostHidden(x.slug))
+    .map((x) => ({
+      url: `${SITE.domain}/blog/${x.slug}/`,
+      lastModified: new Date(x.date),
+      changeFrequency: "monthly",
+      priority: 0.6,
+      images: [`${SITE.domain}${x.image}`],
+    }));
 
   return [...staticPages, ...districtPages, ...servicePages, ...blogPages];
 }

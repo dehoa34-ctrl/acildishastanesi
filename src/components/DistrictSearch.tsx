@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { districts } from "@/lib/districts";
+import { districts, isDistrictHidden } from "@/lib/districts";
 
 export default function DistrictSearch({ limit = 12 }: { limit?: number }) {
   const [query, setQuery] = useState("");
@@ -11,6 +11,7 @@ export default function DistrictSearch({ limit = 12 }: { limit?: number }) {
     const q = query.trim().toLocaleLowerCase("tr");
     if (!q) return [];
     return districts
+      .filter((x) => !isDistrictHidden(x.slug))
       .filter(
         (x) =>
           x.name.toLocaleLowerCase("tr").includes(q) ||

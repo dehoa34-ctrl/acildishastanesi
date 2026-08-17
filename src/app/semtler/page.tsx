@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { districts } from "@/lib/districts";
+import { districts, isDistrictHidden } from "@/lib/districts";
 import DistrictSearch from "@/components/DistrictSearch";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
@@ -13,8 +13,8 @@ export const metadata: Metadata = {
 };
 
 export default function SemtlerPage() {
-  const avrupa = districts.filter((x) => x.area === "avrupa");
-  const merkez = districts.filter((x) => x.area === "merkez");
+const avrupa = districts.filter((x) => x.area === "avrupa" && !isDistrictHidden(x.slug));
+const merkez = districts.filter((x) => x.area === "merkez" && !isDistrictHidden(x.slug));
 
   return (
     <>

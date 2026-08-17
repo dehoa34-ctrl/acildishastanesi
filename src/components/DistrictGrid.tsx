@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { districts } from "@/lib/districts";
+import { districts, isDistrictHidden } from "@/lib/districts";
 
 export function DistrictGrid() {
-  const avrupa = districts.filter((x) => x.area === "avrupa");
+  const avrupa = districts.filter((x) => x.area === "avrupa" && !isDistrictHidden(x.slug));
 
   return (
     <div className="grid gap-8 lg:grid-cols-2">

@@ -420,3 +420,34 @@ export const districts: District[] = [
 export function getDistrict(slug: string) {
   return districts.find((x) => x.slug === slug);
 }
+
+/** avrupadis.com'da olmayan, bizim özel semt sayfalarımız. Sitemap ve dizinlerden gizlenir, doğrudan URL ile erişilebilir. */
+export const HIDDEN_DISTRICT_SLUGS: ReadonlySet<string> = new Set([
+  "aksaray-acil-dis-hastanesi",
+  "alibeykoy-acil-dis-hastanesi",
+  "atakoy-acil-dis-hastanesi",
+  "avrupa-yakasi-acil-dis-hastanesi",
+  "besiktas-acil-dis-hastanesi",
+  "beylikduzu-acil-dis-hastanesi",
+  "beyoglu-acil-dis-hastanesi",
+  "caglayan-acil-dis-hastanesi",
+  "catalca-acil-dis-hastanesi",
+  "cerrahpasa-acil-dis-hastanesi",
+  "esenler-acil-dis-hastanesi",
+  "etiler-acil-dis-hastanesi",
+  "gokturk-acil-dis-hastanesi",
+  "gultepe-acil-dis-hastanesi",
+  "istinye-acil-dis-hastanesi",
+  "kasimpasa-acil-dis-hastanesi",
+  "kemerburgaz-acil-dis-hastanesi",
+  "kucukkoy-acil-dis-hastanesi",
+  "maslak-acil-dis-hastanesi",
+  "mecidiyekoy-acil-dis-hastanesi",
+  "merter-acil-dis-hastanesi",
+  "nisantasi-acil-dis-hastanesi",
+  "okmeydani-acil-dis-hastanesi",
+  "taksim-acil-dis-hastanesi",
+  "tarabya-acil-dis-hastanesi",
+]);
+
+export const isDistrictHidden = (slug: string): boolean => HIDDEN_DISTRICT_SLUGS.has(slug);

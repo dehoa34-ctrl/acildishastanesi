@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CONTACT, SITE } from "@/lib/site";
-import { services, serviceCategories } from "@/lib/services";
-import { districts } from "@/lib/districts";
+import { services, serviceCategories, isServiceHidden } from "@/lib/services";
+import { districts, isDistrictHidden } from "@/lib/districts";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -16,12 +16,12 @@ export default function Header() {
     };
   }, [open]);
 
-  const menuServices = services.filter((s) => s.menu !== false);
+  const menuServices = services.filter((s) => s.menu !== false && !isServiceHidden(s.slug));
   const categoriesWithItems = serviceCategories.filter(
     (cat) => menuServices.filter((s) => s.category === cat.key).length > 0
   );
   const popularDistricts = districts
-    .filter((d) => d.area === "avrupa")
+    .filter((d) => d.area === "avrupa" && !isDistrictHidden(d.slug))
     .filter((d) => ["besiktas", "sisli", "bakirkoy", "fatih", "sariyer", "zeytinburnu"].includes(d.slug.split("-")[0]))
     .slice(0, 6);
 

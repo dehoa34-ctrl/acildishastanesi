@@ -1211,7 +1211,7 @@ export const posts: BlogPost[] = [
       {
             "h2": "Pembe Estetik ve Diş Eti Şekillendirme",
             "paragraphs": [
-                  "Gülümseme esnasında sadece dişlerin şekli değil, diş etlerinin görünme miktarı ve seviyesi de estetiği belirler. Gülüş tasar��mı sürecinde genellikle \"gummy smile\" olarak bilinen, diş etlerinin gereğinden fazla görünmesi sorunuyla sıkça karşılaşılır. Yıldız ismin gençlik yıllarındaki gülüşünde de diş etleri oldukça belirgindi ve bazı dişlerin boyu olduğundan çok daha kısa görünüyordu. Lazer teknolojileri kullanılarak yapılan gingivektomi (diş eti şekillendirme) işlemiyle, diş eti seviyeleri simetrik bir şekilde yukarı çekildi. Böylece dişlerin görünür boyu uzadı, diş ile diş eti arasındaki altın oran yakalandı. Çerçevesi düzgün olmayan bir tablonun güzel görünmesi nasıl mümkün değilse, diş eti konturları düzeltilmeden yapılan dişlerin de estetik durması beklenemez."
+                  "Gülümseme esnasında sadece dişlerin şekli değil, diş etlerinin görünme miktarı ve seviyesi de estetiği belirler. Gülüş tasarımı sürecinde genellikle \"gummy smile\" olarak bilinen, diş etlerinin gereğinden fazla görünmesi sorunuyla sıkça karşılaşılır. Yıldız ismin gençlik yıllarındaki gülüşünde de diş etleri oldukça belirgindi ve bazı dişlerin boyu olduğundan çok daha kısa görünüyordu. Lazer teknolojileri kullanılarak yapılan gingivektomi (diş eti şekillendirme) işlemiyle, diş eti seviyeleri simetrik bir şekilde yukarı çekildi. Böylece dişlerin görünür boyu uzadı, diş ile diş eti arasındaki altın oran yakalandı. Çerçevesi düzgün olmayan bir tablonun güzel görünmesi nasıl mümkün değilse, diş eti konturları düzeltilmeden yapılan dişlerin de estetik durması beklenemez."
             ]
       },
       {
@@ -1487,7 +1487,7 @@ export const posts: BlogPost[] = [
             "paragraphs": [
                   "Herkes için değişmez tek bir kontrol aralığı bulunmaz. Çürük geçmişiniz, diş eti durumunuz, yaşınız, kullandığınız ilaçlar ve ağız bakım alışkanlıklarınız kontrol sıklığını belirler.",
                   "Düşük riskli bir yetişkin daha uzun aralıklarla takip edilebilirken aktif diş eti hastalığı, çok sayıda dolgu, implant veya yoğun çürük riski bulunan kişiler daha sık kontrole ihtiyaç duyabilir. Diş hekiminiz muayene sonrasında size uygun takip planını hazırlar.",
-                  "Kontrol randevusu yalnızca çürük aramak için yapılmaz. Diş etleri, dolgular, protezler, kapanış düzeni ve ağız içindeki yumuşak dokular da incelenir. Gerekli durumlarda röntgen değerlendirmesi yap��labilir. Her kontrolde rutin olarak aynı görüntülemeyi istemek yerine, kişisel ihtiyaca göre hareket etmek gerekir."
+                  "Kontrol randevusu yalnızca çürük aramak için yapılmaz. Diş etleri, dolgular, protezler, kapanış düzeni ve ağız içindeki yumuşak dokular da incelenir. Gerekli durumlarda röntgen değerlendirmesi yapılabilir. Her kontrolde rutin olarak aynı görüntülemeyi istemek yerine, kişisel ihtiyaca göre hareket etmek gerekir."
             ]
       },
       {
@@ -1653,7 +1653,7 @@ export const posts: BlogPost[] = [
             "h2": "Ne Zaman Profesyonel Temizlik Gerekir?",
             "paragraphs": [
                   "Diş eti kanaması, ağız kokusu, sert birikim ve diş eti çekilmesi varsa profesyonel temizlik gerekebilir. Diş taşı gözle görülüyorsa evde bekletmek doğru değildir. Özellikle diş eti altında birikim olduğundan şüpheleniliyorsa kontrol önemlidir.",
-                  "Fırçalamanıza rağmen pütürlü his geçmiyorsa bu sertleşmiş taş olabilir. Alt ön dişlerin arkasında kabuk gibi bir tabaka varsa temizlik ihtiyacı artm��ş olabilir. Diş etlerinde şişlik, hassasiyet veya basınca kanama varsa durum daha ciddiye alınmalıdır.",
+                  "Fırçalamanıza rağmen pütürlü his geçmiyorsa bu sertleşmiş taş olabilir. Alt ön dişlerin arkasında kabuk gibi bir tabaka varsa temizlik ihtiyacı artmış olabilir. Diş etlerinde şişlik, hassasiyet veya basınca kanama varsa durum daha ciddiye alınmalıdır.",
                   "Diş taşı temizliği sıklığı kişiye göre değişir. Bazı kişilerde altı ayda bir yeterli olabilir. Bazılarında daha sık takip gerekebilir. Diş eti hastalığı geçmişi, tütün kullanımı, ağız kuruluğu ve yoğun taş birikimi bu aralığı etkileyebilir."
             ]
       },
@@ -1832,6 +1832,28 @@ export const posts: BlogPost[] = [
     faq: [{"question":"Bu konuda kliniğinize nasıl ulaşabilirim?","answer":"7/24 açık kliniğimizi 0532 438 13 03 numarasından arayabilir veya online randevu sayfamızdan randevu oluşturabilirsiniz."}],
   },
 ];
+
+/** avrupadis.com'da olmayan, bizim özel blog yazılarımız. Sitemap ve dizinlerden gizlenir, doğrudan URL ile erişilebilir. */
+export const HIDDEN_POST_SLUGS: ReadonlySet<string> = new Set([
+  "20-yas-disi-agrisi-ve-cekimi",
+  "bayramda-acik-dis-hekimi-bulma-rehberi",
+  "cocuklarda-dis-travmasi-acil-mudahale",
+  "dis-agrisi-neden-olur-evde-nasil-gecer",
+  "dis-apsesi-belirtileri-ve-mudahale",
+  "dis-beyazlatma-islemi-kalici-midir",
+  "dis-eti-kanamasi-nedenleri-ve-cozumleri",
+  "dis-implanti-kimler-icin-uygundur",
+  "gece-dis-agrisi-ne-yapmali",
+  "gulus-tasarimi-emax-lamine-nedir",
+  "implant-fiyatlari-2026-rehberi",
+  "implant-maliyeti-ne-kadar",
+  "kanal-tedavisi-ne-kadar-surer",
+  "pazar-gunu-acik-dis-klinigi-nasil-bulunur",
+  "protez-dis-mi-implant-mi",
+  "zirkonyum-vs-porselen-kapama",
+]);
+
+export const isPostHidden = (slug: string): boolean => HIDDEN_POST_SLUGS.has(slug);
 
 export function getPost(slug: string) {
   return posts.find((p) => p.slug === slug);

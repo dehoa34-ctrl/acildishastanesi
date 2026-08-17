@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { services, serviceCategories } from "@/lib/services";
-import { districts } from "@/lib/districts";
-import { posts } from "@/lib/posts";
+import { services, serviceCategories, isServiceHidden } from "@/lib/services";
+import { districts, isDistrictHidden } from "@/lib/districts";
+import { posts, isPostHidden } from "@/lib/posts";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import { CONTACT } from "@/lib/site";
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 };
 
 export default function SiteHaritasiPage() {
-  const avrupa = districts.filter((d) => d.area === "avrupa");
-  const merkez = districts.filter((d) => d.area === "merkez");
+const avrupa = districts.filter((d) => d.area === "avrupa" && !isDistrictHidden(d.slug));
+const merkez = districts.filter((d) => d.area === "merkez" && !isDistrictHidden(d.slug));
 
   return (
     <>
@@ -81,7 +81,7 @@ export default function SiteHaritasiPage() {
             <SectionTitle icon={<ToothIcon />} title="Tüm Tedaviler" subtitle="Kategorilere göre tüm diş tedavilerimiz" />
             <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {serviceCategories.map((cat) => {
-                const items = services.filter((s) => s.category === cat.key && s.menu !== false);
+                const items = services.filter((s) => s.category === cat.key && s.menu !== false && !isServiceHidden(s.slug));
                 if (items.length === 0) return null;
                 return (
                   <div
@@ -125,7 +125,7 @@ export default function SiteHaritasiPage() {
           <div className="mt-12">
             <SectionTitle icon={<BookIcon />} title="Blog Yazıları" subtitle="Diş sağlığı rehberi ve bilgilendirici yazılar" />
             <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {posts.map((p) => (
+              {posts.filter((p) => !isPostHidden(p.slug)).map((p) => (
                 <Link
                   key={p.slug}
                   href={`/blog/${p.slug}/`}

@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CONTACT, CURRENT_YEAR, fmtYear } from "@/lib/site";
-import { districts, getDistrict } from "@/lib/districts";
-import { services, getService, getPriceGroup, getRelatedPriceSlugs } from "@/lib/services";
+import { districts, getDistrict, isDistrictHidden } from "@/lib/districts";
+import { services, getService, getPriceGroup, getRelatedPriceSlugs, PRICE_SYSTEM_LABELS } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import ServiceSidebar from "@/components/ServiceSidebar";
@@ -91,7 +91,7 @@ export default async function SlugPage({ params }: { params: Promise<{ slug: str
 function DistrictPage({ district }: { district: (typeof districts)[number] }) {
   const extra = getDistrictExtra(district.slug);
   const related = districts
-    .filter((x) => x.area === district.area && x.slug !== district.slug)
+    .filter((x) => x.area === district.area && x.slug !== district.slug && !isDistrictHidden(x.slug))
     .slice(0, 10);
 
   const schema = districtSchema(district);
@@ -413,12 +413,10 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
     .map((slug) => getService(slug))
     .filter((s): s is (typeof services)[number] => Boolean(s));
 
-  // Fiyat sayfalarında aynı grubun diğer illeri/ilçeleri/markaları otomatik eklenir
+  // Fiyat sayfalarında aynı sistemin diğer ilçeleri/markaları otomatik eklenir
   const priceGroup = getPriceGroup(service.slug);
-  const priceGroupLabel =
-    priceGroup === "porselen-istanbul" || service.slug === "istanbul-porselen-dis-kaplama-fiyatlari"
-      ? "porselen-istanbul"
-      : priceGroup;
+  const priceSystemLabel = priceGroup ? PRICE_SYSTEM_LABELS[priceGroup] : null;
+  const isIstanbulHub = priceGroup !== null && service.slug.startsWith("istanbul-");
   const priceRelated = getRelatedPriceSlugs(service.slug)
     .map((slug) => getService(slug))
     .filter((s): s is (typeof services)[number] => Boolean(s));
@@ -523,11 +521,11 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
           {(relatedServices.length > 0 || priceRelated.length > 0) && (
             <div className="mt-12">
               <h2 className="text-2xl font-extrabold text-slate-900">
-                {priceGroupLabel === "porselen-istanbul"
-                  ? "Diğer İstanbul İlçeleri Porselen Fiyatları"
-                  : priceGroupLabel
-                    ? "Diğer İl Fiyatları"
-                    : "İlgili Tedaviler"}
+                {priceSystemLabel
+                  ? isIstanbulHub
+                    ? `İstanbul İlçeleri ${priceSystemLabel} Fiyatları`
+                    : `Diğer İstanbul İlçeleri ${priceSystemLabel} Fiyatları`
+                  : "İlgili Tedaviler"}
               </h2>
               <div className="mt-5 flex flex-wrap gap-2.5">
                 {[...relatedServices, ...priceRelated].map((s) => (

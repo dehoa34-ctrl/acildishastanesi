@@ -3,7 +3,7 @@
 import { useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { services, type Service } from "@/lib/services";
+import { services, isServiceHidden, type Service } from "@/lib/services";
 import { getServiceContent } from "@/lib/service-content";
 import { ToothIcon } from "@/components/Header";
 
@@ -29,7 +29,7 @@ export default function ServiceSlider() {
         ref={trackRef}
         className="flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {services.filter((s) => s.menu !== false).map((s) => (
+        {services.filter((s) => s.menu !== false && !isServiceHidden(s.slug)).map((s) => (
           <Link
             key={s.slug}
             href={`/${s.slug}`}
