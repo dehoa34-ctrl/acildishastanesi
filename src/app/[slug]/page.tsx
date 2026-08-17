@@ -569,14 +569,28 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
                 <h2 className="text-lg font-extrabold text-slate-900">{CURRENT_YEAR} Güncel Fiyat Listesi</h2>
                 <p className="mt-0.5 text-xs text-slate-500">{fmtYear(service.priceNote)}</p>
               </div>
-              <ul className="divide-y divide-slate-100">
-                {service.priceRows.map((row) => (
-                  <li key={row.name} className="flex items-center justify-between gap-4 px-6 py-4">
-                    <span className="font-semibold text-slate-700">{fmtYear(row.name)}</span>
-                    <span className="shrink-0 font-extrabold text-brand-700">{fmtYear(row.price)}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="overflow-x-auto">
+                <table className="w-full border-collapse text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-slate-200 bg-slate-50">
+                      <th className="px-6 py-3.5 font-extrabold text-slate-900">{service.name}</th>
+                      <th className="px-6 py-3.5 text-right font-extrabold text-slate-900">KDV HARİÇ</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100">
+                    {service.priceRows
+                      .filter((row) => !/^kdv/i.test(row.price))
+                      .map((row) => (
+                        <tr key={row.name} className="transition-colors hover:bg-slate-50">
+                          <td className="px-6 py-3.5 font-semibold text-slate-700">{fmtYear(row.name)}</td>
+                          <td className="px-6 py-3.5 text-right font-extrabold text-brand-700">
+                            {fmtYear(row.price)}
+                          </td>
+                        </tr>
+                      ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           ) : (
             <div className="rounded-3xl border border-brand-200 bg-brand-50 p-6 text-center">

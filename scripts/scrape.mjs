@@ -52,7 +52,13 @@ function extract(html, slug) {
     if (ths.length >= 2) priceNote = ths[1];
     for (const r of table[1].matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
       const cells = [...r[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => clean(m[1]));
-      if (cells.length >= 2) priceRows.push({ name: cells[0], price: cells[1] });
+      if (cells.length < 2) continue;
+      // Başlık satırı: ikinci hücresi "KDV HARİÇ" ile başlayan satır (thead değil, tbody'nin ilk td satırı)
+      if (/^kdv/i.test(cells[1])) {
+        priceNote = priceNote || cells[1];
+        continue;
+      }
+      priceRows.push({ name: cells[0], price: cells[1] });
     }
   }
 
