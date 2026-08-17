@@ -491,6 +491,22 @@ export const services: Service[] = [
     category: "acil",
   },
   {
+    slug: "implant-fiyatlari",
+    name: "İmplant Fiyatları",
+    short: "2026 implant fiyatları. TDB güncel tarifesi ve implant tedavi ücretleri.",
+    intro: "Bu yazıda implant fiyatlarının neden değişkenlik gösterdiğini ve bütçenizi belirlerken nelere dikkat etmeniz gerektiğini öğrenebilirsiniz. 2026 güncel implant fiyat tarifesi sayfamızda.",
+    features: [
+      "7/24 açık klinik",
+      "Uzman hekim kadrosu",
+      "Son teknoloji cihazlar",
+      "Net ve şeffaf fiyat",
+      "Cumartesi, pazar ve bayramlarda açık"
+    ],
+    priceNote: "2026 güncel tarife (KDV dahil). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Kemik İçi İmplant (Tek Silindirik İmplant Ücreti Hariç)","price":"15.675,00 TL"},{"name":"İmplant Üstü Veneer Kuron (Seramik) (Abutment Ücreti Hariç)","price":"10.090,00 TL"},{"name":"İmplant Destekli Hareketli Protezler (Hassas Tutucu Ücreti Hariç - Tek Çene)","price":"26.035,00 TL"},{"name":"İmplant Rehberi (Yarım Çene)","price":"7.235,00 TL"},{"name":"İmplant Rehberi (Tam Çene)","price":"10.485,00 TL"},{"name":"Kapişon İzalesi - İmplant Üstü Açılması","price":"2.705,00 TL"},{"name":"İmplant Çıkartılması","price":"7.680,00 TL"},{"name":"Zigoma İmplant (İmplant Ücreti Hariç)","price":"31.105,00 TL"}],
+    category: "fiyat",
+  },
+  {
     slug: "dis-tedavisi-fiyatlari",
     name: "Diş Tedavisi Fiyatları 2026",
     short: "Tüm diş tedavilerinin 2026 güncel fiyat rehberi.",

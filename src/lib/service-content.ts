@@ -7691,6 +7691,399 @@ export const serviceContent: Record<string, {
 ],
     related: ["dis-tedavisi-fiyatlari"],
   },
+  "implant-fiyatlari": {
+    image: "/images/servis/implant-fiyatlari-hero.webp",
+    body: [
+      {
+            "h2": "İmplant Fiyatları",
+            "paragraphs": [
+                  "Bu yazıda implant fiyatlarının neden değişkenlik gösterdiğini ve bütçenizi belirlerken nelere dikkat etmeniz gerektiğini şeffaf bir dille anlatacağız. Piyasada çok geniş bir implant fiyat aralığı ile karşılaşmanız kafa karışıklığına neden olabilir. Kimi yerlerde çok düşük rakamlar telaffuz edilirken kimi kliniklerde daha yüksek bütçelerle karşılaşabilirsiniz. Bu değişkenliğin temelinde kullanılan malzemenin menşei, implantın yüzey teknolojisi, hekimin cerrahi yetkinliği ve kliniğin sterilizasyon standartları yatar. Sağlığınız söz konusu olduğunda sadece fiyata odaklanmak yerine, o fiyatın karşılığında alacağınız hizmetin kalitesini ve güvenilirliğini sorgulamak en doğru yaklaşım olacaktır. İmplant Fiyatları Ne Kadar? İmplant fiyatları kullanılan marka, malzeme ve kliniğe göre geniş bir aralıkta değişir; genellikle tek diş implantı 8.000 TL – 40.000 TL civarındadır. Genelde implant fiyatları aralığı, implantın yerleştirilmesini, abutment ve bazen kronu kapsar; İsviçre veya Alman markaları daha yüksek maliyetli olabilir. Yerli implantlar genellikle daha uygun fiyatlı olup bazı kliniklerde 6.000 – 10.000 TL civarında da uygulanabilir. Ek cerrahi işlemler (kemik grefti, sinüs lifting vb.) ve protez maliyetleri nihai ücreti artırabilir. İmplant Fiyat Listesi (Güncel) Aşağıdaki listede güncel implant fiyatlarını derledik: 2026 İmplant Fiyatları (TDB Rehber Tarifesi) Tedavi Türü 2026 Fiyatı (KDV Dahil) Kemik İçi İmplant (Tek Silindirik İmplant Ücreti Hariç) 15.675,00 TL İmplant Üstü Veneer Kuron (Seramik) (Abutment Ücreti Hariç) 10.090,00 TL İmplant Destekli Hareketli Protezler (Hassas Tutucu Ücreti Hariç - Tek Çene) 26.035,00 TL İmplant Rehberi (Yarım Çene) 7.235,00 TL İmplant Rehberi (Tam Çene) 10.485,00 TL Kapişon İzalesi - İmplant Üstü Açılması 2.705,00 TL İmplant Çıkartılması 7.680,00 TL Zigoma İmplant (İmplant Ücreti Hariç) 31.105,00 TL 2026 TDB ağız diş sağlığı ve muayene ücretleri: https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tarife_Kitapcigi.pdf İmplant Markası ve Teknolojisinin İmplant Ücretine Etkisi Dünya genelinde üretim yapan yüzlerce farklı implant markası bulunmaktadır ve her biri farklı Ar Ge bütçeleri ile üretim teknolojilerine sahiptir. Köklü ve uzun yıllardır sektörde olan markalar, implantlarının kemikle kaynaşma başarısını artırmak için milyonlarca dolarlık araştırmalar yapar. Bu markalar implant yüzeyini özel işlemlerden geçirerek hücrelerin tutunmasını hızlandırır ve iyileşme sürecini kısaltır. Biz kliniğimizde hastalarımıza uyguladığımız implantları seçerken, arkasında güçlü bilimsel veriler olan ve uzun vadeli parça desteği sunan markaları tercih ediyoruz. Bu premium markaların maliyetleri, daha yeni veya kopyalama teknolojisi ile üretim yapan markalara göre doğal olarak daha yüksektir. İmplantın boyun tasarımı, yiv yapısı ve üzerine gelecek protez ile olan bağlantı noktası mühendislik harikası detaylar barındırır. Bu detaylar implantın uzun yıllar ağızda sorunsuz kalmasını ve bakteri sızdırmazlığını sağlar. Ucuz implantlarda bu hassasiyet her zaman sağlanamayabilir ve bu da ilerleyen yıllarda vida gevşemesi veya implant çevresi iltihabı gibi sorunlara yol açabilir. Dolayısıyla ödediğiniz ücret aslında sadece bugünü değil, on yıl sonrasındaki diş sağlığınızı da garanti altına alma çabasıdır. İmplant Fiyatlarını Asıl Etkileyen Nedir? Genel kanı, fiyatın yalnızca implant vidasının markasına bağlı olduğu yönündedir. Oysa markanın rolü önemli olsa da tek belirleyici değildir. İleri cerrahi gereksinimi olan bir vakada, daha mütevazı markayla dahi toplam maliyet yüksek olabilir. Tersine, kemik hacmi uygun, ek işlem gerektirmeyen basit bir vakada, üst segment bir markayla toplam maliyet makul kalabilir. Yani kıyas yaparken “paketin tamamına” bakmak gerekir; vida, abutment, kron materyali ve laboratuvar işçiliği birbirinden ayrı düşünülemez. 1 Tane İmplant Diş Ne Kadar? 1 tane implant diş fiyatı marka ve kliniğe göre değişmekle birlikte ortalama 8.000 – 25.000 TL arasındadır. Yerli implantlar daha uygun fiyatlı olup genellikle 8.000–12.000 TL bandındayken, Alman veya İsviçre menşeli implantlar 15.000 TL'den başlayabilir. Bu ücret genellikle implant vidası, iyileşme başlığı ve abutment parçalarını kapsar. Zirkonyum ya da porselen kron eklenirse maliyet artar. Devlette İmplant Kaç TL? Devlette implant tedavisi genellikle SGK tarafından rutin olarak ödenmez, bu yüzden devlet hastanelerinde bile implant ücreti hasta tarafından karşılanır. Devlet veya SGK kapsamlı bir ücretsiz implant uygulaması standart olarak yoktur; bazı istisnalar (travma, doğumsal eksiklik gibi durumlarda heyet raporu) olabilir. 4 Dişe Kaç İmplant Yapılır? Yan yana 4 diş eksikliğinde, her boşluk için tek tek vida takılmasına gerek yoktur; genellikle 2 adet implant yeterli görülür. Bu standart tedavide, hekimler boşluğun başına ve sonuna birer implant yerleştirerek bunları sağlam birer köprü ayağı olarak kullanırlar. İki implantın üzerine, eksik olan 4 dişi tamamlayan yekpare bir porselen veya zirkonyum köprü bloğu sabitlenir. Bu yöntem sayesinde hem 4 ayrı vida masrafından kurtulursunuz hem de çene kemiğiniz gereksiz yere fazla işlem görmemiş olur. Ancak kemik yoğunluğunun çok zayıf olduğu nadir durumlarda, hekiminiz desteği artırmak için sayıyı 3'e çıkarabilir. İmplant Kimlere Ücretsizdir? Sosyal Güvenlik Kurumu (SGK), diş implantı bedelini sadece gaziler, harp malulleri ve terörle mücadele kapsamındaki şehit yakınları için tamamen karşılar. Ayrıca iş kazası sonucu dişlerini kaybedenler veya çene kisti ve tümörü ameliyatı geçiren hastalara da bu hak tanınır. Bu ödemenin yapılabilmesi için, hastanın üniversite hastanelerinden \"klasik protez yapılamaz\" ibareli üç hekim imzalı sağlık kurulu raporu alması şarttır. Doğuştan gelen bazı çene anomalileri dışında, normal diş eksiklikleri estetik kabul edildiğinden ücretsiz implant kapsamına girmez. Diş İmplantı Nedir, Nasıl İşe Yarar? Diş implantı, kaybedilen diş kökünün görevini üstlenir. Hekim, implantı çene kemiğine yerleştirir; kemik zamanla implant yüzeyine tutunur ve sağlam bir temel oluşur. Bu sürece “osseointegrasyon” denir. Ardından implantın üzerine abutment (bağlantı parçası) ve son aşamada porselen/zirkonyum gibi materyallerle hazırlanan kaplama ya da protez yapılır. Sonuçta, ağız içinde “kendi dişinize yakın” bir his hedeflenir. Birçok kişi implantı yalnızca estetik için düşünür, ama asıl değer günlük hayatta ortaya çıkar. Eksik diş boşluğu kapanınca çiğneme dengesi iyileşir, konuşma daha net hale gelir ve komşu dişlerin boşluğa doğru kayma riski azalır. Ayrıca implant, klasik köprüde olduğu gibi komşu dişleri kesmeyi çoğu zaman gerektirmez. Bu yönüyle “eksik diş tedavisi” denince en çok konuşulan seçeneklerden biridir. Diş İmplantı Çeşitleri Var mı? Günlük pratikte en sık uygulanan implantlar çene kemiğinin içine yerleştirilen tiplerdir. Bunun dışında kemik hacminin çok az olduğu bazı özel durumlarda farklı yaklaşımlar planlanabilir. İmplant markası, implantın yüzey özelliği, çapı ve boyu gibi teknik detaylar da kişiye göre seçilir. Burada önemli olan “en pahalı” ya da “en popüler” seçenek değil, sizin kemik yapınıza ve ağız kapanışınıza en uygun planın yapılmasıdır. Üst yapı tarafında da seçenekler değişir. Tek diş eksikliğinde tek implant üzerine tek kuron yapılabilir. Birden fazla diş eksikliğinde implant üstü köprüler ya da tam dişsizlikte implant destekli protezler (sabit veya hareketli) devreye girer. Bu noktada hekimin amacı, yükü doğru dağıtmak ve uzun vadede implant çevresini korumaktır. 32 Diş İmplant Fiyatları Ne Kadar? 32 diş implant fiyatları ortalama 10.000 TL'dir. Bu fiyat; implant markasına göre değişebilir. Tam çene implant tedavisi, sabit protezlerle daha konforlu bir kullanım sunar. İmplant süreci, kemik yapısı uygun hastalarda genellikle başarılı sonuçlar verir. Tedavi süresi birkaç ay sürebilir ve aşamalar halinde ilerler. Kaliteli malzeme ve doğru uygulama, implantın uzun ömürlü olmasını sağlar. Net fiyat bilgisi ve tedavi planı için diş hekimimizin muayenesi şarttır. SGK İmplant Fiyatları 2026 2026 SGK implant fiyatları KDV hariç 5.900 TL'den başlamaktadır. SGK kapsamındaki implant ücreti; endikasyon uygunluğu, kullanılan sistem, ek işlemler ve hastane uygulamalarına göre değişmektedir. Tek Diş İmplant Fiyatları 2026 2026 tek diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Tek diş implant ücreti; marka/abutment seçimi, kemik yoğunluğu, geçici–kalıcı kron ve röntgen/görüntüleme gereksinimine göre değişmektedir. Devlet Hastanesi İmplant Diş Fiyatları 2026 2026 devlet hastanesinde implant fiyatları KDV hariç 5.900 TL'den başlamaktadır. Devlet hastanesinde implant ücreti; kurum politikası, randevu koşulları, malzeme temini ve ek cerrahi işlemlere göre değişmektedir. İmplant Markalarına Göre İmplant Fiyatları 2026 2026 implant markalarına göre fiyatlar KDV hariç 8.000 TL'den başlamaktadır. İmplant ücreti; marka/seri, garanti kapsamı, cerrahi zorluk ve protez tasarımına göre değişmektedir. İmplant Marka Fiyatları 2026 2026 implant marka fiyatları KDV hariç 8.000 TL'den başlamaktadır. Marka bazlı ücret; üretim ülkesi, yüzey teknolojisi, abutment/protez seçenekleri ve klinik deneyime göre değişmektedir. Yerli İmplant Fiyatları 2026 2026 yerli implant fiyatları KDV hariç 5.000 TL'den başlamaktadır. Yerli implant ücreti; marka modeli, kemik durumu, ek cerrahi ve üst yapı materyaline göre değişmektedir. Vidalı Diş Fiyatları 2026 2026 vidalı diş (implant) fiyatları KDV hariç 8.000 TL'den başlamaktadır. Vidalı diş ücreti; implant–abutment sistemi, tork/primer stabilite, geçici–kalıcı protez ve klinik politikaya göre değişmektedir. Zirkonyum İmplant Fiyatları 2026 2026 zirkonyum implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Zirkonyum implant ücreti; marka, cerrahi protokol, üst yapı seçimi ve kişiselleştirme düzeyine göre değişmektedir. Köprülü İmplant Fiyatları 2026 2026 köprülü implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Köprülü implant ücreti; implant sayısı, ara gövde (pontik) tasarımı, protez materyali ve greft gereksinimine göre değişmektedir. Kore İmplant Fiyatları 2026 2026 Kore implant fiyatları KDV hariç 6.500 TL'den başlamaktadır. Kore implant ücreti; seçilen seri, abutment seçenekleri, cerrahi zorluk ve üst yapı planına göre değişmektedir. Alman İmplant Fiyatları 2026 2026 yılında Alman implant fiyatları, tek diş için ortalama 10.000 TL'den başlamaktadır. Bu fiyat, uygulama yapılacak diş sayısına, çene yapısına göre artabilir. Alman üretimi implantlar, yüksek kalite ve uzun ömürlü kullanım avantajı sunar. Özellikle titanyum alaşımlı yapısıyla çene kemiğiyle hızlı uyum sağlar. Estetik ve fonksiyonel beklentileri karşılamada başarılı sonuçlar verir. Tedavi süreci birkaç ay sürebilir ve kişiye özel planlama yapılır. 2026 zigomatik implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Zigomatik implant ücreti; sinus/zigoma cerrahisi zorluğu, implant boyu/açısı, anestezi ve protez planına göre değişmektedir. İsviçre İmplant Fiyatları 2026 2026 İsviçre implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. İsviçre implant ücreti; marka serisi, üst yapı seçenekleri, cerrahi kompleksite ve klinik hizmet seviyesine göre değişmektedir. İmplant Üstü Protez Fiyatları 2026 2026 implant üstü protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. İmplant üstü protez ücreti; sabit/hibrit/çıkarılabilir tasarım, diş sayısı, materyal (zirkonyum/porselen) ve laboratuvar işçiliğine göre değişmektedir. İthal İmplant Fiyatları 2026 2026 ithal implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. İthal implant ücreti; menşe ülke, teknoloji/kaplama, abutment uyumu ve ek cerrahi ihtiyacına göre değişmektedir. Titanyum İmplant Fiyatları 2026 2026 titanyum implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Titanyum implant ücreti; alaşım/surface teknolojisi, kemik kalitesi, üst yapı ve klinik protokole göre değişmektedir. Alt Üst Çene İmplant Fiyatları 2026 2026 alt–üst çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Çift çene implant ücreti; implant sayısı, eşlik eden cerrahiler (greft/sinüs lift), protez türü ve seans planına göre değişmektedir. Alt Çene İmplant Fiyatları 2026 2026 alt çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Alt çene implant ücreti; kemik yoğunluğu, sinir mesafesi, implant sayısı ve üst yapı malzemesine göre değişmektedir. Üst Çene İmplant Fiyatları 2026 2026 üst çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Üst çene implant ücreti; sinus anatomisi, greft/sinüs lift ihtiyacı, implant sayısı ve protez tasarımına göre değişmektedir. Hızlı İmplant Fiyatları 2026 2026 hızlı implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Hızlı implant ücreti; immediate yükleme, geçici sabit protez, primer stabilite ve kontrol sıklığına göre değişmektedir. JD İmplant Fiyatları 2026 2026 JD implant fiyatları KDV hariç 6.800 TL'den başlamaktadır. JD implant ücreti; seri/abutment seçimi, cerrahi protokol, üst yapı ve klinik uygulamalara göre değişmektedir. Swiss İmplant Fiyatları 2026 2026 Swiss implant fiyatları KDV hariç 8.500 TL'den başlamaktadır. Swiss implant ücreti; model/seri, garanti, protez materyali ve ek cerrahi ihtiyacına göre değişmektedir. Venüs İmplant Fiyatları 2026 2026 Venüs implant fiyatları KDV hariç 4.900 TL'den başlamaktadır. Venüs implant ücreti; marka serisi, abutment, kemik durumuna bağlı ek işlemler ve protez planına göre değişmektedir. ITI İmplant Fiyatları 2026 2026 ITI implant fiyatları KDV hariç 18.000 TL'den başlamaktadır. ITI implant ücreti; sistem/komponent seçimi, üst yapı opsiyonları, cerrahi zorluk ve laboratuvar işçiliğine göre değişmektedir. Nobel İmplant Fiyatları 2026 2026 Nobel implant fiyatları KDV hariç 18.000 TL'den başlamaktadır. Nobel implant ücreti; seri/abutment, kişiye özel komponent, protez türü ve klinik/lab planına göre değişmektedir. Evoss İmplant Fiyatları 2026 2026 Evoss implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Evoss implant ücreti; model, üst yapı uyumu, greft ihtiyacı ve protez tasarımına göre değişmektedir. İmplance İmplant Fiyatları 2026 2026 İmplance implant fiyatları KDV hariç 5.700 TL'den başlamaktadır. İmplance implant ücreti; seri/çap–boy seçimi, cerrahi protokol, abutment ve üst yapı seçeneklerine göre değişmektedir. İris İmplant Fiyatları 2026 2026 İris implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. İris implant ücreti; sistem özellikleri, ek cerrahi, üst yapı malzemesi ve klinik politikaya göre değişmektedir. Astra İmplant Fiyatları 2026 2026 Astra implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Astra implant ücreti; seri/komponent, kişiselleştirme, protez materyali ve ileri cerrahi gereksinimine göre değişmektedir. Bredent İmplant Fiyatları 2026 2026 Bredent implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Bredent implant ücreti; model/abutment, cerrahi zorluk, üst yapı ve laboratuvar planına göre değişmektedir. Dikişsiz İmplant Fiyatları 2026 2026 dikişsiz (flapless) implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Dikişsiz implant ücreti; kılavuzlu cerrahi, CBCT planlama, primer stabilite ve geçici proteze göre değişmektedir. Vidalı Üstü Protez İmplant Fiyatları 2026 2026 vidalı implant üstü protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. Vidalı implant üstü protez ücreti; implant sayısı, bar/vida sistemi, materyal ve laboratuvar işçiliğine göre değişmektedir. Uygun İmplant Fiyatları 2026 2026 uygun implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Ekonomik implant ücreti; marka/seri seçimi, paket protokol (cerrahi+protez), ek işlemler ve kliniğin kampanyalarına göre değişmektedir. Kısa İmplant Fiyatları 2026 2026 kısa implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. Kısa implant ücreti; kemik yüksekliği, çap/boy seçimi, yükleme zamanlaması ve protez planına göre değişmektedir. Oxy İmplant Fiyatları 2026 2026 Oxy implant fiyatları KDV hariç 22.000 TL'den başlamaktadır. Oxy implant ücreti; seri/komponent, üst yapı seçenekleri, cerrahi zorluk ve klinik/lab planına göre değişmektedir. All On Four İmplant Fiyatları 2026 2026 All-on-4 implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. All-on-4 ücreti; implant sayısı/yerleşimi, hibrit protez malzemesi, greft ihtiyacı ve geçici–kalıcı aşamalara göre değişmektedir. Bor İmplant Fiyatları 2026 2026 Bor implant fiyatları KDV hariç 11.900 TL'den başlamaktadır. Bor implant ücreti; model/üst yapı, cerrahi zorluk, ek işlemler ve kliniğin fiyat politikasına göre değişmektedir. 4 Diş Sabit Protez İmplant Fiyatları 2026 2026 4 implant sabit protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. 4 implant sabit protez ücreti; implant yerleşimi, köprü tasarımı, materyal ve laboratuvar süreçlerine göre değişmektedir. Straumann İmplant Fiyatları 2026 2026 Straumann implant fiyatları KDV hariç 35.000 TL'den başlamaktadır. Straumann implant ücreti; seri/SLActive yüzey, kişiye özel abutment, protez materyali ve klinik hizmet seviyesine göre değişmektedir. Medentika İmplant Fiyatları 2026 2026 Medentika implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Medentika implant ücreti; sistem/komponent, üst yapı uyumu, cerrahi zorluk ve laboratuvar planına göre değişmektedir. Bego İmplant Fiyatları 2026 2026 Bego implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Bego implant ücreti; model, abutment seçenekleri, protez malzemesi ve ek cerrahi gereksinimine göre değişmektedir. Osstem İmplant Fiyatları 2026 2026 Bego implant fiyatları KDV hariç 14.000 TL'den başlamaktadır. Osstem implant ücreti; model, abutment seçenekleri, protez malzemesi ve ek cerrahi gereksinimine göre değişmektedir. Nucleoss İmplant Fiyatları 2026 2026 Nucleoss implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Nucleoss implant ücreti; seri, kemik durumu, üst yapı ve laboratuvar işçiliğine göre değişmektedir. Medigma İmplant Fiyatları 2026 2026 Medigma implant fiyatları KDV hariç 12.000 TL'den başlamaktadır. Medigma implant ücreti; seri, kemik durumu, üst yapı ve laboratuvar işçiliğine göre değişmektedir. Megagen İmplant Fiyatları 2026 2026 Megagen implant fiyatları KDV hariç 14.000 TL'den başlamaktadır. Megagen implant ücreti; sistem/komponent, cerrahi planlama, protez materyali ve klinik deneyime göre değişmektedir. Ön Diş İmplant Fiyatları 2026 2026 ön diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Ön diş implant ücreti; estetik bölge gereklilikleri, yumuşak doku yönetimi, geçici kron ve porselen/zirkonyum üst yapıya göre değişmektedir. Porselen İmplant Fiyatları 2026 2026 porselen implant (üst yapı) fiyatları KDV hariç 8.000 TL'den başlamaktadır. Porselen üst yapı ücreti; altyapı (ti-base), porselen türü, katman sayısı ve laboratuvar karakterizasyonuna göre değişmektedir. Hiossen İmplant Fiyatları 2026 2026 Hiossen implant fiyatları KDV hariç 12.600 TL'den başlamaktadır. Hiossen implant ücreti; seri/abutment, cerrahi zorluk, üst yapı materyali ve klinik protokole göre değişmektedir. 10 Diş İmplant Fiyatları 2026 2026 10 diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. 10 diş implant ücreti; implant sayısı/yerleşimi, köprü tasarımı, greftleme ve protez malzemesine göre değişmektedir. Azı Diş İmplant Fiyatları 2026 2026 azı diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Azı diş implant ücreti; çok köklü bölgedeki kemik yoğunluğu, çiğneme yükleri, abutment türü ve kron materyaline göre değişmektedir. Sık Sorulan Sorular İmplant fiyatları Türkiye'de neden Avrupa veya Amerika'dan çok daha ucuz? Üç temel sebepten: 1) Klinik işletme giderlerinin (kira, personel) çok daha düşük olması. 2) Diş hekimi maaşlarının ve sigorta maliyetlerinin (Malpractice) Avrupa/ABD'ye göre daha düşük olması. 3. Yüksek rekabet ve döviz kuru avantajı. Yerli implant ile yabancı (ithal) implant arasında neden fiyat farkı var? Temel fark Ar-Ge maliyeti ve klinik takip süresidir. İthal premium markalar (İsviçre, Almanya) 30-40 yıllık bilimsel çalışmalara ve patentli yüzeylere sahiptir (daha hızlı iyileşme vaat eder). Başarılı yerli ve Kore markaları ise, bu kanıtlanmış tasarımları daha düşük Ar-Ge maliyetiyle üreten, harika fiyat/performans ürünleridir. 1 implant kaç TL 2026? 2026 yılında 1 implant fiyatı ortalama 10.000 TL olup, markaya göre değişiklik gösterebilir. İmplant ücretleri kullanılan malzemenin kalitesine ve tedavi sürecine göre farklılaşır. Genellikle titanyum implantlar tercih edilir ve uzun ömürlü sonuçlar sunar. Uygulama öncesi çene yapısı, kemik yoğunluğu ve genel ağız sağlığı değerlendirilir. Tedavi süresi birkaç ayı bulabilir ve aşamalı olarak tamamlanır. İmplant sonrası sabit protezlerle doğal diş görünümü ve konfor sağlanır. Kemik tozu (greft) nedir ve neden bu kadar pahalı? Kemik tozu, genellikle sığır kaynaklı veya sentetik olarak üretilen, vücudun o bölgede kendi kemiğini yapmasını teşvik eden bir \"çatı\" malzemesidir. Yüksek teknoloji ile sterilize edilen ithal bir üründür, bu yüzden maliyeti yüksektir. İmplantın markası gerçekten önemli mi? En azından bilinir bir marka olması önemlidir. Başarısızlık durumunda veya 10 yıl sonra bir parça değişimi gerektiğinde, o markanın parçasını bulabilmeniz gerekir. Ucuz ve kalitesiz implantlar ise kısa sürede gevşeyebilir ya da kemikle bütünleşmeyebilir. Tedavi sürecinde hem hekimin tecrübesi hem de kullanılan implantın kalitesi, sonucu doğrudan etkiler."
+            ]
+      },
+      {
+            "h2": "İmplant Fiyatları Ne Kadar?",
+            "paragraphs": [
+                  "İmplant fiyatları kullanılan marka, malzeme ve kliniğe göre geniş bir aralıkta değişir; genellikle tek diş implantı 8.000 TL – 40.000 TL civarındadır. Genelde implant fiyatları aralığı, implantın yerleştirilmesini, abutment ve bazen kronu kapsar; İsviçre veya Alman markaları daha yüksek maliyetli olabilir. Yerli implantlar genellikle daha uygun fiyatlı olup bazı kliniklerde 6.000 – 10.000 TL civarında da uygulanabilir. Ek cerrahi işlemler (kemik grefti, sinüs lifting vb.) ve protez maliyetleri nihai ücreti artırabilir."
+            ]
+      },
+      {
+            "h2": "İmplant Fiyat Listesi (Güncel)",
+            "paragraphs": [
+                  "Aşağıdaki listede güncel implant fiyatlarını derledik:",
+                  "2026 TDB ağız diş sağlığı ve muayene ücretleri: https://www.tdb.org.tr/tdb/v2/ekler/2026_Yili_Rehber_Tarife_Kitapcigi.pdf"
+            ]
+      },
+      {
+            "h2": "İmplant Markası ve Teknolojisinin İmplant Ücretine Etkisi",
+            "paragraphs": [
+                  "Dünya genelinde üretim yapan yüzlerce farklı implant markası bulunmaktadır ve her biri farklı Ar Ge bütçeleri ile üretim teknolojilerine sahiptir. Köklü ve uzun yıllardır sektörde olan markalar, implantlarının kemikle kaynaşma başarısını artırmak için milyonlarca dolarlık araştırmalar yapar. Bu markalar implant yüzeyini özel işlemlerden geçirerek hücrelerin tutunmasını hızlandırır ve iyileşme sürecini kısaltır. Biz kliniğimizde hastalarımıza uyguladığımız implantları seçerken, arkasında güçlü bilimsel veriler olan ve uzun vadeli parça desteği sunan markaları tercih ediyoruz. Bu premium markaların maliyetleri, daha yeni veya kopyalama teknolojisi ile üretim yapan markalara göre doğal olarak daha yüksektir. İmplantın boyun tasarımı, yiv yapısı ve üzerine gelecek protez ile olan bağlantı noktası mühendislik harikası detaylar barındırır. Bu detaylar implantın uzun yıllar ağızda sorunsuz kalmasını ve bakteri sızdırmazlığını sağlar. Ucuz implantlarda bu hassasiyet her zaman sağlanamayabilir ve bu da ilerleyen yıllarda vida gevşemesi veya implant çevresi iltihabı gibi sorunlara yol açabilir. Dolayısıyla ödediğiniz ücret aslında sadece bugünü değil, on yıl sonrasındaki diş sağlığınızı da garanti altına alma çabasıdır."
+            ]
+      },
+      {
+            "h2": "İmplant Fiyatlarını Asıl Etkileyen Nedir?",
+            "paragraphs": [
+                  "Genel kanı, fiyatın yalnızca implant vidasının markasına bağlı olduğu yönündedir. Oysa markanın rolü önemli olsa da tek belirleyici değildir. İleri cerrahi gereksinimi olan bir vakada, daha mütevazı markayla dahi toplam maliyet yüksek olabilir. Tersine, kemik hacmi uygun, ek işlem gerektirmeyen basit bir vakada, üst segment bir markayla toplam maliyet makul kalabilir. Yani kıyas yaparken “paketin tamamına” bakmak gerekir; vida, abutment, kron materyali ve laboratuvar işçiliği birbirinden ayrı düşünülemez."
+            ]
+      },
+      {
+            "h2": "1 Tane İmplant Diş Ne Kadar?",
+            "paragraphs": [
+                  "1 tane implant diş fiyatı marka ve kliniğe göre değişmekle birlikte ortalama 8.000 – 25.000 TL arasındadır. Yerli implantlar daha uygun fiyatlı olup genellikle 8.000–12.000 TL bandındayken, Alman veya İsviçre menşeli implantlar 15.000 TL'den başlayabilir. Bu ücret genellikle implant vidası, iyileşme başlığı ve abutment parçalarını kapsar. Zirkonyum ya da porselen kron eklenirse maliyet artar."
+            ]
+      },
+      {
+            "h2": "Devlette İmplant Kaç TL?",
+            "paragraphs": [
+                  "Devlette implant tedavisi genellikle SGK tarafından rutin olarak ödenmez, bu yüzden devlet hastanelerinde bile implant ücreti hasta tarafından karşılanır. Devlet veya SGK kapsamlı bir ücretsiz implant uygulaması standart olarak yoktur; bazı istisnalar (travma, doğumsal eksiklik gibi durumlarda heyet raporu) olabilir."
+            ]
+      },
+      {
+            "h2": "4 Dişe Kaç İmplant Yapılır?",
+            "paragraphs": [
+                  "Yan yana 4 diş eksikliğinde, her boşluk için tek tek vida takılmasına gerek yoktur; genellikle 2 adet implant yeterli görülür. Bu standart tedavide, hekimler boşluğun başına ve sonuna birer implant yerleştirerek bunları sağlam birer köprü ayağı olarak kullanırlar. İki implantın üzerine, eksik olan 4 dişi tamamlayan yekpare bir porselen veya zirkonyum köprü bloğu sabitlenir. Bu yöntem sayesinde hem 4 ayrı vida masrafından kurtulursunuz hem de çene kemiğiniz gereksiz yere fazla işlem görmemiş olur. Ancak kemik yoğunluğunun çok zayıf olduğu nadir durumlarda, hekiminiz desteği artırmak için sayıyı 3'e çıkarabilir."
+            ]
+      },
+      {
+            "h2": "İmplant Kimlere Ücretsizdir?",
+            "paragraphs": [
+                  "Sosyal Güvenlik Kurumu (SGK), diş implantı bedelini sadece gaziler, harp malulleri ve terörle mücadele kapsamındaki şehit yakınları için tamamen karşılar. Ayrıca iş kazası sonucu dişlerini kaybedenler veya çene kisti ve tümörü ameliyatı geçiren hastalara da bu hak tanınır. Bu ödemenin yapılabilmesi için, hastanın üniversite hastanelerinden \"klasik protez yapılamaz\" ibareli üç hekim imzalı sağlık kurulu raporu alması şarttır. Doğuştan gelen bazı çene anomalileri dışında, normal diş eksiklikleri estetik kabul edildiğinden ücretsiz implant kapsamına girmez."
+            ]
+      },
+      {
+            "h2": "Diş İmplantı Nedir, Nasıl İşe Yarar?",
+            "paragraphs": [
+                  "Diş implantı, kaybedilen diş kökünün görevini üstlenir. Hekim, implantı çene kemiğine yerleştirir; kemik zamanla implant yüzeyine tutunur ve sağlam bir temel oluşur. Bu sürece “osseointegrasyon” denir. Ardından implantın üzerine abutment (bağlantı parçası) ve son aşamada porselen/zirkonyum gibi materyallerle hazırlanan kaplama ya da protez yapılır. Sonuçta, ağız içinde “kendi dişinize yakın” bir his hedeflenir. Birçok kişi implantı yalnızca estetik için düşünür, ama asıl değer günlük hayatta ortaya çıkar. Eksik diş boşluğu kapanınca çiğneme dengesi iyileşir, konuşma daha net hale gelir ve komşu dişlerin boşluğa doğru kayma riski azalır. Ayrıca implant, klasik köprüde olduğu gibi komşu dişleri kesmeyi çoğu zaman gerektirmez. Bu yönüyle “eksik diş tedavisi” denince en çok konuşulan seçeneklerden biridir."
+            ]
+      },
+      {
+            "h2": "Diş İmplantı Çeşitleri Var mı?",
+            "paragraphs": [
+                  "Günlük pratikte en sık uygulanan implantlar çene kemiğinin içine yerleştirilen tiplerdir. Bunun dışında kemik hacminin çok az olduğu bazı özel durumlarda farklı yaklaşımlar planlanabilir. İmplant markası, implantın yüzey özelliği, çapı ve boyu gibi teknik detaylar da kişiye göre seçilir. Burada önemli olan “en pahalı” ya da “en popüler” seçenek değil, sizin kemik yapınıza ve ağız kapanışınıza en uygun planın yapılmasıdır. Üst yapı tarafında da seçenekler değişir. Tek diş eksikliğinde tek implant üzerine tek kuron yapılabilir. Birden fazla diş eksikliğinde implant üstü köprüler ya da tam dişsizlikte implant destekli protezler (sabit veya hareketli) devreye girer. Bu noktada hekimin amacı, yükü doğru dağıtmak ve uzun vadede implant çevresini korumaktır."
+            ]
+      },
+      {
+            "h2": "32 Diş İmplant Fiyatları Ne Kadar?",
+            "paragraphs": [
+                  "32 diş implant fiyatları ortalama 10.000 TL'dir. Bu fiyat; implant markasına göre değişebilir. Tam çene implant tedavisi, sabit protezlerle daha konforlu bir kullanım sunar. İmplant süreci, kemik yapısı uygun hastalarda genellikle başarılı sonuçlar verir. Tedavi süresi birkaç ay sürebilir ve aşamalar halinde ilerler. Kaliteli malzeme ve doğru uygulama, implantın uzun ömürlü olmasını sağlar. Net fiyat bilgisi ve tedavi planı için diş hekimimizin muayenesi şarttır."
+            ]
+      },
+      {
+            "h2": "SGK İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 SGK implant fiyatları KDV hariç 5.900 TL'den başlamaktadır. SGK kapsamındaki implant ücreti; endikasyon uygunluğu, kullanılan sistem, ek işlemler ve hastane uygulamalarına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Tek Diş İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 tek diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Tek diş implant ücreti; marka/abutment seçimi, kemik yoğunluğu, geçici–kalıcı kron ve röntgen/görüntüleme gereksinimine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Devlet Hastanesi İmplant Diş Fiyatları 2026",
+            "paragraphs": [
+                  "2026 devlet hastanesinde implant fiyatları KDV hariç 5.900 TL'den başlamaktadır. Devlet hastanesinde implant ücreti; kurum politikası, randevu koşulları, malzeme temini ve ek cerrahi işlemlere göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İmplant Markalarına Göre İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 implant markalarına göre fiyatlar KDV hariç 8.000 TL'den başlamaktadır. İmplant ücreti; marka/seri, garanti kapsamı, cerrahi zorluk ve protez tasarımına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İmplant Marka Fiyatları 2026",
+            "paragraphs": [
+                  "2026 implant marka fiyatları KDV hariç 8.000 TL'den başlamaktadır. Marka bazlı ücret; üretim ülkesi, yüzey teknolojisi, abutment/protez seçenekleri ve klinik deneyime göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Yerli İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 yerli implant fiyatları KDV hariç 5.000 TL'den başlamaktadır. Yerli implant ücreti; marka modeli, kemik durumu, ek cerrahi ve üst yapı materyaline göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Vidalı Diş Fiyatları 2026",
+            "paragraphs": [
+                  "2026 vidalı diş (implant) fiyatları KDV hariç 8.000 TL'den başlamaktadır. Vidalı diş ücreti; implant–abutment sistemi, tork/primer stabilite, geçici–kalıcı protez ve klinik politikaya göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Zirkonyum İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 zirkonyum implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Zirkonyum implant ücreti; marka, cerrahi protokol, üst yapı seçimi ve kişiselleştirme düzeyine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Köprülü İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 köprülü implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Köprülü implant ücreti; implant sayısı, ara gövde (pontik) tasarımı, protez materyali ve greft gereksinimine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Kore İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Kore implant fiyatları KDV hariç 6.500 TL'den başlamaktadır. Kore implant ücreti; seçilen seri, abutment seçenekleri, cerrahi zorluk ve üst yapı planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Alman İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 yılında Alman implant fiyatları, tek diş için ortalama 10.000 TL'den başlamaktadır. Bu fiyat, uygulama yapılacak diş sayısına, çene yapısına göre artabilir. Alman üretimi implantlar, yüksek kalite ve uzun ömürlü kullanım avantajı sunar. Özellikle titanyum alaşımlı yapısıyla çene kemiğiyle hızlı uyum sağlar. Estetik ve fonksiyonel beklentileri karşılamada başarılı sonuçlar verir. Tedavi süreci birkaç ay sürebilir ve kişiye özel planlama yapılır. 2026 zigomatik implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Zigomatik implant ücreti; sinus/zigoma cerrahisi zorluğu, implant boyu/açısı, anestezi ve protez planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İsviçre İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 İsviçre implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. İsviçre implant ücreti; marka serisi, üst yapı seçenekleri, cerrahi kompleksite ve klinik hizmet seviyesine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İmplant Üstü Protez Fiyatları 2026",
+            "paragraphs": [
+                  "2026 implant üstü protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. İmplant üstü protez ücreti; sabit/hibrit/çıkarılabilir tasarım, diş sayısı, materyal (zirkonyum/porselen) ve laboratuvar işçiliğine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İthal İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 ithal implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. İthal implant ücreti; menşe ülke, teknoloji/kaplama, abutment uyumu ve ek cerrahi ihtiyacına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Titanyum İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 titanyum implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Titanyum implant ücreti; alaşım/surface teknolojisi, kemik kalitesi, üst yapı ve klinik protokole göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Alt Üst Çene İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 alt–üst çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Çift çene implant ücreti; implant sayısı, eşlik eden cerrahiler (greft/sinüs lift), protez türü ve seans planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Alt Çene İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 alt çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Alt çene implant ücreti; kemik yoğunluğu, sinir mesafesi, implant sayısı ve üst yapı malzemesine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Üst Çene İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 üst çene implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Üst çene implant ücreti; sinus anatomisi, greft/sinüs lift ihtiyacı, implant sayısı ve protez tasarımına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Hızlı İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 hızlı implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Hızlı implant ücreti; immediate yükleme, geçici sabit protez, primer stabilite ve kontrol sıklığına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "JD İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 JD implant fiyatları KDV hariç 6.800 TL'den başlamaktadır. JD implant ücreti; seri/abutment seçimi, cerrahi protokol, üst yapı ve klinik uygulamalara göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Swiss İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Swiss implant fiyatları KDV hariç 8.500 TL'den başlamaktadır. Swiss implant ücreti; model/seri, garanti, protez materyali ve ek cerrahi ihtiyacına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Venüs İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Venüs implant fiyatları KDV hariç 4.900 TL'den başlamaktadır. Venüs implant ücreti; marka serisi, abutment, kemik durumuna bağlı ek işlemler ve protez planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "ITI İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 ITI implant fiyatları KDV hariç 18.000 TL'den başlamaktadır. ITI implant ücreti; sistem/komponent seçimi, üst yapı opsiyonları, cerrahi zorluk ve laboratuvar işçiliğine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Nobel İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Nobel implant fiyatları KDV hariç 18.000 TL'den başlamaktadır. Nobel implant ücreti; seri/abutment, kişiye özel komponent, protez türü ve klinik/lab planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Evoss İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Evoss implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Evoss implant ücreti; model, üst yapı uyumu, greft ihtiyacı ve protez tasarımına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İmplance İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 İmplance implant fiyatları KDV hariç 5.700 TL'den başlamaktadır. İmplance implant ücreti; seri/çap–boy seçimi, cerrahi protokol, abutment ve üst yapı seçeneklerine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "İris İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 İris implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. İris implant ücreti; sistem özellikleri, ek cerrahi, üst yapı malzemesi ve klinik politikaya göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Astra İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Astra implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Astra implant ücreti; seri/komponent, kişiselleştirme, protez materyali ve ileri cerrahi gereksinimine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Bredent İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Bredent implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Bredent implant ücreti; model/abutment, cerrahi zorluk, üst yapı ve laboratuvar planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Dikişsiz İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 dikişsiz (flapless) implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Dikişsiz implant ücreti; kılavuzlu cerrahi, CBCT planlama, primer stabilite ve geçici proteze göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Vidalı Üstü Protez İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 vidalı implant üstü protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. Vidalı implant üstü protez ücreti; implant sayısı, bar/vida sistemi, materyal ve laboratuvar işçiliğine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Uygun İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 uygun implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Ekonomik implant ücreti; marka/seri seçimi, paket protokol (cerrahi+protez), ek işlemler ve kliniğin kampanyalarına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Kısa İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 kısa implant fiyatları KDV hariç 10.000 TL'den başlamaktadır. Kısa implant ücreti; kemik yüksekliği, çap/boy seçimi, yükleme zamanlaması ve protez planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Oxy İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Oxy implant fiyatları KDV hariç 22.000 TL'den başlamaktadır. Oxy implant ücreti; seri/komponent, üst yapı seçenekleri, cerrahi zorluk ve klinik/lab planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "All On Four İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 All-on-4 implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. All-on-4 ücreti; implant sayısı/yerleşimi, hibrit protez malzemesi, greft ihtiyacı ve geçici–kalıcı aşamalara göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Bor İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Bor implant fiyatları KDV hariç 11.900 TL'den başlamaktadır. Bor implant ücreti; model/üst yapı, cerrahi zorluk, ek işlemler ve kliniğin fiyat politikasına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "4 Diş Sabit Protez İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 4 implant sabit protez fiyatları KDV hariç 8.000 TL'den başlamaktadır. 4 implant sabit protez ücreti; implant yerleşimi, köprü tasarımı, materyal ve laboratuvar süreçlerine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Straumann İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Straumann implant fiyatları KDV hariç 35.000 TL'den başlamaktadır. Straumann implant ücreti; seri/SLActive yüzey, kişiye özel abutment, protez materyali ve klinik hizmet seviyesine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Medentika İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Medentika implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Medentika implant ücreti; sistem/komponent, üst yapı uyumu, cerrahi zorluk ve laboratuvar planına göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Bego İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Bego implant fiyatları KDV hariç 110.000 TL'den başlamaktadır. Bego implant ücreti; model, abutment seçenekleri, protez malzemesi ve ek cerrahi gereksinimine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Osstem İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Bego implant fiyatları KDV hariç 14.000 TL'den başlamaktadır. Osstem implant ücreti; model, abutment seçenekleri, protez malzemesi ve ek cerrahi gereksinimine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Nucleoss İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Nucleoss implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Nucleoss implant ücreti; seri, kemik durumu, üst yapı ve laboratuvar işçiliğine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Medigma İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Medigma implant fiyatları KDV hariç 12.000 TL'den başlamaktadır. Medigma implant ücreti; seri, kemik durumu, üst yapı ve laboratuvar işçiliğine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Megagen İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Megagen implant fiyatları KDV hariç 14.000 TL'den başlamaktadır. Megagen implant ücreti; sistem/komponent, cerrahi planlama, protez materyali ve klinik deneyime göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Ön Diş İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 ön diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Ön diş implant ücreti; estetik bölge gereklilikleri, yumuşak doku yönetimi, geçici kron ve porselen/zirkonyum üst yapıya göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Porselen İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 porselen implant (üst yapı) fiyatları KDV hariç 8.000 TL'den başlamaktadır. Porselen üst yapı ücreti; altyapı (ti-base), porselen türü, katman sayısı ve laboratuvar karakterizasyonuna göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Hiossen İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 Hiossen implant fiyatları KDV hariç 12.600 TL'den başlamaktadır. Hiossen implant ücreti; seri/abutment, cerrahi zorluk, üst yapı materyali ve klinik protokole göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "10 Diş İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 10 diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. 10 diş implant ücreti; implant sayısı/yerleşimi, köprü tasarımı, greftleme ve protez malzemesine göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Azı Diş İmplant Fiyatları 2026",
+            "paragraphs": [
+                  "2026 azı diş implant fiyatları KDV hariç 8.000 TL'den başlamaktadır. Azı diş implant ücreti; çok köklü bölgedeki kemik yoğunluğu, çiğneme yükleri, abutment türü ve kron materyaline göre değişmektedir."
+            ]
+      },
+      {
+            "h2": "Sık Sorulan Sorular",
+            "paragraphs": [
+                  "Üç temel sebepten: 1) Klinik işletme giderlerinin (kira, personel) çok daha düşük olması. 2) Diş hekimi maaşlarının ve sigorta maliyetlerinin (Malpractice) Avrupa/ABD'ye göre daha düşük olması. 3. Yüksek rekabet ve döviz kuru avantajı.",
+                  "Temel fark Ar-Ge maliyeti ve klinik takip süresidir. İthal premium markalar (İsviçre, Almanya) 30-40 yıllık bilimsel çalışmalara ve patentli yüzeylere sahiptir (daha hızlı iyileşme vaat eder). Başarılı yerli ve Kore markaları ise, bu kanıtlanmış tasarımları daha düşük Ar-Ge maliyetiyle üreten, harika fiyat/performans ürünleridir.",
+                  "2026 yılında 1 implant fiyatı ortalama 10.000 TL olup, markaya göre değişiklik gösterebilir. İmplant ücretleri kullanılan malzemenin kalitesine ve tedavi sürecine göre farklılaşır. Genellikle titanyum implantlar tercih edilir ve uzun ömürlü sonuçlar sunar. Uygulama öncesi çene yapısı, kemik yoğunluğu ve genel ağız sağlığı değerlendirilir. Tedavi süresi birkaç ayı bulabilir ve aşamalı olarak tamamlanır. İmplant sonrası sabit protezlerle doğal diş görünümü ve konfor sağlanır.",
+                  "Kemik tozu, genellikle sığır kaynaklı veya sentetik olarak üretilen, vücudun o bölgede kendi kemiğini yapmasını teşvik eden bir \"çatı\" malzemesidir. Yüksek teknoloji ile sterilize edilen ithal bir üründür, bu yüzden maliyeti yüksektir.",
+                  "En azından bilinir bir marka olması önemlidir. Başarısızlık durumunda veya 10 yıl sonra bir parça değişimi gerektiğinde, o markanın parçasını bulabilmeniz gerekir. Ucuz ve kalitesiz implantlar ise kısa sürede gevşeyebilir ya da kemikle bütünleşmeyebilir. Tedavi sürecinde hem hekimin tecrübesi hem de kullanılan implantın kalitesi, sonucu doğrudan etkiler."
+            ]
+      }
+],
+    faq: [
+      {
+            "question": "İmplant fiyatları ne kadar?",
+            "answer": "2026 TDB tarifesine göre implant fiyatları tedaviye göre değişir. Detaylı bilgi için 0532 438 13 03 numaralı hattımızı arayabilirsiniz."
+      },
+      {
+            "question": "İmplant fiyatları KDV dahil mi?",
+            "answer": "Avrupadis implant fiyat tarifesinde belirtilen ücretler KDV dahildir. Kesin fiyat muayene sonrası netleştirilir."
+      }
+],
+    related: ["implant-nedir-implant-tedavisi-nasil-yapilir","all-on-four-implant","bir-gunde-implant","dis-tedavisi-fiyatlari"],
+  },
 };
 
 export function getServiceContent(slug: string) {
