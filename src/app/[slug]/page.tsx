@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CONTACT } from "@/lib/site";
 import { districts, getDistrict } from "@/lib/districts";
-import { services, getService } from "@/lib/services";
+import { services, getService, getPriceGroup, getRelatedPriceSlugs } from "@/lib/services";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import ServiceSidebar from "@/components/ServiceSidebar";
@@ -413,6 +413,16 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
     .map((slug) => getService(slug))
     .filter((s): s is (typeof services)[number] => Boolean(s));
 
+  // Fiyat sayfalarında aynı grubun diğer illeri/ilçeleri/markaları otomatik eklenir
+  const priceGroup = getPriceGroup(service.slug);
+  const priceGroupLabel =
+    priceGroup === "porselen-istanbul" || service.slug === "istanbul-porselen-dis-kaplama-fiyatlari"
+      ? "porselen-istanbul"
+      : priceGroup;
+  const priceRelated = getRelatedPriceSlugs(service.slug)
+    .map((slug) => getService(slug))
+    .filter((s): s is (typeof services)[number] => Boolean(s));
+
   return (
     <>
       <script
@@ -510,11 +520,17 @@ function ServicePage({ service }: { service: (typeof services)[number] }) {
             ))}
           </div>
 
-          {relatedServices.length > 0 && (
+          {(relatedServices.length > 0 || priceRelated.length > 0) && (
             <div className="mt-12">
-              <h2 className="text-2xl font-extrabold text-slate-900">İlgili Tedaviler</h2>
+              <h2 className="text-2xl font-extrabold text-slate-900">
+                {priceGroupLabel === "porselen-istanbul"
+                  ? "Diğer İstanbul İlçeleri Porselen Fiyatları"
+                  : priceGroupLabel
+                    ? "Diğer İl Fiyatları"
+                    : "İlgili Tedaviler"}
+              </h2>
               <div className="mt-5 flex flex-wrap gap-2.5">
-                {relatedServices.map((s) => (
+                {[...relatedServices, ...priceRelated].map((s) => (
                   <Link
                     key={s.slug}
                     href={`/${s.slug}`}

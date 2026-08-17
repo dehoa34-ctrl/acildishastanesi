@@ -4456,6 +4456,62 @@ export function getService(slug: string) {
   return services.find((s) => s.slug === slug);
 }
 
+// İstanbul ilçe adları (porselen semt sayfaları için)
+const ISTANBUL_DISTRICTS = [
+  "adalar", "arnavutkoy", "atasehir", "avcilar", "bagcilar", "bahcelievler",
+  "bakirkoy", "basaksehir", "bayrampasa", "besiktas", "beykoz", "beylikduzu",
+  "beyoglu", "buyukcekmece", "catalca", "cekmekoy", "esenler", "esenyurt",
+  "eyupsultan", "fatih", "gaziosmanpasa", "gungoren", "kadikoy", "kagithane",
+  "kartal", "kucukcekmece", "maltepe", "pendik", "sancaktepe", "sariyer",
+  "sile", "silivri", "sisli", "sultanbeyli", "sultangazi", "tuzla",
+  "umraniye", "uskudar", "zeytinburnu",
+];
+
+export type PriceGroup = "porselen-istanbul" | "porselen-il" | "seffaf" | "gulus" | "implant";
+
+/** Slug'ın hangi fiyat grubuna ait olduğunu döndürür. */
+export function getPriceGroup(slug: string): PriceGroup | null {
+  if (!slug.includes("fiyat") && !slug.includes("fiyati")) return null;
+  if (slug.includes("porselen-dis-kaplama-fiyatlari")) {
+    const first = slug.split("-")[0];
+    return ISTANBUL_DISTRICTS.includes(first) || first === "istanbul"
+      ? "porselen-istanbul"
+      : "porselen-il";
+  }
+  if (slug.includes("seffaf-plak-fiyatlari")) return "seffaf";
+  if (slug.includes("gulus-tasarimi-fiyatlari")) return "gulus";
+  if (slug.includes("implant-fiyati") || slug.includes("implant-fiyatlari")) return "implant";
+  return null;
+}
+
+/** Aynı fiyat grubundaki diğer sayfaların slug'larını döndürür (kendisi hariç). */
+export function getRelatedPriceSlugs(slug: string): string[] {
+  const group = getPriceGroup(slug);
+  if (!group) return [];
+
+  const related = new Set<string>();
+
+  services.forEach((s) => {
+    if (s.slug === slug || s.category !== "fiyat") return;
+
+    // Aynı gruptaki sayfalar
+    if (getPriceGroup(s.slug) === group) {
+      related.add(s.slug);
+      return;
+    }
+
+    // İl porselen sayfaları, İstanbul porselen (ilçe hub'ı) ile de ilişkilidir.
+    if (
+      group === "porselen-il" &&
+      s.slug === "istanbul-porselen-dis-kaplama-fiyatlari"
+    ) {
+      related.add(s.slug);
+    }
+  });
+
+  return [...related];
+}
+
 export const serviceCategories: { key: Service["category"]; label: string }[] = [
   { key: "branc", label: "Branşlar" },
   { key: "cerrahi", label: "Cerrahi Tedaviler" },
