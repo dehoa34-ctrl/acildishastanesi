@@ -599,6 +599,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Kanal Tedavisi","price":"2.350 TL'den başlamaktadır."},{"name":"Diş Dolgusu","price":"1.454 TL'den başlamaktadır."},{"name":"Diş Çekimi","price":"1.000 TL'den başlamaktadır."}],
     category: "fiyat",
   },
 {
@@ -613,6 +615,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Diş Eti Estetiği (Gingivektomi)","price":"4.500 TL'den başlamaktadır."}],
     category: "fiyat",
   },
   {
@@ -621,6 +625,8 @@ export const services: Service[] = [
     short: "lazerle Diş Beyazlatma Fiyatları — 2026 güncel TDB tarifesi.",
     intro: "Lazerle diş beyazlatma fiyatları, dişlerin mevcut rengine, renklenmenin nedenine, uygulanacak seans sayısına ve işlem öncesinde ihtiyaç duyulan hazırlıklara göre değişiklik gösterir. Diş beyazlatma, daha canlı ve temiz görünen bir gülüş isteyen kişiler için sık tercih edilen estetik uygulamalardan biridir. Ancak her kişinin diş yapısı, mine kalınlığı, hassasiyet durumu ve beklentisi farklı olduğu için fiyatlandırma da kişiye özel değerlendirilmelidir.",
     features: ["7/24 açık klinik","Uzman hekim kadrosu","Son teknoloji cihazlar","Net ve şeffaf fiyat","Cumartesi, pazar ve bayramlarda açık"],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Lazerle Diş Beyazlatma","price":"9.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -993,6 +999,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Nobel Biocare İmplant","price":"24.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1008,6 +1016,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Astra İmplant","price":"20.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1023,6 +1033,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Straumann İmplant","price":"25.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1038,6 +1050,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Medentika İmplant","price":"17.500 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1053,6 +1067,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Bego İmplant","price":"19.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1068,6 +1084,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Osstem İmplant","price":"14.000 TL civarından başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1083,6 +1101,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Nucleoss İmplant","price":"10.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
@@ -1098,6 +1118,8 @@ export const services: Service[] = [
       "Net ve şeffaf fiyat",
       "Cumartesi, pazar ve bayramlarda açık"
     ],
+    priceNote: "2026 güncel tarife (KDV hariç). Kesin fiyat muayene sonrası netleştirilir.",
+    priceRows: [{"name":"Medigma İmplant","price":"12.000 TL'den başlamaktadır."}],
     category: "fiyat",
     menu: false,
   },
