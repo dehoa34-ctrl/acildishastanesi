@@ -71,7 +71,7 @@ export default function HizmetlerPage() {
     { value: "12", label: "Şube" },
   ];
 
-  const featured = services.slice(0, 8);
+  const featured = services.filter((s) => s.menu !== false).slice(0, 8);
 
   return (
     <>
@@ -184,7 +184,7 @@ export default function HizmetlerPage() {
 
           <div className="mt-12 grid gap-8 lg:grid-cols-2">
             {groups.map((g) => {
-              const items = services.filter((s) => g.cats.includes(s.category));
+              const items = services.filter((s) => g.cats.includes(s.category) && s.menu !== false);
               return (
                 <div
                   key={g.title}

@@ -74,7 +74,7 @@ export default function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider text-white">Tedaviler</h3>
             <ul className="mt-4 space-y-2.5 text-sm">
-              {services.slice(0, 9).map((s) => (
+              {services.filter((s) => s.menu !== false).slice(0, 9).map((s) => (
                 <li key={s.slug}>
                   <Link href={`/${s.slug}`} className="hover:text-white">
                     {s.name}

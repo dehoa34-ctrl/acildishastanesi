@@ -8,7 +8,7 @@ export default function ServiceSidebar({ activeSlug }: { activeSlug: string }) {
         <h2 className="text-lg font-extrabold text-slate-900">Tüm Tedaviler</h2>
         <div className="mt-4 space-y-5">
           {serviceCategories.map((cat) => {
-            const items = services.filter((s) => s.category === cat.key);
+            const items = services.filter((s) => s.category === cat.key && s.menu !== false);
             if (items.length === 0) return null;
             return (
               <div key={cat.key}>

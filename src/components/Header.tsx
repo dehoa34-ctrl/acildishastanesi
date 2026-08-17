@@ -16,8 +16,9 @@ export default function Header() {
     };
   }, [open]);
 
+  const menuServices = services.filter((s) => s.menu !== false);
   const categoriesWithItems = serviceCategories.filter(
-    (cat) => services.filter((s) => s.category === cat.key).length > 0
+    (cat) => menuServices.filter((s) => s.category === cat.key).length > 0
   );
   const popularDistricts = districts
     .filter((d) => d.area === "avrupa")
@@ -54,7 +55,7 @@ export default function Header() {
             </button>
             <div className="invisible absolute left-0 top-full pt-2 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
               <div className="w-80 rounded-2xl border border-slate-200 bg-white p-2 shadow-xl">
-                {services.slice(0, 8).map((s) => (
+                {menuServices.slice(0, 8).map((s) => (
                   <Link
                     key={s.slug}
                     href={`/${s.slug}`}
@@ -150,7 +151,7 @@ export default function Header() {
                   <div key={cat.key}>
                     <p className="text-sm font-extrabold text-slate-900">{cat.label}</p>
                     <ul className="mt-1.5 grid grid-cols-1 gap-0.5">
-                      {services
+                      {menuServices
                         .filter((s) => s.category === cat.key)
                         .map((s) => (
                           <li key={s.slug}>

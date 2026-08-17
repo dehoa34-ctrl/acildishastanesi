@@ -81,7 +81,7 @@ export default function SiteHaritasiPage() {
             <SectionTitle icon={<ToothIcon />} title="Tüm Tedaviler" subtitle="Kategorilere göre tüm diş tedavilerimiz" />
             <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {serviceCategories.map((cat) => {
-                const items = services.filter((s) => s.category === cat.key);
+                const items = services.filter((s) => s.category === cat.key && s.menu !== false);
                 if (items.length === 0) return null;
                 return (
                   <div

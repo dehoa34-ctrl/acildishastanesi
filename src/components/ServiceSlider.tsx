@@ -29,7 +29,7 @@ export default function ServiceSlider() {
         ref={trackRef}
         className="flex snap-x snap-mandatory gap-6 overflow-x-auto scroll-smooth pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {services.map((s) => (
+        {services.filter((s) => s.menu !== false).map((s) => (
           <Link
             key={s.slug}
             href={`/${s.slug}`}
