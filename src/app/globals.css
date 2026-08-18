@@ -28,6 +28,16 @@ body {
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
 
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
 h1, h2, h3, h4 {
   font-family: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
 }

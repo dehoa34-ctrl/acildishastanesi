@@ -30,25 +30,25 @@ export default function HomePage() {
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-950/60 via-brand-900/35 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-brand-950/55 to-transparent" />
-        <div className="relative mx-auto flex max-w-7xl min-h-[420px] items-center px-4 py-16 sm:px-6 md:min-h-[520px] lg:min-h-[600px] lg:px-8">
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-brand-950/55 to-transparent sm:h-40" />
+        <div className="relative mx-auto flex max-w-7xl min-h-[300px] items-center px-4 py-8 sm:px-6 sm:min-h-[420px] sm:py-16 md:min-h-[520px] lg:min-h-[600px] lg:px-8">
           <div className="max-w-2xl">
-            <div className="mb-5 flex flex-wrap gap-2">
+            <div className="mb-4 hidden flex-wrap gap-2 sm:mb-5 sm:flex">
               <Badge icon={<ClockIcon />} text="7/24 Açık" />
               <Badge icon={<MoonIcon />} text="Gece Nöbetçi" />
               <Badge icon={<CalendarIcon />} text="Pazar & Bayram Açık" />
             </div>
-            <h1 className="text-4xl font-extrabold leading-tight tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[3.4rem]">
+            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-white drop-shadow-sm sm:text-5xl lg:text-[3.4rem]">
               İstanbul <span className="text-brand-300">Ağız ve Diş Sağlığı Merkezi</span>
             </h1>
-            <p className="mt-4 max-w-xl text-lg leading-8 text-brand-50/90">
+            <p className="mt-3 hidden max-w-xl text-base leading-7 text-brand-50/90 sm:mt-4 sm:block sm:text-lg sm:leading-8">
               Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
               7/24 acil diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-6 flex flex-col gap-2.5 sm:mt-8 sm:flex-row sm:gap-3">
               <a
                 href={CONTACT.phoneHref}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-8 py-4 text-lg font-bold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-base font-bold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700 sm:px-8 sm:py-4 sm:text-lg"
               >
                 <PhoneIcon className="h-5 w-5" /> {CONTACT.phoneDisplay}
               </a>
@@ -56,18 +56,37 @@ export default function HomePage() {
                 href={CONTACT.whatsappHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-8 py-4 text-lg font-bold text-white transition-colors hover:bg-emerald-600"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-6 py-3 text-base font-bold text-white transition-colors hover:bg-emerald-600 sm:px-8 sm:py-4 sm:text-lg"
               >
                 <WhatsAppIcon /> WhatsApp
               </a>
             </div>
-            <div className="mt-6 flex items-center gap-2 text-sm text-brand-100">
+            <div className="mt-4 hidden items-center gap-2 text-xs text-brand-100 sm:mt-6 sm:flex sm:text-sm">
               <CheckIcon />
               Randevusuz acil kabul • Cumartesi, pazar ve resmî tatillerde açık
             </div>
           </div>
         </div>
       </section>
+
+      {/* Mobilde banner içeriği (rozetler + açıklama) */}
+      <div className="bg-brand-900 sm:hidden">
+        <div className="mx-auto max-w-7xl px-4 py-5">
+          <div className="mb-3 flex flex-wrap gap-2">
+            <Badge icon={<ClockIcon />} text="7/24 Açık" />
+            <Badge icon={<MoonIcon />} text="Gece Nöbetçi" />
+            <Badge icon={<CalendarIcon />} text="Pazar & Bayram Açık" />
+          </div>
+          <p className="text-sm leading-6 text-brand-50/90">
+            Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
+            7/24 acil diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
+          </p>
+          <div className="mt-3 flex items-center gap-2 text-xs text-brand-100">
+            <CheckIcon />
+            Randevusuz acil kabul • Cumartesi, pazar ve resmî tatillerde açık
+          </div>
+        </div>
+      </div>
 
       {/* Quick stats */}
       <section className="border-y border-slate-200 bg-white">
@@ -277,7 +296,7 @@ export default function HomePage() {
 
 function Badge({ icon, text }: { icon: React.ReactNode; text: string }) {
   return (
-    <span className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/15 px-3 py-1.5 text-xs font-bold text-white backdrop-blur">
+    <span className="inline-flex items-center gap-1.5 rounded-full border border-white/30 bg-white/15 px-2.5 py-1 text-[10px] font-bold text-white backdrop-blur sm:px-3 sm:py-1.5 sm:text-xs">
       {icon} {text}
     </span>
   );
@@ -323,14 +342,14 @@ function ClockIcon() {
 }
 function MoonIcon() {
   return (
-    <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
+    <svg className="h-3 w-3 sm:h-3.5 sm:w-3.5" viewBox="0 0 24 24" fill="currentColor">
       <path d="M21 12.8A9 9 0 1111.2 3 7 7 0 0021 12.8z" />
     </svg>
   );
 }
 function CalendarIcon() {
   return (
-    <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+    <svg className="h-3 w-3 sm:h-3.5 sm:w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
       <rect x="3" y="5" width="18" height="16" rx="2" />
       <path strokeLinecap="round" d="M3 10h18M8 3v4M16 3v4" />
     </svg>
