@@ -45,7 +45,7 @@ export default function HomePage() {
               Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
               7/24 acil diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
             </p>
-            <div className="mt-6 flex flex-col gap-2.5 sm:mt-8 sm:flex-row sm:gap-3">
+            <div className="mt-6 hidden flex-col gap-2.5 sm:mt-8 sm:flex sm:flex-row sm:gap-3">
               <a
                 href={CONTACT.phoneHref}
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-base font-bold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700 sm:px-8 sm:py-4 sm:text-lg"
@@ -81,7 +81,23 @@ export default function HomePage() {
             Gece yarısı başlayan diş ağrısı, pazar günü kırılan bir kaplama ya da bayramda acil kanal tedavisi…
             7/24 acil diş hekimi ekibimiz {SITE.openingHours} yanınızda. Beklemeden arayın, aynı gece müdahale edelim.
           </p>
-          <div className="mt-3 flex items-center gap-2 text-xs text-brand-100">
+          <div className="mt-4 flex flex-col gap-2.5">
+            <a
+              href={CONTACT.phoneHref}
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-brand-600 px-6 py-3 text-base font-bold text-white shadow-lg shadow-brand-600/25 transition-colors hover:bg-brand-700"
+            >
+              <PhoneIcon className="h-5 w-5" /> {CONTACT.phoneDisplay}
+            </a>
+            <a
+              href={CONTACT.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-500 px-6 py-3 text-base font-bold text-white transition-colors hover:bg-emerald-600"
+            >
+              <WhatsAppIcon /> WhatsApp
+            </a>
+          </div>
+          <div className="mt-4 flex items-center gap-2 text-xs text-brand-100">
             <CheckIcon />
             Randevusuz acil kabul • Cumartesi, pazar ve resmî tatillerde açık
           </div>
