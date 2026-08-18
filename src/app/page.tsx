@@ -22,7 +22,7 @@ export default function HomePage() {
       {/* Hero Banner (1920x600) */}
       <section className="relative overflow-hidden">
         <Image
-          src="/images/banner-hero.webp"
+          src="/images/banner.jpeg"
           alt="7/24 açık acil diş hastanesi İstanbul - nöbetçi diş hekimi"
           fill
           priority
